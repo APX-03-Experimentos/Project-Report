@@ -1195,53 +1195,1009 @@ Este enfoque asegura que cada funcionalidad desarrollada esté alineada con una 
 ## Capítulo IV: Product Design  
 
 ### 4.1 Style Guidelines  
-#### 4.1.1 General Style Guidelines  
-#### 4.1.2 Web Style Guidelines  
-#### 4.1.3 Mobile Style Guidelines  
-##### 4.1.3.1 iOS Mobile Style Guidelines  
+
+En esta parte, daremos a conocer nuestra propuesta para el diseño, estilo y aspecto visual tanto de la página web como de las secciones de nuestra aplicación. Buscamos ofrecer a los usuarios una experiencia cómoda y sencilla mediante una interfaz clara e intuitiva. Para ello, seleccionamos cuidadosamente elementos visuales que resulten atractivos y agradables, además de definir límites que nos permitan evitar el uso de gráficos que puedan afectar negativamente la estética. 
+
+#### 4.1.1 General Style Guidelines 
+
+**Branding**
+
+Elegimos un logo distintivo y elegante que representa la esencia de nuestra plataforma como un entorno educativo. Utilizamos la estructura de colmena como símbolo de colaboración y construcción colectiva del conocimiento, mientras que las letras en cursiva evocan la educación tradicional y el aprendizaje humano. La estética de líneas limpias y geométricas aporta un aire técnico y moderno, y el color azul transmite confianza, profesionalismo y serenidad. En conjunto, el logo refleja un espacio donde la comunidad crece unida, compartiendo y generando conocimiento como en una colmena activa.
+
+<img src="./assets/chapter-4/logo.png" alt="Logo" width="400"/>
+
+**Tipografía**
+
+Open Sans ha sido seleccionada como la fuente principal para todos los textos de la aplicación. Esta tipografía se distingue por su excelente legibilidad y su estilo moderno, lo que garantiza una experiencia de lectura clara y agradable en cualquier dispositivo. 
+
+El tamaño de la fuente se ajusta de manera automática según la pantalla, asegurando una visualización óptima tanto en móviles como en computadoras.
+
+<img src="./assets/chapter-4/tipografia.png" alt="Tipografia" width="400"/>
+
+**Colores**
+
+<img src="./assets/chapter-4/colores.png" alt="Colores" width="600"/>
+
+Color Primario: 
+
+Azul Cian (#1DA7F4): Este color es el más predominante en el diseño, utilizado en botones principales, resaltados visuales y líneas de separación. Aporta frescura, confianza y visibilidad, creando una experiencia amigable y dinámica para el usuario. 
+
+Colores Secundarios:
+
+- Azul Marino (#2C87FF): Utilizado en títulos o textos destacados. Añade contraste, profesionalismo y profundidad al diseño. 
+- Azul Muy Claro (#EBF7FE): Funciona como fondo o zonas de descanso visual, aportando claridad sin perder calidez. 
+- Gris Oscuro (#2B2B2B): Utilizado para tipografía y elementos de interfaz. Este color garantiza buena legibilidad. 
+- Azul Suave (#A5D7F4): Aparece en elementos secundarios o de soporte, equilibrando la paleta general.
+
+Texto:
+
+Todos los textos utilizan el color #2B2B2B (Gris Oscuro) para asegurar un alto contraste y una lectura fluida sobre fondos claros. La tipografía empleada en toda la aplicación es Open Sans, una fuente legible, moderna y profesional.
+
+Botones:
+
+Los botones siguen un sistema de color funcional: 
+
+- Botones de Acción Principal 
+Fondo: #1DA7F4 (Azul Cian)
+Texto: Blanco (#FFFFFF) 
+Hover: El fondo se oscurece ligeramente (#1783BD) para reforzar la retroalimentación visual. 
+
+- Botones de Acción Secundaria
+Fondo: Blanco (#FFFFFF) con borde y texto en #1DA7F4
+Hover: Puede invertirse el color de fondo y texto o intensificar el borde para marcar interacción. 
+
+Formularios:
+
+Los campos de texto siguen un diseño simple con líneas delimitadoras delgadas. 
+Indicadores como el tiempo, la señal y los íconos del sistema están incluidos para crear una maqueta realista. 
+
+Íconos y Sistema Visual:
+
+Los íconos siguen un estilo de línea simple, usando colores oscuros (#2B2B2B) y están inspirados en la librería Vuesax. 
+Están diseñados para facilitar la comprensión sin sobrecargar la interfaz. 
+
+Estados de Hover:
+
+Cuando el usuario interactúa con botones o íconos, los colores de fondo se intensifican levemente, mejorando la experiencia visual y confirmando la acción. 
+
+**Espaciado y Distribución**
+
+El diseño se basa en un sistema modular de 8px, asegurando alineación precisa y consistencia visual entre todos los elementos.
+
+#### 4.1.2 Web Style Guidelines
+
+Diseño: El diseño tiene que ser claro, actual y adaptable, asegurando una correcta visualización y funcionalidad en cualquier tipo de dispositivo.
+
+<img src="./assets/chapter-4/diseño.png" alt="Diseño" width="400"/>
+
+Botones: Los botones, tanto principales como secundarios, deben resaltar de forma clara utilizando una paleta de colores uniforme y coherente.
+
+<img src="./assets/chapter-4/botones.png" alt="Botones" width="400"/>
+
+Tema: La apariencia visual debe alinearse con la identidad de la aplicación, haciendo uso de los colores previamente definidos. 
+
+<img src="./assets/chapter-4/tema.png" alt="Tema" width="400"/>
+
+Logo: El logotipo debe ser claro y fácilmente visible en todo el sitio, conservando siempre sus proporciones originales.
+
+<img src="./assets/chapter-4/logo.png" alt="Logo" width="400"/>
+
+#### 4.1.3 Mobile Style Guidelines
+##### 4.1.3.1 iOS Mobile Style Guidelines
+
+Diseño: La interfaz debe respetar los principios de claridad, profundidad y deferencia de Apple. El diseño debe ser ligero, intuitivo y adaptable a distintos tamaños de pantalla y dispositivos de la gama iOS.
+
+<img src="./assets/chapter-4/diseño_mobile.png" alt="Diseño" width="400"/>
+
+Botones: Los botones deben seguir el estilo nativo de iOS, utilizando bordes redondeados y retroalimentación táctil clara. Los botones principales deben resaltar mediante el color primario definido en la identidad visual, mientras que los secundarios deben mantener un contraste equilibrado sin perder coherencia.
+
+<img src="./assets/chapter-4/botones_mobile.png" alt="Botones" width="400"/>
+
+Tema: La apariencia general debe alinearse con la identidad de la aplicación, aplicando la paleta de colores definida, tipografía recomendada y manteniendo consistencia en todos los componentes. 
+
+<img src="./assets/chapter-4/tema_mobile.png" alt="Tema" width="400"/>
+
+Logo: El logotipo debe presentarse siempre con alta resolución en pantallas Retina, conservando sus proporciones y asegurando suficiente contraste con el fondo en el que se muestre.
+
 ##### 4.1.3.2 Android Mobile Style Guidelines  
 
-### 4.2 Information Architecture  
-#### 4.2.1 Organization Systems  
-#### 4.2.2 Labeling Systems  
-#### 4.2.3 SEO Tags and Meta Tags  
-#### 4.2.4 Searching Systems  
-#### 4.2.5 Navigation Systems  
+Diseño: La interfaz debe respetar los principios de Material Design, priorizando la claridad, jerarquía visual y la adaptabilidad a diferentes tamaños y resoluciones de pantalla. El uso de sombras, capas y transiciones debe seguir las guías de Android para ofrecer una experiencia nativa.
 
-### 4.3 Landing Page UI Design  
-#### 4.3.1 Landing Page Wireframe  
-#### 4.3.2 Landing Page Mock-up  
+<img src="./assets/chapter-4/diseño_mobile.png" alt="Tema" width="400"/>
 
-### 4.4 Mobile Applications UX/UI Design  
-#### 4.4.1 Mobile Applications Wireframes  
-#### 4.4.2 Mobile Applications Wireflow Diagrams  
-#### 4.4.3 Mobile Applications Mock-ups  
-#### 4.4.4 Mobile Applications User Flow Diagrams  
+Botones: Los botones deben seguir el estilo Material, con formas rectangulares o redondeadas según el contexto. Los botones principales deben utilizar el color primario definido en la paleta, y los secundarios deben mantener coherencia con el esquema visual. Los estados de interacción (hover, pressed) deben estar claramente diferenciados. 
 
-### 4.5 Mobile Applications Prototyping  
-#### 4.5.1 Android Mobile Applications Prototyping  
-#### 4.5.2 iOS Mobile Applications Prototyping  
+<img src="./assets/chapter-4/botones_mobile.png" alt="Botones" width="400"/>
+
+Tema: La apariencia visual debe alinearse con la identidad de la aplicación, aplicando la paleta de colores definida, tipografía recomendada y manteniendo consistencia en todos los elementos.
+
+<img src="./assets/chapter-4/tema_mobile.png" alt="Tema" width="400"/>
+
+Logo: El logotipo debe conservar siempre sus proporciones originales y estar optimizado para pantallas de alta densidad, asegurando legibilidad y contraste en cualquier contexto.
+
+### 4.2 Information Architecture
+#### 4.2.1 Organization Systems
+
+El sistema de organización de LearnHive se diseña en torno a dos roles principales (Profesor y Estudiante) y se aplica de forma diferente en cada uno de sus dashboards para optimizar sus flujos de trabajo específicos. 
+
+1. Sistemas de Organización  
+
+Esto define la estructura de las pantallas y el flujo de las tareas. 
+
+- Organización Jerárquica (Visual Hierarchy): 
+
+Se observa en todos los dashboards y páginas. Es fundamental para guiar la atención hacia la información más crítica. 
+
+Ejemplos en LearnHive: 
+
+Dashboard del Profesor (US-010, US-011): La métrica global más importante (ej: "Promedio General del Curso: 15.2") será el número más grande y prominente. Las alertas de bajo rendimiento (US-011) usarán colores rojos o amarillos intensos para destacar inmediatamente sobre el resto de la información. 
+
+Dashboard del Estudiante (US-007, US-008): La próxima entrega más urgente (US-007, Escenario 3) tendrá un tamaño, color o icono que la haga imposible de ignorar. La calificación actual o el progreso general (US-008) será el elemento visual principal. 
+
+- Organización Secuencial (Step-by-step): 
+
+Procesos lineales donde el orden es crucial para completar una tarea sin errores. 
+
+Ejemplos en LearnHive: 
+
+Creación de un Grupo (US-002): El flujo será: 1. Hacer clic en "Crear Grupo" -> 2. Llenar formulario (nombre, descripción) -> 3. Confirmar y generar código -> 4. Invitar estudiantes. Este flujo guía al profesor sin desviaciones. 
+
+Proceso de Entrega (US-006): El flujo para el estudiante es: 1. Seleccionar trabajo -> 2. Hacer clic en "Subir entrega" -> 3. Seleccionar archivo -> 4. Confirmar envío. Es un camino claro y sin opciones extra que lo distraigan. 
+
+2. Esquemas de Categorización  
+
+Esto define las "etiquetas" o metadatos que usaremos para clasificar la información. 
+
+- Por Tópicos (o Temático): 
+
+Todo el contenido se organiza naturalmente por Cursos o Grupos. Este es el modo de pensamiento más intuitivo para ambos usuarios ("quiero ver lo de mi curso de Matemáticas"). 
+
+Ejemplos:  
+
+Los trabajos (US-005), los recursos (US-018), los anuncios (US-016) y las métricas (US-008, US-010) están todos anclados a un curso específico. 
+
+- Por Audiencia:  
+
+Al iniciar sesión, el sistema debe redirigir al Dashboard del Profesor o al Dashboard del Estudiante basándose en el rol del usuario. La información y las herramientas presentadas serán completamente diferentes, ya que sus necesidades lo son (crear grupos vs. unirse a grupos; calificar vs. ser calificado). 
+
+- Cronológico: 
+
+Se aplica de forma transversal para dar contexto y urgencia. 
+
+Ejemplos: 
+
+Para el Estudiante (US-007): La lista de "Próximas entregas" está ordenada por fecha límite (cronológico ascendente). El historial de calificaciones (US-014) se puede ordenar por fecha. 
+
+Para el Profesor (US-005): La lista de trabajos creados se puede ordenar por fecha de creación o de entrega. 
+
+Comunicaciones (US-016, US-017): Los anuncios y mensajes se ordenan por fecha de envío (los más recientes primero). 
+
+- Alfabético:
+
+Se aplica en listas donde se necesita encontrar un nombre específico rápidamente. 
+
+Ejemplos:  
+
+La lista de estudiantes dentro de un grupo (US-004) puede ordenarse alfabéticamente por apellido para que el profesor encuentre a alguien fácilmente. La lista de todos los cursos de un estudiante también podría usar este orden.
+
+#### 4.2.2 Labeling Systems
+
+1. Etiquetado para el Flujo de Gestión de Cursos (EP-001: US-001 a US-004) El foco aquí es la acción y la pertenencia. Las etiquetas deben ser verbos directos. 
+
+Para el Profesor: 
+
+- Crear Grupo (US-002): Es un llamado a la acción claro. No usar "Nuevo Grupo" o "Generar Grupo", ya que son menos directos. 
+- Gestionar Grupo / Miembros del Grupo: La etiqueta para la sección donde ve y edita la lista de estudiantes. 
+- Invitar Estudiantes (US-003): Específico y action-oriented. No usar "Añadir Gente" que es demasiado vago. 
+- Eliminar (US-004): La etiqueta para la acción de remover a un estudiante. Debe ser directa y, para confirmar, usar un mensaje modal con el texto: "¿Está seguro de que desea eliminar a [Nombre del Estudiante] de este grupo? Esta acción notificará al estudiante." 
+
+Para el Estudiante:
+
+- Unirse a un Grupo (US-001): Un verbo claro que describe la acción. 
+- Código de Grupo: La etiqueta del campo de entrada. Debe ser idéntica al término que use el profesor. 
+- Mis Grupos: La etiqueta de la sección principal donde el estudiante ve todos sus cursos. 
+
+
+2. Etiquetado para el Flujo de Trabajos y Calificaciones (EP-002/EP-003: US-005 a US-015, US-019, US-020) El foco aquí es el estado, la acción y los datos. La precisión es clave para evitar ansiedad o confusión en los estudiantes. 
+
+- Estados de Entrega (US-020): Este es quizás el etiquetado MÁS CRÍTICO. Debe ser extremadamente claro y usar colores consistentes: 
+  - Pendiente (Color: Gris/Azul) - Aún no hay acción del estudiante. 
+  - Entregado (Color: Verde) - El estudiante subió un archivo exitosamente. ¡Crucial para la tranquilidad del estudiante! 
+  - En Revisión (Color: Amarillo/Naranja) - El profesor tiene el trabajo pero aún no lo califica. Le dice al estudiante: "Tu trabajo está siendo visto". 
+  - Calificado (Color: Azul/Púrpura) - La nota está disponible. Es más profesional que "Revisado". 
+
+- Acciones y Secciones: 
+  - Trabajos o Actividades: La etiqueta de la sección principal (US-007). "Trabajos" es más común. 
+  - Crear Trabajo (US-005) 
+  - Subir Entrega / Reemplazar Entrega (US-006, US-013): La etiqueta del botón debe reflejar la acción exacta. 
+  - Próximas Entregas (US-007): Una etiqueta mucho más efectiva que "Tareas Pendientes" porque comunica urgencia. 
+  - Mi Progreso (US-008): Mejor que "Mis Notas" porque implica una trayectoria y mejora continua. 
+  - Promedio del Grupo (US-009): Una etiqueta de datos clara para la comparación. 
+  - Extender Plazo (US-019): La etiqueta de la acción para el profesor. 
+
+3. Etiquetado para el Flujo de Comunicación (EP-004: US-012, US-016, US-017, US-018) El foco aquí es la claridad y la interacción. 
+
+- Anuncios (US-016): La etiqueta para la sección de comunicaciones públicas del profesor. 
+- Mensajes o Mensajería (US-017): La etiqueta para la comunicación privada. "Mensajes" es más simple y universal. 
+- Recursos o Materiales (US-018): La etiqueta para la biblioteca de archivos del curso. 
+- Notificaciones: La etiqueta global para el centro de alertas del sistema (US-011, US-012). 
+
+4. Etiquetado para la Landing Page (EP-005: US-021 a US-025) El foco aquí es la conversión y la información clara para visitantes nuevos. 
+
+- Acceder o Iniciar Sesión: Para usuarios existentes. 
+- Registrarse o Comenzar: Para nuevos usuarios. 
+- Dashboard: Término técnico pero ampliamente aceptado para el panel de control principal. 
+- Nuestra Misión / Nuestra Visión (US-023): Etiquetas directas y standard. 
+- Testimonios o Experiencias (US-024): Comunica inmediatamente que son opiniones de usuarios reales. 
+- Conoce al Equipo (US-022) / Cómo Funciona (US-025): Etiquetas amigables y que invitan a hacer clic.
+
+#### 4.2.3 SEO Tags and Meta Tags
+
+
+**Landing:**
+
+`<title>`: LearnHive by APX-4 | Plataforma de Gestión Educativa para Institutos de Lima 
+
+`<meta name="description">`: LearnHive revoluciona la educación en Perú. Dashboard para profesores que monitorean el progreso de su clase en tiempo real y portal para estudiantes que visualizan su rendimiento. Potencia el éxito académico. 
+
+`<meta name="keywords">`: plataforma educativa, gestión de aulas, dashboard profesores, progreso estudiantes, educación Perú, institutos Lima, analytics educativos, LearnHive, APX-4, tecnología educativa 
+
+`<meta name="author">`: APX-4 
+
+**Web App:**  
+
+
+
+1. Página de Login / Acceso (Común para todos) 
+
+`<title>`: Acceder | LearnHive - Plataforma de Gestión Educativa 
+
+`<meta name="description">`: Inicia sesión en tu cuenta de LearnHive. Accede a tu dashboard para profesores o estudiantes y gestiona tu aprendizaje de forma integral. 
+
+`<meta name="keywords">`: acceso learnhive, login, iniciar sesión, dashboard profesores, portal estudiantes, plataforma educativa perú 
+
+`<meta name="author">`: APX-4 
+
+
+
+2. Dashboard Principal del Profesor 
+
+`<title>`: Dashboard - [Nombre del Instituto] | LearnHive para Profesores 
+(Ej: Dashboard - Instituto Tecnológico Lima Norte | LearnHive para Profesores) 
+
+`<meta name="description">`: Supervisa el progreso de tus cursos en tiempo real, crea grupos y visualiza métricas de desempeño de tu clase con el dashboard de LearnHive. 
+
+`<meta name="keywords">`: dashboard profesor, métricas educativas, progreso del curso, gestión de aulas, analytics profesores, learnhive profesor 
+
+`<meta name="author">`: APX-4 
+
+
+
+3. Dashboard Principal del Estudiante 
+
+`<title>`: Mi Progreso | LearnHive para Estudiantes 
+
+`<meta name="description">`: Revisa tus calificaciones, próximas entregas y compara tu rendimiento con el promedio de la clase. Toma el control de tu aprendizaje con LearnHive. 
+
+`<meta name="keywords">`: progreso académico, calificaciones estudiantes, próximas entregas, rendimiento estudiantil, learnhive estudiante 
+
+`<meta name="author">`: APX-4 
+
+ 
+
+4. Página de Gestión de un Grupo/Curso Específico (Profesor) 
+
+`<title>`: Gestión - [Nombre del Curso] | LearnHive 
+(Ej: Gestión - Matemáticas I | LearnHive) 
+
+`<meta name="description">`: Gestiona el grupo de [Nombre del Curso]. Crear trabajos, invitar estudiantes, revisar entregas y publicar anuncios para tu clase. 
+
+`<meta name="keywords">`: gestión de curso, crear trabajos, invitar estudiantes, revisar entregas, learnhive curso [nombre del curso] 
+
+`<meta name="author">`: APX-4 
+
+
+
+5. Página de Detalle de un Trabajo/Actividad (Estudiante) 
+
+`<title>`: [Nombre del Trabajo] - [Nombre del Curso] | LearnHive 
+(Ej: Práctica Calificada 1 - Matemáticas I | LearnHive) 
+
+`<meta name="description">`: Entrega tu trabajo [Nombre del Trabajo] para el curso [Nombre del Curso]. Consulta la fecha límite, instrucciones y el estado de tu entrega. 
+
+`<meta name="keywords">`: entregar trabajo, [nombre del trabajo], [nombre del curso], fecha límite, estado de entrega, learnhive actividad 
+
+`<meta name="author">`: APX-4
+
+
+#### 4.2.4 Searching Systems
+
+**Búsqueda y Filtros para el Profesor (Dentro de un curso - US-015)** 
+
+- ¿Qué busca el profesor? Entregas específicas de estudiantes para calificar rápidamente. 
+
+- ¿Dónde se encuentra? En la página de "Entregas" de un trabajo específico (US-015). 
+
+- ¿Qué filtros tendrá? Estos filtros son CRÍTICOS para la eficiencia del profesor. Deben ser muy visibles y fáciles de usar. 
+
+  - Filtro por Estado: [Todos] / [Pendientes] / [Entregados] / [Calificados] (Este es el más importante). 
+
+- ¿Cómo lucirán los datos? 
+
+La tabla de entregas se actualizará dinámicamente al aplicar cada filtro. 
+
+**Búsqueda y Filtros para el Estudiante (Dentro de su vista - US-007)**
+
+- ¿Qué busca el estudiante?  
+
+Un trabajo específico, o quiere ver su historial de calificaciones de forma ordenada. 
+
+- ¿Dónde se encuentra? 
+
+En la sección "Trabajos" o "Actividades" de su curso (US-007). 
+
+- ¿Qué filtros tendrá? 
+
+En la sección “Trabajos”, el usuario puede filtrar los registros según su estado —mostrando todos, únicamente los pendientes, los ya entregados o los calificados—, así como ordenar la lista por la fecha límite (ya sea mostrando primero los más próximos o los más lejanos) o bien por nombre. 
+
+- ¿Cómo lucirán los datos? 
+
+Una lista o tabla clara que se reordena al instante. Asi mismo, los trabajos con estado Pendiente y Próximos deben tener un indicador visual fuerte (como un label rojo que diga "Mañana" o "En 2 días"). 
+
+#### 4.2.5 Navigation Systems
+
+**a. Sistemas de Navegación en la Landing Page:**
+
+El objetivo aquí es informar y convertir. La navegación debe ser simple y guiar al visitante hacia el "Acceso" o "Registro". 
+
+Menú Principal (Header): 
+
+- Inicio (logo que redirige al home) 
+- Cómo Funciona (enlace ancla a una sección explicativa) 
+- Beneficios (enlace ancla a una sección de ventajas) 
+- Testimonios (enlace ancla a las experiencias de usuarios) 
+- Conoce al Equipo (enlace ancla al equipo de APX-4) 
+- Acceder (botón prominente que lleva al login de la Web App) 
+
+Navegación Secundaria (Footer): 
+
+- Enlaces a políticas de privacidad, términos de servicio. 
+- Enlaces a redes sociales de APX-4. 
+- Contacto (link a un formulario o correo electrónico). 
+
+Llamadas a la Acción (CTAs):  
+
+Botones grandes y bien ubicados con texto action-oriented como Comenzar Ahora, Registrar mi Instituto o Acceder al Dashboard que redirigen a la app o a un formulario de contacto. 
+
+**b. Sistemas de Navegación en la Web Application:** 
+
+Para la navegación en la aplicación web consideramos un navbar. 
+
+Navbar Principal (Fijo en la parte superior): 
+
+- Logo / "LearnHive": A la izquierda. Al hacer clic, lleva a la pantalla de Cursos (Inicio). 
+- Menú de Navegación Principal (Centrado o a la izquierda): 
+
+  - Cursos (Link a la página de inicio/principal) 
+  - Analíticas (Link al Dashboard) 
+  - Mensajería (Link al módulo de mensajes) 
+  - Menú de Usuario (Link al Perfil) 
+
+**c. Navegación Móvil (App Mobile)**
+
+La navegación en móvil se adapta por las limitaciones de espacio. Se usan patrones estándar: 
+
+Barra Inferior (Tab Bar): Es la forma más común de navegación principal en apps móviles. Contendría iconos y texto para las 3-5 secciones más importantes: 
+
+- Cursos (Inicio) 
+- Analíticas (Dashboard) 
+- Mensajería 
+- Perfil 
+
+Menú Hamburguesa (Navigation Drawer): Para acceder a secciones menos críticas o a la configuración, se ocultan detrás de un menú hamburguesa (tres líneas ☰) en la esquina superior izquierda. Al deslizarlo, se verían opciones como Recursos, Configuración, Cerrar Sesión. 
+
+Gestos: Se aprovechan los gestos nativos como deslizar hacia atrás para volver a la pantalla anterior.
+
+### 4.3 Landing Page UI Design
+
+La propuesta de la Landing Page de LearnHive se construye bajo una arquitectura clara y sencilla, organizada en secciones que responden a las expectativas de estudiantes y docentes de institutos. El diseño traduce las decisiones de arquitectura de información en una experiencia fluida y persuasiva, resaltando los valores de confianza, innovación y accesibilidad de la plataforma.
+
+#### 4.3.1 Landing Page Wireframe
+
+**Versión Desktop Web Browser**
+
+En el wireframe de escritorio, la estructura se organiza en un formato amplio con navegación principal ubicada en el header superior, incluyendo enlaces clave y un botón de llamada a la acción. El área central está reservada para un título destacado, texto descriptivo. El contenido sigue un flujo descendente con secciones apiladas: explicación de cómo funciona, visión y misión, equipo, testimonios y un footer sencillo al final.
+
+<img src="./assets/chapter-4/landing_wireframe1.png" alt="Landing Page Wireframe 1" width="700"/>
+<img src="./assets/chapter-4/landing_wireframe2.png" alt="Landing Page Wireframe 2" width="700"/>
+<img src="./assets/chapter-4/landing_wireframe3.png" alt="Landing Page Wireframe 3" width="700"/>
+
+**Versión Mobile Web Browser**
+
+En el wireframe móvil, la disposición se adapta al formato vertical con navegación compacta en un menú hamburguesa. La jerarquía de secciones se presenta en un scroll continuo, con bloques de una sola columna que muestran título, texto y acciones de forma clara. Los botones principales se destacan en mayor tamaño para facilitar la interacción táctil, manteniendo un flujo sencillo hacia el contacto o registro.
+
+<img src="./assets/chapter-4/landing_wireframe4.png" alt="Landing Page Wireframe 4" width="700"/>
+<img src="./assets/chapter-4/landing_wireframe5.png" alt="Landing Page Wireframe 5" width="700"/>
+
+MENÚ DE HAMBURGUESA:
+
+<img src="./assets/chapter-4/landing_wireframe6.png" alt="Landing Page Wireframe 6" width="400"/>
+
+#### 4.3.2 Landing Page Mock-up
+
+**Versión Desktop Web Browser** 
+
+En la versión para navegadores de escritorio, el diseño se presenta en un formato amplio y estructurado que aprovecha el espacio horizontal. La navegación principal se ubica en el header superior, con opciones claras y un botón de llamada a la acción resaltado. 
+La sección principal (hero) utiliza tipografía de gran tamaño y contraste alto para asegurar legibilidad, acompañada de una ilustración de la plataforma. 
+La arquitectura de información sigue un flujo descendente: cómo funciona, visión y misión, equipo y finalmente opiniones de usuarios, cerrando con un footer minimalista. 
+
+<img src="./assets/chapter-4/landing_mockup1.png" alt="Landing Page Mock-up 1" width="700"/>
+<img src="./assets/chapter-4/landing_mockup2.png" alt="Landing Page Mock-up 2" width="700"/>
+<img src="./assets/chapter-4/landing_mockup3.png" alt="Landing Page Mock-up 3" width="700"/>
+
+**Versión Mobile Web Browser**
+
+En la versión móvil, el diseño se adapta al formato vertical con un enfoque en la simplicidad y accesibilidad táctil. El menú de navegación se convierte en un menú hamburguesa para ahorrar espacio, y los botones de acción son más grandes y fáciles de presionar con el dedo.
+
+<img src="./assets/chapter-4/landing_mockup4.png" alt="Landing Page Mock-up 4" width="700"/>
+<img src="./assets/chapter-4/landing_mockup5.png" alt="Landing Page Mock-up 5" width="700"/>
+
+MENÚ DE HAMBURGUESA:
+
+<img src="./assets/chapter-4/landing_mockup6.png" alt="Landing Page Mock-up 6" width="400"/>
+
+### 4.4 Mobile Applications UX/UI Design
+
+La propuesta de diseño UX/UI para las aplicaciones móviles de LearnHive se centra en ofrecer una experiencia de usuario clara, accesible y motivadora, tanto para estudiantes como para profesores. Se busca que la navegación sea intuitiva y que las funcionalidades clave estén siempre al alcance en un par de toques. 
+
+#### 4.4.1 Mobile Applications Wireframes
+
+Sección general de inicio/registro de usuarios: 
+
+<img src="./assets/chapter-4/mobile_wireframe1.png" alt="Mobile Wireframe 1" width="300"/>
+
+<img src="./assets/chapter-4/mobile_wireframe2.png" alt="Mobile Wireframe 2" width="300"/>
+
+<img src="./assets/chapter-4/mobile_wireframe3.png" alt="Mobile Wireframe 3" width="300"/>
+
+PERFILES DE USUARIO
+
+<img src="./assets/chapter-4/mobile_wireframe4.png" alt="Mobile Wireframe 4" width="300"/>
+
+<img src="./assets/chapter-4/mobile_wireframe5.png" alt="Mobile Wireframe 5" width="300"/>
+
+**SECCIÓN DE ALUMNOS** 
+
+NAVBAR GENERAL:
+
+<img src="./assets/chapter-4/mobile_wireframe6.png" alt="Mobile Wireframe 6" width="300"/>
+
+SECCIÓN DE MIS CURSOS:
+
+<img src="./assets/chapter-4/mobile_wireframe7.png" alt="Mobile Wireframe 7" width="300"/>
+
+SECCIÓN DE LAS TAREAS
+
+<img src="./assets/chapter-4/mobile_wireframe8.png" alt="Mobile Wireframe 8" width="300"/>
+
+SECCIÓN DE LA ENTREGA DE TAREAS
+
+<img src="./assets/chapter-4/mobile_wireframe9.png" alt="Mobile Wireframe 9" width="300"/>
+
+SECCIÓN DE ESTADÍSTICAS PERSONALES:
+
+<img src="./assets/chapter-4/mobile_wireframe10.png" alt="Mobile Wireframe 10" width="300"/>
+
+SECCIÓN VER LOS MIEMBROS DE GRUPO:
+
+<img src="./assets/chapter-4/mobile_wireframe11.png" alt="Mobile Wireframe 11" width="300"/>
+
+**SECCIÓN DE PROFESOR:**
+
+<img src="./assets/chapter-4/mobile_wireframe12.png" alt="Mobile Wireframe 12" width="300"/>
+
+SECCIÓN CREACIÓN DE CURSOS
+
+<img src="./assets/chapter-4/mobile_wireframe13.png" alt="Mobile Wireframe 13" width="300"/>
+
+SECCIÓN PANEL DE TAREAS:
+
+<img src="./assets/chapter-4/mobile_wireframe14.png" alt="Mobile Wireframe 14" width="300"/>
+
+SECCIÓN VER DETALLES DE LAS TAREAS
+
+<img src="./assets/chapter-4/mobile_wireframe15.png" alt="Mobile Wireframe 15" width="300"/>
+
+SECCION CREAR NUEVAS TAREAS
+
+<img src="./assets/chapter-4/mobile_wireframe16.png" alt="Mobile Wireframe 16" width="300"/>
+
+SECCIÓN LISTA DE MIEMBROS:
+
+<img src="./assets/chapter-4/mobile_wireframe17.png" alt="Mobile Wireframe 17" width="300"/>
+
+SECCIÓN ESTADÍSTICAS GENERALES:
+
+<img src="./assets/chapter-4/mobile_wireframe18.png" alt="Mobile Wireframe 18" width="300"/>
+
+#### 4.4.2 Mobile Applications Wireflow Diagrams
+
+User Goal: Inicio de sesión
+
+<img src="./assets/chapter-4/mobile_wireflow1.png" alt="Mobile Wireflow 1" width="700"/>
+
+User Goal: Creación de cuenta de usuario 
+
+<img src="./assets/chapter-4/mobile_wireflow2.png" alt="Mobile Wireflow 2" width="700"/>
+
+User Goal: Ingreso al perfil del usuario
+
+<img src="./assets/chapter-4/mobile_wireflow3.png" alt="Mobile Wireflow 3" width="700"/>
+
+User Goal: El estudiante debe responder una tarea
+
+<img src="./assets/chapter-4/mobile_wireflow4.png" alt="Mobile Wireflow 4" width="700"/>
+
+User Goal: Creación de cursos de parte del profesor
+
+<img src="./assets/chapter-4/mobile_wireflow5.png" alt="Mobile Wireflow 5" width="700"/>
+
+User Goal: Creación de tareas de parte del profesor
+
+<img src="./assets/chapter-4/mobile_wireflow6.png" alt="Mobile Wireflow 6" width="700"/>
+
+User Goal: Observar estadísticas de los estudiantes
+
+<img src="./assets/chapter-4/mobile_wireflow7.png" alt="Mobile Wireflow 7" width="700"/>
+
+#### 4.4.3 Mobile Applications Mock-ups
+
+El diseño sigue principios de simplicidad y accesibilidad, utilizando íconos claros, botones grandes y navegación fluida, lo que permite que los docentes puedan crear y organizar cursos sin necesidad de usar una computadora, directamente desde su smartphone.
+
+Sección general de inicio/registro de usuarios:
+
+<img src="./assets/chapter-4/mobile_mockup1.png" alt="Mobile Mock-up 1" width="300"/>
+
+<img src="./assets/chapter-4/mobile_mockup2.png" alt="Mobile Mock-up 2" width="300"/>
+
+<img src="./assets/chapter-4/mobile_mockup3.png" alt="Mobile Mock-up 3" width="300"/>
+
+PERFILES DE USUARIO
+
+<img src="./assets/chapter-4/mobile_mockup4.png" alt="Mobile Mock-up 4" width="300"/>
+
+<img src="./assets/chapter-4/mobile_mockup5.png" alt="Mobile Mock-up 5" width="300"/>
+
+**SECCIÓN DE ALUMNOS**
+
+NAVBAR GENERAL:
+
+<img src="./assets/chapter-4/mobile_mockup6.png" alt="Mobile Mock-up 6" width="300"/>
+
+SECCIÓN DE MIS CURSOS: 
+
+<img src="./assets/chapter-4/mobile_mockup7.png" alt="Mobile Mock-up 7" width="300"/>
+
+SECCIÓN DE LAS TAREAS
+
+<img src="./assets/chapter-4/mobile_mockup8.png" alt="Mobile Mock-up 8" width="300"/>
+
+SECCIÓN DE LA ENTREGA DE TAREAS 
+
+<img src="./assets/chapter-4/mobile_mockup9.png" alt="Mobile Mock-up 9" width="300"/>
+
+SECCIÓN DE ESTADÍSTICAS PERSONALES:
+
+<img src="./assets/chapter-4/mobile_mockup10.png" alt="Mobile Mock-up 10" width="300"/>
+
+SECCIÓN VER LOS MIEMBROS DE GRUPO: 
+
+<img src="./assets/chapter-4/mobile_mockup11.png" alt="Mobile Mock-up 11" width="300"/>
+
+SECCIÓN DE PROFESOR: 
+
+<img src="./assets/chapter-4/mobile_mockup12.png" alt="Mobile Mock-up 12" width="300"/>
+
+SECCIÓN CREACIÓN DE CURSOS
+
+<img src="./assets/chapter-4/mobile_mockup13.png" alt="Mobile Mock-up 13" width="300"/>
+
+SECCIÓN PANEL DE TAREAS:
+
+<img src="./assets/chapter-4/mobile_mockup14.png" alt="Mobile Mock-up 14" width="300"/>
+
+SECCIÓN VER DETALLES DE LAS TAREAS
+
+<img src="./assets/chapter-4/mobile_mockup15.png" alt="Mobile Mock-up 15" width="300"/>
+
+SECCION CREAR NUEVAS TAREAS 
+
+<img src="./assets/chapter-4/mobile_mockup16.png" alt="Mobile Mock-up 16" width="300"/>
+
+SECCIÓN LISTA DE MIEMBROS: 
+
+<img src="./assets/chapter-4/mobile_mockup17.png" alt="Mobile Mock-up 17" width="300"/>
+
+SECCIÓN ESTADÍSTICAS GENERALES: 
+
+<img src="./assets/chapter-4/mobile_mockup18.png" alt="Mobile Mock-up 18" width="300"/>
+
+
+#### 4.4.4 Mobile Applications User Flow Diagrams
+
+En esta sección se presentan los Mock-ups de las aplicaciones móviles de LearnHive, tanto en su versión para estudiantes como para profesores. El diseño busca garantizar una experiencia intuitiva, accesible y consistente, siguiendo los principios de usabilidad, diseño inclusivo y la arquitectura de información previamente definida. 
+
+User Goal: Inicio de sesión
+
+<img src="./assets/chapter-4/mobile_userflow1.png" alt="Mobile User Flow 1" width="700"/>
+
+User Goal: Creación de cuenta de usuario
+
+<img src="./assets/chapter-4/mobile_userflow2.png" alt="Mobile User Flow 2" width="700"/>
+
+User Goal: Ingreso al perfil del usuario
+
+<img src="./assets/chapter-4/mobile_userflow3.png" alt="Mobile User Flow 3" width="700"/>
+
+User Goal :El estudiante debe responder una tarea
+
+<img src="./assets/chapter-4/mobile_userflow4.png" alt="Mobile User Flow 4" width="700"/>
+
+User Goal: Creación de cursos de parte del profesor
+
+<img src="./assets/chapter-4/mobile_userflow5.png" alt="Mobile User Flow 5" width="700"/>
+
+User Goal: Creación de tareas de parte del profesor
+
+<img src="./assets/chapter-4/mobile_userflow6.png" alt="Mobile User Flow 6" width="700"/>
+
+User Goal: Observar estadísticas de los estudiantes
+
+<img src="./assets/chapter-4/mobile_userflow7.png" alt="Mobile User Flow 7" width="700"/>
+
+### 4.5 Mobile Applications Prototyping
+#### 4.5.1 Android Mobile Applications Prototyping
+
+<img src="./assets/chapter-4/mobile_prototyping.png" alt="Mobile Application Prototyping" width="700"/>
+
+Link: [Mobile Application Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/EZ5EEbyLR5BPhGO5tmCZYk4BjbcU5n3j7BJVsHw8f_UnEw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=m3g90L)
 
 ### 4.6 Web Applications UX/UI Design  
-#### 4.6.1 Web Applications Wireframes  
-#### 4.6.2 Web Applications Wireflow Diagrams  
-#### 4.6.3 Web Applications Mock-ups  
+#### 4.6.1 Web Applications Wireframes
+
+En esta sección se presentan los wireframes de la aplicación web de LearnHive, diseñados para proporcionar una visión inicial de la estructura, la distribución de la información y los principales flujos de navegación. Estos wireframes constituyen la base del diseño de alta fidelidad y garantizan la coherencia entre las necesidades de los usuarios 
+
+**LOGIN / REGISTER:**
+
+<img src="./assets/chapter-4/web_wireframe1.png" alt="Web Wireframe 1" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe2.png" alt="Web Wireframe 2" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe3.png" alt="Web Wireframe 3" width="700"/>
+
+**SECCIÓN DE ESTUDIANTES:**
+
+<img src="./assets/chapter-4/web_wireframe4.png" alt="Web Wireframe 4" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe5.png" alt="Web Wireframe 5" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe6.png" alt="Web Wireframe 6" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe7.png" alt="Web Wireframe 7" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe8.png" alt="Web Wireframe 8" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe9.png" alt="Web Wireframe 9" width="700"/>
+
+**SECCIÓN DE PROFESORES:**
+
+<img src="./assets/chapter-4/web_wireframe10.png" alt="Web Wireframe 10" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe11.png" alt="Web Wireframe 11" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe12.png" alt="Web Wireframe 12" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe13.png" alt="Web Wireframe 13" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe14.png" alt="Web Wireframe 14" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe15.png" alt="Web Wireframe 15" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe16.png" alt="Web Wireframe 16" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe17.png" alt="Web Wireframe 17" width="700"/>
+
+#### 4.6.2 Web Applications Wireflow Diagrams
+
+User Goal: Inicio de Sesión
+
+<img src="./assets/chapter-4/web_wireflow1.png" alt="Web Wireflow 1" width="700"/>
+
+User Goal: Creación de Cuenta 
+
+<img src="./assets/chapter-4/web_wireflow2.png" alt="Web Wireflow 2" width="700"/>
+
+User Goal: Ingreso al perfil del usuario 
+
+<img src="./assets/chapter-4/web_wireflow3.png" alt="Web Wireflow 3" width="700"/>
+
+User Goal: Responder una tarea 
+
+<img src="./assets/chapter-4/web_wireflow4.png" alt="Web Wireflow 4" width="700"/>
+
+User Goal: Creación de cursos del profesor 
+
+<img src="./assets/chapter-4/web_wireflow5.png" alt="Web Wireflow 5" width="700"/>
+
+User Goal: Creación de tareas del profesor 
+
+<img src="./assets/chapter-4/web_wireflow6.png" alt="Web Wireflow 6" width="700"/>
+
+User Goal: Observar las estadísticas de los estudiantes 
+
+<img src="./assets/chapter-4/web_wireflow7.png" alt="Web Wireflow 7" width="700"/>
+
+
+#### 4.6.3 Web Applications Mock-ups
+
+Esta sección presenta los mock-ups de la aplicación web de LearnHive, los cuales representan una versión de mayor fidelidad en comparación con los wireframes. En ellos se integran los elementos visuales, el estilo gráfico y la interacción definidos en el Design System del proyecto 
+
+**LOGIN / REGISTER:**
+
+<img src="./assets/chapter-4/web_mockup1.png" alt="Web Mockup 1" width="700"/>
+
+<img src="./assets/chapter-4/web_mockup2.png" alt="Web Mockup 2" width="700"/>
+
+<img src="./assets/chapter-4/web_mockup3.png" alt="Web Mockup 3" width="700"/>
+
+
+**SECCIÓN DE ESTUDIANTES**
+
+Mi perfil: En esta sección, el alumno accede a su información personal y académica, incluyendo datos básicos, cursos matriculados y progreso general. También puede visualizar logros, estadísticas de rendimiento
+
+<img src="./assets/chapter-4/web_mockup4.png" alt="Web Mockup 4" width="700"/>
+
+
+Dashboard Student 
+
+
+Este mock-up representa el Dashboard principal de un estudiante en la plataforma EduHive. El diseño refleja una estructura organizada y amigable, siguiendo los principios de arquitectura de información clara, diseño inclusivo y la correcta aplicación del design system establecido. 
+
+<img src="./assets/chapter-4/web_mockup5.png" alt="Web Mockup 5" width="700"/>
+
+
+La sección Assignments muestra a los estudiantes todas sus tareas organizadas en una lista con indicadores de estado (pendiente, en progreso, entregado) 
+
+<img src="./assets/chapter-4/web_mockup6.png" alt="Web Mockup 6" width="700"/>
+
+
+La sección de analíticas 
+
+Permite al alumno visualizar su propio progreso académico mediante gráficos claros y estadísticas simples. De esta forma, el estudiante puede identificar sus fortalezas, áreas de mejora y mantener un mayor control sobre su desempeño.
+
+<img src="./assets/chapter-4/web_mockup7.png" alt="Web Mockup 7" width="700"/>
+
+La sección de lista de estudiantes 
+
+Permite al alumno visualizar su propio progreso académico mediante gráficos claros y estadísticas simples. De esta forma, el estudiante puede identificar sus fortalezas, áreas de mejora y mantener un mayor control sobre su desempeño. 
+
+<img src="./assets/chapter-4/web_mockup8.png" alt="Web Mockup 8" width="700"/>
+
+Entrega de tareas  
+
+En esta sección, el estudiante puede subir sus trabajos de manera rápida y organizada, verificando la fecha límite y el estado de cada entrega. El sistema confirma la recepción y guarda un historial de tareas enviadas, lo que brinda seguridad y seguimiento continuo. 
+
+<img src="./assets/chapter-4/web_mockup9.png" alt="Web Mockup 9" width="700"/>
+
+**SECCIÓN DE PROFESORES**
+
+Panel de control: 
+
+<img src="./assets/chapter-4/web_mockup10.png" alt="Web Mockup 10" width="700"/>
+
+
+Sección de mi perfil: 
+
+En esta sección el docente gestiona su información profesional, como datos personales, especialidad, experiencia y cursos asignados. Le permite mantener su perfil actualizado para una mejor interacción con los estudiantes y la institución. 
+
+<img src="./assets/chapter-4/web_mockup11.png" alt="Web Mockup 11" width="700"/>
+
+
+Creación de cursos: 
+
+Esta sección permite al profesor generar nuevos cursos ingresando información básica como título, descripción, horario y materiales iniciales. Facilita organizar contenidos desde el inicio y dejar todo listo para los estudiantes en un solo lugar. 
+
+<img src="./assets/chapter-4/web_mockup12.png" alt="Web Mockup 12" width="700"/>
+
+
+Panel de tareas 
+
+<img src="./assets/chapter-4/web_mockup13.png" alt="Web Mockup 13" width="700"/>
+
+
+Lista de miembros 
+
+<img src="./assets/chapter-4/web_mockup14.png" alt="Web Mockup 14" width="700"/>
+
+
+Estadísticas generales:
+
+<img src="./assets/chapter-4/web_mockup15.png" alt="Web Mockup 15" width="700"/>
+
+
+Detalle de las tareas 
+
+<img src="./assets/chapter-4/web_mockup16.png" alt="Web Mockup 16" width="700"/>
+
+
 #### 4.6.4 Web Applications User Flow Diagrams  
 
-### 4.7 Web Applications Prototyping  
+User Goal: Inicio de sesión 
 
-### 4.8 Domain-Driven Software Architecture  
-#### 4.8.1 Software Architecture Context Diagram  
-#### 4.8.2 Software Architecture Container Diagrams  
-#### 4.8.3 Software Architecture Components Diagrams  
+<img src="./assets/chapter-4/web_userflow1.png" alt="Web User Flow 1" width="700"/>
+
+
+User Goal: Creación de cuenta
+
+<img src="./assets/chapter-4/web_userflow2.png" alt="Web User Flow 2" width="700"/>
+
+
+User Goal: Ingreso al perfil del usuario 
+
+<img src="./assets/chapter-4/web_userflow3.png" alt="Web User Flow 3" width="700"/>
+
+
+User Goal :Un estudiante debe responder una tarea  
+
+<img src="./assets/chapter-4/web_userflow4.png" alt="Web User Flow 4" width="700"/>
+
+
+User Goal: Creación de cursos de parte del profesor 
+
+<img src="./assets/chapter-4/web_userflow5.png" alt="Web User Flow 5" width="700"/>
+
+
+User Goal: Creación de tareas de parte del profesor 
+
+<img src="./assets/chapter-4/web_userflow6.png" alt="Web User Flow 6" width="700"/>
+
+
+User Goal: Observar las estadísticas de los estudiantes
+
+<img src="./assets/chapter-4/web_userflow7.png" alt="Web User Flow 7" width="700"/>
+
+### 4.7 Web Applications Prototyping
+
+<img src="./assets/chapter-4/web_prototyping.png" alt="Web Application Prototyping" width="700"/>
+
+Link: [Web Application Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/EfnXSFwpqxRMmBQ6aJgopMoB8HD6jo-BbUKom9iC6YWutA?e=Rm60Y9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+### 4.8 Domain-Driven Software Architecture
+
+La arquitectura del sistema se basa en los principios de Domain-Driven Design (DDD), organizando el software en bounded contexts que representan las principales funcionalidades del dominio. Este enfoque ayuda a separar responsabilidades y facilita la evolución del sistema. Para representarlo se utiliza el modelo C4, que muestra la arquitectura en diferentes niveles de detalle, desde el contexto general hasta los componentes internos. 
+
+#### 4.8.1 Software Architecture Context Diagram
+
+El diagrama de contexto presenta a LearnHive como un sistema académico que interactúa con estudiantes y profesores de institutos. En este nivel, se muestran las principales relaciones entre los usuarios y la plataforma, así como los sistemas externos con los que se conecta. De esta forma, se ofrece una visión general de los límites y el alcance del sistema dentro de su entorno.
+
+<img src="./assets/chapter-4/software_architecture_context_diagram.png" alt="Software Architecture Context Diagram" width="700"/>
+
+#### 4.8.2 Software Architecture Container Diagrams
+
+El diagrama de contenedores de LearnHive muestra la estructura interna del sistema, detallando sus aplicaciones principales como la aplicación web, la aplicación móvil, la landing page, la API REST y la base de datos. Este nivel permite entender cómo se organizan los diferentes contenedores, qué tecnologías los implementan y cómo se comunican entre sí para dar soporte a las funcionalidades del sistema académico. 
+
+<img src="./assets/chapter-4/software_architecture_container_diagram.png" alt="Software Architecture Container Diagram" width="700"/>
+
+#### 4.8.3 Software Architecture Components Diagrams
+
+En este nivel se representan los bounded contexts que conforman la arquitectura interna de LearnHive: IAM, Group Management, Assignments Management, Analytics y Messaging. Cada uno se descompone en componentes como la capa de interfaz, aplicación, dominio e infraestructura, mostrando cómo se organizan y colaboran para cumplir con sus responsabilidades específicas dentro del sistema académico. Estos diagramas permiten entender con mayor detalle la lógica interna de cada contexto y la manera en que interactúan con la base de datos y otros servicios.
+
+- **IAM**
+
+<img src="./assets/chapter-4/software_architecture_component_diagram_iam.png" alt="Software Architecture Component Diagram 1" width="700"/>
+
+
+- **Group Management**
+
+<img src="./assets/chapter-4/software_architecture_component_diagram_groupmanagement.png" alt="Software Architecture Component Diagram 2" width="300"/>
+
+
+- **Assignments Management**
+
+<img src="./assets/chapter-4/software_architecture_component_diagram_assignmentsmanagement.png" alt="Software Architecture Component Diagram 3" width="700"/>
+
+
+- **Analytics**
+
+<img src="./assets/chapter-4/software_architecture_component_diagram_analytics.png" alt="Software Architecture Component Diagram 4" width="700"/>
+
+
+- **Messaging**
+
+<img src="./assets/chapter-4/software_architecture_component_diagram_messaging.png" alt="Software Architecture Component Diagram 5" width="700"/>
+
 
 ### 4.9 Software Object-Oriented Design  
-#### 4.9.1 Class Diagrams  
+#### 4.9.1 Class Diagrams
+
+<img src="./assets/chapter-4/class_diagram.png" alt="Class Diagram" width="700"/>
+
 #### 4.9.2 Class Dictionary  
 
-### 4.10 Database Design  
-#### 4.10.1 Relational/Non-Relational Database Diagram  
 
+**User**
+
+| Attribute   | Tipo   | Descripción                          |
+|-------------|--------|--------------------------------------|
+| user_id     | int    | Identificador del usuario.           |
+| user_name   | string | Nombre de usuario.                   |
+| user_pass   | string | Contraseña de usuario. Encriptada.   |
+| role        | Role   | Rol del usuario.                     |
+
+
+**Course**
+
+| Attribute     | Tipo              | Descripción                        |
+|---------------|-------------------|------------------------------------|
+| course_id     | int               | Identificador del curso.           |
+| course_title  | string            | Nombre del curso.                  |
+| course_image  | string            | Referencia a imagen del curso.     |
+| teacher       | Teacher           | Profesor encargado del curso.      |
+| students      | List`<Student>`   | Lista de estudiantes del curso.    |
+| assignments   | List`<Assignment>`| Lista de tareas del curso.         |
+
+
+**Assignment**
+
+| Attribute       | Tipo              | Descripción                       |
+|-----------------|-------------------|-----------------------------------|
+| assignment_id   | int               | Identificador de la tarea.        |
+| assignment_title| string            | Título de la tarea.               |
+| assignment_img  | string            | Referencia a imagen.              |
+| deadline        | DateTime          | Fecha límite de la tarea.         |
+| course          | Course            | Curso al que pertenece la tarea.  |
+| content         | Content           | Contenido de la tarea.            |
+| submissions     | List`<Submission>`| Entregas de la tarea.             |
+
+
+**Submission**
+
+| Attribute     | Tipo       | Descripción                        |
+|---------------|------------|------------------------------------|
+| submission_id | int        | Identificador de la entrega.       |
+| score         | int        | Puntuación de la entrega.          |
+| student       | Student    | Estudiante al que pertenece.       |
+| assignment    | Assignment | Tarea para la que es la entrega.   |
+| content       | Content    | Contenido de la entrega.           |
+
+
+**Content**
+
+| Attribute    | Tipo        | Descripción                     |
+|--------------|-------------|---------------------------------|
+| content_id   | int         | Identificador del contenido.    |
+| content_text | string      | Texto del contenido.            |
+| files        | List`<File>`| Lista de archivos del contenido.|
+
+
+**File**
+
+| Attribute   | Tipo   | Descripción                   |
+|-------------|--------|-------------------------------|
+| file_id     | int    | Identificador del archivo.    |
+| reference   | string | Referencia al archivo.        |
+
+
+Teacher: Hereda de User
+
+Student: Hereda de User
+
+
+### 4.10 Database Design  
+#### 4.10.1 Relational/Non-Relational Database Diagram
+
+<img src="./assets/chapter-4/database_diagram.png" alt="Relational Database Diagram" width="700"/>
 
 ## Capítulo V: Product Implementation  
 
