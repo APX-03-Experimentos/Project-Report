@@ -2787,96 +2787,76 @@ El objetivo principal de este Sprint es desarrollar y consolidar las funcionalid
 
 Trello Sprint 1: `https://trello.com/invite/b/68cbe53e24bea2a3c7ca052d/ATTIaa224b23f44bb2c0008bb87fd5ee6ac6044FDA57/sprint-1`
 
-<table border="1" cellspacing="0" cellpadding="5">
-  <tr>
-    <th colspan="8">Sprint #1</th>
-  </tr>
-  <tr>
-    <th colspan="2">User Story</th>
-    <th colspan="6">Work-Item / Task</th>
-  </tr>
-  <tr>
-    <th>Id</th>
-    <th>Title</th>
-    <th>Id</th>
-    <th>Title</th>
-    <th>Description</th>
-    <th>Estimation (Hours)</th>
-    <th>Assigned To</th>
-    <th>Status (To-do / In-Process / To-Review / Done)</th>
-  </tr>
-
-  <tr><td rowspan="2">US-001</td><td rowspan="2">Ingreso a grupos</td><td>T01</td><td>Implementar validación de código</td><td>Programar lógica para validar códigos de grupo en backend</td><td>5</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
-  <tr><td>T02</td><td>Crear interfaz de unión a grupo</td><td>Diseñar y programar el formulario para que los estudiantes ingresen el código</td><td>4</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-002</td><td rowspan="2">Creación de grupos</td><td>T03</td><td>Formulario de creación</td><td>Implementar formulario con validaciones para nombre, descripción y duplicados</td><td>6</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
-  <tr><td>T04</td><td>Guardar grupo en base de datos</td><td>Programar servicio que persista los datos del nuevo grupo</td><td>5</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-003</td><td rowspan="2">Invitación a grupos</td><td>T05</td><td>Generar códigos de invitación</td><td>Implementar servicio que cree códigos únicos por grupo</td><td>4</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
-  <tr><td>T06</td><td>Enviar invitaciones</td><td>Implementar envío de notificaciones y manejo de invitaciones en base de datos</td><td>5</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-004</td><td rowspan="2">Eliminación de alumnos</td><td>T07</td><td>Interfaz de gestión de miembros</td><td>Crear pantalla para mostrar y eliminar estudiantes de un grupo</td><td>6</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
-  <tr><td>T08</td><td>Lógica de eliminación segura</td><td>Validar existencia del alumno y actualizar lista tras eliminación</td><td>5</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-005</td><td rowspan="2">Creación de trabajos con fechas límite</td><td>T09</td><td>Formulario de creación de tarea</td><td>Implementar formulario con campos obligatorios y validación de fecha futura</td><td>5</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
-  <tr><td>T10</td><td>Persistencia de trabajos</td><td>Crear endpoint para almacenar trabajos en base de datos y notificar estudiantes</td><td>6</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-006</td><td rowspan="2">Recepción de entregas (múltiples oportunidades)</td><td>T11</td><td>Subida de archivos</td><td>Programar servicio de subida y reemplazo de entregas</td><td>6</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
-  <tr><td>T12</td><td>Historial de entregas</td><td>Implementar historial con marcas de tiempo y versiones</td><td>5</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-007</td><td rowspan="2">Visualización de trabajos y fechas</td><td>T13</td><td>Vista de trabajos por curso</td><td>Diseñar interfaz para mostrar trabajos y estados dentro de un curso</td><td>4</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
-  <tr><td>T14</td><td>Dashboard de próximas entregas</td><td>Programar sección consolidada de tareas pendientes con alertas</td><td>6</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-008</td><td rowspan="2">Visualización de dashboard de progreso académico</td><td>T15</td><td>Gráficos de calificaciones</td><td>Implementar dashboard con gráficos interactivos por curso</td><td>7</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
-  <tr><td>T16</td><td>Actualización en tiempo real</td><td>Programar actualización automática tras nuevas calificaciones</td><td>6</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-009</td><td rowspan="2">Comparación con promedio del grupo</td><td>T17</td><td>Gráfico comparativo</td><td>Crear gráfico de barras entre calificaciones individuales y promedio del grupo</td><td>5</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
-  <tr><td>T18</td><td>Evolución temporal comparativa</td><td>Implementar gráfica de líneas para progreso histórico</td><td>6</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-010</td><td rowspan="2">Métricas globales del grupo</td><td>T19</td><td>Panel de métricas</td><td>Crear dashboard con promedio, tasa de entregas y comparativas</td><td>7</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
-  <tr><td>T20</td><td>Filtros por periodo</td><td>Programar filtrado por rango de fechas o parciales</td><td>5</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-013</td><td rowspan="2">Reentrega controlada</td><td>T21</td><td>Validar plazo de reentrega</td><td>Implementar lógica para permitir reentregas dentro del plazo</td><td>5</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
-  <tr><td>T22</td><td>Historial de versiones</td><td>Guardar múltiples versiones y marcar fecha de primera entrega</td><td>4</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-014</td><td rowspan="2">Historial de calificaciones</td><td>T23</td><td>Tabla de calificaciones</td><td>Diseñar vista con calificaciones históricas organizadas por curso y fecha</td><td>6</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
-  <tr><td>T24</td><td>Gráfico de evolución</td><td>Implementar gráfica de evolución temporal de notas</td><td>5</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-015</td><td rowspan="2">Acceso a todas las entregas de un trabajo</td><td>T25</td><td>Listado de entregas</td><td>Programar lista completa de entregas con estados y marcas de tiempo</td><td>6</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
-  <tr><td>T26</td><td>Filtros de entregas</td><td>Implementar filtros dinámicos para facilitar revisión</td><td>5</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-019</td><td rowspan="2">Extensión de plazo de entrega</td><td>T27</td><td>Modificar fecha límite</td><td>Crear opción de edición de fecha en configuración de trabajo</td><td>4</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
-  <tr><td>T28</td><td>Notificación de actualización</td><td>Programar notificación automática de cambio de fecha a los estudiantes</td><td>5</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-020</td><td rowspan="2">Estados de entrega</td><td>T29</td><td>Definir estados de entrega</td><td>Implementar estados (pendiente, entregado, calificado) en base de datos</td><td>6</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
-  <tr><td>T30</td><td>Interfaz de estados</td><td>Mostrar estados con íconos y colores en dashboard</td><td>5</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-021</td><td rowspan="2">Redirección al aplicativo web</td><td>T31</td><td>Botón de acceso</td><td>Agregar botón en landing page que redirija al dashboard</td><td>3</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
-  <tr><td>T32</td><td>Validar sesión</td><td>Programar validación de credenciales antes de redirigir</td><td>4</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-022</td><td rowspan="2">Sección de video About the Team</td><td>T33</td><td>Sección de video en landing</td><td>Diseñar sección con reproductor de video del equipo</td><td>5</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
-  <tr><td>T34</td><td>Controles del reproductor</td><td>Configurar opciones de reproducción (subtítulos, fullscreen, etc.)</td><td>4</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-023</td><td rowspan="2">Visualización de Misión y Visión</td><td>T35</td><td>Crear sección de misión/visión</td><td>Diseñar sección con misión, visión e íconos representativos</td><td>4</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
-  <tr><td>T36</td><td>Integrar en footer</td><td>Mostrar resumen en pie de página con valores de la empresa</td><td>3</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-024</td><td rowspan="2">Testimonios de usuarios previos</td><td>T37</td><td>Sección de testimonios</td><td>Crear sección con 3 testimonios con fotos y calificaciones</td><td>5</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
-  <tr><td>T38</td><td>Página extendida de testimonios</td><td>Implementar vista con más testimonios y filtros</td><td>6</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">US-025</td><td rowspan="2">Video About the Product</td><td>T39</td><td>Sección de video del producto</td><td>Diseñar sección con reproductor explicativo del producto</td><td>5</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
-  <tr><td>T40</td><td>Controles e integración extra</td><td>Configurar opciones extra y enlaces a casos de uso/testimonios</td><td>4</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">TS-001</td><td rowspan="2">Autenticación y autorización con JWT</td><td>T41</td><td>Configurar endpoints protegidos</td><td>Implementar validación de tokens en endpoints backend</td><td>6</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
-  <tr><td>T42</td><td>Generación de tokens JWT</td><td>Programar emisión y expiración de tokens al iniciar sesión</td><td>5</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">TS-002</td><td rowspan="2">Validación de datos en backend</td><td>T43</td><td>Reglas de validación</td><td>Implementar validaciones con anotaciones de Spring Boot</td><td>5</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
-  <tr><td>T44</td><td>Manejo de errores de validación</td><td>Programar respuestas claras con mensajes de error 400</td><td>4</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">TS-003</td><td rowspan="2">Documentación de API con Swagger</td><td>T45</td><td>Integrar Swagger en backend</td><td>Configurar dependencia y exponer documentación de endpoints</td><td>5</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
-  <tr><td>T46</td><td>Probar endpoints en Swagger UI</td><td>Validar pruebas con opción "Try it out"</td><td>4</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
-
-  <tr><td rowspan="2">TS-004</td><td rowspan="2">Configuración de CORS en backend</td><td>T47</td><td>Configuración de orígenes</td><td>Permitir acceso al backend desde dominios autorizados</td><td>4</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
-  <tr><td>T48</td><td>Bloqueo de orígenes no válidos</td><td>Implementar políticas para rechazar peticiones de dominios no permitidos</td><td>3</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
+<table>
+  <thead>
+    <tr>
+      <th colspan="8">Sprint #1</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">US-001</td><td rowspan="2">Ingreso a grupos</td><td>T01</td><td>Implementar validación de código</td><td>Programar lógica para validar códigos de grupo en backend</td><td>5</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
+    <tr><td>T02</td><td>Crear interfaz de unión a grupo</td><td>Diseñar y programar el formulario para que los estudiantes ingresen el código</td><td>4</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-002</td><td rowspan="2">Creación de grupos</td><td>T03</td><td>Formulario de creación</td><td>Implementar formulario con validaciones para nombre, descripción y duplicados</td><td>6</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
+    <tr><td>T04</td><td>Guardar grupo en base de datos</td><td>Programar servicio que persista los datos del nuevo grupo</td><td>5</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-003</td><td rowspan="2">Invitación a grupos</td><td>T05</td><td>Generar códigos de invitación</td><td>Implementar servicio que cree códigos únicos por grupo</td><td>4</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
+    <tr><td>T06</td><td>Enviar invitaciones</td><td>Implementar envío de notificaciones y manejo de invitaciones en base de datos</td><td>5</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-004</td><td rowspan="2">Eliminación de alumnos</td><td>T07</td><td>Interfaz de gestión de miembros</td><td>Crear pantalla para mostrar y eliminar estudiantes de un grupo</td><td>6</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
+    <tr><td>T08</td><td>Lógica de eliminación segura</td><td>Validar existencia del alumno y actualizar lista tras eliminación</td><td>5</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-005</td><td rowspan="2">Creación de trabajos con fechas límite</td><td>T09</td><td>Formulario de creación de tarea</td><td>Implementar formulario con campos obligatorios y validación de fecha futura</td><td>5</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
+    <tr><td>T10</td><td>Persistencia de trabajos</td><td>Crear endpoint para almacenar trabajos en base de datos y notificar estudiantes</td><td>6</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-006</td><td rowspan="2">Recepción de entregas (múltiples oportunidades)</td><td>T11</td><td>Subida de archivos</td><td>Programar servicio de subida y reemplazo de entregas</td><td>6</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
+    <tr><td>T12</td><td>Historial de entregas</td><td>Implementar historial con marcas de tiempo y versiones</td><td>5</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-007</td><td rowspan="2">Visualización de trabajos y fechas</td><td>T13</td><td>Vista de trabajos por curso</td><td>Diseñar interfaz para mostrar trabajos y estados dentro de un curso</td><td>4</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
+    <tr><td>T14</td><td>Dashboard de próximas entregas</td><td>Programar sección consolidada de tareas pendientes con alertas</td><td>6</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-008</td><td rowspan="2">Visualización de dashboard de progreso académico</td><td>T15</td><td>Gráficos de calificaciones</td><td>Implementar dashboard con gráficos interactivos por curso</td><td>7</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
+    <tr><td>T16</td><td>Actualización en tiempo real</td><td>Programar actualización automática tras nuevas calificaciones</td><td>6</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-009</td><td rowspan="2">Comparación con promedio del grupo</td><td>T17</td><td>Gráfico comparativo</td><td>Crear gráfico de barras entre calificaciones individuales y promedio del grupo</td><td>5</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
+    <tr><td>T18</td><td>Evolución temporal comparativa</td><td>Implementar gráfica de líneas para progreso histórico</td><td>6</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-010</td><td rowspan="2">Métricas globales del grupo</td><td>T19</td><td>Panel de métricas</td><td>Crear dashboard con promedio, tasa de entregas y comparativas</td><td>7</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
+    <tr><td>T20</td><td>Filtros por periodo</td><td>Programar filtrado por rango de fechas o parciales</td><td>5</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-013</td><td rowspan="2">Reentrega controlada</td><td>T21</td><td>Validar plazo de reentrega</td><td>Implementar lógica para permitir reentregas dentro del plazo</td><td>5</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
+    <tr><td>T22</td><td>Historial de versiones</td><td>Guardar múltiples versiones y marcar fecha de primera entrega</td><td>4</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-014</td><td rowspan="2">Historial de calificaciones</td><td>T23</td><td>Tabla de calificaciones</td><td>Diseñar vista con calificaciones históricas organizadas por curso y fecha</td><td>6</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
+    <tr><td>T24</td><td>Gráfico de evolución</td><td>Implementar gráfica de evolución temporal de notas</td><td>5</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-015</td><td rowspan="2">Acceso a todas las entregas de un trabajo</td><td>T25</td><td>Listado de entregas</td><td>Programar lista completa de entregas con estados y marcas de tiempo</td><td>6</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
+    <tr><td>T26</td><td>Filtros de entregas</td><td>Implementar filtros dinámicos para facilitar revisión</td><td>5</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-019</td><td rowspan="2">Extensión de plazo de entrega</td><td>T27</td><td>Modificar fecha límite</td><td>Crear opción de edición de fecha en configuración de trabajo</td><td>4</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
+    <tr><td>T28</td><td>Notificación de actualización</td><td>Programar notificación automática de cambio de fecha a los estudiantes</td><td>5</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-020</td><td rowspan="2">Estados de entrega</td><td>T29</td><td>Definir estados de entrega</td><td>Implementar estados (pendiente, entregado, calificado) en base de datos</td><td>6</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
+    <tr><td>T30</td><td>Interfaz de estados</td><td>Mostrar estados con íconos y colores en dashboard</td><td>5</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-021</td><td rowspan="2">Redirección al aplicativo web</td><td>T31</td><td>Botón de acceso</td><td>Agregar botón en landing page que redirija al dashboard</td><td>3</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
+    <tr><td>T32</td><td>Validar sesión</td><td>Programar validación de credenciales antes de redirigir</td><td>4</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-022</td><td rowspan="2">Sección de video About the Team</td><td>T33</td><td>Sección de video en landing</td><td>Diseñar sección con reproductor de video del equipo</td><td>5</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
+    <tr><td>T34</td><td>Controles del reproductor</td><td>Configurar opciones de reproducción (subtítulos, fullscreen, etc.)</td><td>4</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-023</td><td rowspan="2">Visualización de Misión y Visión</td><td>T35</td><td>Crear sección de misión/visión</td><td>Diseñar sección con misión, visión e íconos representativos</td><td>4</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
+    <tr><td>T36</td><td>Integrar en footer</td><td>Mostrar resumen en pie de página con valores de la empresa</td><td>3</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-024</td><td rowspan="2">Testimonios de usuarios previos</td><td>T37</td><td>Sección de testimonios</td><td>Crear sección con 3 testimonios con fotos y calificaciones</td><td>5</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
+    <tr><td>T38</td><td>Página extendida de testimonios</td><td>Implementar vista con más testimonios y filtros</td><td>6</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
+    <tr><td rowspan="2">US-025</td><td rowspan="2">Video About the Product</td><td>T39</td><td>Sección de video del producto</td><td>Diseñar sección con reproductor explicativo del producto</td><td>5</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
+    <tr><td>T40</td><td>Controles e integración extra</td><td>Configurar opciones extra y enlaces a casos de uso/testimonios</td><td>4</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
+    <tr><td rowspan="2">TS-001</td><td rowspan="2">Autenticación y autorización con JWT</td><td>T41</td><td>Configurar endpoints protegidos</td><td>Implementar validación de tokens en endpoints backend</td><td>6</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
+    <tr><td>T42</td><td>Generación de tokens JWT</td><td>Programar emisión y expiración de tokens al iniciar sesión</td><td>5</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
+    <tr><td rowspan="2">TS-002</td><td rowspan="2">Validación de datos en backend</td><td>T43</td><td>Reglas de validación</td><td>Implementar validaciones con anotaciones de Spring Boot</td><td>5</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
+    <tr><td>T44</td><td>Manejo de errores de validación</td><td>Programar respuestas claras con mensajes de error 400</td><td>4</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
+    <tr><td rowspan="2">TS-003</td><td rowspan="2">Documentación de API con Swagger</td><td>T45</td><td>Integrar Swagger en backend</td><td>Configurar dependencia y exponer documentación de endpoints</td><td>5</td><td>Omar Luquillas Asto</td><td>Done</td></tr>
+    <tr><td>T46</td><td>Probar endpoints en Swagger UI</td><td>Validar pruebas con opción "Try it out"</td><td>4</td><td>José Antonio Alejo Cárdenas</td><td>Done</td></tr>
+    <tr><td rowspan="2">TS-004</td><td rowspan="2">Configuración de CORS en backend</td><td>T47</td><td>Configuración de orígenes</td><td>Permitir acceso al backend desde dominios autorizados</td><td>4</td><td>Sebastián Omar Real Calderón</td><td>Done</td></tr>
+    <tr><td>T48</td><td>Bloqueo de orígenes no válidos</td><td>Implementar políticas para rechazar peticiones de dominios no permitidos</td><td>3</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
+  </tbody>
 </table>
 
 #### 5.2.2 Implemented Landing Page Evidence 
