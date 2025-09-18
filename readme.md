@@ -719,7 +719,59 @@ En la sección “Trabajos”, el usuario puede filtrar los registros según su 
 
 Una lista o tabla clara que se reordena al instante. Asi mismo, los trabajos con estado Pendiente y Próximos deben tener un indicador visual fuerte (como un label rojo que diga "Mañana" o "En 2 días"). 
 
-#### 4.2.5 Navigation Systems  
+#### 4.2.5 Navigation Systems
+
+**a. Sistemas de Navegación en la Landing Page:**
+
+El objetivo aquí es informar y convertir. La navegación debe ser simple y guiar al visitante hacia el "Acceso" o "Registro". 
+
+Menú Principal (Header): 
+
+- Inicio (logo que redirige al home) 
+- Cómo Funciona (enlace ancla a una sección explicativa) 
+- Beneficios (enlace ancla a una sección de ventajas) 
+- Testimonios (enlace ancla a las experiencias de usuarios) 
+- Conoce al Equipo (enlace ancla al equipo de APX-4) 
+- Acceder (botón prominente que lleva al login de la Web App) 
+
+Navegación Secundaria (Footer): 
+
+- Enlaces a políticas de privacidad, términos de servicio. 
+- Enlaces a redes sociales de APX-4. 
+- Contacto (link a un formulario o correo electrónico). 
+
+Llamadas a la Acción (CTAs):  
+
+Botones grandes y bien ubicados con texto action-oriented como Comenzar Ahora, Registrar mi Instituto o Acceder al Dashboard que redirigen a la app o a un formulario de contacto. 
+
+**b. Sistemas de Navegación en la Web Application:** 
+
+Para la navegación en la aplicación web consideramos un navbar. 
+
+Navbar Principal (Fijo en la parte superior): 
+
+- Logo / "LearnHive": A la izquierda. Al hacer clic, lleva a la pantalla de Cursos (Inicio). 
+- Menú de Navegación Principal (Centrado o a la izquierda): 
+
+  - Cursos (Link a la página de inicio/principal) 
+  - Analíticas (Link al Dashboard) 
+  - Mensajería (Link al módulo de mensajes) 
+  - Menú de Usuario (Link al Perfil) 
+
+**c. Navegación Móvil (App Mobile)**
+
+La navegación en móvil se adapta por las limitaciones de espacio. Se usan patrones estándar: 
+
+Barra Inferior (Tab Bar): Es la forma más común de navegación principal en apps móviles. Contendría iconos y texto para las 3-5 secciones más importantes: 
+
+- Cursos (Inicio) 
+- Analíticas (Dashboard) 
+- Mensajería 
+- Perfil 
+
+Menú Hamburguesa (Navigation Drawer): Para acceder a secciones menos críticas o a la configuración, se ocultan detrás de un menú hamburguesa (tres líneas ☰) en la esquina superior izquierda. Al deslizarlo, se verían opciones como Recursos, Configuración, Cerrar Sesión. 
+
+Gestos: Se aprovechan los gestos nativos como deslizar hacia atrás para volver a la pantalla anterior.
 
 ### 4.3 Landing Page UI Design  
 #### 4.3.1 Landing Page Wireframe  
