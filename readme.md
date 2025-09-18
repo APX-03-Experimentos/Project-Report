@@ -1113,10 +1113,140 @@ User Goal: Observar las estadísticas de los estudiantes
 <img src="./assets/chapter-4/web_wireflow7.png" alt="Web Wireflow 7" width="700"/>
 
 
-#### 4.6.3 Web Applications Mock-ups  
+#### 4.6.3 Web Applications Mock-ups
+
+Esta sección presenta los mock-ups de la aplicación web de LearnHive, los cuales representan una versión de mayor fidelidad en comparación con los wireframes. En ellos se integran los elementos visuales, el estilo gráfico y la interacción definidos en el Design System del proyecto 
+
+**LOGIN / REGISTER:**
+
+<img src="./assets/chapter-4/web_mockup1.png" alt="Web Mockup 1" width="700"/>
+
+<img src="./assets/chapter-4/web_mockup2.png" alt="Web Mockup 2" width="700"/>
+
+<img src="./assets/chapter-4/web_mockup3.png" alt="Web Mockup 3" width="700"/>
+
+
+**SECCIÓN DE ESTUDIANTES**
+
+Mi perfil: En esta sección, el alumno accede a su información personal y académica, incluyendo datos básicos, cursos matriculados y progreso general. También puede visualizar logros, estadísticas de rendimiento
+
+<img src="./assets/chapter-4/web_mockup4.png" alt="Web Mockup 4" width="700"/>
+
+
+Dashboard Student 
+
+
+Este mock-up representa el Dashboard principal de un estudiante en la plataforma EduHive. El diseño refleja una estructura organizada y amigable, siguiendo los principios de arquitectura de información clara, diseño inclusivo y la correcta aplicación del design system establecido. 
+
+<img src="./assets/chapter-4/web_mockup5.png" alt="Web Mockup 5" width="700"/>
+
+
+La sección Assignments muestra a los estudiantes todas sus tareas organizadas en una lista con indicadores de estado (pendiente, en progreso, entregado) 
+
+<img src="./assets/chapter-4/web_mockup6.png" alt="Web Mockup 6" width="700"/>
+
+
+La sección de analíticas 
+
+Permite al alumno visualizar su propio progreso académico mediante gráficos claros y estadísticas simples. De esta forma, el estudiante puede identificar sus fortalezas, áreas de mejora y mantener un mayor control sobre su desempeño.
+
+<img src="./assets/chapter-4/web_mockup7.png" alt="Web Mockup 7" width="700"/>
+
+La sección de lista de estudiantes 
+
+Permite al alumno visualizar su propio progreso académico mediante gráficos claros y estadísticas simples. De esta forma, el estudiante puede identificar sus fortalezas, áreas de mejora y mantener un mayor control sobre su desempeño. 
+
+<img src="./assets/chapter-4/web_mockup8.png" alt="Web Mockup 8" width="700"/>
+
+Entrega de tareas  
+
+En esta sección, el estudiante puede subir sus trabajos de manera rápida y organizada, verificando la fecha límite y el estado de cada entrega. El sistema confirma la recepción y guarda un historial de tareas enviadas, lo que brinda seguridad y seguimiento continuo. 
+
+<img src="./assets/chapter-4/web_mockup9.png" alt="Web Mockup 9" width="700"/>
+
+**SECCIÓN DE PROFESORES**
+
+Panel de control: 
+
+<img src="./assets/chapter-4/web_mockup10.png" alt="Web Mockup 10" width="700"/>
+
+
+Sección de mi perfil: 
+
+En esta sección el docente gestiona su información profesional, como datos personales, especialidad, experiencia y cursos asignados. Le permite mantener su perfil actualizado para una mejor interacción con los estudiantes y la institución. 
+
+<img src="./assets/chapter-4/web_mockup11.png" alt="Web Mockup 11" width="700"/>
+
+
+Creación de cursos: 
+
+Esta sección permite al profesor generar nuevos cursos ingresando información básica como título, descripción, horario y materiales iniciales. Facilita organizar contenidos desde el inicio y dejar todo listo para los estudiantes en un solo lugar. 
+
+<img src="./assets/chapter-4/web_mockup12.png" alt="Web Mockup 12" width="700"/>
+
+
+Panel de tareas 
+
+<img src="./assets/chapter-4/web_mockup13.png" alt="Web Mockup 13" width="700"/>
+
+
+Lista de miembros 
+
+<img src="./assets/chapter-4/web_mockup14.png" alt="Web Mockup 14" width="700"/>
+
+
+Estadísticas generales:
+
+<img src="./assets/chapter-4/web_mockup15.png" alt="Web Mockup 15" width="700"/>
+
+
+Detalle de las tareas 
+
+<img src="./assets/chapter-4/web_mockup16.png" alt="Web Mockup 16" width="700"/>
+
+
 #### 4.6.4 Web Applications User Flow Diagrams  
 
-### 4.7 Web Applications Prototyping  
+User Goal: Inicio de sesión 
+
+<img src="./assets/chapter-4/web_userflow1.png" alt="Web User Flow 1" width="700"/>
+
+
+User Goal: Creación de cuenta
+
+<img src="./assets/chapter-4/web_userflow2.png" alt="Web User Flow 2" width="700"/>
+
+
+User Goal: Ingreso al perfil del usuario 
+
+<img src="./assets/chapter-4/web_userflow3.png" alt="Web User Flow 3" width="700"/>
+
+
+User Goal :Un estudiante debe responder una tarea  
+
+<img src="./assets/chapter-4/web_userflow4.png" alt="Web User Flow 4" width="700"/>
+
+
+User Goal: Creación de cursos de parte del profesor 
+
+<img src="./assets/chapter-4/web_userflow5.png" alt="Web User Flow 5" width="700"/>
+
+
+User Goal: Creación de tareas de parte del profesor 
+
+<img src="./assets/chapter-4/web_userflow6.png" alt="Web User Flow 6" width="700"/>
+
+
+User Goal: Observar las estadísticas de los estudiantes
+
+<img src="./assets/chapter-4/web_userflow7.png" alt="Web User Flow 7" width="700"/>
+
+### 4.7 Web Applications Prototyping
+
+<img src="./assets/chapter-4/web_prototyping.png" alt="Web Application Prototyping" width="700"/>
+
+Link: [Web Application Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/EfnXSFwpqxRMmBQ6aJgopMoB8HD6jo-BbUKom9iC6YWutA?e=Rm60Y9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 
 ### 4.8 Domain-Driven Software Architecture  
 #### 4.8.1 Software Architecture Context Diagram  
