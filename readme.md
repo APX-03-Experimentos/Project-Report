@@ -775,3 +775,7 @@ Style Guidelines:
 Repositorio del report: 
 
 [link del report](https://github.com/APX-03-Experimentos/Project-Report)
+
+Video:
+
+[About the Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/EatCmU9KviNPj0JlGXsLnBkBCz_wkenwhK9ttOvAP56Dfw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZIWNtu)
