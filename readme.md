@@ -465,7 +465,6 @@ Este enfoque asegura que cada funcionalidad desarrollada esté alineada con una 
 
 <img src="./assets/chapter-3/Impact Map LearnHive.png" alt="Impact Map LearnHive" width="600"/>
 
-
 ## Capítulo IV: Product Design  
 
 ### 4.1 Style Guidelines  
