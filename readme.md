@@ -685,7 +685,40 @@ Para el Estudiante:
 `<meta name="author">`: APX-4
 
 
-#### 4.2.4 Searching Systems  
+#### 4.2.4 Searching Systems
+
+**Búsqueda y Filtros para el Profesor (Dentro de un curso - US-015)** 
+
+- ¿Qué busca el profesor? Entregas específicas de estudiantes para calificar rápidamente. 
+
+- ¿Dónde se encuentra? En la página de "Entregas" de un trabajo específico (US-015). 
+
+- ¿Qué filtros tendrá? Estos filtros son CRÍTICOS para la eficiencia del profesor. Deben ser muy visibles y fáciles de usar. 
+
+  - Filtro por Estado: [Todos] / [Pendientes] / [Entregados] / [Calificados] (Este es el más importante). 
+
+- ¿Cómo lucirán los datos? 
+
+La tabla de entregas se actualizará dinámicamente al aplicar cada filtro. 
+
+**Búsqueda y Filtros para el Estudiante (Dentro de su vista - US-007)**
+
+- ¿Qué busca el estudiante?  
+
+Un trabajo específico, o quiere ver su historial de calificaciones de forma ordenada. 
+
+- ¿Dónde se encuentra? 
+
+En la sección "Trabajos" o "Actividades" de su curso (US-007). 
+
+- ¿Qué filtros tendrá? 
+
+En la sección “Trabajos”, el usuario puede filtrar los registros según su estado —mostrando todos, únicamente los pendientes, los ya entregados o los calificados—, así como ordenar la lista por la fecha límite (ya sea mostrando primero los más próximos o los más lejanos) o bien por nombre. 
+
+- ¿Cómo lucirán los datos? 
+
+Una lista o tabla clara que se reordena al instante. Asi mismo, los trabajos con estado Pendiente y Próximos deben tener un indicador visual fuerte (como un label rojo que diga "Mañana" o "En 2 días"). 
+
 #### 4.2.5 Navigation Systems  
 
 ### 4.3 Landing Page UI Design  
