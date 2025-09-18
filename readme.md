@@ -458,7 +458,22 @@ Logo: El logotipo debe ser claro y fácilmente visible en todo el sitio, conserv
 <img src="./assets/chapter-4/logo.png" alt="Logo" width="600"/>
 
 #### 4.1.3 Mobile Style Guidelines
-##### 4.1.3.1 iOS Mobile Style Guidelines  
+##### 4.1.3.1 iOS Mobile Style Guidelines
+
+Diseño: La interfaz debe respetar los principios de claridad, profundidad y deferencia de Apple. El diseño debe ser ligero, intuitivo y adaptable a distintos tamaños de pantalla y dispositivos de la gama iOS.
+
+<img src="./assets/chapter-4/diseño.png" alt="Diseño" width="600"/>
+
+Botones: Los botones deben seguir el estilo nativo de iOS, utilizando bordes redondeados y retroalimentación táctil clara. Los botones principales deben resaltar mediante el color primario definido en la identidad visual, mientras que los secundarios deben mantener un contraste equilibrado sin perder coherencia.
+
+<img src="./assets/chapter-4/botones.png" alt="Botones" width="600"/>
+
+Tema: La apariencia general debe alinearse con la identidad de la aplicación, aplicando la paleta de colores definida, tipografía recomendada y manteniendo consistencia en todos los componentes. 
+
+<img src="./assets/chapter-4/tema.png" alt="Tema" width="600"/>
+
+Logo: El logotipo debe presentarse siempre con alta resolución en pantallas Retina, conservando sus proporciones y asegurando suficiente contraste con el fondo en el que se muestre.
+
 ##### 4.1.3.2 Android Mobile Style Guidelines  
 
 ### 4.2 Information Architecture  
