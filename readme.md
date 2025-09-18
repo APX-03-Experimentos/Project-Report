@@ -491,7 +491,7 @@ Antes de comenzar, es importante definir claramente los requisitos de  la págin
     Propósito de Uso: Despliegue de la landing page del proyecto, permitiendo su visualización pública desde el repositorio.
     Ruta de Referencia/Descarga: [GitHub Actions](https://pages.github.com) (SaaS)
 
-    <img src="./assets/chapter-5/gitpub_pages.png" alt="Github Pages" width="300"/>
+    <img src="./assets/chapter-5/github_pages.png" alt="Github Pages" width="300"/>
 
   * Render
 
@@ -512,7 +512,7 @@ Antes de comenzar, es importante definir claramente los requisitos de  la págin
 
     Propósito de Uso: Edición de archivos Markdown y documentación técnica relacionada al proyecto. Se utiliza para estructurar y organizar la documentación de forma eficiente. Ruta de Referencia/Descarga: [Visual Studio Code](https://code.visualstudio.com/download) (SaaS)
 
-  <img src="./images/chapter-5/visual_studio_code.png" alt="Visual Studio Code" width="400"/>
+  <img src="./assets/chapter-5/visual_studio_code.png" alt="Visual Studio Code" width="400"/>
 
   Con esta configuración, nuestro equipo puede colaborar de manera eficiente y gestionar el ciclo de vida completo del desarrollo del producto digital, desde la planificación hasta el despliegue y mantenimiento.
 
@@ -777,7 +777,7 @@ Pasos de despliegue:
    - Asegúrate de que tu código de la Landing Page esté en el repositorio correcto de GitHub.
    - El repositorio debe contener todos los archivos estáticos necesarios (HTML, CSS, JavaScript, imágenes, etc.).
 
-   <img src="./images/chapter-5/landing_deployment1.png" alt="Landing Deployment" width="700"/>
+   <img src="./assets/chapter-5/landing_deployment1.png" alt="Landing Deployment" width="700"/>
 
 2. **Configurar GitHub Pages**:
 
@@ -785,20 +785,20 @@ Pasos de despliegue:
    - En la sección **Pages**, selecciona la rama que deseas usar para desplegar el sitio. Generalmente, se usa la rama `main` o `gh-pages` (si se tiene una rama específica para ello).
    - En la opción **Source**, selecciona la carpeta del proyecto (usualmente `root` o `docs` si es necesario) y confirma la configuración.
 
-   <img src="./images/chapter-5/landing_deployment2.png" alt="Landing Deployment" width="700"/>
+   <img src="./assets/chapter-5/landing_deployment2.png" alt="Landing Deployment" width="700"/>
 
 3. **Desplegar**:
 
    - Una vez configurado, GitHub generará una URL en la sección **GitHub Pages** (por ejemplo, `https://tu-usuario.github.io/tu-repositorio`).
    - El despliegue se realizará automáticamente con cada cambio realizado en la rama seleccionada, siempre y cuando se realicen **commits** que actualicen el repositorio.
 
-   <img src="./images/chapter-5/landing_deployment3.png" alt="Landing Deployment" width="700"/>
+   <img src="./assets/chapter-5/landing_deployment3.png" alt="Landing Deployment" width="700"/>
 
 4. **Verificación**:
 
    - Accede a la URL proporcionada por GitHub Pages y verifica que el sitio esté funcionando correctamente.
 
-   <img src="./images/chapter-5/landing_deployment4.png" alt="Landing Deployment" width="700"/>
+   <img src="./assets/chapter-5/landing_deployment4.png" alt="Landing Deployment" width="700"/>
 
 
 **Despliegue de la Frontend Web Application en Vercel**
@@ -1052,12 +1052,33 @@ CALL TO ACCION Y FOOTER:
 
 <img src="./assets/chapter-5/landing_evidence7.png" alt="Landing Page Evidence" width="700"/>
 
-#### 5.2.3 Implemented Frontend-Web Application Evidence  
-#### 5.2.4 Acuerdo de Servicio - SaaS  
-#### 5.2.5 Implemented Native-Mobile Application Evidence  
-#### 5.2.6 Implemented RESTful API and/or Serverless Backend Evidence  
-#### 5.2.7 RESTful API Documentation  
-#### 5.2.8 Team Collaboration Insights  
+#### 5.2.3 Implemented Frontend-Web Application Evidence
+
+VISTA DE INICIO DE SESIÓN:
+
+<img src="./assets/chapter-5/frontend_evidence1.png" alt="Frontend-Web Application Evidence" width="700"/>
+
+VISTA DE REGISTRO: 
+
+<img src="./assets/chapter-5/frontend_evidence2.png" alt="Frontend-Web Application Evidence" width="700"/>
+
+VISTA PANEL DEL PROFESOR:
+
+<img src="./assets/chapter-5/frontend_evidence3.png" alt="Frontend-Web Application Evidence" width="700"/>
+
+VISTA PANEL DE  TAREAS:
+
+<img src="./assets/chapter-5/frontend_evidence4.png" alt="Frontend-Web Application Evidence" width="700"/>
+
+VISTA PANEL DEL ESTUDIANTE:
+
+<img src="./assets/chapter-5/frontend_evidence5.png" alt="Frontend-Web Application Evidence" width="700"/>
+
+
+#### 5.2.4 Implemented Native-Mobile Application Evidence  
+#### 5.2.5 Implemented RESTful API and/or Serverless Backend Evidence  
+#### 5.2.6 RESTful API Documentation  
+#### 5.2.7 Team Collaboration Insights
 
 ### 5.3 Video About-the-Product  
 
