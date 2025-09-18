@@ -1294,7 +1294,10 @@ En este nivel se representan los bounded contexts que conforman la arquitectura 
 
 
 ### 4.9 Software Object-Oriented Design  
-#### 4.9.1 Class Diagrams  
+#### 4.9.1 Class Diagrams
+
+<img src="./assets/chapter-4/class_diagram.png" alt="Class Diagram" width="700"/>
+
 #### 4.9.2 Class Dictionary  
 
 ### 4.10 Database Design  
