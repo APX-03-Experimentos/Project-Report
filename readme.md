@@ -1022,7 +1022,36 @@ Trello Sprint 1: `https://trello.com/invite/b/68cbe53e24bea2a3c7ca052d/ATTIaa224
   <tr><td>T48</td><td>Bloqueo de orígenes no válidos</td><td>Implementar políticas para rechazar peticiones de dominios no permitidos</td><td>3</td><td>Eric Marlon Olivera Barzola</td><td>Done</td></tr>
 </table>
 
-#### 5.2.2 Implemented Landing Page Evidence  
+#### 5.2.2 Implemented Landing Page Evidence 
+
+Lugar donde se desplega nuestra landing page: 
+
+<img src="./assets/chapter-5/landing_evidence1.png" alt="Landing Page Evidence" width="700"/>
+
+Hero Section:
+
+<img src="./assets/chapter-5/landing_evidence2.png" alt="Landing Page Evidence" width="700"/>
+
+ABOUT THE PRODUCT:
+
+<img src="./assets/chapter-5/landing_evidence3.png" alt="Landing Page Evidence" width="700"/>
+
+ABOUT THE TEAM:
+
+<img src="./assets/chapter-5/landing_evidence4.png" alt="Landing Page Evidence" width="700"/>
+
+MISIÓN Y VISIÓN:
+
+<img src="./assets/chapter-5/landing_evidence5.png" alt="Landing Page Evidence" width="700"/>
+
+COMENTARIOS:
+
+<img src="./assets/chapter-5/landing_evidence6.png" alt="Landing Page Evidence" width="700"/>
+
+CALL TO ACCION Y FOOTER:
+
+<img src="./assets/chapter-5/landing_evidence7.png" alt="Landing Page Evidence" width="700"/>
+
 #### 5.2.3 Implemented Frontend-Web Application Evidence  
 #### 5.2.4 Acuerdo de Servicio - SaaS  
 #### 5.2.5 Implemented Native-Mobile Application Evidence  
