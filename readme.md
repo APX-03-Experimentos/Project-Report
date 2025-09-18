@@ -1248,10 +1248,50 @@ User Goal: Observar las estadísticas de los estudiantes
 Link: [Web Application Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/EfnXSFwpqxRMmBQ6aJgopMoB8HD6jo-BbUKom9iC6YWutA?e=Rm60Y9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
-### 4.8 Domain-Driven Software Architecture  
-#### 4.8.1 Software Architecture Context Diagram  
-#### 4.8.2 Software Architecture Container Diagrams  
-#### 4.8.3 Software Architecture Components Diagrams  
+### 4.8 Domain-Driven Software Architecture
+
+La arquitectura del sistema se basa en los principios de Domain-Driven Design (DDD), organizando el software en bounded contexts que representan las principales funcionalidades del dominio. Este enfoque ayuda a separar responsabilidades y facilita la evolución del sistema. Para representarlo se utiliza el modelo C4, que muestra la arquitectura en diferentes niveles de detalle, desde el contexto general hasta los componentes internos. 
+
+#### 4.8.1 Software Architecture Context Diagram
+
+El diagrama de contexto presenta a LearnHive como un sistema académico que interactúa con estudiantes y profesores de institutos. En este nivel, se muestran las principales relaciones entre los usuarios y la plataforma, así como los sistemas externos con los que se conecta. De esta forma, se ofrece una visión general de los límites y el alcance del sistema dentro de su entorno.
+
+<img src="./assets/chapter-4/software_architecture_context_diagram.png" alt="Software Architecture Context Diagram" width="700"/>
+
+#### 4.8.2 Software Architecture Container Diagrams
+
+El diagrama de contenedores de LearnHive muestra la estructura interna del sistema, detallando sus aplicaciones principales como la aplicación web, la aplicación móvil, la landing page, la API REST y la base de datos. Este nivel permite entender cómo se organizan los diferentes contenedores, qué tecnologías los implementan y cómo se comunican entre sí para dar soporte a las funcionalidades del sistema académico. 
+
+<img src="./assets/chapter-4/software_architecture_container_diagram.png" alt="Software Architecture Container Diagram" width="700"/>
+
+#### 4.8.3 Software Architecture Components Diagrams
+
+En este nivel se representan los bounded contexts que conforman la arquitectura interna de LearnHive: IAM, Group Management, Assignments Management, Analytics y Messaging. Cada uno se descompone en componentes como la capa de interfaz, aplicación, dominio e infraestructura, mostrando cómo se organizan y colaboran para cumplir con sus responsabilidades específicas dentro del sistema académico. Estos diagramas permiten entender con mayor detalle la lógica interna de cada contexto y la manera en que interactúan con la base de datos y otros servicios.
+
+- **IAM**
+
+<img src="./assets/chapter-4/software_architecture_component_diagram_iam.png" alt="Software Architecture Component Diagram 1" width="700"/>
+
+
+- **Group Management**
+
+<img src="./assets/chapter-4/software_architecture_component_diagram_groupmanagement.png" alt="Software Architecture Component Diagram 2" width="300"/>
+
+
+- **Assignments Management**
+
+<img src="./assets/chapter-4/software_architecture_component_diagram_assignmentsmanagement.png" alt="Software Architecture Component Diagram 3" width="700"/>
+
+
+- **Analytics**
+
+<img src="./assets/chapter-4/software_architecture_component_diagram_analytics.png" alt="Software Architecture Component Diagram 4" width="700"/>
+
+
+- **Messaging**
+
+<img src="./assets/chapter-4/software_architecture_component_diagram_messaging.png" alt="Software Architecture Component Diagram 5" width="700"/>
+
 
 ### 4.9 Software Object-Oriented Design  
 #### 4.9.1 Class Diagrams  
