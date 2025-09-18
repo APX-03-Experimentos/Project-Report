@@ -2963,9 +2963,6 @@ SECCIÓN LISTA DE MIEMBROS:
 
 <img src="./assets/chapter-4/mobile_mockup17.png" alt="Mobile Mock-up 17" width="300"/>
 
-SECCIÓN ESTADÍSTICAS GENERALES: 
-
-<img src="./assets/chapter-4/mobile_mockup18.png" alt="Mobile Mock-up 18" width="300"/>
 
 
 #### 5.2.5 Implemented RESTful API and/or Serverless Backend Evidence
