@@ -555,7 +555,57 @@ Ejemplos:
 
 La lista de estudiantes dentro de un grupo (US-004) puede ordenarse alfabéticamente por apellido para que el profesor encuentre a alguien fácilmente. La lista de todos los cursos de un estudiante también podría usar este orden.
 
-#### 4.2.2 Labeling Systems  
+#### 4.2.2 Labeling Systems
+
+1. Etiquetado para el Flujo de Gestión de Cursos (EP-001: US-001 a US-004) El foco aquí es la acción y la pertenencia. Las etiquetas deben ser verbos directos. 
+
+Para el Profesor: 
+
+- Crear Grupo (US-002): Es un llamado a la acción claro. No usar "Nuevo Grupo" o "Generar Grupo", ya que son menos directos. 
+- Gestionar Grupo / Miembros del Grupo: La etiqueta para la sección donde ve y edita la lista de estudiantes. 
+- Invitar Estudiantes (US-003): Específico y action-oriented. No usar "Añadir Gente" que es demasiado vago. 
+- Eliminar (US-004): La etiqueta para la acción de remover a un estudiante. Debe ser directa y, para confirmar, usar un mensaje modal con el texto: "¿Está seguro de que desea eliminar a [Nombre del Estudiante] de este grupo? Esta acción notificará al estudiante." 
+
+Para el Estudiante:
+
+- Unirse a un Grupo (US-001): Un verbo claro que describe la acción. 
+- Código de Grupo: La etiqueta del campo de entrada. Debe ser idéntica al término que use el profesor. 
+- Mis Grupos: La etiqueta de la sección principal donde el estudiante ve todos sus cursos. 
+
+
+2. Etiquetado para el Flujo de Trabajos y Calificaciones (EP-002/EP-003: US-005 a US-015, US-019, US-020) El foco aquí es el estado, la acción y los datos. La precisión es clave para evitar ansiedad o confusión en los estudiantes. 
+
+- Estados de Entrega (US-020): Este es quizás el etiquetado MÁS CRÍTICO. Debe ser extremadamente claro y usar colores consistentes: 
+  - Pendiente (Color: Gris/Azul) - Aún no hay acción del estudiante. 
+  - Entregado (Color: Verde) - El estudiante subió un archivo exitosamente. ¡Crucial para la tranquilidad del estudiante! 
+  - En Revisión (Color: Amarillo/Naranja) - El profesor tiene el trabajo pero aún no lo califica. Le dice al estudiante: "Tu trabajo está siendo visto". 
+  - Calificado (Color: Azul/Púrpura) - La nota está disponible. Es más profesional que "Revisado". 
+
+- Acciones y Secciones: 
+  - Trabajos o Actividades: La etiqueta de la sección principal (US-007). "Trabajos" es más común. 
+  - Crear Trabajo (US-005) 
+  - Subir Entrega / Reemplazar Entrega (US-006, US-013): La etiqueta del botón debe reflejar la acción exacta. 
+  - Próximas Entregas (US-007): Una etiqueta mucho más efectiva que "Tareas Pendientes" porque comunica urgencia. 
+  - Mi Progreso (US-008): Mejor que "Mis Notas" porque implica una trayectoria y mejora continua. 
+  - Promedio del Grupo (US-009): Una etiqueta de datos clara para la comparación. 
+  - Extender Plazo (US-019): La etiqueta de la acción para el profesor. 
+
+3. Etiquetado para el Flujo de Comunicación (EP-004: US-012, US-016, US-017, US-018) El foco aquí es la claridad y la interacción. 
+
+- Anuncios (US-016): La etiqueta para la sección de comunicaciones públicas del profesor. 
+- Mensajes o Mensajería (US-017): La etiqueta para la comunicación privada. "Mensajes" es más simple y universal. 
+- Recursos o Materiales (US-018): La etiqueta para la biblioteca de archivos del curso. 
+- Notificaciones: La etiqueta global para el centro de alertas del sistema (US-011, US-012). 
+
+4. Etiquetado para la Landing Page (EP-005: US-021 a US-025) El foco aquí es la conversión y la información clara para visitantes nuevos. 
+
+- Acceder o Iniciar Sesión: Para usuarios existentes. 
+- Registrarse o Comenzar: Para nuevos usuarios. 
+- Dashboard: Término técnico pero ampliamente aceptado para el panel de control principal. 
+- Nuestra Misión / Nuestra Visión (US-023): Etiquetas directas y standard. 
+- Testimonios o Experiencias (US-024): Comunica inmediatamente que son opiniones de usuarios reales. 
+- Conoce al Equipo (US-022) / Cómo Funciona (US-025): Etiquetas amigables y que invitan a hacer clic.
+
 #### 4.2.3 SEO Tags and Meta Tags  
 #### 4.2.4 Searching Systems  
 #### 4.2.5 Navigation Systems  
