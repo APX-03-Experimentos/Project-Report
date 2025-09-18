@@ -1163,6 +1163,51 @@ Courses conjuntos académicos donde se organizan estudiantes, profesores, tareas
 
 #### 5.2.7 Team Collaboration Insights
 
+A continuación, se muestran las capturas de los insights del repositorio.
+
+**Report:**
+
+<img src="./assets/chapter-5/report_insights1.png" alt="Team Collaboration Insights" width="700"/>
+
+<img src="./assets/chapter-5/report_insights2.png" alt="Team Collaboration Insights" width="700"/>
+
+Distribución de commits: 
+
+- Alejo Cárdenas, José Antonio: 7 
+- Luquillas Asto, Omar: 28 
+- Real Calderón, Sebastián Omar: 3 
+- Olivera Barzola, Eric Marlon: 7 
+
+**Landing Page:**
+
+<img src="./assets/chapter-5/landing_insights1.png" alt="Team Collaboration Insights" width="700"/>
+
+<img src="./assets/chapter-5/landing_insights2.png" alt="Team Collaboration Insights" width="700"/>
+
+Distribución de commits: 
+
+- Olivera Barzola, Eric Marlon: 3
+
+**Backend:**
+
+<img src="./assets/chapter-5/backend_insights1.png" alt="Team Collaboration Insights" width="700"/>
+
+<img src="./assets/chapter-5/backend_insights1.png" alt="Team Collaboration Insights" width="700"/>
+
+Distribución de commits: 
+
+- Alejo Cárdenas, José Antonio: 8
+
+**Frontend:**
+
+<img src="./assets/chapter-5/backend_insights1.png" alt="Team Collaboration Insights" width="700"/>
+
+<img src="./assets/chapter-5/backend_insights1.png" alt="Team Collaboration Insights" width="700"/>
+
+Distribución de commits: 
+
+- Real Calderón, Sebastián Omar: 10
+
 ### 5.3 Video About-the-Product  
 
 
