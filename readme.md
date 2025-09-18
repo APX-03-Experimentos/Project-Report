@@ -796,7 +796,7 @@ En el wireframe móvil, la disposición se adapta al formato vertical con navega
 
 MENÚ DE HAMBURGUESA:
 
-<img src="./assets/chapter-4/landing_wireframe6.png" alt="Landing Page Wireframe 6" width="700"/>
+<img src="./assets/chapter-4/landing_wireframe6.png" alt="Landing Page Wireframe 6" width="400"/>
 
 #### 4.3.2 Landing Page Mock-up
 
@@ -819,7 +819,7 @@ En la versión móvil, el diseño se adapta al formato vertical con un enfoque e
 
 MENÚ DE HAMBURGUESA:
 
-<img src="./assets/chapter-4/landing_mockup6.png" alt="Landing Page Mock-up 6" width="700"/>
+<img src="./assets/chapter-4/landing_mockup6.png" alt="Landing Page Mock-up 6" width="400"/>
 
 ### 4.4 Mobile Applications UX/UI Design  
 #### 4.4.1 Mobile Applications Wireframes  
