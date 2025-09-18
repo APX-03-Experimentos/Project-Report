@@ -1076,7 +1076,28 @@ VISTA PANEL DEL ESTUDIANTE:
 
 
 #### 5.2.4 Implemented Native-Mobile Application Evidence  
-#### 5.2.5 Implemented RESTful API and/or Serverless Backend Evidence  
+#### 5.2.5 Implemented RESTful API and/or Serverless Backend Evidence
+
+Se desarrolló y documentó la implementación de una API RESTful y/o un backend que permite gestionar las operaciones principales del sistema (creación, consulta, actualización y eliminación de datos) 
+
+<img src="./assets/chapter-5/backend_evidence1.png" alt="Backend Evidence" width="700"/>
+
+User entidad que gestiona autenticación y perfil de usuario en el backend
+
+<img src="./assets/chapter-5/backend_evidence2.png" alt="Backend Evidence" width="700"/>
+
+Submission: registro de la entrega de una tarea. 
+
+<img src="./assets/chapter-5/backend_evidence3.png" alt="Backend Evidence" width="700"/>
+
+Assignments tarea académica creada por el profesor con fecha límite y criterios de evaluación, Authentication proceso de validación de identidad.
+
+<img src="./assets/chapter-5/backend_evidence4.png" alt="Backend Evidence" width="700"/>
+
+Courses conjuntos académicos donde se organizan estudiantes, profesores, tareas y recursos dentro del sistema.
+
+<img src="./assets/chapter-5/backend_evidence5.png" alt="Backend Evidence" width="700"/>
+
 #### 5.2.6 RESTful API Documentation  
 #### 5.2.7 Team Collaboration Insights
 
