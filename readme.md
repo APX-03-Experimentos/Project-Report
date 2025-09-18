@@ -545,7 +545,7 @@ Preguntas complementarias
 
 | Campo                      | Detalle                                    |
 |----------------------------|---------------------------------------------|
-| **Foto y link**            | ![10](Assets/chapter-2/4.png)    https://youtu.be/Owd7kK5dDWU                |
+| **Foto y link**            | ![10](assets/chapter-2/4.png)    https://youtu.be/Owd7kK5dDWU                |
 | **Nombre del entrevistado**| Adrian Castro Santana                                           |
 | **Edad**                   | 26  años                                     |
 | **Profesión**              | Profesor de Instituto  |
@@ -565,7 +565,7 @@ Entrevista 2: Profesor de Instituto
 
 | Campo                      | Detalle                                    |
 |----------------------------|---------------------------------------------|
-| **Foto y link**            | ![10](Assets/chapter-2/5.png)  [Link-entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/EQywp_Cid25EpgUEwukGdFEB-fs0WpIXqybsFcIFxJZJlw?e=f8c1yv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)            |
+| **Foto y link**            | ![10](assets/chapter-2/5.png)  [Link-entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/EQywp_Cid25EpgUEwukGdFEB-fs0WpIXqybsFcIFxJZJlw?e=f8c1yv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)            |
 | **Nombre del entrevistado**| Frank Rivera                                           |
 | **Edad**                   | 24 años                                     |
 | **Profesión**              | Practicante docente en Instituto Tecnológico (segundo año de práctica)   |
