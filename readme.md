@@ -1300,6 +1300,75 @@ En este nivel se representan los bounded contexts que conforman la arquitectura 
 
 #### 4.9.2 Class Dictionary  
 
+
+**User**
+
+| Attribute   | Tipo   | Descripción                          |
+|-------------|--------|--------------------------------------|
+| user_id     | int    | Identificador del usuario.           |
+| user_name   | string | Nombre de usuario.                   |
+| user_pass   | string | Contraseña de usuario. Encriptada.   |
+| role        | Role   | Rol del usuario.                     |
+
+
+**Course**
+
+| Attribute     | Tipo              | Descripción                        |
+|---------------|-------------------|------------------------------------|
+| course_id     | int               | Identificador del curso.           |
+| course_title  | string            | Nombre del curso.                  |
+| course_image  | string            | Referencia a imagen del curso.     |
+| teacher       | Teacher           | Profesor encargado del curso.      |
+| students      | List`<Student>`   | Lista de estudiantes del curso.    |
+| assignments   | List`<Assignment>`| Lista de tareas del curso.         |
+
+
+**Assignment**
+
+| Attribute       | Tipo              | Descripción                       |
+|-----------------|-------------------|-----------------------------------|
+| assignment_id   | int               | Identificador de la tarea.        |
+| assignment_title| string            | Título de la tarea.               |
+| assignment_img  | string            | Referencia a imagen.              |
+| deadline        | DateTime          | Fecha límite de la tarea.         |
+| course          | Course            | Curso al que pertenece la tarea.  |
+| content         | Content           | Contenido de la tarea.            |
+| submissions     | List`<Submission>`| Entregas de la tarea.             |
+
+
+**Submission**
+
+| Attribute     | Tipo       | Descripción                        |
+|---------------|------------|------------------------------------|
+| submission_id | int        | Identificador de la entrega.       |
+| score         | int        | Puntuación de la entrega.          |
+| student       | Student    | Estudiante al que pertenece.       |
+| assignment    | Assignment | Tarea para la que es la entrega.   |
+| content       | Content    | Contenido de la entrega.           |
+
+
+**Content**
+
+| Attribute    | Tipo        | Descripción                     |
+|--------------|-------------|---------------------------------|
+| content_id   | int         | Identificador del contenido.    |
+| content_text | string      | Texto del contenido.            |
+| files        | List`<File>`| Lista de archivos del contenido.|
+
+
+**File**
+
+| Attribute   | Tipo   | Descripción                   |
+|-------------|--------|-------------------------------|
+| file_id     | int    | Identificador del archivo.    |
+| reference   | string | Referencia al archivo.        |
+
+
+Teacher: Hereda de User
+
+Student: Hereda de User
+
+
 ### 4.10 Database Design  
 #### 4.10.1 Relational/Non-Relational Database Diagram  
 
