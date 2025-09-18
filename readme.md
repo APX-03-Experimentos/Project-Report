@@ -589,7 +589,7 @@ Entrevista 4: Estudiante de Instituto
 
 | Campo                      | Detalle                                    |
 |----------------------------|---------------------------------------------|
-| **Foto y link**            | ![10](Assets/chapter-2/6.png) [Entrevista](https://upcedupe-my.sharepoint.com/personal/u202122484_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202122484_upc_edu_pe%2FDocuments%2FFundamentos%20-%20APX-4%2FInterviews%2FEntrevista%20David%20-%20Segmento%20Estudiantes%20de%20Insituto%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef7c6474d-fd38-49fc-8a81-57b217a34a8e)                    |
+| **Foto y link**            | ![10](assets/chapter-2/6.png) [Entrevista](https://upcedupe-my.sharepoint.com/personal/u202122484_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202122484_upc_edu_pe%2FDocuments%2FFundamentos%20-%20APX-4%2FInterviews%2FEntrevista%20David%20-%20Segmento%20Estudiantes%20de%20Insituto%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef7c6474d-fd38-49fc-8a81-57b217a34a8e)                    |
 | **Nombre del entrevistado**| David Manuel Torres Meneses                                            |
 | **Edad**                   | 19 años                                      |
 | **Profesión**              | Estudiante universitario / estudiante de instituto  |
@@ -610,7 +610,7 @@ Entrevista 5: Estudiante de Instituto
 
 | Campo                      | Detalle                                    |
 |----------------------------|---------------------------------------------|
-| **Foto y link**            | ![10](Assets/chapter-2/7.png) [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/EYfA6PHLIrNKovCrXJTvwUMBwo4_xnSmPmvWkF9XIHXVhw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dmovhm)                  |
+| **Foto y link**            | ![10](assets/chapter-2/7.png) [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/EYfA6PHLIrNKovCrXJTvwUMBwo4_xnSmPmvWkF9XIHXVhw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dmovhm)                  |
 | **Nombre del entrevistado**|Alejandra Angulo Mendoza |
 | **Edad**                   | 20 años  |
 | **Profesión**              | Estudiante de instituto / Artista 3D |
@@ -630,7 +630,7 @@ Entrevista 6: Estudiante de Instituto
 
 | Campo                      | Detalle                                    |
 |----------------------------|---------------------------------------------|
-| **Foto y link**            | ![10](Assets/chapter-2/8.png) [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/ERtYfl5y-XVChcbrl_jGtV4BAVDyRs_5wHYsWSQqV1wZXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MiGu97)                |
+| **Foto y link**            | ![10](assets/chapter-2/8.png) [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/ERtYfl5y-XVChcbrl_jGtV4BAVDyRs_5wHYsWSQqV1wZXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MiGu97)                |
 | **Nombre del entrevistado**| Jhon Chuchon                                           |
 | **Edad**                   | 19 años                                    |
 | **Profesión**              | Estudiante de instituto  |
@@ -694,7 +694,7 @@ En síntesis, el perfil del profesor de instituto muestra un alto nivel de frust
 Segmento Objetivo 1: Estudiantes de institutos 
 User Persona: Olivia Perez(17 años)
 
-![10](Assets/chapter-2/User%20Persona-Olivia%20Perez.png)
+![10](assets/chapter-2/User%20Persona-Olivia%20Perez.png)
 
  
 
@@ -702,7 +702,7 @@ Segmento Objetivo 2: Profesores de Institutos
 
 User Persona: Adrian Espinoza (30 años) 
 
-![10](Assets/chapter-2/User%20Persona-Adrian%20Espinoza.png)
+![10](assets/chapter-2/User%20Persona-Adrian%20Espinoza.png)
 
 
 #### 2.3.2 User Task Matrix  
