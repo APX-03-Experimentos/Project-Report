@@ -3044,9 +3044,9 @@ Distribución de commits:
 
 **Frontend:**
 
-<img src="./assets/chapter-5/backend_insights1.png" alt="Team Collaboration Insights" width="700"/>
+<img src="./assets/chapter-5/frontend_insights1.png" alt="Team Collaboration Insights" width="700"/>
 
-<img src="./assets/chapter-5/backend_insights2.png" alt="Team Collaboration Insights" width="700"/>
+<img src="./assets/chapter-5/frontend_insights2.png" alt="Team Collaboration Insights" width="700"/>
 
 Distribución de commits: 
 
