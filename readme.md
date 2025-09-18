@@ -2898,6 +2898,76 @@ VISTA PANEL DEL ESTUDIANTE:
 
 
 #### 5.2.4 Implemented Native-Mobile Application Evidence  
+
+Sección general de inicio/registro de usuarios:
+
+<img src="./assets/chapter-4/mobile_mockup1.png" alt="Mobile Mock-up 1" width="300"/>
+
+<img src="./assets/chapter-4/mobile_mockup2.png" alt="Mobile Mock-up 2" width="300"/>
+
+<img src="./assets/chapter-4/mobile_mockup3.png" alt="Mobile Mock-up 3" width="300"/>
+
+PERFILES DE USUARIO
+
+<img src="./assets/chapter-4/mobile_mockup4.png" alt="Mobile Mock-up 4" width="300"/>
+
+<img src="./assets/chapter-4/mobile_mockup5.png" alt="Mobile Mock-up 5" width="300"/>
+
+**SECCIÓN DE ALUMNOS**
+
+NAVBAR GENERAL:
+
+<img src="./assets/chapter-4/mobile_mockup6.png" alt="Mobile Mock-up 6" width="300"/>
+
+SECCIÓN DE MIS CURSOS: 
+
+<img src="./assets/chapter-4/mobile_mockup7.png" alt="Mobile Mock-up 7" width="300"/>
+
+SECCIÓN DE LAS TAREAS
+
+<img src="./assets/chapter-4/mobile_mockup8.png" alt="Mobile Mock-up 8" width="300"/>
+
+SECCIÓN DE LA ENTREGA DE TAREAS 
+
+<img src="./assets/chapter-4/mobile_mockup9.png" alt="Mobile Mock-up 9" width="300"/>
+
+SECCIÓN DE ESTADÍSTICAS PERSONALES:
+
+<img src="./assets/chapter-4/mobile_mockup10.png" alt="Mobile Mock-up 10" width="300"/>
+
+SECCIÓN VER LOS MIEMBROS DE GRUPO: 
+
+<img src="./assets/chapter-4/mobile_mockup11.png" alt="Mobile Mock-up 11" width="300"/>
+
+SECCIÓN DE PROFESOR: 
+
+<img src="./assets/chapter-4/mobile_mockup12.png" alt="Mobile Mock-up 12" width="300"/>
+
+SECCIÓN CREACIÓN DE CURSOS
+
+<img src="./assets/chapter-4/mobile_mockup13.png" alt="Mobile Mock-up 13" width="300"/>
+
+SECCIÓN PANEL DE TAREAS:
+
+<img src="./assets/chapter-4/mobile_mockup14.png" alt="Mobile Mock-up 14" width="300"/>
+
+SECCIÓN VER DETALLES DE LAS TAREAS
+
+<img src="./assets/chapter-4/mobile_mockup15.png" alt="Mobile Mock-up 15" width="300"/>
+
+SECCION CREAR NUEVAS TAREAS 
+
+<img src="./assets/chapter-4/mobile_mockup16.png" alt="Mobile Mock-up 16" width="300"/>
+
+SECCIÓN LISTA DE MIEMBROS: 
+
+<img src="./assets/chapter-4/mobile_mockup17.png" alt="Mobile Mock-up 17" width="300"/>
+
+SECCIÓN ESTADÍSTICAS GENERALES: 
+
+<img src="./assets/chapter-4/mobile_mockup18.png" alt="Mobile Mock-up 18" width="300"/>
+
+
 #### 5.2.5 Implemented RESTful API and/or Serverless Backend Evidence
 
 Se desarrolló y documentó la implementación de una API RESTful y/o un backend que permite gestionar las operaciones principales del sistema (creación, consulta, actualización y eliminación de datos) 
