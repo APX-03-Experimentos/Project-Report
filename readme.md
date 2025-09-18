@@ -14,7 +14,7 @@
 
 ### **Nombre del startup:** APX-3
 
-### **Nombre del producto:** Xtudy
+### **Nombre del producto:** LearnHive
 
 ## **Integrantes**
 
@@ -43,14 +43,90 @@
   <tbody>
     <tr>
       <td>0.1</td>
-      <td>03/09/25</td>
-      <td>Jose Alejo</td>
-      <td>Elaboración de plantilla del reporte</td>
+      <td>09/09/2025</td>
+      <td>Real Calderón Sebastián Omar y<br>Alejo Cárdenas José Antonio</td>
+      <td>Desarrollo de los ítems: 1.1.1 Descripción de la Startup, 1.1.2 Perfiles de integrantes del equipo, 1.2.1 Nombre del producto</td>
+    </tr>
+    <tr>
+      <td>0.2</td>
+      <td>10/09/2025</td>
+      <td>Real Calderón Sebastián Omar,<br>Olivera Barzola Eric Marlon y<br>Luquillas Asto Omar</td>
+      <td>Desarrollo de los ítems: 1.2.2 Antecedentes y problemática, 1.2.3.1 Lean UX Problem Statement, 1.2.3.2 Lean UX Assumptions, 1.2.3.3 Lean UX Hypothesis, 1.2.3.4 Lean UX Canvas y 1.3 Segmentos objetivo</td>
+    </tr>
+    <tr>
+      <td>0.3</td>
+      <td>11/09/2025</td>
+      <td>Alejo Cárdenas José Antonio,<br>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los ítems: 2.1 Competidores, 2.2 Entrevistas, 2.3.1 User Personas, 2.3.2 User Task Matrix, 2.3.3 Empathy Maps y 2.3.4 As-is Scenario Mapping</td>
+    </tr>
+    <tr>
+      <td>0.4</td>
+      <td>12/09/2025</td>
+      <td>Luquillas Asto Omar,<br>Olivera Barzola Eric Marlon y<br>Real Calderón Sebastián Omar</td>
+      <td>Desarrollo de los ítems: 3.1 To-Be Scenario Mapping, 3.2 User Stories, 3.3 Impact Map, 3.4 Product Backlog</td>
+    </tr>
+    <tr>
+      <td>0.5</td>
+      <td>13/09/2025</td>
+      <td>Real Calderón Sebastián Omar y<br>Alejo Cárdenas José Antonio</td>
+      <td>Revisión completa hasta el capítulo 3, corrección ortográfica y coherencia global del reporte.</td>
+    </tr>
+    <tr>
+      <td>0.6</td>
+      <td>14/09/2025</td>
+      <td>Real Calderón Sebastián Omar</td>
+      <td>Desarrollo de los items: 4.1. Style Guidelines, 4.1.1. General Style Guidelines, 4.1.2. Web Style Guidelines, 4.1.3. Mobile Style Guidelines, 4.1.3.1. iOS Mobile Style Guidelines, 4.1.3.2. Android Mobile Style Guidelines. 4.2. Information Architecture, 4.2.1. Organization Systems, 4.2.2. Labeling Systems, 4.2.3. SEO Tags and Meta Tags, 4.2.4. Searching Systems y 4.2.5. Navigation Systems</td>
+    </tr>
+    <tr>
+      <td>0.7</td>
+      <td>14/09/2025</td>
+      <td>Luquillas Asto Omar y<br>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los items: 4.3. Landing Page UI Design, 4.3.1. Landing Page Wireframe, 4.3.2. Landing Page Mock-up, 4.4. Mobile Applications UX/UI Design, 4.4.1. Mobile Applications Wireframes, 4.4.2. Mobile Applications Wireflow Diagrams, 4.4.3. Mobile Applications Mock-ups, 4.4.4. Mobile Applications User Flow Diagrams, 4.5. Mobile Applications Prototyping, 4.5.1. Android Mobile Applications Prototyping, 4.5.2. iOS Mobile Applications Prototyping, 4.6. Web Applications UX/UI Design, 4.6.1. Web Applications Wireframes, 4.6.2. Web Applications Wireflow Diagrams, 4.6.3. Web Applications Mock-ups, 4.6.4. Web Applications User Flow Diagrams, 4.7. Web Applications Prototyping, 4.8. Domain-Driven Software Architecture, 4.8.1. Software Architecture Context Diagram, 4.8.2. Software Architecture Container Diagrams y 4.8.3. Software Architecture Components Diagrams</td>
+    </tr>
+    <tr>
+      <td>0.8</td>
+      <td>15/09/2025</td>
+      <td>Real Calderón Sebastián Omar y<br>Alejo Cárdenas José Antonio</td>
+      <td>Desarrollo de los items: 4.9. Software Object-Oriented Design, 4.9.1. Class Diagrams, 4.9.2. Class Dictionary, 4.10. Database Design y 4.10.1. Relational/Non-Relational Database Diagram, 5.1. Software Configuration Management, 5.1.1. Software Development Environment Configuration, 5.1.2. Source Code Management, 5.1.3. Source Code Style Guide & Conventions, 5.1.4. Software Deployment Configuration y 5.2. Product Implementation & Deployment.</td>
+    </tr>
+    <tr>
+      <td>0.9</td>
+      <td>17/09/2025</td>
+      <td>Real Calderón Sebastián Omar,<br>Alejo Cárdenas José Antonio,<br>Luquillas Asto Omar y<br>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los items: 5.2.1. Sprint Backlogs, 5.2.2. Implemented Landing Page Evidence, 5.2.3. Implemented Frontend-Web Application Evidence, 5.2.4. Acuerdo de Servicio – SaaS, 5.2.5. Implemented Native-Mobile Application Evidence, 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence, 5.2.7. RESTful API documentation, 5.2.8. Team Collaboration Insights, 5.3. Video About-the-Product, Avance de Conclusiones, Bibliografía y Anexos</td>
+    </tr>
+    <tr>
+      <td>1.0</td>
+      <td>18/09/2025</td>
+      <td>Real Calderón Sebastián Omar,<br>Alejo Cárdenas José Antonio,<br>Luquillas Asto Omar y<br>Olivera Barzola Eric Marlon</td>
+      <td>Revisión completa hasta el capítulo 5, corrección ortográfica y coherencia global del reporte.</td>
     </tr>
   </tbody>
 </table>
 
 # Project Report Collaboration Insights 
+
+| Tipo de Enlace           | URL                                                          |
+|---------------------------|--------------------------------------------------------------|
+| **Repositorio del reporte** | `https://github.com/APX-03-Experimentos/Project-Report` |
+
+Entrega TB1 (18/09/2025):
+
+<img src="./assets/miscellaneous/report_insights1_tb1.png" alt="Insights Report Collaboration Insights TB1" />
+
+<img src="./assets/miscellaneous/report_insights2_tb1.png" alt="Insights Report Collaboration Insights TB1" />
+
+<img src="./assets/miscellaneous/report_insights3_tb1.png" alt="Insights Report Collaboration Insights TB1" />
+
+Para esta primera entrega se desarollaron los capítulos del 1 al 5 y el sprint 1, en imagenes adjuntadas se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
+
+Distribución de commits:
+
+- Alejo Cárdenas, José Antonio: 7 commits
+- Luquillas Asto, Omar: 28 commits
+- Real Calderón, Sebastián Omar: 3 commits
+- Olivera Barzola, Eric Marlon: 7 commits
+
 
 # Contenido  
 
