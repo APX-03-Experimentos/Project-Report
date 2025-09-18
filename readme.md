@@ -423,8 +423,47 @@ User Stories:
 | TS-004        | Configuración de CORS en backend                     | Como desarrollador, quiero configurar las políticas de CORS en Spring Boot, para permitir que el frontend (Angular) y el backend (Spring) se comuniquen correctamente en entornos de desarrollo y producción. | **Escenario 1:** Dado que el frontend en Angular se encuentra en un dominio distinto al backend, cuando realiza una petición al servidor, entonces el sistema permite la comunicación siempre que el origen esté autorizado en la configuración de CORS. <br><br> **Escenario 2:** Dado que una aplicación no autorizada intenta consumir un endpoint del backend, cuando realiza la petición desde un dominio no permitido, entonces el sistema bloquea la solicitud y devuelve un error CORS policy: No 'Access-Control-Allow-Origin' header. | EP-006 |
 
 
-### 3.3 Product Backlog  
+### 3.3 Product Backlog
+
+| Orden | Código US | Título                                               | Story Points |
+|-------|-----------|-------------------------------------------------------|--------------|
+| 1     | US-002    | Creación de grupos                                    | 5            |
+| 2     | US-001    | Ingreso a grupos                                      | 5            |
+| 3     | US-003    | Invitación a grupos                                   | 5            |
+| 4     | US-005    | Creación de trabajos con fechas límite                | 5            |
+| 5     | US-006    | Recepción de entregas (múltiples oportunidades)       | 8            |
+| 6     | US-007    | Visualización de trabajos y fechas                    | 5            |
+| 7     | US-015    | Acceso a todas las entregas de un trabajo             | 5            |
+| 8     | US-004    | Eliminación de alumnos                                | 3            |
+| 9     | TS-001    | Configuración de autenticación y autorización con JWT | 8            |
+| 10    | TS-002    | Configuración de validación de datos en backend       | 5            |
+| 11    | TS-003    | Configuración de CORS en backend                      | 3            |
+| 12    | TS-004    | Documentación de la API con Swagger                   | 3            |
+| 13    | US-020    | Estados de entrega                                    | 5            |
+| 14    | US-013    | Reentrega controlada                                  | 5            |
+| 15    | US-014    | Historial de calificaciones                           | 5            |
+| 16    | US-019    | Extensión de plazo de entrega                         | 3            |
+| 17    | US-008    | Visualización de dashboard de progreso académico      | 5            |
+| 18    | US-009    | Comparación del rendimiento con el promedio del grupo | 5            |
+| 19    | US-010    | Visualización de métricas globales de desempeño       | 8            |
+| 20    | US-011    | Alertas sobre estudiantes con bajo rendimiento        | 5            |
+| 21    | US-012    | Recordatorios y notificaciones de entregas            | 5            |
+| 22    | US-016    | Publicación de anuncios con comentarios               | 5            |
+| 23    | US-018    | Compartir recursos educativos                         | 8            |
+| 24    | US-021    | Redirección al aplicativo web                         | 1            |
+| 25    | US-023    | Visualización de Misión y Visión de la startup        | 2            |
+| 26    | US-025    | Sección de Video About the Product                    | 2            |
+| 27    | US-022    | Sección de Video About the Team                       | 2            |
+| 28    | US-024    | Testimonios de usuarios previos                       | 3            |
+
+
 ### 3.4 Impact Mapping  
+
+El Impact Mapping de LearnHive permite conectar los objetivos estratégicos de la startup con las acciones concretas de los usuarios. Para ello, se definieron Business Goals bajo criterios SMART, vinculados a los User Personas identificados (profesor y estudiante). A partir de estos actores se establecieron los Impacts, que describen los cambios de comportamiento esperados para alcanzar cada meta. Posteriormente, se definieron los Deliverables, que representan las funcionalidades clave que la plataforma debe ofrecer, y finalmente las User Stories, que detallan en lenguaje de usuario las acciones específicas que habilitan dichos entregables. 
+
+Este enfoque asegura que cada funcionalidad desarrollada esté alineada con una meta de negocio clara y con necesidades reales de los usuarios, fortaleciendo la adopción de la plataforma y su impacto en la gestión académica. 
+
+<img src="./assets/chapter-3/Impact Map LearnHive.png" alt="Impact Map LearnHive" width="600"/>
 
 
 ## Capítulo IV: Product Design  
