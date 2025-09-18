@@ -821,13 +821,221 @@ MENÚ DE HAMBURGUESA:
 
 <img src="./assets/chapter-4/landing_mockup6.png" alt="Landing Page Mock-up 6" width="400"/>
 
-### 4.4 Mobile Applications UX/UI Design  
-#### 4.4.1 Mobile Applications Wireframes  
-#### 4.4.2 Mobile Applications Wireflow Diagrams  
-#### 4.4.3 Mobile Applications Mock-ups  
-#### 4.4.4 Mobile Applications User Flow Diagrams  
+### 4.4 Mobile Applications UX/UI Design
 
-### 4.5 Mobile Applications Prototyping  
+La propuesta de diseño UX/UI para las aplicaciones móviles de LearnHive se centra en ofrecer una experiencia de usuario clara, accesible y motivadora, tanto para estudiantes como para profesores. Se busca que la navegación sea intuitiva y que las funcionalidades clave estén siempre al alcance en un par de toques. 
+
+#### 4.4.1 Mobile Applications Wireframes
+
+Sección general de inicio/registro de usuarios: 
+
+<img src="./assets/chapter-4/mobile_wireframe1.png" alt="Mobile Wireframe 1" width="300"/>
+
+<img src="./assets/chapter-4/mobile_wireframe2.png" alt="Mobile Wireframe 2" width="300"/>
+
+<img src="./assets/chapter-4/mobile_wireframe3.png" alt="Mobile Wireframe 3" width="300"/>
+
+PERFILES DE USUARIO
+
+<img src="./assets/chapter-4/mobile_wireframe4.png" alt="Mobile Wireframe 4" width="300"/>
+
+<img src="./assets/chapter-4/mobile_wireframe5.png" alt="Mobile Wireframe 5" width="300"/>
+
+**SECCIÓN DE ALUMNOS** 
+
+NAVBAR GENERAL:
+
+<img src="./assets/chapter-4/mobile_wireframe6.png" alt="Mobile Wireframe 6" width="300"/>
+
+SECCIÓN DE MIS CURSOS:
+
+<img src="./assets/chapter-4/mobile_wireframe7.png" alt="Mobile Wireframe 7" width="300"/>
+
+SECCIÓN DE LAS TAREAS
+
+<img src="./assets/chapter-4/mobile_wireframe8.png" alt="Mobile Wireframe 8" width="300"/>
+
+SECCIÓN DE LA ENTREGA DE TAREAS
+
+<img src="./assets/chapter-4/mobile_wireframe9.png" alt="Mobile Wireframe 9" width="300"/>
+
+SECCIÓN DE ESTADÍSTICAS PERSONALES:
+
+<img src="./assets/chapter-4/mobile_wireframe10.png" alt="Mobile Wireframe 10" width="300"/>
+
+SECCIÓN VER LOS MIEMBROS DE GRUPO:
+
+<img src="./assets/chapter-4/mobile_wireframe11.png" alt="Mobile Wireframe 11" width="300"/>
+
+**SECCIÓN DE PROFESOR:**
+
+<img src="./assets/chapter-4/mobile_wireframe12.png" alt="Mobile Wireframe 12" width="300"/>
+
+SECCIÓN CREACIÓN DE CURSOS
+
+<img src="./assets/chapter-4/mobile_wireframe13.png" alt="Mobile Wireframe 13" width="300"/>
+
+SECCIÓN PANEL DE TAREAS:
+
+<img src="./assets/chapter-4/mobile_wireframe14.png" alt="Mobile Wireframe 14" width="300"/>
+
+SECCIÓN VER DETALLES DE LAS TAREAS
+
+<img src="./assets/chapter-4/mobile_wireframe15.png" alt="Mobile Wireframe 15" width="300"/>
+
+SECCION CREAR NUEVAS TAREAS
+
+<img src="./assets/chapter-4/mobile_wireframe16.png" alt="Mobile Wireframe 16" width="300"/>
+
+SECCIÓN LISTA DE MIEMBROS:
+
+<img src="./assets/chapter-4/mobile_wireframe17.png" alt="Mobile Wireframe 17" width="300"/>
+
+SECCIÓN ESTADÍSTICAS GENERALES:
+
+<img src="./assets/chapter-4/mobile_wireframe18.png" alt="Mobile Wireframe 18" width="300"/>
+
+#### 4.4.2 Mobile Applications Wireflow Diagrams
+
+User Goal: Inicio de sesión
+
+<img src="./assets/chapter-4/mobile_wireflow1.png" alt="Mobile Wireflow 1" width="700"/>
+
+User Goal: Creación de cuenta de usuario 
+
+<img src="./assets/chapter-4/mobile_wireflow2.png" alt="Mobile Wireflow 2" width="700"/>
+
+User Goal: Ingreso al perfil del usuario
+
+<img src="./assets/chapter-4/mobile_wireflow3.png" alt="Mobile Wireflow 3" width="700"/>
+
+User Goal: El estudiante debe responder una tarea
+
+<img src="./assets/chapter-4/mobile_wireflow4.png" alt="Mobile Wireflow 4" width="700"/>
+
+User Goal: Creación de cursos de parte del profesor
+
+<img src="./assets/chapter-4/mobile_wireflow5.png" alt="Mobile Wireflow 5" width="700"/>
+
+User Goal: Creación de tareas de parte del profesor
+
+<img src="./assets/chapter-4/mobile_wireflow6.png" alt="Mobile Wireflow 6" width="700"/>
+
+User Goal: Observar estadísticas de los estudiantes
+
+<img src="./assets/chapter-4/mobile_wireflow7.png" alt="Mobile Wireflow 7" width="700"/>
+
+#### 4.4.3 Mobile Applications Mock-ups
+
+El diseño sigue principios de simplicidad y accesibilidad, utilizando íconos claros, botones grandes y navegación fluida, lo que permite que los docentes puedan crear y organizar cursos sin necesidad de usar una computadora, directamente desde su smartphone.
+
+Sección general de inicio/registro de usuarios:
+
+<img src="./assets/chapter-4/mobile_mockup1.png" alt="Mobile Mock-up 1" width="300"/>
+
+<img src="./assets/chapter-4/mobile_mockup2.png" alt="Mobile Mock-up 2" width="300"/>
+
+<img src="./assets/chapter-4/mobile_mockup3.png" alt="Mobile Mock-up 3" width="300"/>
+
+PERFILES DE USUARIO
+
+<img src="./assets/chapter-4/mobile_mockup4.png" alt="Mobile Mock-up 4" width="300"/>
+
+<img src="./assets/chapter-4/mobile_mockup5.png" alt="Mobile Mock-up 5" width="300"/>
+
+**SECCIÓN DE ALUMNOS**
+
+NAVBAR GENERAL:
+
+<img src="./assets/chapter-4/mobile_mockup6.png" alt="Mobile Mock-up 6" width="300"/>
+
+SECCIÓN DE MIS CURSOS: 
+
+<img src="./assets/chapter-4/mobile_mockup7.png" alt="Mobile Mock-up 7" width="300"/>
+
+SECCIÓN DE LAS TAREAS
+
+<img src="./assets/chapter-4/mobile_mockup8.png" alt="Mobile Mock-up 8" width="300"/>
+
+SECCIÓN DE LA ENTREGA DE TAREAS 
+
+<img src="./assets/chapter-4/mobile_mockup9.png" alt="Mobile Mock-up 9" width="300"/>
+
+SECCIÓN DE ESTADÍSTICAS PERSONALES:
+
+<img src="./assets/chapter-4/mobile_mockup10.png" alt="Mobile Mock-up 10" width="300"/>
+
+SECCIÓN VER LOS MIEMBROS DE GRUPO: 
+
+<img src="./assets/chapter-4/mobile_mockup11.png" alt="Mobile Mock-up 11" width="300"/>
+
+SECCIÓN DE PROFESOR: 
+
+<img src="./assets/chapter-4/mobile_mockup12.png" alt="Mobile Mock-up 12" width="300"/>
+
+SECCIÓN CREACIÓN DE CURSOS
+
+<img src="./assets/chapter-4/mobile_mockup13.png" alt="Mobile Mock-up 13" width="300"/>
+
+SECCIÓN PANEL DE TAREAS:
+
+<img src="./assets/chapter-4/mobile_mockup14.png" alt="Mobile Mock-up 14" width="300"/>
+
+SECCIÓN VER DETALLES DE LAS TAREAS
+
+<img src="./assets/chapter-4/mobile_mockup15.png" alt="Mobile Mock-up 15" width="300"/>
+
+SECCION CREAR NUEVAS TAREAS 
+
+<img src="./assets/chapter-4/mobile_mockup16.png" alt="Mobile Mock-up 16" width="300"/>
+
+SECCIÓN LISTA DE MIEMBROS: 
+
+<img src="./assets/chapter-4/mobile_mockup17.png" alt="Mobile Mock-up 17" width="300"/>
+
+SECCIÓN ESTADÍSTICAS GENERALES: 
+
+<img src="./assets/chapter-4/mobile_mockup18.png" alt="Mobile Mock-up 18" width="300"/>
+
+
+#### 4.4.4 Mobile Applications User Flow Diagrams
+
+En esta sección se presentan los Mock-ups de las aplicaciones móviles de LearnHive, tanto en su versión para estudiantes como para profesores. El diseño busca garantizar una experiencia intuitiva, accesible y consistente, siguiendo los principios de usabilidad, diseño inclusivo y la arquitectura de información previamente definida. 
+
+User Goal: Inicio de sesión
+
+<img src="./assets/chapter-4/mobile_userflow1.png" alt="Mobile User Flow 1" width="700"/>
+
+User Goal: Creación de cuenta de usuario
+
+<img src="./assets/chapter-4/mobile_userflow2.png" alt="Mobile User Flow 2" width="700"/>
+
+User Goal: Ingreso al perfil del usuario
+
+<img src="./assets/chapter-4/mobile_userflow3.png" alt="Mobile User Flow 3" width="700"/>
+
+User Goal :El estudiante debe responder una tarea
+
+<img src="./assets/chapter-4/mobile_userflow4.png" alt="Mobile User Flow 4" width="700"/>
+
+User Goal: Creación de cursos de parte del profesor
+
+<img src="./assets/chapter-4/mobile_userflow5.png" alt="Mobile User Flow 5" width="700"/>
+
+User Goal: Creación de tareas de parte del profesor
+
+<img src="./assets/chapter-4/mobile_userflow6.png" alt="Mobile User Flow 6" width="700"/>
+
+User Goal: Observar estadísticas de los estudiantes
+
+<img src="./assets/chapter-4/mobile_userflow7.png" alt="Mobile User Flow 7" width="700"/>
+
+### 4.5 Mobile Applications Prototyping
+
+<img src="./assets/chapter-4/mobile_prototyping.png" alt="Mobile Application Prototyping" width="700"/>
+
+Link: [Mobile Application Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/EZ5EEbyLR5BPhGO5tmCZYk4BjbcU5n3j7BJVsHw8f_UnEw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=m3g90L)
+
 #### 4.5.1 Android Mobile Applications Prototyping  
 #### 4.5.2 iOS Mobile Applications Prototyping  
 
