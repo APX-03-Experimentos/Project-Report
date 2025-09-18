@@ -1370,8 +1370,9 @@ Student: Hereda de User
 
 
 ### 4.10 Database Design  
-#### 4.10.1 Relational/Non-Relational Database Diagram  
+#### 4.10.1 Relational/Non-Relational Database Diagram
 
+<img src="./assets/chapter-4/database_diagram.png" alt="Relational Database Diagram" width="700"/>
 
 ## Capítulo V: Product Implementation  
 
