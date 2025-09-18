@@ -379,7 +379,7 @@ En esta parte, daremos a conocer nuestra propuesta para el diseño, estilo y asp
 
 Elegimos un logo distintivo y elegante que representa la esencia de nuestra plataforma como un entorno educativo. Utilizamos la estructura de colmena como símbolo de colaboración y construcción colectiva del conocimiento, mientras que las letras en cursiva evocan la educación tradicional y el aprendizaje humano. La estética de líneas limpias y geométricas aporta un aire técnico y moderno, y el color azul transmite confianza, profesionalismo y serenidad. En conjunto, el logo refleja un espacio donde la comunidad crece unida, compartiendo y generando conocimiento como en una colmena activa.
 
-<img src="./assets/chapter-4/branding.png" alt="Branding" width="600"/>
+<img src="./assets/chapter-4/logo.png" alt="Logo" width="600"/>
 
 **Tipografía**
 
@@ -462,19 +462,33 @@ Logo: El logotipo debe ser claro y fácilmente visible en todo el sitio, conserv
 
 Diseño: La interfaz debe respetar los principios de claridad, profundidad y deferencia de Apple. El diseño debe ser ligero, intuitivo y adaptable a distintos tamaños de pantalla y dispositivos de la gama iOS.
 
-<img src="./assets/chapter-4/diseño.png" alt="Diseño" width="600"/>
+<img src="./assets/chapter-4/diseño_mobile.png" alt="Diseño" width="600"/>
 
 Botones: Los botones deben seguir el estilo nativo de iOS, utilizando bordes redondeados y retroalimentación táctil clara. Los botones principales deben resaltar mediante el color primario definido en la identidad visual, mientras que los secundarios deben mantener un contraste equilibrado sin perder coherencia.
 
-<img src="./assets/chapter-4/botones.png" alt="Botones" width="600"/>
+<img src="./assets/chapter-4/botones_mobile.png" alt="Botones" width="600"/>
 
 Tema: La apariencia general debe alinearse con la identidad de la aplicación, aplicando la paleta de colores definida, tipografía recomendada y manteniendo consistencia en todos los componentes. 
 
-<img src="./assets/chapter-4/tema.png" alt="Tema" width="600"/>
+<img src="./assets/chapter-4/tema_mobile.png" alt="Tema" width="600"/>
 
 Logo: El logotipo debe presentarse siempre con alta resolución en pantallas Retina, conservando sus proporciones y asegurando suficiente contraste con el fondo en el que se muestre.
 
 ##### 4.1.3.2 Android Mobile Style Guidelines  
+
+Diseño: La interfaz debe respetar los principios de Material Design, priorizando la claridad, jerarquía visual y la adaptabilidad a diferentes tamaños y resoluciones de pantalla. El uso de sombras, capas y transiciones debe seguir las guías de Android para ofrecer una experiencia nativa.
+
+<img src="./assets/chapter-4/diseño_mobile.png" alt="Tema" width="600"/>
+
+Botones: Los botones deben seguir el estilo Material, con formas rectangulares o redondeadas según el contexto. Los botones principales deben utilizar el color primario definido en la paleta, y los secundarios deben mantener coherencia con el esquema visual. Los estados de interacción (hover, pressed) deben estar claramente diferenciados. 
+
+<img src="./assets/chapter-4/botones_mobile.png" alt="Botones" width="600"/>
+
+Tema: La apariencia visual debe alinearse con la identidad de la aplicación, aplicando la paleta de colores definida, tipografía recomendada y manteniendo consistencia en todos los elementos.
+
+<img src="./assets/chapter-4/tema_mobile.png" alt="Tema" width="600"/>
+
+Logo: El logotipo debe conservar siempre sus proporciones originales y estar optimizado para pantallas de alta densidad, asegurando legibilidad y contraste en cualquier contexto.
 
 ### 4.2 Information Architecture  
 #### 4.2.1 Organization Systems  
