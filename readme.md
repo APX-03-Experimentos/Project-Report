@@ -106,6 +106,28 @@
 
 # Project Report Collaboration Insights 
 
+| Tipo de Enlace           | URL                                                          |
+|---------------------------|--------------------------------------------------------------|
+| **Repositorio del reporte** | `https://github.com/APX-03-Experimentos/Project-Report` |
+
+Entrega TB1 (18/09/2025):
+
+<img src="./assets/miscellaneous/report_insights1_tb1.png" alt="Insights Report Collaboration Insights TB1" />
+
+<img src="./assets/miscellaneous/report_insights2_tb1.png" alt="Insights Report Collaboration Insights TB1" />
+
+<img src="./assets/miscellaneous/report_insights3_tb1.png" alt="Insights Report Collaboration Insights TB1" />
+
+Para esta primera entrega se desarollaron los capítulos del 1 al 5 y el sprint 1, en imagenes adjuntadas se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
+
+Distribución de commits:
+
+- Alejo Cárdenas, José Antonio: 7 commits
+- Luquillas Asto, Omar: 28 commits
+- Real Calderón, Sebastián Omar: 3 commits
+- Olivera Barzola, Eric Marlon: 7 commits
+
+
 # Contenido  
 
 - [Student Outcome](#student-outcome) → Ver anexo A al final de este documento  
