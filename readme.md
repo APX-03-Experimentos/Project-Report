@@ -370,7 +370,75 @@ Los clientes utilizan LearnHive principalmente a través de un navegador web o u
 ## Capítulo IV: Product Design  
 
 ### 4.1 Style Guidelines  
-#### 4.1.1 General Style Guidelines  
+
+En esta parte, daremos a conocer nuestra propuesta para el diseño, estilo y aspecto visual tanto de la página web como de las secciones de nuestra aplicación. Buscamos ofrecer a los usuarios una experiencia cómoda y sencilla mediante una interfaz clara e intuitiva. Para ello, seleccionamos cuidadosamente elementos visuales que resulten atractivos y agradables, además de definir límites que nos permitan evitar el uso de gráficos que puedan afectar negativamente la estética. 
+
+#### 4.1.1 General Style Guidelines 
+
+**Branding**
+
+Elegimos un logo distintivo y elegante que representa la esencia de nuestra plataforma como un entorno educativo. Utilizamos la estructura de colmena como símbolo de colaboración y construcción colectiva del conocimiento, mientras que las letras en cursiva evocan la educación tradicional y el aprendizaje humano. La estética de líneas limpias y geométricas aporta un aire técnico y moderno, y el color azul transmite confianza, profesionalismo y serenidad. En conjunto, el logo refleja un espacio donde la comunidad crece unida, compartiendo y generando conocimiento como en una colmena activa.
+
+<img src="./assets/chapter-4/branding.png" alt="Chamilo" width="600"/>
+
+**Tipografía**
+
+Open Sans ha sido seleccionada como la fuente principal para todos los textos de la aplicación. Esta tipografía se distingue por su excelente legibilidad y su estilo moderno, lo que garantiza una experiencia de lectura clara y agradable en cualquier dispositivo. 
+
+El tamaño de la fuente se ajusta de manera automática según la pantalla, asegurando una visualización óptima tanto en móviles como en computadoras.
+
+<img src="./assets/chapter-4/tipografia.png" alt="Chamilo" width="600"/>
+
+**Colores**
+
+<img src="./assets/chapter-4/colores.png" alt="Chamilo" width="600"/>
+
+Color Primario: 
+
+Azul Cian (#1DA7F4): Este color es el más predominante en el diseño, utilizado en botones principales, resaltados visuales y líneas de separación. Aporta frescura, confianza y visibilidad, creando una experiencia amigable y dinámica para el usuario. 
+
+Colores Secundarios:
+
+- Azul Marino (#2C87FF): Utilizado en títulos o textos destacados. Añade contraste, profesionalismo y profundidad al diseño. 
+- Azul Muy Claro (#EBF7FE): Funciona como fondo o zonas de descanso visual, aportando claridad sin perder calidez. 
+- Gris Oscuro (#2B2B2B): Utilizado para tipografía y elementos de interfaz. Este color garantiza buena legibilidad. 
+- Azul Suave (#A5D7F4): Aparece en elementos secundarios o de soporte, equilibrando la paleta general.
+
+Texto:
+
+Todos los textos utilizan el color #2B2B2B (Gris Oscuro) para asegurar un alto contraste y una lectura fluida sobre fondos claros. La tipografía empleada en toda la aplicación es Open Sans, una fuente legible, moderna y profesional.
+
+Botones:
+
+Los botones siguen un sistema de color funcional: 
+
+- Botones de Acción Principal 
+Fondo: #1DA7F4 (Azul Cian)
+Texto: Blanco (#FFFFFF) 
+Hover: El fondo se oscurece ligeramente (#1783BD) para reforzar la retroalimentación visual. 
+
+- Botones de Acción Secundaria
+Fondo: Blanco (#FFFFFF) con borde y texto en #1DA7F4
+Hover: Puede invertirse el color de fondo y texto o intensificar el borde para marcar interacción. 
+
+Formularios:
+
+Los campos de texto siguen un diseño simple con líneas delimitadoras delgadas. 
+Indicadores como el tiempo, la señal y los íconos del sistema están incluidos para crear una maqueta realista. 
+
+Íconos y Sistema Visual:
+
+Los íconos siguen un estilo de línea simple, usando colores oscuros (#2B2B2B) y están inspirados en la librería Vuesax. 
+Están diseñados para facilitar la comprensión sin sobrecargar la interfaz. 
+
+Estados de Hover:
+
+Cuando el usuario interactúa con botones o íconos, los colores de fondo se intensifican levemente, mejorando la experiencia visual y confirmando la acción. 
+
+**Espaciado y Distribución**
+
+El diseño se basa en un sistema modular de 8px, asegurando alineación precisa y consistencia visual entre todos los elementos.
+
 #### 4.1.2 Web Style Guidelines  
 #### 4.1.3 Mobile Style Guidelines  
 ##### 4.1.3.1 iOS Mobile Style Guidelines  
