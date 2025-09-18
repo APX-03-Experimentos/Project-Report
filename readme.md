@@ -1031,17 +1031,88 @@ User Goal: Observar estadísticas de los estudiantes
 <img src="./assets/chapter-4/mobile_userflow7.png" alt="Mobile User Flow 7" width="700"/>
 
 ### 4.5 Mobile Applications Prototyping
+#### 4.5.1 Android Mobile Applications Prototyping
 
 <img src="./assets/chapter-4/mobile_prototyping.png" alt="Mobile Application Prototyping" width="700"/>
 
 Link: [Mobile Application Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/EZ5EEbyLR5BPhGO5tmCZYk4BjbcU5n3j7BJVsHw8f_UnEw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=m3g90L)
 
-#### 4.5.1 Android Mobile Applications Prototyping  
-#### 4.5.2 iOS Mobile Applications Prototyping  
-
 ### 4.6 Web Applications UX/UI Design  
-#### 4.6.1 Web Applications Wireframes  
-#### 4.6.2 Web Applications Wireflow Diagrams  
+#### 4.6.1 Web Applications Wireframes
+
+En esta sección se presentan los wireframes de la aplicación web de LearnHive, diseñados para proporcionar una visión inicial de la estructura, la distribución de la información y los principales flujos de navegación. Estos wireframes constituyen la base del diseño de alta fidelidad y garantizan la coherencia entre las necesidades de los usuarios 
+
+**LOGIN / REGISTER:**
+
+<img src="./assets/chapter-4/web_wireframe1.png" alt="Web Wireframe 1" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe2.png" alt="Web Wireframe 2" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe3.png" alt="Web Wireframe 3" width="700"/>
+
+**SECCIÓN DE ESTUDIANTES:**
+
+<img src="./assets/chapter-4/web_wireframe4.png" alt="Web Wireframe 4" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe5.png" alt="Web Wireframe 5" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe6.png" alt="Web Wireframe 6" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe7.png" alt="Web Wireframe 7" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe8.png" alt="Web Wireframe 8" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe9.png" alt="Web Wireframe 9" width="700"/>
+
+**SECCIÓN DE PROFESORES:**
+
+<img src="./assets/chapter-4/web_wireframe10.png" alt="Web Wireframe 10" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe11.png" alt="Web Wireframe 11" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe12.png" alt="Web Wireframe 12" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe13.png" alt="Web Wireframe 13" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe14.png" alt="Web Wireframe 14" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe15.png" alt="Web Wireframe 15" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe16.png" alt="Web Wireframe 16" width="700"/>
+
+<img src="./assets/chapter-4/web_wireframe17.png" alt="Web Wireframe 17" width="700"/>
+
+#### 4.6.2 Web Applications Wireflow Diagrams
+
+User Goal: Inicio de Sesión
+
+<img src="./assets/chapter-4/web_wireflow1.png" alt="Web Wireflow 1" width="700"/>
+
+User Goal: Creación de Cuenta 
+
+<img src="./assets/chapter-4/web_wireflow2.png" alt="Web Wireflow 2" width="700"/>
+
+User Goal: Ingreso al perfil del usuario 
+
+<img src="./assets/chapter-4/web_wireflow3.png" alt="Web Wireflow 3" width="700"/>
+
+User Goal: Responder una tarea 
+
+<img src="./assets/chapter-4/web_wireflow4.png" alt="Web Wireflow 4" width="700"/>
+
+User Goal: Creación de cursos del profesor 
+
+<img src="./assets/chapter-4/web_wireflow5.png" alt="Web Wireflow 5" width="700"/>
+
+User Goal: Creación de tareas del profesor 
+
+<img src="./assets/chapter-4/web_wireflow6.png" alt="Web Wireflow 6" width="700"/>
+
+User Goal: Observar las estadísticas de los estudiantes 
+
+<img src="./assets/chapter-4/web_wireflow7.png" alt="Web Wireflow 7" width="700"/>
+
+
 #### 4.6.3 Web Applications Mock-ups  
 #### 4.6.4 Web Applications User Flow Diagrams  
 
