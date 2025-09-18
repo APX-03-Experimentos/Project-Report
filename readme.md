@@ -606,7 +606,85 @@ Para el Estudiante:
 - Testimonios o Experiencias (US-024): Comunica inmediatamente que son opiniones de usuarios reales. 
 - Conoce al Equipo (US-022) / Cómo Funciona (US-025): Etiquetas amigables y que invitan a hacer clic.
 
-#### 4.2.3 SEO Tags and Meta Tags  
+#### 4.2.3 SEO Tags and Meta Tags
+
+
+**Landing:**
+
+`<title>`: LearnHive by APX-4 | Plataforma de Gestión Educativa para Institutos de Lima 
+
+`<meta name="description">`: LearnHive revoluciona la educación en Perú. Dashboard para profesores que monitorean el progreso de su clase en tiempo real y portal para estudiantes que visualizan su rendimiento. Potencia el éxito académico. 
+
+`<meta name="keywords">`: plataforma educativa, gestión de aulas, dashboard profesores, progreso estudiantes, educación Perú, institutos Lima, analytics educativos, LearnHive, APX-4, tecnología educativa 
+
+`<meta name="author">`: APX-4 
+
+**Web App:**  
+
+
+
+1. Página de Login / Acceso (Común para todos) 
+
+`<title>`: Acceder | LearnHive - Plataforma de Gestión Educativa 
+
+`<meta name="description">`: Inicia sesión en tu cuenta de LearnHive. Accede a tu dashboard para profesores o estudiantes y gestiona tu aprendizaje de forma integral. 
+
+`<meta name="keywords">`: acceso learnhive, login, iniciar sesión, dashboard profesores, portal estudiantes, plataforma educativa perú 
+
+`<meta name="author">`: APX-4 
+
+
+
+2. Dashboard Principal del Profesor 
+
+`<title>`: Dashboard - [Nombre del Instituto] | LearnHive para Profesores 
+(Ej: Dashboard - Instituto Tecnológico Lima Norte | LearnHive para Profesores) 
+
+`<meta name="description">`: Supervisa el progreso de tus cursos en tiempo real, crea grupos y visualiza métricas de desempeño de tu clase con el dashboard de LearnHive. 
+
+`<meta name="keywords">`: dashboard profesor, métricas educativas, progreso del curso, gestión de aulas, analytics profesores, learnhive profesor 
+
+`<meta name="author">`: APX-4 
+
+
+
+3. Dashboard Principal del Estudiante 
+
+`<title>`: Mi Progreso | LearnHive para Estudiantes 
+
+`<meta name="description">`: Revisa tus calificaciones, próximas entregas y compara tu rendimiento con el promedio de la clase. Toma el control de tu aprendizaje con LearnHive. 
+
+`<meta name="keywords">`: progreso académico, calificaciones estudiantes, próximas entregas, rendimiento estudiantil, learnhive estudiante 
+
+`<meta name="author">`: APX-4 
+
+ 
+
+4. Página de Gestión de un Grupo/Curso Específico (Profesor) 
+
+`<title>`: Gestión - [Nombre del Curso] | LearnHive 
+(Ej: Gestión - Matemáticas I | LearnHive) 
+
+`<meta name="description">`: Gestiona el grupo de [Nombre del Curso]. Crear trabajos, invitar estudiantes, revisar entregas y publicar anuncios para tu clase. 
+
+`<meta name="keywords">`: gestión de curso, crear trabajos, invitar estudiantes, revisar entregas, learnhive curso [nombre del curso] 
+
+`<meta name="author">`: APX-4 
+
+
+
+5. Página de Detalle de un Trabajo/Actividad (Estudiante) 
+
+`<title>`: [Nombre del Trabajo] - [Nombre del Curso] | LearnHive 
+(Ej: Práctica Calificada 1 - Matemáticas I | LearnHive) 
+
+`<meta name="description">`: Entrega tu trabajo [Nombre del Trabajo] para el curso [Nombre del Curso]. Consulta la fecha límite, instrucciones y el estado de tu entrega. 
+
+`<meta name="keywords">`: entregar trabajo, [nombre del trabajo], [nombre del curso], fecha límite, estado de entrega, learnhive actividad 
+
+`<meta name="author">`: APX-4
+
+
 #### 4.2.4 Searching Systems  
 #### 4.2.5 Navigation Systems  
 
