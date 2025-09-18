@@ -379,7 +379,7 @@ En esta parte, daremos a conocer nuestra propuesta para el diseño, estilo y asp
 
 Elegimos un logo distintivo y elegante que representa la esencia de nuestra plataforma como un entorno educativo. Utilizamos la estructura de colmena como símbolo de colaboración y construcción colectiva del conocimiento, mientras que las letras en cursiva evocan la educación tradicional y el aprendizaje humano. La estética de líneas limpias y geométricas aporta un aire técnico y moderno, y el color azul transmite confianza, profesionalismo y serenidad. En conjunto, el logo refleja un espacio donde la comunidad crece unida, compartiendo y generando conocimiento como en una colmena activa.
 
-<img src="./assets/chapter-4/branding.png" alt="Chamilo" width="600"/>
+<img src="./assets/chapter-4/branding.png" alt="Branding" width="600"/>
 
 **Tipografía**
 
@@ -387,11 +387,11 @@ Open Sans ha sido seleccionada como la fuente principal para todos los textos de
 
 El tamaño de la fuente se ajusta de manera automática según la pantalla, asegurando una visualización óptima tanto en móviles como en computadoras.
 
-<img src="./assets/chapter-4/tipografia.png" alt="Chamilo" width="600"/>
+<img src="./assets/chapter-4/tipografia.png" alt="Tipografia" width="600"/>
 
 **Colores**
 
-<img src="./assets/chapter-4/colores.png" alt="Chamilo" width="600"/>
+<img src="./assets/chapter-4/colores.png" alt="Colores" width="600"/>
 
 Color Primario: 
 
@@ -439,8 +439,25 @@ Cuando el usuario interactúa con botones o íconos, los colores de fondo se int
 
 El diseño se basa en un sistema modular de 8px, asegurando alineación precisa y consistencia visual entre todos los elementos.
 
-#### 4.1.2 Web Style Guidelines  
-#### 4.1.3 Mobile Style Guidelines  
+#### 4.1.2 Web Style Guidelines
+
+Diseño: El diseño tiene que ser claro, actual y adaptable, asegurando una correcta visualización y funcionalidad en cualquier tipo de dispositivo.
+
+<img src="./assets/chapter-4/diseño.png" alt="Diseño" width="600"/>
+
+Botones: Los botones, tanto principales como secundarios, deben resaltar de forma clara utilizando una paleta de colores uniforme y coherente.
+
+<img src="./assets/chapter-4/botones.png" alt="Botones" width="600"/>
+
+Tema: La apariencia visual debe alinearse con la identidad de la aplicación, haciendo uso de los colores previamente definidos. 
+
+<img src="./assets/chapter-4/tema.png" alt="Tema" width="600"/>
+
+Logo: El logotipo debe ser claro y fácilmente visible en todo el sitio, conservando siempre sus proporciones originales.
+
+<img src="./assets/chapter-4/logo.png" alt="Logo" width="600"/>
+
+#### 4.1.3 Mobile Style Guidelines
 ##### 4.1.3.1 iOS Mobile Style Guidelines  
 ##### 4.1.3.2 Android Mobile Style Guidelines  
 
