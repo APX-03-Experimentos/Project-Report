@@ -1179,7 +1179,7 @@ Distribución de commits:
 
 <img src="./assets/chapter-5/backend_insights1.png" alt="Team Collaboration Insights" width="700"/>
 
-<img src="./assets/chapter-5/backend_insights1.png" alt="Team Collaboration Insights" width="700"/>
+<img src="./assets/chapter-5/backend_insights2.png" alt="Team Collaboration Insights" width="700"/>
 
 Distribución de commits: 
 
@@ -1187,9 +1187,9 @@ Distribución de commits:
 
 **Frontend:**
 
-<img src="./assets/chapter-5/backend_insights1.png" alt="Team Collaboration Insights" width="700"/>
+<img src="./assets/chapter-5/frontend_insights1.png" alt="Team Collaboration Insights" width="700"/>
 
-<img src="./assets/chapter-5/backend_insights1.png" alt="Team Collaboration Insights" width="700"/>
+<img src="./assets/chapter-5/frontend_insights2.png" alt="Team Collaboration Insights" width="700"/>
 
 Distribución de commits: 
 
@@ -1197,6 +1197,9 @@ Distribución de commits:
 
 ### 5.3 Video About-the-Product  
 
+<img src="./assets/chapter-5/learnhive_about_the_product.png" alt="About the Product" width="700"/>
+
+Link del Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/EatCmU9KviNPj0JlGXsLnBkBCz_wkenwhK9ttOvAP56Dfw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZIWNtu
 
 # Part II: Verification, Validation & Pipeline  
 
