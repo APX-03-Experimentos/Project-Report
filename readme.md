@@ -540,7 +540,15 @@ Los clientes utilizan LearnHive principalmente a través de un navegador web o u
 
 
 # Conclusiones  
-## Conclusiones y recomendaciones  
+## Conclusiones y recomendaciones 
+El desarrollo del proyecto logró la definición inicial con User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y As-is Scenario Mapping, hasta la especificación de requisitos con To-Be Scenario Mapping, User Stories, Product Backlog e Impact Mapping por lo que el proyecto permitió cubrir de manera integral la investigación, definición de requisitos, diseño y prototipado de las soluciones digitales, asegurando coherencia entre la experiencia del usuario y la arquitectura técnica. Se logró evidenciar un trabajo colaborativo y organizado que facilitó avanzar desde la ideación hasta la implementación inicial del producto, desarrollando tanto el frontend como el backend de forma funcional y alineada con los objetivos planteados.
+
+**Punto de mejora**
+
+Es necesario mejorar el uso del tiempo en las etapas de diseño y validación. También es profundizar en pruebas de usabilidad para garantizar una mejor experiencia del usuario
+Incrementar la documentación técnica en la arquitectura de componentes para facilitar futuras ampliaciones.
+Optimizar la gestión de los Sprint Backlogs para priorizar mejor las tareas críticas
+
 ## Video App Validation
 ## Video About-the-Team
 
