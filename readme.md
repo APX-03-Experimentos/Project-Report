@@ -1098,7 +1098,69 @@ Courses conjuntos académicos donde se organizan estudiantes, profesores, tareas
 
 <img src="./assets/chapter-5/backend_evidence5.png" alt="Backend Evidence" width="700"/>
 
-#### 5.2.6 RESTful API Documentation  
+#### 5.2.6 RESTful API Documentation
+
+<table>
+  <thead>
+    <tr>
+      <th>Tag</th>
+      <th>Verbo HTTP</th>
+      <th>Endpoint</th>
+      <th>Summary</th>
+      <th>Description</th>
+      <th>OperationId</th>
+      <th>Parameters</th>
+      <th>Request body</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- USERS -->
+    <tr><td>Users</td><td>GET</td><td>/api/v1/users</td><td>List</td><td>Get all users</td><td>users_list</td><td>-</td><td>no</td></tr>
+    <tr><td>Users</td><td>PUT</td><td>/api/v1/users</td><td>Update</td><td>Update a user</td><td>users_update</td><td>-</td><td>yes</td></tr>
+    <tr><td>Users</td><td>GET</td><td>/api/v1/users/{userId}</td><td>Get</td><td>Get a user by ID</td><td>users_get_by_id</td><td>{userId}</td><td>no</td></tr>
+    <tr><td>Users</td><td>DELETE</td><td>/api/v1/users/{userId}</td><td>Delete</td><td>Delete a user</td><td>users_delete</td><td>{userId}</td><td>no</td></tr>
+    <tr><td>Users</td><td>GET</td><td>/api/v1/users/me</td><td>Get</td><td>Get current authenticated user</td><td>users_get_me</td><td>-</td><td>no</td></tr>
+    <tr><td>Users</td><td>GET</td><td>/api/v1/users/group/{courseId}</td><td>List</td><td>Get users by course ID</td><td>users_by_course</td><td>{courseId}</td><td>no</td></tr>
+    <tr><td>Users</td><td>GET</td><td>/api/v1/users/email/{userName}</td><td>Get</td><td>Get a user by user name</td><td>users_get_by_username</td><td>{userName}</td><td>no</td></tr>
+    <tr><td>Users</td><td>DELETE</td><td>/api/v1/users/leave/{courseId}</td><td>Delete</td><td>Leave a course</td><td>users_leave_course</td><td>{courseId}</td><td>no</td></tr>
+    <!-- SUBMISSIONS -->
+    <tr><td>Submissions</td><td>GET</td><td>/api/v1/submissions/{submissionId}</td><td>Get</td><td>Get a submission by ID</td><td>submissions_get_by_id</td><td>{submissionId}</td><td>no</td></tr>
+    <tr><td>Submissions</td><td>PUT</td><td>/api/v1/submissions/{submissionId}</td><td>Update</td><td>Update a submission</td><td>submissions_update</td><td>{submissionId}</td><td>yes</td></tr>
+    <tr><td>Submissions</td><td>DELETE</td><td>/api/v1/submissions/{submissionId}</td><td>Delete</td><td>Delete a submission</td><td>submissions_delete</td><td>{submissionId}</td><td>no</td></tr>
+    <tr><td>Submissions</td><td>PUT</td><td>/api/v1/submissions/{submissionId}/grade</td><td>Update</td><td>Grade a submission</td><td>submissions_grade</td><td>{submissionId}</td><td>yes</td></tr>
+    <tr><td>Submissions</td><td>GET</td><td>/api/v1/submissions</td><td>List</td><td>Get all submissions</td><td>submissions_list</td><td>-</td><td>no</td></tr>
+    <tr><td>Submissions</td><td>POST</td><td>/api/v1/submissions</td><td>Create</td><td>Create a new submission</td><td>submissions_create</td><td>-</td><td>yes</td></tr>
+    <tr><td>Submissions</td><td>GET</td><td>/api/v1/submissions/students/{studentId}/assignments/{assignmentId}</td><td>Get</td><td>Get submissions by studentId and assignmentId</td><td>submissions_by_student_assignment</td><td>{studentId}, {assignmentId}</td><td>no</td></tr>
+    <tr><td>Submissions</td><td>GET</td><td>/api/v1/submissions/student/{studentId}</td><td>List</td><td>Get submissions by studentId</td><td>submissions_by_student</td><td>{studentId}, {courseId}</td><td>no</td></tr>
+    <tr><td>Submissions</td><td>GET</td><td>/api/v1/submissions/student/{studentId}/group/{courseId}</td><td>List</td><td>Get submissions by studentId and courseId</td><td>submissions_by_student_course</td><td>{studentId}, {courseId}</td><td>no</td></tr>
+    <tr><td>Submissions</td><td>GET</td><td>/api/v1/submissions/course/{courseId}</td><td>List</td><td>Get submissions by courseId</td><td>submissions_by_course</td><td>{courseId}</td><td>no</td></tr>
+    <tr><td>Submissions</td><td>GET</td><td>/api/v1/submissions/assignment/{assignmentId}</td><td>List</td><td>Get submissions by assignmentId</td><td>submissions_by_assignment</td><td>{assignmentId}</td><td>no</td></tr>
+    <!-- COURSES -->
+    <tr><td>Courses</td><td>GET</td><td>/api/v1/courses/{id}</td><td>Get</td><td>Get course by ID</td><td>courses_get_by_id</td><td>{id}</td><td>no</td></tr>
+    <tr><td>Courses</td><td>PUT</td><td>/api/v1/courses/{id}</td><td>Update</td><td>Update a course</td><td>courses_update</td><td>{id}</td><td>yes</td></tr>
+    <tr><td>Courses</td><td>DELETE</td><td>/api/v1/courses/{id}</td><td>Delete</td><td>Delete a course</td><td>courses_delete</td><td>{id}</td><td>no</td></tr>
+    <tr><td>Courses</td><td>PUT</td><td>/api/v1/courses/{courseId}/join-code</td><td>Update</td><td>Set course join</td><td>courses_set_join_code</td><td>{courseId}</td><td>yes</td></tr>
+    <tr><td>Courses</td><td>GET</td><td>/api/v1/courses</td><td>List</td><td>Get all courses</td><td>courses_list</td><td>-</td><td>no</td></tr>
+    <tr><td>Courses</td><td>POST</td><td>/api/v1/courses</td><td>Create</td><td>Create a course</td><td>courses_create</td><td>-</td><td>yes</td></tr>
+    <tr><td>Courses</td><td>GET</td><td>/api/v1/courses/teacher</td><td>List</td><td>Get courses by teacher ID</td><td>courses_by_teacher</td><td>-</td><td>no</td></tr>
+    <tr><td>Courses</td><td>GET</td><td>/api/v1/courses/student</td><td>List</td><td>Get courses by student ID</td><td>courses_by_student</td><td>-</td><td>no</td></tr>
+    <tr><td>Courses</td><td>GET</td><td>/api/v1/courses/join/{key}</td><td>Join</td><td>Join a course via join code</td><td>courses_join</td><td>{key}</td><td>no</td></tr>
+    <tr><td>Courses</td><td>DELETE</td><td>/api/v1/courses/{courseId}/students/{studentId}</td><td>Delete</td><td>Kick student from course</td><td>courses_kick_student</td><td>{courseId}, {studentId}</td><td>no</td></tr>
+    <!-- ASSIGNMENTS -->
+    <tr><td>Assignments</td><td>GET</td><td>/api/v1/assignments/{assignmentId}</td><td>Get</td><td>Get assignment by ID</td><td>assignments_get_by_id</td><td>{assignmentId}</td><td>no</td></tr>
+    <tr><td>Assignments</td><td>PUT</td><td>/api/v1/assignments/{assignmentId}</td><td>Update</td><td>Update an existing assignment</td><td>assignments_update</td><td>{assignmentId}</td><td>yes</td></tr>
+    <tr><td>Assignments</td><td>POST</td><td>/api/v1/assignments/{assignmentId}</td><td>Delete</td><td>Delete an assignment</td><td>assignments_delete</td><td>{assignmentId}</td><td>no</td></tr>
+    <tr><td>Assignments</td><td>GET</td><td>/api/v1/assignments</td><td>List</td><td>Get all assignments</td><td>assignments_list</td><td>-</td><td>no</td></tr>
+    <tr><td>Assignments</td><td>POST</td><td>/api/v1/assignments</td><td>Create</td><td>Create a new assignment</td><td>assignments_create</td><td>-</td><td>yes</td></tr>
+    <tr><td>Assignments</td><td>GET</td><td>/api/v1/assignments/course/{courseId}</td><td>List</td><td>Get assignments by course ID</td><td>assignments_by_course</td><td>{courseId}</td><td>no</td></tr>
+    <!-- AUTHENTICATION -->
+    <tr><td>Authentication</td><td>POST</td><td>/api/v1/authentication/sign-up</td><td>Sign-up</td><td>Register new user</td><td>auth_sign_up</td><td>-</td><td>yes</td></tr>
+    <tr><td>Authentication</td><td>POST</td><td>/api/v1/authentication/sign-in</td><td>Sign-in</td><td>Sign in user</td><td>auth_sign_in</td><td>-</td><td>yes</td></tr>
+    <tr><td>Authentication</td><td>OPTIONS</td><td>/api/v1/authentication/**</td><td>Options</td><td>Authentication options (CORS support)</td><td>auth_options</td><td>-</td><td>no</td></tr>
+    <tr><td>Roles</td><td>GET</td><td>/api/v1/roles</td><td>List</td><td>Get all roles</td><td>roles_list</td><td>-</td><td>no</td></tr>
+  </tbody>
+</table>
+
 #### 5.2.7 Team Collaboration Insights
 
 ### 5.3 Video About-the-Product  
