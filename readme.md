@@ -773,9 +773,53 @@ Menú Hamburguesa (Navigation Drawer): Para acceder a secciones menos críticas 
 
 Gestos: Se aprovechan los gestos nativos como deslizar hacia atrás para volver a la pantalla anterior.
 
-### 4.3 Landing Page UI Design  
-#### 4.3.1 Landing Page Wireframe  
-#### 4.3.2 Landing Page Mock-up  
+### 4.3 Landing Page UI Design
+
+La propuesta de la Landing Page de LearnHive se construye bajo una arquitectura clara y sencilla, organizada en secciones que responden a las expectativas de estudiantes y docentes de institutos. El diseño traduce las decisiones de arquitectura de información en una experiencia fluida y persuasiva, resaltando los valores de confianza, innovación y accesibilidad de la plataforma.
+
+#### 4.3.1 Landing Page Wireframe
+
+**Versión Desktop Web Browser**
+
+En el wireframe de escritorio, la estructura se organiza en un formato amplio con navegación principal ubicada en el header superior, incluyendo enlaces clave y un botón de llamada a la acción. El área central está reservada para un título destacado, texto descriptivo. El contenido sigue un flujo descendente con secciones apiladas: explicación de cómo funciona, visión y misión, equipo, testimonios y un footer sencillo al final.
+
+<img src="./assets/chapter-4/landing_wireframe1.png" alt="Landing Page Wireframe 1" width="700"/>
+<img src="./assets/chapter-4/landing_wireframe2.png" alt="Landing Page Wireframe 2" width="700"/>
+<img src="./assets/chapter-4/landing_wireframe3.png" alt="Landing Page Wireframe 3" width="700"/>
+
+**Versión Mobile Web Browser**
+
+En el wireframe móvil, la disposición se adapta al formato vertical con navegación compacta en un menú hamburguesa. La jerarquía de secciones se presenta en un scroll continuo, con bloques de una sola columna que muestran título, texto y acciones de forma clara. Los botones principales se destacan en mayor tamaño para facilitar la interacción táctil, manteniendo un flujo sencillo hacia el contacto o registro.
+
+<img src="./assets/chapter-4/landing_wireframe4.png" alt="Landing Page Wireframe 4" width="700"/>
+<img src="./assets/chapter-4/landing_wireframe5.png" alt="Landing Page Wireframe 5" width="700"/>
+
+MENÚ DE HAMBURGUESA:
+
+<img src="./assets/chapter-4/landing_wireframe6.png" alt="Landing Page Wireframe 6" width="700"/>
+
+#### 4.3.2 Landing Page Mock-up
+
+**Versión Desktop Web Browser** 
+
+En la versión para navegadores de escritorio, el diseño se presenta en un formato amplio y estructurado que aprovecha el espacio horizontal. La navegación principal se ubica en el header superior, con opciones claras y un botón de llamada a la acción resaltado. 
+La sección principal (hero) utiliza tipografía de gran tamaño y contraste alto para asegurar legibilidad, acompañada de una ilustración de la plataforma. 
+La arquitectura de información sigue un flujo descendente: cómo funciona, visión y misión, equipo y finalmente opiniones de usuarios, cerrando con un footer minimalista. 
+
+<img src="./assets/chapter-4/landing_mockup1.png" alt="Landing Page Mock-up 1" width="700"/>
+<img src="./assets/chapter-4/landing_mockup2.png" alt="Landing Page Mock-up 2" width="700"/>
+<img src="./assets/chapter-4/landing_mockup3.png" alt="Landing Page Mock-up 3" width="700"/>
+
+**Versión Mobile Web Browser**
+
+En la versión móvil, el diseño se adapta al formato vertical con un enfoque en la simplicidad y accesibilidad táctil. El menú de navegación se convierte en un menú hamburguesa para ahorrar espacio, y los botones de acción son más grandes y fáciles de presionar con el dedo.
+
+<img src="./assets/chapter-4/landing_mockup4.png" alt="Landing Page Mock-up 4" width="700"/>
+<img src="./assets/chapter-4/landing_mockup5.png" alt="Landing Page Mock-up 5" width="700"/>
+
+MENÚ DE HAMBURGUESA:
+
+<img src="./assets/chapter-4/landing_mockup6.png" alt="Landing Page Mock-up 6" width="700"/>
 
 ### 4.4 Mobile Applications UX/UI Design  
 #### 4.4.1 Mobile Applications Wireframes  
