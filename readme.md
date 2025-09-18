@@ -3048,12 +3048,162 @@ Courses conjuntos académicos donde se organizan estudiantes, profesores, tareas
 
 
 # Conclusiones  
-## Conclusiones y recomendaciones  
-## Video App Validation  
-## Video About-the-Team  
+## Conclusiones y recomendaciones 
+El desarrollo del proyecto logró la definición inicial con User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y As-is Scenario Mapping, hasta la especificación de requisitos con To-Be Scenario Mapping, User Stories, Product Backlog e Impact Mapping por lo que el proyecto permitió cubrir de manera integral la investigación, definición de requisitos, diseño y prototipado de las soluciones digitales, asegurando coherencia entre la experiencia del usuario y la arquitectura técnica. Se logró evidenciar un trabajo colaborativo y organizado que facilitó avanzar desde la ideación hasta la implementación inicial del producto, desarrollando tanto el frontend como el backend de forma funcional y alineada con los objetivos planteados.
+
+**Punto de mejora**
+
+Es necesario mejorar el uso del tiempo en las etapas de diseño y validación. También es profundizar en pruebas de usabilidad para garantizar una mejor experiencia del usuario
+Incrementar la documentación técnica en la arquitectura de componentes para facilitar futuras ampliaciones.
+Optimizar la gestión de los Sprint Backlogs para priorizar mejor las tareas críticas
+
+## Video App Validation
+## Video About-the-Team
 
 
 # Bibliografía  
 
+44% de alumnos de colegios públicos considera insuficiente el medio virtual usado para dictado de clases “Aprendo en casa”. (s. f.). Noticias - Contraloría General de la República - Plataforma del Estado Peruano.[https://www.gob.pe/institucion/contraloria/noticias/575068-44-de-alumnos-de-colegios-publicos-considera-insuficiente-medio-virtual-usado-para-dictado-de-clases-aprendo-en-casa](https://www.gob.pe/institucion/contraloria/noticias/575068-44-de-alumnos-de-colegios-publicos-considera-insuficiente-medio-virtual-usado-para-dictado-de-clases-aprendo-en-casa) 
+ 
+GitHub. (2023). Getting started with GitHub Pages. GitHub Docs.[https://docs.github.com/en/pages/getting-started-with-github-pages](https://docs.github.com/en/pages/getting-started-with-github-pages)
 
-# Anexos  
+Vercel, Inc. (2023). Deploying with Vercel. Vercel Documentation.[https://vercel.com/docs](https://vercel.com/docs) 
+
+Render. (2023). Web Services. Render Documentation.[https://render.com/docs/web-services](https://render.com/docs/web-services)
+
+Apache Maven Project. (2023). Spring Boot Maven Plugin. Apache Maven Documentation.[https://spring.io/guides/gs/spring-boot/](https://spring.io/guides/gs/spring-boot/)
+ 
+Google. (2023). Google HTML/CSS Style Guide. Google GitHub Repository.[https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)
+
+Google. (2023). Google JavaScript Style Guide. Google GitHub Repository.[https://google.github.io/styleguide/jsguide.html](https://google.github.io/styleguide/jsguide.html)
+
+Google. (2023). Google TypeScript Style Guide. Google GitHub Repository.[https://google.github.io/styleguide/tsguide.html](https://google.github.io/styleguide/tsguide.html)
+
+Google. (2023). Google Java Style Guide. Google GitHub Repository.[https://google.github.io/styleguide/javaguide.html](https://google.github.io/styleguide/javaguide.html)
+
+Cucumber.io. (2023). Gherkin Reference. Cucumber Documentation.[https://cucumber.io/docs/gherkin/reference/](https://cucumber.io/docs/gherkin/reference/)
+
+Google. (2023). Angular Style Guide. Angular Documentation.[https://angular.io/guide/styleguide](https://angular.io/guide/styleguide)
+ 
+The Spring Foundation. (2023). Spring Boot Reference Documentation.[https://docs.spring.io/spring-boot/docs/current/reference/html/](https://docs.spring.io/spring-boot/docs/current/reference/html/)
+ 
+GitHub. (2023). GitHub Documentation.[https://docs.github.com/en](https://docs.github.com/en) 
+
+Driessen, V. (2010). A successful Git branching model. nvie.com.[https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)
+
+Preston-Werner, T. (2013). Semantic Versioning 2.0.0. Semantic Versioning Specification.[https://semver.org/](https://semver.org/) 
+
+Conventional Commits. (2023). Conventional Commits 1.0.0.[https://www.conventionalcommits.org/en/v1.0.0/](https://www.conventionalcommits.org/en/v1.0.0/)
+ 
+Microsoft. (2023). OneDrive.[https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage) 
+
+Figma, Inc. (2023). Figma: The collaborative interface design tool.[https://www.figma.com/](https://www.figma.com/)
+
+GitHub, Inc. (2023). GitHub Documentation.[https://docs.github.com/en](https://docs.github.com/en)
+
+JetBrains. (2023). WebStorm: The smartest JavaScript IDE.[https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/)
+
+Postman, Inc. (2023). Postman API Platform.[https://www.postman.com/](https://www.postman.com/)
+
+Vercel, Inc. (2023). Vercel Documentation.[https://vercel.com/docs](https://vercel.com/docs)
+
+GitHub, Inc. (2023). GitHub Pages.[https://docs.github.com/en/pages](https://docs.github.com/en/pages)
+
+Render. (2023). Render Documentation.[https://render.com/docs](https://render.com/docs) 
+
+Microsoft. (2023). Visual Studio Code.[https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+
+# Anexos
+Lean UX Canvas:
+
+[Link Lean UX Canvas]()    
+
+User Personas:   
+
+[User Persona-Olivia Perez ](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/Ebkt1UX2kDNDsiVq9aqYxB8Bw0DbT0V3acQVIjpdRDn87Q?e=kO7MnL) 
+
+[User Persona-Adrian Espinoza](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EaicpbDy5YtBg7oslGX3YjUBVImyqEjJCDM09kfWWnw1wQ?e=mMLQEe)  
+
+ 
+
+User Journey Mapping: 
+
+[User Journey Mapping Estudiante de Instituto](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EZxSrMguUl5ClXmjvRcr1rwBOC6XIFibIocpTtDlYlATfw?e=x7iCud) 
+
+[User Journey Mapping Profesor de Instituto](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EbaLdeJXriFLlbdpcErTCNEB1RMOYecsgxH02W34-h4zyw?e=OY1O2k) 
+
+ 
+
+Empathy Maps:   
+
+[Olivia Perez- Empathy Map](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EcsKJDCQCldKgIK8bVD0cLoBEthORdYgQ_r7rj8Y2AquMg?e=j2Ocha)  
+
+[Adrian Espinoza- Empathy Map](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/Ec_iUEq2wL9NkH784BT6FdEBE0zq0rQmNfdRq0BMnMZUiw?e=qr4sch)  
+
+  
+As-Is Scenario Mapping:   
+
+[Olivia Perez-As-Is](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/Ea-6qcLtt7xCuG1G5VzBynEBtHuqfurCCVjQ_SD_4kmqog?e=RESdsb)  
+
+[Adrian Espinoza-As-is](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EfjzlTw2Ai9NjGxbMRyf1KkBzbb7o_VnrgnIhIxoDF3P5w?e=fYue44) 
+
+ 
+
+Impact Map:
+
+[Link Impact Map](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EXBkaPFNadZEjs4-7X0PoZIBu4AKJWfjEkrYMv4m51I6-w?e=COTIZ7)  
+
+  
+To-be Scenario Mapping:  
+
+[Estudiante de instituto- To-Be](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EddqMdRSZG5BlKYh5gtKny8BPVBuuLihBiaqEVya_vLMyg?e=MkeQE9)  
+
+[Profesor de instituto-To-Be](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EUzBKaJFcWJJhnSVKEbI5xkBVDJCxoCDSoALCRnsEvFFKw?e=2lGNQv) 
+
+
+Diagrams:
+
+[Software Architecture Context Diagram](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EZbxI1tImpdKmPilRCK02QABa7RlOUPw809D4KsMc6RTXg?e=k4v0Uc) 
+
+[Software Architecture Container Diagram](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EfeTaJbKv5xOmF0VTQvSLAABY6xx39RVzQFvJIaFHeJR8w?e=S89eP1) 
+
+[Software Architecture Component Diagram - IAM](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EeYgLDC7nDFErhintHDqjesBgCHyuw5UBCgiucuTrX-I2Q?e=48Uuwo) 
+
+[Software Architecture Component Diagram - Group Management](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EW7ZOt6TcCdAsImmzXvH0rIBcRHh6RuTP42oRbHmrktmbg?e=XYoMmk)
+
+[Software Architecture Component Diagram - Assignments Management](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EQB6ZP3sJrdIkFwgrhwl8scBRwQwQ18ufJTjATExbB93Cw?e=VgOowM)
+
+[Software Architecture Component Diagram - Analytics](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/ET1BxuTPctNNgvPxRmRkb0YBvjZfG_mBDOSZ_8uPN3HiqQ?e=q5mteA)
+
+[Software Architecture Component Diagram - Messaging](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/ET_sjIvrUB9NsGPPbYIAUWIBSEbPvx8ViVxiNznM_1HKBg?e=PeTyEg)
+
+[Class Diagram](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/ET2irwwrL8FOgN-g8_q6ZdEBoqQ7PvY_wiNR3PKO1kqRiw?e=IaSS4s)
+
+[Database Diagram](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/Ed1TcZhjQzhDpVtk2po80c8BSW9X6FsEW5NvxGVoWo6wgg?e=cbccs9)
+
+ 
+
+Style Guidelines:
+
+[Web Design](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/ERKpABj1hPxNnvtau3b7b24BnccJSuxIfkOjm9LfRnzMxQ?e=nh1TkE) 
+
+[Web Buttons](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/ESmefaKXb3lOoJasZzkpFIQBMNQBqrRsaAISrnN4_pSBMw?e=7or572) 
+
+[Web Themes](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EWYAxGnjH_hNo5NS3aidFAUB7TkdJWlhMEpXGTmg0yTgzQ?e=rqIVTO) 
+
+[iOS Design](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EVHoZbVcOnNIreoJeOgmt8sBMetcVRL0nR9_SIg_oMnN7Q?e=xqBBOX) 
+
+[iOS Buttons](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EXOvZ6bIEFhPqg_FCzaxyyMBXttdPmYYPj46fYNFWyKyCQ?e=e5Tf5c) 
+
+[iOS Themes](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EZTbtADXXAFEm29uGgxlXHMBCM9prQ_Jil5FHbjp0zOAkg?e=wB4v5s) 
+
+[Android Design](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EcWNn1x1YbdMiw_DAMy5x4YBrKMZyq8cFl1GJH8-fQ5BEg?e=CiAPj7) 
+
+[Android Buttons](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EePeT19CCpVDjTj7Lko_LpAB91Kqi8s7fOvbEVMkRdC1aQ?e=TgYB68) 
+
+[Android Themes](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EfmEF19GOahGu3dx-voh5VkBMfn-dBEfOCchGuDGsQEYCw?e=1Eiruy)
+
+Repositorio del report: 
+
+[link del report](https://github.com/APX-03-Experimentos/Project-Report)
