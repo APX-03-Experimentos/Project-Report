@@ -379,7 +379,7 @@ En esta parte, daremos a conocer nuestra propuesta para el diseño, estilo y asp
 
 Elegimos un logo distintivo y elegante que representa la esencia de nuestra plataforma como un entorno educativo. Utilizamos la estructura de colmena como símbolo de colaboración y construcción colectiva del conocimiento, mientras que las letras en cursiva evocan la educación tradicional y el aprendizaje humano. La estética de líneas limpias y geométricas aporta un aire técnico y moderno, y el color azul transmite confianza, profesionalismo y serenidad. En conjunto, el logo refleja un espacio donde la comunidad crece unida, compartiendo y generando conocimiento como en una colmena activa.
 
-<img src="./assets/chapter-4/logo.png" alt="Logo" width="600"/>
+<img src="./assets/chapter-4/logo.png" alt="Logo" width="400"/>
 
 **Tipografía**
 
@@ -387,7 +387,7 @@ Open Sans ha sido seleccionada como la fuente principal para todos los textos de
 
 El tamaño de la fuente se ajusta de manera automática según la pantalla, asegurando una visualización óptima tanto en móviles como en computadoras.
 
-<img src="./assets/chapter-4/tipografia.png" alt="Tipografia" width="600"/>
+<img src="./assets/chapter-4/tipografia.png" alt="Tipografia" width="400"/>
 
 **Colores**
 
@@ -443,34 +443,34 @@ El diseño se basa en un sistema modular de 8px, asegurando alineación precisa 
 
 Diseño: El diseño tiene que ser claro, actual y adaptable, asegurando una correcta visualización y funcionalidad en cualquier tipo de dispositivo.
 
-<img src="./assets/chapter-4/diseño.png" alt="Diseño" width="600"/>
+<img src="./assets/chapter-4/diseño.png" alt="Diseño" width="400"/>
 
 Botones: Los botones, tanto principales como secundarios, deben resaltar de forma clara utilizando una paleta de colores uniforme y coherente.
 
-<img src="./assets/chapter-4/botones.png" alt="Botones" width="600"/>
+<img src="./assets/chapter-4/botones.png" alt="Botones" width="400"/>
 
 Tema: La apariencia visual debe alinearse con la identidad de la aplicación, haciendo uso de los colores previamente definidos. 
 
-<img src="./assets/chapter-4/tema.png" alt="Tema" width="600"/>
+<img src="./assets/chapter-4/tema.png" alt="Tema" width="400"/>
 
 Logo: El logotipo debe ser claro y fácilmente visible en todo el sitio, conservando siempre sus proporciones originales.
 
-<img src="./assets/chapter-4/logo.png" alt="Logo" width="600"/>
+<img src="./assets/chapter-4/logo.png" alt="Logo" width="400"/>
 
 #### 4.1.3 Mobile Style Guidelines
 ##### 4.1.3.1 iOS Mobile Style Guidelines
 
 Diseño: La interfaz debe respetar los principios de claridad, profundidad y deferencia de Apple. El diseño debe ser ligero, intuitivo y adaptable a distintos tamaños de pantalla y dispositivos de la gama iOS.
 
-<img src="./assets/chapter-4/diseño_mobile.png" alt="Diseño" width="600"/>
+<img src="./assets/chapter-4/diseño_mobile.png" alt="Diseño" width="400"/>
 
 Botones: Los botones deben seguir el estilo nativo de iOS, utilizando bordes redondeados y retroalimentación táctil clara. Los botones principales deben resaltar mediante el color primario definido en la identidad visual, mientras que los secundarios deben mantener un contraste equilibrado sin perder coherencia.
 
-<img src="./assets/chapter-4/botones_mobile.png" alt="Botones" width="600"/>
+<img src="./assets/chapter-4/botones_mobile.png" alt="Botones" width="400"/>
 
 Tema: La apariencia general debe alinearse con la identidad de la aplicación, aplicando la paleta de colores definida, tipografía recomendada y manteniendo consistencia en todos los componentes. 
 
-<img src="./assets/chapter-4/tema_mobile.png" alt="Tema" width="600"/>
+<img src="./assets/chapter-4/tema_mobile.png" alt="Tema" width="400"/>
 
 Logo: El logotipo debe presentarse siempre con alta resolución en pantallas Retina, conservando sus proporciones y asegurando suficiente contraste con el fondo en el que se muestre.
 
@@ -478,20 +478,83 @@ Logo: El logotipo debe presentarse siempre con alta resolución en pantallas Ret
 
 Diseño: La interfaz debe respetar los principios de Material Design, priorizando la claridad, jerarquía visual y la adaptabilidad a diferentes tamaños y resoluciones de pantalla. El uso de sombras, capas y transiciones debe seguir las guías de Android para ofrecer una experiencia nativa.
 
-<img src="./assets/chapter-4/diseño_mobile.png" alt="Tema" width="600"/>
+<img src="./assets/chapter-4/diseño_mobile.png" alt="Tema" width="400"/>
 
 Botones: Los botones deben seguir el estilo Material, con formas rectangulares o redondeadas según el contexto. Los botones principales deben utilizar el color primario definido en la paleta, y los secundarios deben mantener coherencia con el esquema visual. Los estados de interacción (hover, pressed) deben estar claramente diferenciados. 
 
-<img src="./assets/chapter-4/botones_mobile.png" alt="Botones" width="600"/>
+<img src="./assets/chapter-4/botones_mobile.png" alt="Botones" width="400"/>
 
 Tema: La apariencia visual debe alinearse con la identidad de la aplicación, aplicando la paleta de colores definida, tipografía recomendada y manteniendo consistencia en todos los elementos.
 
-<img src="./assets/chapter-4/tema_mobile.png" alt="Tema" width="600"/>
+<img src="./assets/chapter-4/tema_mobile.png" alt="Tema" width="400"/>
 
 Logo: El logotipo debe conservar siempre sus proporciones originales y estar optimizado para pantallas de alta densidad, asegurando legibilidad y contraste en cualquier contexto.
 
-### 4.2 Information Architecture  
-#### 4.2.1 Organization Systems  
+### 4.2 Information Architecture
+#### 4.2.1 Organization Systems
+
+El sistema de organización de LearnHive se diseña en torno a dos roles principales (Profesor y Estudiante) y se aplica de forma diferente en cada uno de sus dashboards para optimizar sus flujos de trabajo específicos. 
+
+1. Sistemas de Organización  
+
+Esto define la estructura de las pantallas y el flujo de las tareas. 
+
+- Organización Jerárquica (Visual Hierarchy): 
+
+Se observa en todos los dashboards y páginas. Es fundamental para guiar la atención hacia la información más crítica. 
+
+Ejemplos en LearnHive: 
+
+Dashboard del Profesor (US-010, US-011): La métrica global más importante (ej: "Promedio General del Curso: 15.2") será el número más grande y prominente. Las alertas de bajo rendimiento (US-011) usarán colores rojos o amarillos intensos para destacar inmediatamente sobre el resto de la información. 
+
+Dashboard del Estudiante (US-007, US-008): La próxima entrega más urgente (US-007, Escenario 3) tendrá un tamaño, color o icono que la haga imposible de ignorar. La calificación actual o el progreso general (US-008) será el elemento visual principal. 
+
+- Organización Secuencial (Step-by-step): 
+
+Procesos lineales donde el orden es crucial para completar una tarea sin errores. 
+
+Ejemplos en LearnHive: 
+
+Creación de un Grupo (US-002): El flujo será: 1. Hacer clic en "Crear Grupo" -> 2. Llenar formulario (nombre, descripción) -> 3. Confirmar y generar código -> 4. Invitar estudiantes. Este flujo guía al profesor sin desviaciones. 
+
+Proceso de Entrega (US-006): El flujo para el estudiante es: 1. Seleccionar trabajo -> 2. Hacer clic en "Subir entrega" -> 3. Seleccionar archivo -> 4. Confirmar envío. Es un camino claro y sin opciones extra que lo distraigan. 
+
+2. Esquemas de Categorización  
+
+Esto define las "etiquetas" o metadatos que usaremos para clasificar la información. 
+
+- Por Tópicos (o Temático): 
+
+Todo el contenido se organiza naturalmente por Cursos o Grupos. Este es el modo de pensamiento más intuitivo para ambos usuarios ("quiero ver lo de mi curso de Matemáticas"). 
+
+Ejemplos:  
+
+Los trabajos (US-005), los recursos (US-018), los anuncios (US-016) y las métricas (US-008, US-010) están todos anclados a un curso específico. 
+
+- Por Audiencia:  
+
+Al iniciar sesión, el sistema debe redirigir al Dashboard del Profesor o al Dashboard del Estudiante basándose en el rol del usuario. La información y las herramientas presentadas serán completamente diferentes, ya que sus necesidades lo son (crear grupos vs. unirse a grupos; calificar vs. ser calificado). 
+
+- Cronológico: 
+
+Se aplica de forma transversal para dar contexto y urgencia. 
+
+Ejemplos: 
+
+Para el Estudiante (US-007): La lista de "Próximas entregas" está ordenada por fecha límite (cronológico ascendente). El historial de calificaciones (US-014) se puede ordenar por fecha. 
+
+Para el Profesor (US-005): La lista de trabajos creados se puede ordenar por fecha de creación o de entrega. 
+
+Comunicaciones (US-016, US-017): Los anuncios y mensajes se ordenan por fecha de envío (los más recientes primero). 
+
+- Alfabético:
+
+Se aplica en listas donde se necesita encontrar un nombre específico rápidamente. 
+
+Ejemplos:  
+
+La lista de estudiantes dentro de un grupo (US-004) puede ordenarse alfabéticamente por apellido para que el profesor encuentre a alguien fácilmente. La lista de todos los cursos de un estudiante también podría usar este orden.
+
 #### 4.2.2 Labeling Systems  
 #### 4.2.3 SEO Tags and Meta Tags  
 #### 4.2.4 Searching Systems  
