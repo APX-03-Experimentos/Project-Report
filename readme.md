@@ -362,6 +362,19 @@ Los clientes utilizan LearnHive principalmente a través de un navegador web o u
 ## Capítulo III: Requirements Specification  
 
 ### 3.1 To-Be Scenario Mapping  
+
+Segmento Objetivo 1: Estudiantes de institutos 
+
+El To-Be Scenario Mapping de estudiantes muestra cómo LearnHive centraliza materiales, tareas y métricas en un único espacio. Esto elimina la dispersión de canales y reduce la inseguridad en las entregas, ofreciendo confirmación inmediata y dashboards visuales con retroalimentación en tiempo real. El resultado esperado es mayor tranquilidad, motivación y confianza en la gestión de su desempeño académico. 
+
+<img src="./assets/chapter-3/ToBe-Scenario Mapping- Estudiantes de instituto.png" alt="ToBe-Scenario Mapping- Estudiantes de instituto" width="600"/>
+
+Segmento Objetivo 2: Profesores de Institutos 
+
+El To-Be Scenario Mapping de profesores de instituto plantea un futuro en el que LearnHive simplifica la planificación, automatiza parte de la retroalimentación y centraliza la comunicación con los estudiantes. De esta manera, los docentes reducen su carga administrativa, obtienen métricas claras para intervenir oportunamente y sienten alivio, satisfacción y motivación al enfocarse más en la enseñanza que en las tareas manuales. 
+
+<img src="./assets/chapter-3/ToBe-Scenario Mapping- Profesores de instituto.png" alt="ToBe-Scenario Mapping- Profesores de instituto" width="600"/>
+
 ### 3.2 User Stories  
 ### 3.3 Product Backlog  
 ### 3.4 Impact Mapping  
