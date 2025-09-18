@@ -3292,6 +3292,13 @@ Style Guidelines:
 
 [Android Themes](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202122484_upc_edu_pe/EfmEF19GOahGu3dx-voh5VkBMfn-dBEfOCchGuDGsQEYCw?e=1Eiruy)
 
-Repositorio del report: 
 
-[link del report](https://github.com/APX-03-Experimentos/Project-Report)
+Links: 
+
+[Repositorio del Report](https://github.com/APX-03-Experimentos/Project-Report)
+
+[Repositorio del Landing-Page](https://github.com/APX-03-Experimentos/Landing-Page)
+
+[Repositorio del Backend](https://github.com/APX-03-Experimentos/Backend-Web-Services)
+
+[Repositorio del Fronted](https://github.com/APX-03-Experimentos/Frontend-Web-Applications)
