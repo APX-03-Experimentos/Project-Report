@@ -420,7 +420,9 @@ Los clientes utilizan LearnHive principalmente a través de un navegador web o u
 
 ## Capítulo V: Product Implementation  
 
-### 5.1 Software Configuration Management  
+### 5.1 Software Configuration Management
+Esta sección presenta las herramientas utilizadas en el entorno de desarrollo del proyecto, así como las convenciones y estrategias de control de versiones adoptadas para asegurar la calidad y consistencia del código. 
+
 #### 5.1.1 Software Development Environment Configuration  
 #### 5.1.2 Source Code Management  
 #### 5.1.3 Source Code Style Guide & Conventions  
