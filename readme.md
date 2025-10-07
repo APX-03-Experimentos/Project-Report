@@ -1328,7 +1328,7 @@ Epicas:
     <tr>
       <td>EP-005</td>
       <td>Comunicación, interacción y recursos educativos dinámicos entre usuarios</td>
-      <td>Esta épica se orienta al intercambio de información y la creación de espacios de interacción dentro de la plataforma. Los profesores podrán publicar anuncios dirigidos a todo el grupo, en los cuales los alumnos podrán dejar comentarios, consultas o dudas que serán respondidas en el mismo hilo. Tanto docentes como estudiantes recibirán notificaciones automáticas que les mantendrán al tanto de las respuestas e interacciones. Asimismo, los alumnos tendrán la posibilidad de enviarse mensajes privados para coordinar actividades académicas de manera ágil. Como valor agregado, la épica incorpora la posibilidad de compartir recursos educativos interactivos tales como videos cortos, imágenes y materiales en tiempo real, lo que no solo mejora la comunicación, sino que también hace más atractivo y participativo el proceso de aprendizaje.</td>
+      <td>Esta épica se orienta al intercambio de información y la creación de espacios de interacción dentro de la plataforma. Como valor agregado, la épica incorpora la posibilidad de compartir recursos educativos interactivos tales como videos cortos, imágenes y materiales en tiempo real, lo que no solo mejora la comunicación, sino que también hace más atractivo y participativo el proceso de aprendizaje.</td>
     </tr>
     <tr>
       <td>EP-006</td>
@@ -1378,224 +1378,191 @@ User Stories:
     </tr>
     <tr>
       <td>US-003</td>
-      <td>Ingreso a grupos</td>
-      <td>Como estudiante, quiero ser capaz de unirme a los grupos formados por mis profesores con facilidad.</td>
+      <td>Ingreso a cursos</td>
+      <td>Como estudiante, quiero ser capaz de unirme a los cursos formados por mis profesores con facilidad.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un estudiante en el menú de inicio de la plataforma con un código de grupo válido proporcionado por su profesor, cuando ingresa el código en el campo designado y selecciona la opción "Unirse al grupo", entonces el sistema valida el código, muestra un mensaje de confirmación exitosa y añade automáticamente al estudiante al grupo correspondiente.<br><br>
-        <strong>Escenario 2:</strong> Dado un estudiante en el menú de inicio con una notificación de invitación pendiente para unirse a un grupo de clase, cuando selecciona la notificación y hace clic en el botón "Aceptar invitación", entonces el sistema confirma la aceptación, añade al estudiante al grupo y actualiza la lista de miembros visible para el profesor.
+        <strong>Escenario 1:</strong> Dado un estudiante en el menú de inicio de la plataforma con un código de grupo válido proporcionado por su profesor, cuando ingresa el código en el campo designado y selecciona la opción "Unirse al curso", entonces el sistema valida el código, muestra un mensaje de confirmación exitosa y añade automáticamente al estudiante al grupo correspondiente.
       </td>
       <td>EP-002</td>
     </tr>
     <tr>
       <td>US-004</td>
-      <td>Creación de grupos</td>
-      <td>Como profesor, quiero ser capaz de crear grupos para mis cursos en la plataforma.</td>
+      <td>Creación de cursos</td>
+      <td>Como profesor, quiero ser capaz de crear cursos en la plataforma.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un profesor autenticado en la plataforma educativa, cuando selecciona la opción "Crear Nuevo Grupo" desde el menú principal, entonces el sistema despliega un formulario con campos para nombre del grupo, descripción, etc. Permitiendo la creación del grupo tras completar los datos obligatorios.<br><br>
-        <strong>Escenario 2:</strong> Dado un profesor en el proceso de creación de un nuevo grupo, cuando ingresa un nombre idéntico al de un grupo preexistente bajo su misma cuenta y intenta guardar, entonces el sistema detecta la duplicación, muestra un mensaje de error "Nombre de grupo ya existente" y sugiere modificar el nombre o recuperar el grupo existente.
+        <strong>Escenario 1:</strong> Dado un profesor autenticado en la plataforma educativa, cuando selecciona la opción "Crear Nuevo Curso" desde el menú principal, entonces el sistema despliega un formulario con campos para nombre del curso, descripción, etc. Permitiendo la creación del curso tras completar los datos obligatorios.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor en el proceso de creación de un nuevo curso, cuando ingresa un nombre idéntico al de un curso preexistente bajo su misma cuenta e intenta guardar, entonces el sistema detecta la duplicación, muestra un mensaje de error "Nombre de curso ya existente" y sugiere modificar el nombre o recuperar el grupo existente.
       </td>
       <td>EP-002</td>
     </tr>
     <tr>
       <td>US-005</td>
-      <td>Invitación a grupos</td>
-      <td>Como profesor, quiero ser capaz de invitar a mis alumnos a los grupos creados por mí.</td>
+      <td>Invitación a cursos</td>
+      <td>Como profesor, quiero ser capaz de invitar a mis alumnos a los cursos creados por mí.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un grupo creado por un profesor con un código de invitación generado, cuando un estudiante ingresa correctamente el código en la plataforma, entonces el sistema añade al estudiante al grupo, registra la acción y envía una notificación automática al profesor confirmando la incorporación del nuevo miembro.<br><br>
-        <strong>Escenario 2:</strong> Dado un profesor en la sección de gestión de un grupo específico, cuando ingresa los IDs o correos electrónicos de los estudiantes en el campo de invitaciones y selecciona "Enviar invitaciones", entonces el sistema envía notificaciones individuales a cada estudiante con un enlace directo para unirse al grupo y actualiza el estado de invitaciones pendientes.<br><br>
-        <strong>Escenario 3:</strong> Dado un estudiante que recibe una invitación para unirse a un grupo, cuando hace clic en el enlace de la notificación o ingresa manualmente el código proporcionado, entonces el sistema verifica la validez de la invitación, añade al estudiante al grupo correspondiente y notifica al profesor sobre la aceptación exitosa de la invitación.
+        <strong>Escenario 1:</strong> Dado un curso creado por un profesor con un código de invitación generado, cuando un estudiante ingresa correctamente el código en la plataforma, entonces el sistema añade al estudiante al curso, registra la acción y envía una notificación automática al profesor confirmando la incorporación del nuevo miembro.
       </td>
       <td>EP-002</td>
     </tr>
     <tr>
       <td>US-006</td>
-      <td>Eliminación de alumnos</td>
-      <td>Como profesor, quiero ser capaz de eliminar integrantes del grupo, para mantener un orden y corregir errores en caso de invitar a alguien por equivocación.</td>
+      <td>Ver lista de alumnos de un curso</td>
+      <td>Como profesor, quiero ver la lista de alumnos de un curso, para gestionar la composición del grupo.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un profesor en la pantalla de gestión de integrantes de un grupo activo, cuando selecciona la opción "Eliminar" junto al nombre de un estudiante y confirma la acción en el cuadro de diálogo emergente, entonces el sistema remueve al estudiante del grupo, actualiza la lista de miembros y envía una notificación automática al estudiante informando sobre su eliminación del grupo.<br><br>
-        <strong>Escenario 2:</strong> Dado un profesor intentando eliminar a un estudiante que ya ha sido removido previamente del grupo o cuya cuenta ya no existe, cuando confirma la acción de eliminación, entonces el sistema detecta que el estudiante no pertenece al grupo y muestra un mensaje de error: "El estudiante especificado no pertenece a este grupo o ya ha sido eliminado".
+        <strong>Escenario 1:</strong> Dado un profesor en la página de gestión de un curso, cuando selecciona la opción "Lista de Estudiantes", entonces el sistema muestra una tabla con todos los alumnos inscritos, incluyendo nombre, correo y fecha de ingreso.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor viendo la lista de estudiantes, cuando utiliza la barra de búsqueda, entonces el sistema filtra dinámicamente la lista mostrando solo los estudiantes que coinciden con el término buscado.
       </td>
       <td>EP-002</td>
     </tr>
     <tr>
       <td>US-007</td>
-      <td>Creación de trabajos con fechas límite</td>
-      <td>Como profesor, quiero crear trabajos dentro de cada curso con sus respectivas fechas de entrega, para organizar las actividades académicas y dar claridad a mis estudiantes.</td>
+      <td>Eliminar alumnos de un curso</td>
+      <td>Como profesor, quiero eliminar alumnos de un curso, para mantener actualizada la lista de participantes.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un profesor en la página de administración de un curso específico, cuando selecciona la opción "Crear trabajo", completa los campos obligatorios (título, descripción, fecha límite) y confirma la creación, entonces el sistema guarda el trabajo en la base de datos, lo muestra en la lista de actividades del curso y notifica a todos los estudiantes del grupo sobre la nueva tarea asignada.<br><br>
-        <strong>Escenario 2:</strong> Dado un profesor en el proceso de creación de un nuevo trabajo para el curso, cuando ingresa una fecha límite anterior a la fecha actual y intenta guardar, entonces el sistema detecta la incongruencia, muestra un mensaje de error "La fecha de entrega debe ser futura" y resalta el campo de fecha en rojo hasta que se corrija.
+        <strong>Escenario 1:</strong> Dado un profesor en la lista de estudiantes de un curso, cuando selecciona la opción "Eliminar" junto a un estudiante y confirma la acción, entonces el sistema remueve al estudiante del curso y actualiza la lista.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor intentando eliminar un estudiante que ya no existe en el curso, cuando confirma la acción, entonces el sistema muestra un mensaje de error indicando que el estudiante no pertenece al curso.
       </td>
-      <td>EP-003</td>
+      <td>EP-002</td>
     </tr>
     <tr>
       <td>US-008</td>
-      <td>Recepción de entregas (múltiples oportunidades)</td>
-      <td>Como estudiante, quiero poder enviar y reenviar mis entregas en un trabajo académico, para corregir errores y mejorar mi calificación antes de la fecha límite.</td>
+      <td>Visualizar todos los cursos</td>
+      <td>Como profesor, quiero ver todos mis cursos en una lista organizada, para poder gestionar y acceder fácilmente a cada uno de ellos.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un estudiante con acceso a un trabajo académico dentro del plazo de entrega establecido, cuando selecciona la opción "Subir entrega", adjunta el archivo correspondiente y confirma el envío, entonces el sistema registra la entrega con marca de tiempo, envía una confirmación al estudiante y notifica al profesor sobre la nueva entrega recibida.<br><br>
-        <strong>Escenario 2:</strong> Dado un estudiante que ya ha realizado una entrega previa para un trabajo académico, cuando selecciona "Reemplazar entrega" antes de la fecha límite y sube un nuevo archivo, entonces el sistema guarda la nueva versión, mantiene un historial de todas las entregas realizadas y actualiza la marca de tiempo de la última modificación.<br><br>
-        <strong>Escenario 3:</strong> Dado un estudiante intentando enviar una entrega después de la fecha límite establecida, cuando intenta subir un archivo pasado el plazo, entonces el sistema rechaza la entrega, muestra un mensaje claro indicando "Plazo de entrega vencido" y sugiere contactar al profesor.
+        <strong>Escenario 1:</strong> Dado un profesor que ha iniciado sesión en la plataforma, cuando accede a la sección "Mis Cursos", entonces el sistema muestra una lista de todos los cursos que imparte, con información básica como nombre del curso, código y número de estudiantes.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor en la lista de cursos, cuando hace clic en un curso específico, entonces el sistema redirige a la página de detalles de ese curso donde puede ver y gestionar todas las actividades.
       </td>
-      <td>EP-003</td>
+      <td>EP-002</td>
     </tr>
     <tr>
       <td>US-009</td>
-      <td>Visualización de trabajos y fechas</td>
-      <td>Como estudiante, quiero visualizar en un panel de control visual todos mis trabajos y fechas de entrega, para organizar mis actividades y priorizar las más urgentes.</td>
+      <td>Múltiples entregas por assignment</td>
+      <td>Como estudiante, quiero poder realizar múltiples entregas para un mismo trabajo académico, para presentar diferentes versiones o correcciones dentro del plazo establecido.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un estudiante en la página principal de un curso específico, cuando navega a la pestaña "Trabajos", entonces el sistema muestra una lista completa de todas las tareas asignadas, con indicadores visuales de estado (pendiente/entregado/calificado), fechas límite claramente visibles y porcentaje de completitud para cada trabajo.<br><br>
-        <strong>Escenario 2:</strong> Dado un estudiante en su panel de control visual principal, cuando accede a la sección "Próximas entregas", entonces el sistema muestra una lista consolidada de todos los trabajos pendientes de todos sus cursos, ordenados por fecha límite ascendente (los más urgentes primero), con recordatorios visuales para las tareas con vencimiento en las próximas 48 horas.<br><br>
-        <strong>Escenario 3:</strong> Dado un trabajo académico con fecha límite próxima (menos de 24 horas), cuando el estudiante visualiza su panel de control visual, entonces el sistema resalta esa tarea con color rojo, muestra una alerta de "Entrega próxima" y ofrece la opción de acceso directo a la página de entrega con un solo clic.
+        <strong>Escenario 1:</strong> Dado un estudiante en la página de un assignment dentro del plazo de entrega, cuando selecciona "Agregar entrega", adjunta un archivo y confirma el envío, entonces el sistema registra la entrega con marca de tiempo y la agrega a la lista de entregas del assignment.<br><br>
+        <strong>Escenario 2:</strong> Dado un estudiante que ya ha realizado al menos una entrega previa, cuando agrega una nueva entrega dentro del plazo, entonces el sistema mantiene todas las entregas anteriores en el historial y registra la nueva entrega con su propia marca de tiempo.
       </td>
       <td>EP-003</td>
     </tr>
     <tr>
       <td>US-010</td>
-      <td>Calificación de entregas</td>
-      <td>Como profesor, quiero calificar las entregas de los estudiantes y dejar retroalimentación, para evaluar su desempeño académico y mantener registro de calificaciones.</td>
+      <td>Visualización de assignments del curso</td>
+      <td>Como estudiante, quiero visualizar todos los assignments de un curso con sus fechas de entrega, para organizar mis actividades académicas.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un profesor que accede a un trabajo académico, cuando selecciona la entrega de un estudiante, entonces el sistema muestra la entrega y permite ingresar una calificación y un comentario de retroalimentación.<br><br>
-        <strong>Escenario 2:</strong> Dado un profesor que ha calificado una entrega, cuando guarda la calificación, entonces el sistema actualiza la información y la notifica al estudiante, mostrando la calificación y los comentarios en su panel de control visual correspondiente.
+        <strong>Escenario 1:</strong> Dado un estudiante en la página de un curso, cuando navega a la sección "Assignments", entonces el sistema muestra una lista de todos los assignments con sus fechas límite y estados.
       </td>
       <td>EP-003</td>
     </tr>
     <tr>
       <td>US-011</td>
-      <td>Visualización de panel de control visual de progreso académico</td>
-      <td>Como estudiante, quiero visualizar un panel de control visual con mis calificaciones y progreso en tiempo real, para saber si estoy avanzando de manera adecuada en mis cursos.</td>
+      <td>Descargar archivos de assignment</td>
+      <td>Como estudiante, quiero poder descargar los archivos de un assignment, para acceder a los materiales y recursos proporcionados por el profesor.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un estudiante con sesión activa en la plataforma educativa, cuando accede a la sección "Mi Progreso" desde el menú principal, entonces el sistema muestra un panel de control visual interactivo con gráficos de calificaciones por curso, porcentaje de completitud de cada materia, comparativa con el promedio del grupo y proyección de calificación final basada en el rendimiento actual.<br><br>
-        <strong>Escenario 2:</strong> Dado un profesor que ha calificado y publicado nuevos trabajos o exámenes en el sistema, cuando el estudiante recarga su panel de control visual de progreso, entonces el sistema actualiza automáticamente todas las métricas, muestra las nuevas calificaciones obtenidas con notificaciones de novedades y recalcula el promedio general y por curso en tiempo real.<br><br>
-        <strong>Escenario 3:</strong> Dado un estudiante con calificaciones por debajo del promedio requerido en algún curso, cuando ingresa a su panel de control visual de progreso, entonces el sistema destaca aquellas materias con bajo rendimiento usando indicadores de color.
+        <strong>Escenario 1:</strong> Dado un estudiante en la página de un assignment, cuando selecciona la opción para descargar un archivo adjunto, entonces el sistema inicia la descarga del archivo en el dispositivo del estudiante.<br><br>
+        <strong>Escenario 2:</strong> Dado un estudiante intentando descargar un archivo de assignment, cuando el archivo está disponible y el estudiante tiene permisos de acceso, entonces el sistema permite la descarga completa del archivo con su nombre original.
       </td>
-      <td>EP-004</td>
+      <td>EP-003</td>
     </tr>
     <tr>
       <td>US-012</td>
-      <td>Comparación del rendimiento con el promedio del grupo</td>
-      <td>Como estudiante, quiero poder comparar mi rendimiento con el promedio de mis compañeros, para identificar si estoy por encima o debajo del nivel general.</td>
+      <td>Ver submissions de un assignment</td>
+      <td>Como profesor, quiero ver todas las entregas de un assignment, para revisar y calificar el trabajo de los estudiantes.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un estudiante en su panel de control visual académico principal, cuando selecciona la opción "Comparar con grupo" en cualquier curso, entonces el sistema genera un gráfico de barras comparativas que muestra sus calificaciones individuales junto al promedio del grupo en cada evaluación, con diferencias porcentuales claramente etiquetadas.<br><br>
-        <strong>Escenario 2:</strong> Dado un estudiante en la sección de comparativa de rendimiento, cuando selecciona la opción "Evolución Temporal", entonces el sistema muestra una gráfica de líneas con su progreso histórico y el promedio del grupo a lo largo del semestre, permitiendo identificar tendencias y momentos clave de mejora o retroceso.
+        <strong>Escenario 1:</strong> Dado un profesor en la página de un assignment, cuando selecciona "Ver Entregas", entonces el sistema muestra una lista de todos los estudiantes con sus submissions y estados.
       </td>
-      <td>EP-004</td>
+      <td>EP-003</td>
     </tr>
     <tr>
       <td>US-013</td>
-      <td>Visualización de métricas globales de desempeño del grupo</td>
-      <td>Como profesor, quiero acceder a métricas globales del grupo, para entender el nivel de desempeño general de la clase.</td>
+      <td>Ver detalles de curso con assignments</td>
+      <td>Como profesor, quiero ver los detalles completos de un curso incluyendo todos los assignments, para tener una visión general de las actividades programadas y su estado.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un profesor en la página de gestión de un grupo de estudiantes, cuando selecciona la opción "Métricas Globales", entonces el sistema muestra un panel con el promedio general de calificaciones, desviación estándar, tasa de entregas a tiempo, porcentaje de aprobación y comparativa con otros grupos del mismo curso.<br><br>
-        <strong>Escenario 2:</strong> Dado un profesor analizando el rendimiento de su grupo, cuando selecciona un período específico (ej. primer parcial, último mes o trimestre), entonces el sistema genera gráficas de progreso colectivo que incluyen: curva de distribución de calificaciones, tendencia temporal del promedio grupal y tasas de entrega por evaluación.
+        <strong>Escenario 1:</strong> Dado un profesor en la lista de cursos, cuando selecciona un curso específico, entonces el sistema muestra la página de detalles del curso con una sección que incluye todos los assignments creados, mostrando título, fecha límite y estado de cada uno.
       </td>
-      <td>EP-004</td>
+      <td>EP-002</td>
     </tr>
     <tr>
       <td>US-014</td>
-      <td>Alertas sobre estudiantes con bajo rendimiento</td>
-      <td>Como profesor, quiero recibir alertas sobre estudiantes con bajo rendimiento, para poder intervenir de manera temprana.</td>
+      <td>Agregar nueva assignment</td>
+      <td>Como profesor, quiero agregar una nueva assignment, para asignar trabajos a los estudiantes.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un estudiante con calificaciones consistentemente por debajo del 60% en un curso específico durante al menos tres evaluaciones consecutivas, cuando el sistema procesa los resultados académicos, entonces el profesor recibe una notificación con el nombre del estudiante, el curso afectado, las calificaciones específicas y sugerencias de intervención académica.<br><br>
-        <strong>Escenario 2:</strong> Dado un estudiante que no ha entregado al menos dos tareas consecutivas dentro del plazo establecido, cuando el sistema analiza el historial de entregas, entonces genera una alerta automática para el profesor con el nombre del estudiante, las tareas pendientes y la opción de contactar directamente al estudiante desde la plataforma.
+        <strong>Escenario 1:</strong> Dado un profesor en la página de un curso, cuando hace clic en "Agregar Assignment", completa el formulario con título, descripción y fecha límite, y confirma la creación, entonces el sistema guarda la assignment y la muestra en la lista de trabajos del curso.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor creando una assignment, cuando deja campos obligatorios vacíos, entonces el sistema muestra mensajes de error indicando los campos requeridos.
       </td>
-      <td>EP-004</td>
+      <td>EP-003</td>
     </tr>
     <tr>
       <td>US-015</td>
-      <td>Recordatorios y notificaciones de entregas</td>
-      <td>Como estudiante, quiero recibir notificaciones automáticas y recordatorios de próximas entregas para no olvidar subir mis trabajos a tiempo.</td>
+      <td>Subir cualquier tipo de archivo al assignment</td>
+      <td>Como profesor, quiero subir cualquier tipo de archivo al assignment, para proporcionar materiales de apoyo a los estudiantes.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un trabajo académico con fecha límite definida en el sistema, cuando faltan exactamente 48 y 12 horas para el vencimiento, entonces el sistema envía notificaciones automáticas al estudiante a través de la plataforma web y la aplicación móvil, incluyendo detalles específicos de la tarea y enlace directo para subirla.<br><br>
-        <strong>Escenario 2:</strong> Dado un estudiante que ha completado el proceso de entrega de un trabajo, cuando el sistema verifica y almacena correctamente el archivo subido, entonces muestra una confirmación visual inmediata con número de comprobante, envía un acuse de recibo por correo electrónico y actualiza el estado de la tarea a "Entregado".
+        <strong>Escenario 1:</strong> Dado un profesor en la página de edición de una assignment, cuando selecciona "Subir archivo", elige un archivo de cualquier tipo y confirma la acción, entonces el sistema guarda el archivo y lo asocia a la assignment.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor subiendo un archivo, cuando el archivo excede el tamaño máximo permitido, entonces el sistema muestra un mensaje de error y no permite la subida.
       </td>
-      <td>EP-005</td>
+      <td>EP-003</td>
     </tr>
     <tr>
       <td>US-016</td>
-      <td>Re-entrega controlada</td>
-      <td>Como estudiante, quiero poder re-entregar una tarea dentro de un plazo definido para mejorar mi nota según las reglas del curso.</td>
+      <td>Ver detalles del submission</td>
+      <td>Como profesor, quiero ver los detalles del submission, para revisar las entregas de los estudiantes.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un trabajo académico configurado con re-entregas permitidas por el profesor, cuando el estudiante sube una nueva versión del trabajo antes del plazo máximo de re-entrega, entonces el sistema reemplaza automáticamente el archivo anterior, registra el nuevo envío en el historial de versiones y mantiene la marca de tiempo original de la primera entrega para fines de penalización por tardanza.<br><br>
-        <strong>Escenario 2:</strong> Dado un estudiante intentando re-entregar un trabajo después del plazo máximo permitido para revisiones, cuando intenta subir un nuevo archivo pasado el límite, entonces el sistema bloquea la acción, muestra un mensaje claro indicando "Plazo de re-entrega vencido" y sugiere contactar al profesor para autorización excepcional.
+        <strong>Escenario 1:</strong> Dado un profesor en la lista de submissions de una assignment, cuando hace clic en un submission específico, entonces el sistema muestra todos los detalles incluyendo archivos entregados, fecha de entrega e información del estudiante.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor viendo los detalles de un submission, cuando selecciona "Descargar archivos", entonces el sistema descarga todos los archivos asociados al submission.
       </td>
       <td>EP-003</td>
     </tr>
     <tr>
       <td>US-017</td>
-      <td>Historial de calificaciones</td>
-      <td>Como estudiante, quiero poder consultar el historial de calificaciones de mis entregas, para ver mi evolución académica en cada curso.</td>
+      <td>Calificar un submission</td>
+      <td>Como profesor, quiero calificar un submission, para evaluar el trabajo de los estudiantes.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un estudiante con múltiples calificaciones registradas en diferentes cursos, cuando accede a la sección "Historial de Calificaciones" desde su panel de control visual principal, entonces el sistema muestra una tabla completa con todas las notas obtenidas, organizadas por curso, fecha de evaluación, tipo de trabajo y porcentaje de valor en la nota final.<br><br>
-        <strong>Escenario 2:</strong> Dado un estudiante visualizando su historial académico general, cuando selecciona un curso específico y aplica el filtro correspondiente, entonces el sistema muestra una gráfica de evolución temporal con sus calificaciones en ese curso, el promedio del grupo para cada evaluación y una línea de tendencia que visualiza su progreso académico a lo largo del tiempo.
+        <strong>Escenario 1:</strong> Dado un profesor en los detalles de un submission, cuando ingresa una calificación y comentarios en el formulario de calificación y guarda los cambios, entonces el sistema actualiza la calificación y notifica al estudiante.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor calificando un submission, cuando intenta ingresar una calificación fuera del rango permitido, entonces el sistema muestra un mensaje de error y no permite guardar.
       </td>
       <td>EP-003</td>
     </tr>
     <tr>
       <td>US-018</td>
-      <td>Acceso a todas las entregas de un trabajo</td>
-      <td>Como profesor, quiero acceder en una sola vista a todas las entregas de un trabajo, para agilizar la revisión y calificación.</td>
+      <td>Ver detalles del submission</td>
+      <td>Como estudiante, quiero ver los detalles del submission, para conocer el estado de mis entregas.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un profesor en la página de administración de un trabajo específico, cuando selecciona la pestaña "Entregas", entonces el sistema muestra una lista completa de todos los estudiantes del curso con sus respectivos estados de entrega (pendiente, enviado, calificado), marcas de tiempo de envío y archivos adjuntos descargables en un solo lugar.<br><br>
-        <strong>Escenario 2:</strong> Dado un profesor revisando múltiples entregas de estudiantes, cuando aplica filtros específicos (solo pendientes, solo calificados, solo enviados sin calificar, por rango de fechas), entonces el sistema actualiza dinámicamente la vista mostrando exclusivamente las entregas que coinciden con los criterios seleccionados, facilitando la revisión por lotes.
+        <strong>Escenario 1:</strong> Dado un estudiante en la lista de sus submissions, cuando hace clic en un submission específico, entonces el sistema muestra los detalles incluyendo archivos entregados, fecha, estado y calificación si está disponible.<br><br>
+        <strong>Escenario 2:</strong> Dado un estudiante viendo los detalles de su submission, cuando el profesor ha agregado comentarios de retroalimentación, entonces el sistema muestra claramente los comentarios junto a la calificación.
       </td>
       <td>EP-003</td>
     </tr>
     <tr>
       <td>US-019</td>
-      <td>Publicación de anuncios con comentarios</td>
-      <td>Como profesor, quiero publicar anuncios en el curso y que los estudiantes puedan dejar comentarios, para mantener la comunicación centralizada y ordenada.</td>
+      <td>Subir todo tipo de archivos para el submission</td>
+      <td>Como estudiante, quiero subir todo tipo de archivos para el submission, para completar mis asignaciones.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un profesor en la página principal del curso, cuando crea un nuevo anuncio completando título, mensaje y configuraciones de visibilidad, y confirma la publicación, entonces el sistema publica el anuncio en el foro del curso, lo marca como prioritario en la parte superior de la lista y envía notificaciones push a todos los estudiantes del grupo.<br><br>
-        <strong>Escenario 2:</strong> Dado un anuncio publicado con la opción de comentarios activada, cuando un estudiante escribe un comentario en el espacio designado y presiona "Enviar", entonces el sistema agrega el comentario al hilo de discusión mostrando nombre del autor, foto de perfil, marca de tiempo exacta y permite respuestas anidadas para mantener conversaciones organizadas.<br><br>
-        <strong>Escenario 3:</strong> Dado un anuncio publicado hace menos de 30 minutos, cuando el profesor edita el contenido del anuncio o desactiva la opción de comentarios desde el menú de configuración, entonces el sistema actualiza el contenido mostrando la leyenda "Editado" con la hora de modificación y, en caso de cierre de comentarios, deshabilita el campo de texto para nuevos comentarios, pero mantiene visibles los existentes.
+        <strong>Escenario 1:</strong> Dado un estudiante en la página de entrega de una assignment, cuando selecciona "Subir archivos", elige uno o múltiples archivos de cualquier tipo y confirma la entrega, entonces el sistema procesa los archivos y registra el submission.<br><br>
+        <strong>Escenario 2:</strong> Dado un estudiante subiendo archivos para un submission, cuando intenta subir un tipo de archivo no permitido, entonces el sistema muestra un mensaje indicando los formatos aceptados.
       </td>
-      <td>EP-005</td>
+      <td>EP-003</td>
     </tr>
     <tr>
       <td>US-020</td>
-      <td>Mensajería privada entre miembros</td>
-      <td>Como estudiante, quiero enviar mensajes privados a mis compañeros y profesores, para coordinar actividades académicas de manera rápida y directa.</td>
+      <td>Ver estadísticas generales del curso</td>
+      <td>Como profesor, quiero ver las estadísticas generales de un curso, para tener una visión rápida del desempeño y participación del grupo.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un estudiante en la sección "Miembros del Curso" con la lista de participantes visibles, cuando selecciona a un compañero o profesor de la lista y envía un mensaje privado a través del botón de mensajería, entonces el sistema crea un hilo de conversación privado, almacena el mensaje en la base de datos y muestra una confirmación de envío exitoso al remitente.<br><br>
-        <strong>Escenario 2:</strong> Dado un hilo de mensajes privados existente entre dos usuarios del mismo curso, cuando el destinatario abre la conversación para leer los mensajes nuevos, entonces el sistema actualiza inmediatamente el estado de los mensajes de "entregado" a "leído", muestra la marca de tiempo de lectura y notifica al remitente sobre el cambio de estado.<br><br>
-        <strong>Escenario 3:</strong> Dado un estudiante intentando iniciar una conversación privada con un usuario que no pertenece a ninguno de sus cursos activos, cuando escribe un mensaje e intenta enviarlo, entonces el sistema bloquea el envío, muestra un mensaje de error claro: "Solo puede enviar mensajes a miembros de sus cursos" y sugiere verificar la lista de contactos disponibles dentro de cada curso.
+        <strong>Escenario 1:</strong> Dado un profesor en la página de un curso, cuando selecciona "Estadísticas Generales", entonces el sistema muestra un resumen con: total de assignments creados, total de submissions recibidos, assignments calificados y promedio general del curso.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor viendo las estadísticas generales, cuando hay nuevos datos disponibles, entonces el sistema actualiza automáticamente las métricas en tiempo real.
       </td>
-      <td>EP-005</td>
+      <td>EP-004</td>
     </tr>
     <tr>
       <td>US-021</td>
-      <td>Compartir recursos educativos</td>
-      <td>Como profesor, quiero subir materiales de apoyo (documentos, videos, imágenes) al curso, para que los estudiantes los consulten fácilmente en cualquier momento.</td>
+      <td>Ver distribución de calificaciones del curso</td>
+      <td>Como profesor, quiero ver gráficas de distribución de calificaciones del curso, para analizar el rendimiento del grupo y identificar patrones de desempeño.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un profesor en la sección "Recursos del Curso" con materiales preparados para compartir, cuando selecciona "Subir nuevo recurso", completa los metadatos obligatorios (título, descripción, tipo de archivo) y confirma la acción, entonces el sistema almacena el archivo en el repositorio, lo categoriza automáticamente y lo publica inmediatamente para todos los estudiantes del curso con permisos de visualización y descarga.<br><br>
-        <strong>Escenario 2:</strong> Dado un recurso educativo publicado en el repositorio del curso con acceso habilitado para estudiantes, cuando un estudiante accede a la sección de recursos y selecciona "Descargar" o "Visualizar" en cualquier material, entonces el sistema permite la acción requerida y registra en el log de actividad el nombre del estudiante, el recurso consultado y la marca de tiempo de acceso.<br><br>
-        <strong>Escenario 3:</strong> Dado un recurso existente en el repositorio que requiere actualización de contenido, cuando el profesor sube una nueva versión del mismo archivo con el mismo identificador único, entonces el sistema preserva la versión anterior en el historial, marca la nueva versión como "actualizada [fecha]" y notifica opcionalmente a los estudiantes sobre la disponibilidad del material revisado.
+        <strong>Escenario 1:</strong> Dado un profesor en la sección de estadísticas del curso, cuando selecciona "Distribución de Calificaciones", entonces el sistema muestra gráficas con la distribución de notas en rangos (17-20, 14-16, 0-13) y la cantidad de submissions por assignment.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor analizando la distribución de calificaciones, cuando selecciona un assignment específico, entonces el sistema muestra la distribución de notas solo para ese assignment.
       </td>
-      <td>EP-005</td>
+      <td>EP-004</td>
     </tr>
     <tr>
       <td>US-022</td>
-      <td>Extensión de plazo de entrega</td>
-      <td>Como profesor, quiero poder extender la fecha límite de un trabajo, para dar más tiempo a mis estudiantes en casos especiales.</td>
-      <td>
-        <strong>Escenario 1:</strong> Dado un trabajo académico con fecha límite configurada en el sistema, cuando el profesor accede a la configuración del trabajo, modifica la fecha de vencimiento a una nueva fecha futura y guarda los cambios, entonces el sistema actualiza automáticamente la fecha en todos los registros asociados, muestra un mensaje de "Fecha actualizada correctamente" y registra la modificación en el historial de cambios.<br><br>
-        <strong>Escenario 2:</strong> Dado un trabajo con fecha límite recién modificada por el profesor, cuando se confirma la actualización, entonces el sistema envía una notificación automática a todos los estudiantes del curso con el siguiente mensaje: "Plazo extendido: La fecha límite para [nombre del trabajo] ha sido extendida hasta [nueva fecha]. ¡Aprovecha el tiempo adicional!".
-      </td>
-      <td>EP-003</td>
-    </tr>
-    <tr>
-      <td>US-023</td>
-      <td>Estados de entrega</td>
-      <td>Como estudiante, quiero ver el estado de cada entrega (pendiente, entregado, en revisión, calificado), para conocer en qué punto del proceso está mi trabajo.</td>
-      <td>
-        <strong>Escenario 1:</strong> Dado un estudiante en la sección "Mis Entregas" del curso, cuando selecciona un trabajo específico de la lista, entonces el sistema muestra claramente el estado actual con indicadores visuales (iconos y colores): pendiente, entregado, en revisión o calificado, junto con la fecha de última actualización.<br><br>
-        <strong>Escenario 2:</strong> Dado un profesor realizando la calificación de una entrega estudiantil, cuando asigna una calificación o cambia el estado de revisión en el sistema, entonces el estado del trabajo se actualiza automáticamente en todos los dispositivos, mostrando inmediatamente el nuevo estado (calificado) y los detalles de la evaluación al estudiante.<br><br>
-        <strong>Escenario 3:</strong> Dado un cambio de estado en cualquier entrega de trabajo (de "en revisión" a "calificado", por ejemplo), cuando el sistema registra la modificación, entonces envía una notificación push al estudiante con el mensaje: "Tu trabajo [nombre del trabajo] ha sido [nuevo estado]. Revisa tus resultados en la plataforma."
-      </td>
-      <td>EP-003</td>
-    </tr>
-    <tr>
-      <td>US-024</td>
       <td>Redirección al aplicativo web</td>
       <td>Como usuario, quiero que exista un botón en la landing page que me redirija al panel de control visual del aplicativo web del sistema, para acceder a este sin tener que buscar otro enlace.</td>
       <td>
@@ -1605,7 +1572,7 @@ User Stories:
       <td>EP-006</td>
     </tr>
     <tr>
-      <td>US-025</td>
+      <td>US-023</td>
       <td>Sección de Video About the Team</td>
       <td>Como usuario, quiero encontrar en la landing page una sección con un video sobre el equipo detrás del startup, para conocer quiénes son, su experiencia y la visión que impulsa el producto.</td>
       <td>
@@ -1615,7 +1582,7 @@ User Stories:
       <td>EP-006</td>
     </tr>
     <tr>
-      <td>US-026</td>
+      <td>US-024</td>
       <td>Visualización de Misión y Visión del startup</td>
       <td>Como usuario, quiero ver una sección en la landing page con la Misión y Visión del startup para conocer más a detalle los objetivos del proyecto.</td>
       <td>
@@ -1625,7 +1592,7 @@ User Stories:
       <td>EP-006</td>
     </tr>
     <tr>
-      <td>US-027</td>
+      <td>US-025</td>
       <td>Testimonios de usuarios previos</td>
       <td>Como usuario interesado en el producto, quiero ver testimonios reales de clientes en la landing page, para poder confiar en la efectividad de la solución antes de probar el sistema.</td>
       <td>
@@ -1635,7 +1602,7 @@ User Stories:
       <td>EP-006</td>
     </tr>
     <tr>
-      <td>US-028</td>
+      <td>US-026</td>
       <td>Sección de Video About the Product</td>
       <td>Como usuario, quiero encontrar en la landing page una sección con un video explicativo del producto, para entender de manera rápida y visual cómo funciona y qué beneficios me ofrece.</td>
       <td>
@@ -1694,25 +1661,35 @@ User Stories:
 |-------|-----------|------------------------------------------------------|--------------|
 | 1     | US-001    | Registro de usuario                                  | 5            |
 | 2     | US-002    | Inicio de sesión (Authentication)                    | 3            |
-| 3     | US-004    | Creación de grupos                                   | 5            |
-| 4     | US-005    | Ingreso a grupos                                     | 5            |
-| 5     | US-005    | Invitación a grupos                                  | 5            |
-| 6     | US-007    | Creación de trabajos con fechas límite               | 5            |
-| 7     | US-008    | Recepción de entregas (múltiples oportunidades)      | 8            |
-| 8     | US-010    | Calificación de entregas                             | 5            |
-| 9     | US-009    | Visualización de trabajos y fechas                   | 5            |
-| 10    | US-015    | Acceso a todas las entregas de un trabajo            | 5            |
-| 11    | TS-001    | Configuración de autenticación y autorización con JWT| 8            |
-| 12    | TS-002    | Configuración de validación de datos en backend      | 5            |
-| 13    | TS-003    | Configuración de CORS en backend                     | 3            |
-| 14    | TS-004    | Documentación de la API con Swagger                  | 3            |
-| 15    | US-013    | Visualización de métricas globales de desempeño del grupo | 8         |
-| 16    | US-021    | Compartir recursos educativos                        | 8            |
-| 17    | US-024    | Redirección al aplicativo web                        | 1            |
-| 18    | US-026    | Visualización de Misión y Visión del startup         | 2            |
-| 19    | US-028    | Sección de Video About the Product                   | 2            |
-| 20    | US-025    | Sección de Video About the Team                      | 2            |
-| 21    | US-027    | Testimonios de usuarios previos                      | 3            |
+| 3     | TS-001    | Configuración de autenticación y autorización con JWT| 8            |
+| 4     | TS-002    | Configuración de validación de datos en backend      | 5            |
+| 5     | TS-003    | Configuración de CORS en backend                     | 3            |
+| 6     | TS-004    | Documentación de la API con Swagger                  | 3            |
+| 7     | US-004    | Creación de cursos                                   | 5            |
+| 8     | US-003    | Ingreso a cursos                                     | 5            |
+| 9     | US-005    | Invitación a cursos                                  | 5            |
+| 10    | US-008    | Visualizar todos los cursos                          | 3            |
+| 11    | US-013    | Ver detalles de curso con assignments                | 5            |
+| 12    | US-006    | Ver lista de alumnos de un curso                     | 3            |
+| 13    | US-007    | Eliminar alumnos de un curso                         | 3            |
+| 14    | US-014    | Agregar nueva assignment                             | 5            |
+| 15    | US-015    | Subir cualquier tipo de archivo al assignment        | 5            |
+| 16    | US-028    | Eliminar archivos del assignment                     | 3            |
+| 17    | US-010    | Visualización de assignments del curso               | 3            |
+| 18    | US-011    | Descargar archivos de assignment                     | 3            |
+| 19    | US-009    | Múltiples entregas por assignment                    | 5            |
+| 20    | US-019    | Subir todo tipo de archivos para el submission       | 8            |
+| 21    | US-012    | Ver submissions de un assignment                     | 5            |
+| 22    | US-016    | Ver detalles del submission (Profesor)               | 5            |
+| 23    | US-017    | Calificar un submission                              | 5            |
+| 24    | US-018    | Ver detalles del submission (Estudiante)             | 3            |
+| 25    | US-020    | Ver estadísticas generales del curso                 | 8            |
+| 26    | US-021    | Ver distribución de calificaciones del curso         | 8            |
+| 27    | US-022    | Redirección al aplicativo web                        | 1            |
+| 28    | US-024    | Visualización de Misión y Visión del startup         | 2            |
+| 29    | US-026    | Sección de Video About the Product                   | 2            |
+| 30    | US-023    | Sección de Video About the Team                      | 2            |
+| 31    | US-025    | Testimonios de usuarios previos                      | 3            |
 
 
 ### 3.4 Impact Mapping  
