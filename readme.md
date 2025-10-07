@@ -774,35 +774,28 @@ User Stories:
 ### 3.3 Product Backlog
 
 | Orden | Código US | Título                                               | Story Points |
-|-------|-----------|-------------------------------------------------------|--------------|
-| 1     | US-002    | Creación de grupos                                    | 5            |
-| 2     | US-001    | Ingreso a grupos                                      | 5            |
-| 3     | US-003    | Invitación a grupos                                   | 5            |
-| 4     | US-005    | Creación de trabajos con fechas límite                | 5            |
-| 5     | US-006    | Recepción de entregas (múltiples oportunidades)       | 8            |
-| 6     | US-007    | Visualización de trabajos y fechas                    | 5            |
-| 7     | US-015    | Acceso a todas las entregas de un trabajo             | 5            |
-| 8     | US-004    | Eliminación de alumnos                                | 3            |
-| 9     | TS-001    | Configuración de autenticación y autorización con JWT | 8            |
-| 10    | TS-002    | Configuración de validación de datos en backend       | 5            |
-| 11    | TS-003    | Configuración de CORS en backend                      | 3            |
-| 12    | TS-004    | Documentación de la API con Swagger                   | 3            |
-| 13    | US-020    | Estados de entrega                                    | 5            |
-| 14    | US-013    | Reentrega controlada                                  | 5            |
-| 15    | US-014    | Historial de calificaciones                           | 5            |
-| 16    | US-019    | Extensión de plazo de entrega                         | 3            |
-| 17    | US-008    | Visualización de dashboard de progreso académico      | 5            |
-| 18    | US-009    | Comparación del rendimiento con el promedio del grupo | 5            |
-| 19    | US-010    | Visualización de métricas globales de desempeño       | 8            |
-| 20    | US-011    | Alertas sobre estudiantes con bajo rendimiento        | 5            |
-| 21    | US-012    | Recordatorios y notificaciones de entregas            | 5            |
-| 22    | US-016    | Publicación de anuncios con comentarios               | 5            |
-| 23    | US-018    | Compartir recursos educativos                         | 8            |
-| 24    | US-021    | Redirección al aplicativo web                         | 1            |
-| 25    | US-023    | Visualización de Misión y Visión de la startup        | 2            |
-| 26    | US-025    | Sección de Video About the Product                    | 2            |
-| 27    | US-022    | Sección de Video About the Team                       | 2            |
-| 28    | US-024    | Testimonios de usuarios previos                       | 3            |
+|-------|-----------|------------------------------------------------------|--------------|
+| 1     | US-001    | Registro de usuario                                  | 5            |
+| 2     | US-002    | Inicio de sesión (Authentication)                    | 3            |
+| 3     | US-004    | Creación de grupos                                   | 5            |
+| 4     | US-005    | Ingreso a grupos                                     | 5            |
+| 5     | US-005    | Invitación a grupos                                  | 5            |
+| 6     | US-007    | Creación de trabajos con fechas límite               | 5            |
+| 7     | US-008    | Recepción de entregas (múltiples oportunidades)      | 8            |
+| 8     | US-010    | Calificación de entregas                             | 5            |
+| 9     | US-009    | Visualización de trabajos y fechas                   | 5            |
+| 10    | US-015    | Acceso a todas las entregas de un trabajo            | 5            |
+| 11    | TS-001    | Configuración de autenticación y autorización con JWT| 8            |
+| 12    | TS-002    | Configuración de validación de datos en backend      | 5            |
+| 13    | TS-003    | Configuración de CORS en backend                     | 3            |
+| 14    | TS-004    | Documentación de la API con Swagger                  | 3            |
+| 15    | US-013    | Visualización de métricas globales de desempeño del grupo | 8         |
+| 16    | US-021    | Compartir recursos educativos                        | 8            |
+| 17    | US-024    | Redirección al aplicativo web                        | 1            |
+| 18    | US-026    | Visualización de Misión y Visión del startup         | 2            |
+| 19    | US-028    | Sección de Video About the Product                   | 2            |
+| 20    | US-025    | Sección de Video About the Team                      | 2            |
+| 21    | US-027    | Testimonios de usuarios previos                      | 3            |
 
 
 ### 3.4 Impact Mapping  
