@@ -3705,22 +3705,257 @@ Para ello, se emplearon herramientas como Selenium, que permitieron automatizar 
 ## Capítulo VII: DevOps Practices  
 
 ### 7.1 Continuous Integration  
-#### 7.1.1 Tools and Practices  
-#### 7.1.2 Build & Test Suite Pipeline Components  
+#### 7.1.1 Tools and Practices
+
+La práctica de Integración Continua (CI) fue implementada para asegurar que el desarrollo del proyecto mantenga una línea de calidad constante y que cada actualización del código se integre sin afectar la estabilidad del sistema. Esta metodología permitió detectar errores con rapidez, mejorar la trazabilidad del progreso y optimizar el flujo de trabajo colaborativo del equipo. 
+
+Durante el proceso, se empleó JUnit para validar las funciones del backend mediante pruebas unitarias, comprobando que cada módulo lógico cumpliera correctamente su propósito antes de su integración. De forma complementaria, se aplicó Selenium para automatizar pruebas de interfaz en el entorno web, garantizando que las interacciones del usuario, los botones, formularios y flujos de navegación funcionaran de forma estable en distintas versiones del sistema. 
+
+<table>
+  <thead>
+    <tr>
+      <th>Herramienta</th>
+      <th>Metodología</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+      <th>Propósito</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>JUnit</td>
+      <td>TDD</td>
+      <td>Framework de pruebas unitarias</td>
+      <td>Herramienta de código abierto utilizada para realizar pruebas automatizadas en Java. Permite verificar que cada unidad de código (método o clase) funcione correctamente antes de su integración.</td>
+      <td>Garantizar la calidad y fiabilidad del backend mediante pruebas unitarias automatizadas.</td>
+    </tr>
+    <tr>
+      <td>Mockito</td>
+      <td>TDD</td>
+      <td>Framework de pruebas de integración y simulación (mocking)</td>
+      <td>Biblioteca de Java que permite crear objetos simulados (mocks) para probar interacciones entre componentes sin necesidad de depender de implementaciones reales. Facilita el aislamiento de las pruebas unitarias.</td>
+      <td>Validar la interacción entre clases y componentes del backend, asegurando que los módulos funcionen correctamente incluso cuando dependen de servicios externos o no implementados.</td>
+    </tr>
+    <tr>
+      <td>Cucumber</td>
+      <td>BDD</td>
+      <td>Framework de pruebas de comportamiento</td>
+      <td>Herramienta que permite escribir pruebas automatizadas en lenguaje natural (Gherkin), facilitando la colaboración entre desarrolladores, testers y stakeholders no técnicos.</td>
+      <td>Alinear las pruebas con los requisitos del negocio y validar que el sistema cumpla el comportamiento esperado desde la perspectiva del usuario.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 7.1.2 Build & Test Suite Pipeline Components
+
+<img src="./assets/chapter-6/unit_test_1.png" alt="Core Entities Unit Tests" width="700"/><br>
+
+<img src="./assets/chapter-6/unit_test_2.png" alt="Core Entities Unit Tests" width="700"/><br>
+
+<img src="./assets/chapter-6/bdd_1.png" alt="Core Behavior-Driven Development" width="300"/><br>
+
+<img src="./assets/chapter-6/bdd_2.png" alt="Core Behavior-Driven Development" width="500"/><br>
 
 ### 7.2 Continuous Delivery  
-#### 7.2.1 Tools and Practices  
+#### 7.2.1 Tools and Practices
+
+En el proceso de Continuous Delivery implementado para LearnHive, se aplicaron diversas herramientas y prácticas que permitieron mantener la estabilidad del producto, automatizar tareas críticas y asegurar la coherencia entre los entornos de desarrollo, pruebas y producción. 
+
+**Tools** 
+
+**GitHub Actions:**
+
+ Se utilizó para automatizar los flujos de integración y entrega continua (CI/CD). Cada vez que se realiza un push o pull request, la herramienta ejecuta pruebas automáticas, analiza el estado del código y despliega los cambios en entornos controlados. Esto garantiza que las actualizaciones del sistema sean seguras y no interrumpan el funcionamiento general de la plataforma. 
+
+**Docker:**
+
+ Fue fundamental para contenerizar tanto el frontend como el backend, asegurando que todos los miembros del equipo trabajen con entornos idénticos. Permitiendo desplegar la aplicación en servidores de prueba o producción con total consistencia. 
+
+**Trello:**
+
+ Se utilizó como herramienta de gestión visual para el flujo de aprobaciones dentro del proceso de entrega. Una vez que una versión superaba las pruebas automatizadas, esta debía pasar por una revisión manual del equipo técnico y del líder de proyecto antes de ser aprobada para su despliegue en el entorno de producción. 
+
+**Postman:**
+ Apoyó en la verificación del correcto funcionamiento de los endpoints del backend. Durante las fases de entrega, permitió validar que las respuestas de la API coincidieran con las especificaciones del sistema y que las integraciones con el frontend se mantuvieran estables. 
+
+**Selenium:**
+
+ Se empleó para realizar pruebas automáticas de interfaz de usuario (UI), simulando interacciones reales de los usuarios con la aplicación. Gracias a Selenium, fue posible detectar errores visuales, fallos de navegación y comportamientos inesperados antes del despliegue final. 
+
+**Lighthouse:**
+
+ Fue usada para evaluar el rendimiento, accesibilidad y buenas prácticas del frontend en la web. Sus reportes ayudaron a optimizar la velocidad de carga, la experiencia del usuario y la eficiencia del código, garantizando que la aplicación cumpla con los estándares de calidad web antes de su lanzamiento en producción.  
+
+**Practices**
+
+**Feature Branching y Merge Requests:**
+ Cada nueva funcionalidad de LearnHive se desarrolla en ramas independientes para mantener la estabilidad del entorno principal. Una vez completado el desarrollo y superadas las pruebas automatizadas, se realiza un merge request hacia la rama estable. Esta práctica permite aislar cambios, facilitar revisiones de código y asegurar que solo las funcionalidades validadas lleguen a las versiones de prueba o producción. 
+
+**Pipeline de Validación en Staging:**
+ Antes de cualquier despliegue final, el código se valida en un entorno de staging que replica las condiciones de producción. Allí se ejecutan pruebas integradas con datos simulados de cursos, usuarios y métricas académicas, garantizando que las nuevas versiones no afecten la experiencia de los docentes ni de los estudiantes. Este paso también permite recibir retroalimentación temprana del equipo de QA o del Product Owner. 
+
+**Despliegue Controlado:**
+ En lugar de desplegar automáticamente, LearnHive utiliza un modelo de entrega semiautomática. El pipeline prepara la aplicación, genera los contenedores y ejecuta las verificaciones finales, pero el despliegue solo se completa tras la aprobación de un responsable técnico. Esto aporta control y reduce el riesgo de errores en entornos educativos con usuarios activos. 
+
+**Aprobación Manual:**
+ Cada versión candidata pasa por una revisión final donde se evalúan los resultados de pruebas funcionales, rendimiento y accesibilidad. Solo después de la aprobación manual del líder técnico o gerente de producto, se autoriza el despliegue a producción. Esta práctica ayuda a mantener la calidad del servicio y evitar interrupciones para los usuarios. 
+
+**Rollback Planificado:**
+ En caso de fallas detectadas después del despliegue, se cuenta con un plan de rollback manual y documentado. Este proceso permite revertir rápidamente la aplicación a una versión estable anterior, garantizando la continuidad operativa del sistema y la integridad de los datos de los institutos asociados. 
+
 #### 7.2.2 Stages Deployment Pipeline Components  
 
-### 7.3 Continuous Deployment  
+**Integración Continua (CI):**
+ Cada vez que un desarrollador realiza un commit o merge en una rama activa del repositorio de LearnHive, el pipeline de Integración Continua ejecuta pruebas unitarias y de integración. Estas validaciones aseguran que el código sea estable, que no se rompan dependencias y que la aplicación se mantenga en un estado desplegable. Además, se verifican estándares de calidad y formato de código mediante linters y revisiones automáticas. 
+
+**Validación en Staging:** 
+ Antes del despliegue final, la aplicación se ejecuta en un entorno de staging que replica las condiciones de producción. Aquí se realizan pruebas funcionales, de carga y seguridad, usando datos de ejemplo representativos del ecosistema académico (cursos, docentes y alumnos). Este paso permite identificar posibles problemas de rendimiento o compatibilidad antes de afectar a los usuarios reales. 
+
+**Despliegue Supervisado:**
+ El pipeline prepara automáticamente la versión lista para producción (build, contenedor Docker y configuración del entorno), pero el paso final del despliegue requiere aprobación manual. Este mecanismo garantiza que las nuevas versiones pasen por una última revisión técnica, reduciendo el riesgo de fallos en horas críticas de uso institucional. 
+
+**Monitoreo y Retroalimentación:**
+ Tras el despliegue en staging o producción, se activan herramientas de monitoreo (por ejemplo, Lighthouse y logs de servidor) que permiten observar métricas de rendimiento, tiempos de respuesta y errores en tiempo real. La información recolectada ayuda al equipo a evaluar la estabilidad de la versión y tomar decisiones informadas sobre su lanzamiento completo o la necesidad de ajustes. 
+
+**Aprobación del Despliegue:**
+ El pipeline queda en modo de espera (pending state) hasta que un responsable técnico o el líder de proyecto apruebe el paso final a producción. Esta aprobación se basa en la revisión de los reportes de pruebas, auditorías de seguridad y desempeño. Solo tras esta validación, la nueva versión de LearnHive se libera oficialmente para todos los institutos afiliados. 
+
+**Rollback Controlado:**
+ En caso de detectar errores críticos o degradación de servicio tras el despliegue, se cuenta con un procedimiento de rollback rápido y documentado. Este proceso revierte la aplicación a la última versión estable, asegurando la continuidad del servicio y minimizando el impacto en los usuarios. 
+
+### 7.3 Continuous Deployment 
+
+En esta sección se describen las principales herramientas y prácticas utilizadas para garantizar un proceso de integración y despliegue continuo eficiente, seguro y automatizado dentro del ecosistema de LearnHive. 
+
 #### 7.3.1 Tools and Practices  
+
+**Tools**
+
+<table>
+  <thead>
+    <tr>
+      <th>Categoría</th>
+      <th>Herramienta</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Automatización del pipeline</td>
+      <td>GitHub Actions</td>
+      <td>Permite automatizar el flujo de integración, pruebas y despliegue continuo. Cada vez que se realiza un push o merge a la rama principal, se ejecuta el pipeline completo.</td>
+    </tr>
+    <tr>
+      <td>Contenerización</td>
+      <td>Docker</td>
+      <td>Empaqueta el backend en una imagen que incluye todas sus dependencias, garantizando que funcione de la misma manera en cualquier entorno.</td>
+    </tr>
+    <tr>
+      <td>Hosting Backend y Base de Datos</td>
+      <td>Render</td>
+      <td>Plataforma en la nube que permite desplegar servicios de backend (Spring Boot) y bases de datos PostgreSQL. Automatiza el redeploy cuando se detectan cambios en el repositorio.</td>
+    </tr>
+    <tr>
+      <td>Hosting Frontend</td>
+      <td>Vercel</td>
+      <td>Permite desplegar automáticamente aplicaciones frontend (como Angular o React) vinculadas directamente al repositorio de GitHub.</td>
+    </tr>
+    <tr>
+      <td>Monitoreo y Validación Post-Despliegue</td>
+      <td>Lighthouse</td>
+      <td>Evalúa el rendimiento, accesibilidad y cumplimiento de buenas prácticas del frontend desplegado en producción.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Practices**
+
+- **Feature Branching:**
+ Los desarrolladores trabajan en ramas independientes para nuevas funcionalidades o correcciones. Una vez finalizadas y verificadas, las ramas se integran en la rama develop, que gestiona los despliegues a staging o producción. Esta práctica mantiene un flujo de trabajo limpio y controlado. 
+
+- **Despliegue completamente automatizado:** 
+Una vez que el código es validado por las pruebas unitarias y de integración, GitHub Actions ejecuta automáticamente el pipeline de despliegue hacia Render (backend y base de datos) y Vercel (frontend). 
+
+- **Commit-based Deployment (Despliegue basado en commits):**
+ Cada commit en la rama develop activa automáticamente el pipeline de CI/CD configurado en GitHub Actions. Este proceso ejecuta las pruebas, valida la calidad del código y realiza el despliegue automático del frontend y backend en los entornos correspondientes. 
+
+- **Rollback Automático:**
+ El pipeline incluye un sistema de rollback configurado en caso de fallos en producción. Si se detectan errores críticos tras un despliegue, se restaura la versión estable anterior de manera automática, enviando notificaciones al equipo técnico para revisión. 
+
+- **Monitoreo y Auditoría Continua:**
+ Tras cada despliegue, se ejecutan análisis automáticos de rendimiento mediante Lighthouse y verificación de logs del servidor. Estas prácticas permiten detectar anomalías tempranas, mejorar la estabilidad y mantener la calidad del servicio en tiempo real. 
+
 #### 7.3.2 Production Deployment Pipeline Components  
 
-### 7.4 Continuous Monitoring  
-#### 7.4.1 Tools and Practices  
-#### 7.4.2 Monitoring Pipeline Components  
-#### 7.4.3 Alerting Pipeline Components  
-#### 7.4.4 Notification Pipeline Components  
+En esta sección se describen los principales componentes del pipeline de despliegue a producción implementado para LearnHive, los cuales garantizan una entrega continua, segura y estable del producto digital. El objetivo es mantener coherencia entre los entornos de desarrollo, staging y producción, automatizando los procesos críticos y reduciendo riesgos operativos. 
+
+**Componentes del Pipeline del Backend (Render para Spring Boot):**
+
+Integración continua: Al hacer un commit en la rama develop, Render toma el código actualizado del backend (Spring Boot), lo construye utilizando Maven. 
+
+Construcción de la imagen Docker: Render construye una imagen Docker del backend, asegurando que todas las dependencias están incluidas. 
+
+Despliegue: Render implementa la nueva versión del backend en el servidor de producción. 
+
+Monitoreo y alerta: Después del despliegue, Render monitorea la aplicación y envía alertas si algo falla o si hay problemas de rendimiento. 
+
+**Componentes del Pipeline del Frontend (Vercel o Firebase para Angular)**
+
+**Compilación del frontend:**
+ Cada vez que se detecta un nuevo commit en la rama principal, el pipeline inicia el proceso de compilación de la aplicación Angular en modo producción. 
+
+**Pruebas automatizadas:**
+ Se ejecutan pruebas end-to-end con Selenium, garantizando que la interfaz funcione correctamente y que las rutas de usuario no se vean afectadas por cambios recientes. 
+
+**Despliegue automático en hosting (Firebase):**
+ Si todas las pruebas son exitosas, la nueva versión del frontend se despliega automáticamente en Firebase Hosting para asegurar tiempos de carga óptimos en Lima Metropolitana. 
+
+**Invalidación de caché y actualización continua:**
+ El pipeline gestiona automáticamente la invalidación de caché para asegurar que todos los usuarios accedan siempre a la versión más reciente del sistema LearnHive, sin requerir recargas manuales. 
+
+ El pipeline de Continuous Deployment se compone de las siguientes etapas automatizadas: 
+
+<table>
+  <thead>
+    <tr>
+      <th>Etapa</th>
+      <th>Descripción</th>
+      <th>Herramientas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Build & Test</td>
+      <td>El pipeline de GitHub Actions compila el código fuente y ejecuta pruebas unitarias e integradas para validar la estabilidad del sistema.</td>
+      <td>GitHub Actions, JUnit</td>
+    </tr>
+    <tr>
+      <td>Contenerización del Backend</td>
+      <td>El backend se empaqueta en una imagen Docker lista para ejecutarse en cualquier entorno, garantizando consistencia y portabilidad.</td>
+      <td>Docker</td>
+    </tr>
+    <tr>
+      <td>Deploy Automático del Backend y Base de Datos</td>
+      <td>Render recibe la nueva imagen del backend y actualiza automáticamente la aplicación junto con su conexión a la base de datos PostgreSQL.</td>
+      <td>Render</td>
+    </tr>
+    <tr>
+      <td>Deploy Automático del Frontend</td>
+      <td>Vercel detecta cambios en el repositorio y publica automáticamente la nueva versión del frontend, asegurando una entrega continua y rápida.</td>
+      <td>Vercel</td>
+    </tr>
+    <tr>
+      <td>Validación Post-Despliegue</td>
+      <td>Se ejecutan pruebas automáticas para verificar el rendimiento, accesibilidad y comportamiento del sistema en el entorno de producción.</td>
+      <td>Lighthouse</td>
+    </tr>
+    <tr>
+      <td>Monitoreo y Rollback Automático</td>
+      <td>Render y GitHub Actions monitorean el estado del servicio y, en caso de fallos, permiten revertir el despliegue a una versión estable anterior.</td>
+      <td>Render, GitHub Actions</td>
+    </tr>
+  </tbody>
+</table>
 
 
 # Part III: Experiment-Driven Lifecycle  
