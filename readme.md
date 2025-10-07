@@ -3198,26 +3198,78 @@ En esta sección se aplicó la metodología Behavior-Driven Development (BDD) co
 
 Cada archivo .feature está relacionado con una historia de usuario del proyecto, representando acciones comunes dentro del sistema como la creación de grupos, el ingreso mediante código o la visualización de trabajos. De esta forma, se puede entender de manera clara cómo debería comportarse el sistema frente a las interacciones de los usuarios, lo que facilita tanto el desarrollo como las pruebas del software.
 
-<img src="./assets/chapter-6/bdd_1.png" alt="Core Behavior-Driven Development" width="300"/>
+<img src="./assets/chapter-6/bdd_1.png" alt="Core Behavior-Driven Development" width="300"/><br>
 
-<img src="./assets/chapter-6/bdd_2.png" alt="Core Behavior-Driven Development" width="500"/>
+<img src="./assets/chapter-6/bdd_2.png" alt="Core Behavior-Driven Development" width="500"/><br>
 
-<img src="./assets/chapter-6/bdd_3.png" alt="Core Behavior-Driven Development" width="500"/>
+<img src="./assets/chapter-6/bdd_3.png" alt="Core Behavior-Driven Development" width="500"/><br>
 
-<img src="./assets/chapter-6/bdd_4.png" alt="Core Behavior-Driven Development" width="500"/>
+<img src="./assets/chapter-6/bdd_4.png" alt="Core Behavior-Driven Development" width="500"/><br>
 
-<img src="./assets/chapter-6/bdd_5.png" alt="Core Behavior-Driven Development" width="500"/>
+<img src="./assets/chapter-6/bdd_5.png" alt="Core Behavior-Driven Development" width="500"/><br>
 
-<img src="./assets/chapter-6/bdd_6.png" alt="Core Behavior-Driven Development" width="500"/>
+<img src="./assets/chapter-6/bdd_6.png" alt="Core Behavior-Driven Development" width="500"/><br>
 
-<img src="./assets/chapter-6/bdd_7.png" alt="Core Behavior-Driven Development" width="500"/>
+<img src="./assets/chapter-6/bdd_7.png" alt="Core Behavior-Driven Development" width="500"/><br>
 
-<img src="./assets/chapter-6/bdd_8.png" alt="Core Behavior-Driven Development" width="500"/>
+<img src="./assets/chapter-6/bdd_8.png" alt="Core Behavior-Driven Development" width="500"/><br>
 
-<img src="./assets/chapter-6/bdd_9.png" alt="Core Behavior-Driven Development" width="500"/>
+<img src="./assets/chapter-6/bdd_9.png" alt="Core Behavior-Driven Development" width="500"/><br>
 
 
 #### 6.1.4 Core System Tests
+
+En esta etapa se realizaron las pruebas de sistema, las cuales tienen como objetivo validar el funcionamiento general de la aplicación una vez integrados todos sus módulos. A diferencia de las pruebas unitarias o integrales, estas se enfocan en comprobar el comportamiento del sistema completo desde la experiencia del usuario, tanto en el entorno web como móvil. 
+
+Para ello, se emplearon herramientas como Selenium, que permitieron automatizar la navegación por la aplicación web y verificar que los flujos principales (inicio de sesión, creación de grupos, visualización de tareas, entre otros) funcionen correctamente y sin errores. Estas pruebas también evaluaron la correcta comunicación con las APIs del backend, asegurando que las peticiones y respuestas del servidor se procesen de manera adecuada. 
+
+| US001 | Ingreso a grupos | Como estudiante, quiero ser capaz de unirme a los grupos formados por mis profesores con facilidad, para poder acceder a las actividades y materiales del curso. |
+|-------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_1.png" alt="Core System Tests" width="300"/><br>
+
+
+| US002 | Creación de grupos | Como profesor, quiero ser capaz de crear grupos para mis cursos en la plataforma, para organizar a mis estudiantes y gestionar mejor las clases. |
+|-------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_2.png" alt="Core System Tests" width="300"/><br>
+
+
+| US003 | Invitación a grupos | Como profesor, quiero invitar a mis alumnos a los grupos creados por mí, para facilitar su incorporación a los cursos y mantener el control de los miembros. |
+|-------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_3.png" alt="Core System Tests" width="300"/><br>
+
+
+| US005 | Creación de trabajos con fechas límite | Como profesor, quiero crear trabajos dentro de cada curso con sus respectivas fechas de entrega, para organizar las actividades académicas y dar claridad a mis estudiantes. |
+|-------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_4.png" alt="Core System Tests" width="300"/><br>
+
+
+| US007 | Visualización de trabajos y fechas | Como estudiante, quiero visualizar en un dashboard todos mis trabajos y fechas de entrega, para organizar mis actividades y priorizar las más urgentes. |
+|-------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_5.png" alt="Core System Tests" width="300"/><br>
+
+
+| US008 | Visualización de dashboard de progreso académico | Como estudiante, quiero visualizar un dashboard con mis calificaciones y progreso en tiempo real, para saber si estoy avanzando de manera adecuada en mis cursos. |
+|-------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_6.png" alt="Core System Tests" width="300"/><br>
+
+
+| US015 | Acceso a todas las entregas de un trabajo | Como profesor, quiero acceder en una sola vista a todas las entregas de un trabajo, para agilizar la revisión y calificación. |
+|-------|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_7.png" alt="Core System Tests" width="300"/><br>
+
+
+| US020 | Estados de entrega | Como estudiante, quiero ver el estado de cada entrega (pendiente, entregado, en revisión, calificado), para conocer en qué punto del proceso está mi trabajo. |
+|-------|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_8.png" alt="Core System Tests" width="300"/><br>
+
 
 ## Capítulo VII: DevOps Practices  
 
