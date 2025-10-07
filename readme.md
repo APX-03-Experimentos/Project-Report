@@ -101,6 +101,54 @@
       <td>Real Calderón Sebastián Omar,<br>Alejo Cárdenas José Antonio,<br>Luquillas Asto Omar y<br>Olivera Barzola Eric Marlon</td>
       <td>Revisión completa hasta el capítulo 5, corrección ortográfica y coherencia global del reporte.</td>
     </tr>
+    <tr>
+      <td>1.1</td>
+      <td>20/09/2025</td>
+      <td>Real Calderón Sebastián Omar,<br>Alejo Cárdenas José Antonio,<br>Luquillas Asto Omar y<br>Olivera Barzola Eric Marlon</td>
+      <td>Correcciones hasta el capítulo 5 según la retroalimentación.</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>01/10/2025</td>
+      <td>Luquillas Asto Omar y<br>Alejo Cárdenas José Antonio</td>
+      <td>Desarrollo de los items: 6.1.1. Core Entities Unit Tests. 6.1.2. Core Integration Tests. 6.1.3. Core Behavior-Driven Development</td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td>02/10/2025</td>
+      <td>Luquillas Asto Omar y<br>Alejo Cárdenas José Antonio</td>
+      <td>Desarrollo de los items: 6.1.4. Core System Tests.</td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>03/10/2025</td>
+      <td>Real Calderón Sebastián Omar y<br>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los items: 7.1. Continuous Integration 7.1.1. Tools and Practices. 7.1.2. Build & Test Suite Pipeline Components.</td>
+    </tr>
+    <tr>
+      <td>1.5</td>
+      <td>04/10/2025</td>
+      <td>Real Calderón Sebastián Omar y<br>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los items: 7.2. Continuous Delivery 7.2.1. Tools and Practices. 7.2.2. Stages Deployment Pipeline Components.</td>
+    </tr>
+    <tr>
+      <td>1.6</td>
+      <td>05/10/2025</td>
+      <td>Real Calderón Sebastián Omar y<br>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los items: 7.3. Continuous deployment 7.3.1. Tools and Practices. 7.3.2. Production Deployment Pipeline Components.</td>
+    </tr>
+    <tr>
+      <td>1.7</td>
+      <td>06/10/2025</td>
+      <td>Real Calderón Sebastián Omar,<br>Alejo Cárdenas José Antonio,<br>Luquillas Asto Omar y<br>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo del avance de Conclusiones, Bibliografía y Anexos.</td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>07/10/2025</td>
+      <td>Real Calderón Sebastián Omar,<br>Alejo Cárdenas José Antonio,<br>Luquillas Asto Omar y<br>Olivera Barzola Eric Marlon</td>
+      <td>Revisión completa hasta el capítulo 7, corrección ortográfica y coherencia global del reporte.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -119,6 +167,23 @@ Entrega TB1 (18/09/2025):
 <img src="./assets/miscellaneous/report_insights3_tb1.png" alt="Insights Report Collaboration Insights TB1" />
 
 Para esta primera entrega se desarollaron los capítulos del 1 al 5 y el sprint 1, en imagenes adjuntadas se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
+
+Distribución de commits:
+
+- Alejo Cárdenas, José Antonio: 7 commits
+- Luquillas Asto, Omar: 28 commits
+- Real Calderón, Sebastián Omar: 3 commits
+- Olivera Barzola, Eric Marlon: 7 commits
+
+Entrega TP (07/10/2025):
+
+<img src="./assets/miscellaneous/report_insights1_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+<img src="./assets/miscellaneous/report_insights2_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+<img src="./assets/miscellaneous/report_insights3_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+Para esta segunda entrega se desarrollaron los capítulos 6 y 7, en imagenes adjuntadas se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
 
 Distribución de commits:
 
@@ -320,10 +385,59 @@ Distribución de commits:
 
 # Student Outcome  
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-|----------------------|---------------------|--------------|
-| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** | **Alejo Cardenas, Jose Antonio**<br>TB1: Alejo Cárdenas Jose Antonio – TB1: Desarrollé mi comunicación oral al presentar los Lean UX Problem Statements, Assumptions y el análisis competitivo de los principales actores del mercado, explicando con claridad las estrategias frente a competidores. También participé en la definición de User Stories y en la exposición de la gestión de la configuración del software, donde aseguré que tanto el equipo técnico como no técnico comprendieran los procesos<br><br>**Real Calderon, Sebastian Omar**<br>TB1: Contribuí en la elaboración del Startup Profile y en la redacción técnica de los entregables de Needfinding, estructurando user personas, empathy maps y escenarios con un lenguaje claro y coherente. También desarrollé la arquitectura de la información y el diseño de software orientado a objetos, incluyendo diagramas de clases y el diseño de base de datos, y el front<br>**Luquillas Asto, Omar**<br>TB1: Me encargué de elaborar el Solution Profile, desarrollando antecedentes, problemática y el Lean UX Canvas, explicando de manera clara los supuestos y las hipótesis del proyecto. También expuse la definición del To-Be Scenario Mapping, el Product Backlog y el Impact Mapping, conectando cada necesidad detectada con funcionalidades específicas También me enfoqué en la implementación del backend<br><br>**Olivera Barzola, Eric Marlon**<br>TB1: Desarrollé entregables relacionados con el diseño de interfaces, creando Style Guidelines y propuestas visuales para la Landing Page, las aplicaciones móviles y web, garantizando accesibilidad e inclusión. También participé en la documentación de la implementación, presentando evidencias de la landing<br><br> |El equipo demostró responsabilidad ética y profesional en cada etapa del proyecto al considerar las necesidades reales de los usuarios (estudiantes y profesores), garantizando la transparencia en la recopilación de información mediante entrevistas y priorizando siempre soluciones que aporten valor académico. Asimismo, se mantuvo un compromiso con las buenas prácticas de ingeniería de software|
-| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | **Alejo Cardenas, Jose Antonio**<br>TB1: Desarrollé mi comunicación escrita al redactar el análisis de competidores, el Product Backlog y la documentación del Software Configuration Management, asegurando claridad y adaptación a distintas audiencias.<br>TB2: BBB…<br>**Real Calderon, Sebastian Omar**<br>TB1: Contribuí en la redacción del Startup Profile, los entregables de Needfinding y el diseño orientado a objetos, cuidando que los textos fueran claros y comprensibles para técnicos y no técnicos<br>**Luquillas Asto, Omar**<br>TB1: Redacté el Solution Profile, el To-Be Scenario Mapping y el Impact Mapping, presentando la información con precisión y lenguaje accesible para distintos públicos del proyecto.<br><br>**Olivera Barzola, Eric Marlon**<br>TB1:Elaboré Style Guidelines, documentación de interfaces y evidencias de implementación, manteniendo una comunicación escrita clara, inclusiva y adecuada para diferentes tipos de lectores.<br><br> |A lo largo del desarrollo del proyecto, el equipo fortaleció su capacidad de comunicación escrita, elaborando documentos técnicos y no técnicos que fueron claros, estructurados y adaptados a diferentes audiencias.|
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</strong></td>
+      <td>
+        <strong>Alejo Cárdenas, José Antonio</strong><br>
+        <strong>TB1:</strong><br> Desarrollé mi comunicación oral al presentar los Lean UX Problem Statements, Assumptions y el análisis competitivo de los principales actores del mercado, explicando con claridad las estrategias frente a competidores. También participé en la definición de User Stories y en la exposición de la gestión de la configuración del software, donde aseguré que tanto el equipo técnico como no técnico comprendieran los procesos.<br><br>
+        <strong>TP:</strong><br> Me enfoqué en aplicar técnicas de Behavior-Driven Development para definir escenarios y criterios de aceptación claros, asegurando que el equipo comprendiera las expectativas del proyecto y manteniendo un enfoque ético en la priorización de funcionalidades. También realicé pruebas de sistema integrales para validar la operación completa del software, documentando los resultados y reportando incidencias de forma profesional y responsable.<br><br>
+        <strong>Real Calderon, Sebastian Omar</strong><br>
+        <strong>TB1:</strong><br> Contribuí en la elaboración del Startup Profile y en la redacción técnica de los entregables de Needfinding, estructurando user personas, empathy maps y escenarios con un lenguaje claro y coherente. También desarrollé la arquitectura de la información y el diseño de software orientado a objetos, incluyendo diagramas de clases y el diseño de base de datos, y el front.<br><br>
+        <strong>TP:</strong><br> Me encargué del despliegue continuo en producción, implementando mecanismos para minimizar riesgos y asegurar la transparencia y trazabilidad en cada entrega, contribuyendo así a la responsabilidad ética y profesional en el manejo del software.<br><br>
+        <strong>Luquillas Asto, Omar</strong><br>
+        <strong>TB1:</strong><br> Me encargué de elaborar el Solution Profile, desarrollando antecedentes, problemática y el Lean UX Canvas, explicando de manera clara los supuestos y las hipótesis del proyecto. También expuse la definición del To-Be Scenario Mapping, el Product Backlog y el Impact Mapping, conectando cada necesidad detectada con funcionalidades específicas. También me enfoqué en la implementación del backend.<br><br>
+        <strong>TP:</strong><br> Me encargué de desarrollar las pruebas unitarias para las entidades centrales del sistema, asegurándome de que cada componente se comportara correctamente y cumpliendo buenas prácticas de ingeniería de software. Además, implementé pruebas de integración para validar la interacción entre los distintos módulos, documentando los resultados y evidencias de manera clara para garantizar transparencia y trazabilidad en todo el proceso.<br><br>
+        <strong>Olivera Barzola, Eric Marlon</strong><br>
+        <strong>TB1:</strong><br> Desarrollé entregables relacionados con el diseño de interfaces, creando Style Guidelines y propuestas visuales para la Landing Page, las aplicaciones móviles y web, garantizando accesibilidad e inclusión. También participé en la documentación de la implementación, presentando evidencias de la landing.<br><br>
+        <strong>TP:</strong><br> Mi participación se centró en implementar las prácticas de integración continua, asegurando que todos los cambios en el código se verificaran automáticamente y promoviendo la calidad y responsabilidad técnica del equipo. Asimismo, colaboré en la configuración del pipeline de entrega continua, garantizando que las versiones del software se desplegaran de manera segura y controlada, cumpliendo con los estándares éticos y profesionales del proyecto.
+      </td>
+      <td>
+        <strong>TB1:</strong><br> El equipo demostró responsabilidad ética y profesional en cada etapa del proyecto al considerar las necesidades reales de los usuarios (estudiantes y profesores), garantizando la transparencia en la recopilación de información mediante entrevistas y priorizando siempre soluciones que aporten valor académico. Asimismo, se mantuvo un compromiso con las buenas prácticas de ingeniería de software.<br><br>
+        <strong>TP:</strong><br> El equipo mantuvo un enfoque ético y profesional durante todo el desarrollo del TP, implementando pruebas, pipelines y procesos de integración y despliegue de manera transparente y documentada, priorizando siempre la calidad del software y la seguridad del usuario final.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</strong></td>
+      <td>
+        <strong>Alejo Cárdenas, José Antonio</strong><br>
+        <strong>TB1:</strong><br> Desarrollé mi comunicación escrita al redactar el análisis de competidores, el Product Backlog y la documentación del Software Configuration Management, asegurando claridad y adaptación a distintas audiencias.<br><br>
+        <strong>TP:</strong><br> Consideré cómo los escenarios definidos a través de BDD afectan la usabilidad, satisfacción del usuario y adopción del software, promoviendo decisiones informadas y responsables. De igual manera, reflexioné sobre cómo los resultados de las pruebas de sistema impactan la fiabilidad del software y su aplicación en contextos reales, priorizando siempre la eficiencia y la calidad del proyecto.<br><br>
+        <strong>Real Calderón, Sebastián Omar</strong><br>
+        <strong>TB1:</strong><br> Contribuí en la redacción del Startup Profile, los entregables de Needfinding y el diseño orientado a objetos, cuidando que los textos fueran claros y comprensibles para técnicos y no técnicos.<br><br>
+        <strong>TP:</strong><br> Durante el despliegue continuo, reflexioné sobre la importancia de minimizar riesgos y errores en producción, considerando los impactos económicos y sociales en los usuarios finales y en la organización, y asegurando que cada decisión técnica tuviera consecuencias responsables y previsibles.<br><br>
+        <strong>Luquillas Asto, Omar</strong><br>
+        <strong>TB1:</strong><br> Redacté el Solution Profile, el To-Be Scenario Mapping y el Impact Mapping, presentando la información con precisión y lenguaje accesible para distintos públicos del proyecto.<br><br>
+        <strong>TP:</strong><br> Evalué cómo las pruebas unitarias contribuían a la eficiencia del software y a la reducción de errores que podrían afectar la productividad y los recursos del proyecto. También analicé el impacto de la integración correcta de módulos sobre la sostenibilidad del software y la experiencia de los usuarios finales, asegurando decisiones responsables en cada etapa.<br><br>
+        <strong>Olivera Barzola, Eric Marlon</strong><br>
+        <strong>TB1:</strong><br> Elaboré Style Guidelines, documentación de interfaces y evidencias de implementación, manteniendo una comunicación escrita clara, inclusiva y adecuada para diferentes tipos de lectores.<br><br>
+        <strong>TP:</strong><br> Analicé el impacto económico y social de la integración continua, ya que permite reducir los tiempos de desarrollo y facilita la colaboración global del equipo. Además, evalué cómo la entrega continua optimiza los recursos del proyecto y contribuye a un desarrollo más sostenible y confiable, considerando siempre los efectos a nivel técnico y social.
+      </td>
+      <td>
+        <strong>TB1:</strong><br> A lo largo del desarrollo del proyecto, el equipo fortaleció su capacidad de comunicación escrita, elaborando documentos técnicos y no técnicos que fueron claros, estructurados y adaptados a diferentes audiencias.<br><br>
+        <strong>TP:</strong><br> El equipo demostró capacidad de emitir juicios informados, considerando el impacto técnico, económico, social y ambiental de las soluciones implementadas, asegurando que las decisiones de ingeniería favorecieran la eficiencia, sostenibilidad y experiencia del usuario.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 # Part I: As-Is Software Project  
@@ -3505,3 +3619,7 @@ Links:
 [Repositorio del Backend](https://github.com/APX-03-Experimentos/Backend-Web-Services)
 
 [Repositorio del Fronted](https://github.com/APX-03-Experimentos/Frontend-Web-Applications)
+
+Video:
+
+[About the Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/EatCmU9KviNPj0JlGXsLnBkBCz_wkenwhK9ttOvAP56Dfw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZIWNtu)
