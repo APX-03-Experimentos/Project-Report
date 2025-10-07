@@ -3092,33 +3092,50 @@ Distribución de commits:
 ## Capítulo VI: Product Verification & Validation  
 
 ### 6.1 Testing Suites & Validation  
-#### 6.1.1 Core Entities Unit Tests  
+#### 6.1.1 Core Entities Unit Tests
+
+En esta sección se presentan las pruebas unitarias realizadas sobre las entidades principales del sistema. El objetivo de estas pruebas es validar que cada componente individual funcione correctamente de manera aislada, asegurando que cumpla con los requisitos funcionales definidos en el proyecto y que no existan errores en la lógica interna.
+
+**Assignments:**
+
+Clases probadas: Assignment, Submission 
+
+Objetivo: Validar el comportamiento de las tareas y las entregas, incluyendo creación, actualización, manejo de archivos y calificación de las entregas. 
+
+Pruebas realizadas:
+
+<img src="./assets/chapter-6/unit_test_1.png" alt="Core Entities Unit Tests" width="700"/>
+
+<img src="./assets/chapter-6/unit_test_2.png" alt="Core Entities Unit Tests" width="700"/>
+
+**Courses:**
+
+Clases probadas: Course 
+
+Objetivo: Validar la creación, actualización y gestión de los códigos de unión (join codes) de los cursos. 
+
+Pruebas realizadas:
+
+<img src="./assets/chapter-6/unit_test_3.png" alt="Core Entities Unit Tests" width="700"/>
+
+**IAM:**
+
+Clases probadas: User, Role, UpdateUserCommand 
+
+Objetivo: Validar la gestión de usuarios, la asignación de roles y la correcta validación de comandos de actualización. 
+
+Pruebas realizadas:
+
+<img src="./assets/chapter-6/unit_test_4.png" alt="Core Entities Unit Tests" width="700"/>
+
+<img src="./assets/chapter-6/unit_test_5.png" alt="Core Entities Unit Tests" width="700"/>
+
+<img src="./assets/chapter-6/unit_test_6.png" alt="Core Entities Unit Tests" width="700"/>
+
+
 #### 6.1.2 Core Integration Tests  
 #### 6.1.3 Core Behavior-Driven Development  
-#### 6.1.4 Core System Tests  
-
-### 6.2 Static Testing & Verification  
-#### 6.2.1 Static Code Analysis  
-##### 6.2.1.1 Coding Standard & Code Conventions  
-##### 6.2.1.2 Code Quality & Code Security  
-#### 6.2.2 Reviews  
-
-### 6.3 Validation Interviews  
-#### 6.3.1 Diseño de Entrevistas  
-#### 6.3.2 Registro de Entrevistas  
-#### 6.3.3 Evaluaciones según heurísticas  
-
-### 6.4 Auditoría de Experiencias de Usuario  
-#### 6.4.1 Auditoría realizada  
-##### 6.4.1.1 Información del grupo auditado  
-##### 6.4.1.2 Cronograma de auditoría realizada  
-##### 6.4.1.3 Contenido de auditoría realizada  
-#### 6.4.2 Auditoría recibida  
-##### 6.4.2.1 Información del grupo auditor  
-##### 6.4.2.2 Cronograma de auditoría recibida  
-##### 6.4.2.3 Contenido de auditoría recibida  
-##### 6.4.2.4 Resumen de modificaciones para subsanar hallazgos  
-
+#### 6.1.4 Core System Tests
 
 ## Capítulo VII: DevOps Practices  
 
