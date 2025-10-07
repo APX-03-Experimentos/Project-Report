@@ -3139,7 +3139,7 @@ En esta sección se desarrollaron pruebas de integración con el objetivo de val
 
 **Pruebas de integración interna (entre módulos del dominio):**
 
-Estas pruebas se realizaron para verificar la integración interna entre los módulos principales del backend, como IAM, Courses y Assignments. Se enfocaron en comprobar que las entidades, repositorios y relaciones funcionen de manera correcta cuando se combinan, garantizando la persistencia y consistencia de los datos en la base de datos. 
+Estas pruebas se realizaron para verificar la integración interna entre los módulos principales del backend, como IAM, Courses y Assignments. Se enfocaron en comprobar que las entidades, repositorios y relaciones funcionen de manera correcta cuando se combinan, garantizando la persistencia y consistencia de los datos en la base de datos.
 
 Escenarios probados: 
 
@@ -3157,7 +3157,7 @@ Escenarios probados:
 
 Estas pruebas se desarrollaron en la clase DesignWebServicesBackendApplicationTests, donde se validó que cada módulo interactúe correctamente con los demás, asegurando la coherencia de las operaciones CRUD y la comunicación entre los distintos componentes del dominio.
 
-<img src="./assets/chapter-6/integration_test_1.png" alt="Core Entities Unit Tests" width="700"/>
+<img src="./assets/chapter-6/integration_test_1.png" alt="Core Integration Tests" width="700"/>
 
 **Pruebas de integración de controladores (Controllers Integration Tests)**
 
@@ -3177,22 +3177,46 @@ Estas pruebas aseguran que los endpoints del sistema respondan correctamente ant
 
 **Authentication Controller Tests**
 
-<img src="./assets/chapter-6/integration_test_2.png" alt="Core Entities Unit Tests" width="700"/>
+<img src="./assets/chapter-6/integration_test_2.png" alt="Core Integration Tests" width="700"/>
 
 **Courses Controller Tests**
 
-<img src="./assets/chapter-6/integration_test_3.png" alt="Core Entities Unit Tests" width="700"/>
+<img src="./assets/chapter-6/integration_test_3.png" alt="Core Integration Tests" width="700"/>
 
 **Assignments Controller Tests**
 
-<img src="./assets/chapter-6/integration_test_4.png" alt="Core Entities Unit Tests" width="700"/>
+<img src="./assets/chapter-6/integration_test_4.png" alt="Core Integration Tests" width="700"/>
 
 **Submissions Controller Tests**
 
-<img src="./assets/chapter-6/integration_test_5.png" alt="Core Entities Unit Tests" width="700"/>
+<img src="./assets/chapter-6/integration_test_5.png" alt="Core Integration Tests" width="700"/>
 
 
-#### 6.1.3 Core Behavior-Driven Development  
+#### 6.1.3 Core Behavior-Driven Development
+
+En esta sección se aplicó la metodología Behavior-Driven Development (BDD) con el propósito de describir y validar el comportamiento del sistema desde la perspectiva del usuario. Para esto, se crearon archivos de características (.feature) haciendo uso de la sintaxis de Cucumber, donde se detallan distintos escenarios escritos en lenguaje natural siguiendo la estructura Given–When–Then.  
+
+Cada archivo .feature está relacionado con una historia de usuario del proyecto, representando acciones comunes dentro del sistema como la creación de grupos, el ingreso mediante código o la visualización de trabajos. De esta forma, se puede entender de manera clara cómo debería comportarse el sistema frente a las interacciones de los usuarios, lo que facilita tanto el desarrollo como las pruebas del software.
+
+<img src="./assets/chapter-6/bdd_1.png" alt="Core Behavior-Driven Development" width="300"/>
+
+<img src="./assets/chapter-6/bdd_2.png" alt="Core Behavior-Driven Development" width="500"/>
+
+<img src="./assets/chapter-6/bdd_3.png" alt="Core Behavior-Driven Development" width="500"/>
+
+<img src="./assets/chapter-6/bdd_4.png" alt="Core Behavior-Driven Development" width="500"/>
+
+<img src="./assets/chapter-6/bdd_5.png" alt="Core Behavior-Driven Development" width="500"/>
+
+<img src="./assets/chapter-6/bdd_6.png" alt="Core Behavior-Driven Development" width="500"/>
+
+<img src="./assets/chapter-6/bdd_7.png" alt="Core Behavior-Driven Development" width="500"/>
+
+<img src="./assets/chapter-6/bdd_8.png" alt="Core Behavior-Driven Development" width="500"/>
+
+<img src="./assets/chapter-6/bdd_9.png" alt="Core Behavior-Driven Development" width="500"/>
+
+
 #### 6.1.4 Core System Tests
 
 ## Capítulo VII: DevOps Practices  
