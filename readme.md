@@ -3092,32 +3092,183 @@ Distribución de commits:
 ## Capítulo VI: Product Verification & Validation  
 
 ### 6.1 Testing Suites & Validation  
-#### 6.1.1 Core Entities Unit Tests  
-#### 6.1.2 Core Integration Tests  
-#### 6.1.3 Core Behavior-Driven Development  
-#### 6.1.4 Core System Tests  
+#### 6.1.1 Core Entities Unit Tests
 
-### 6.2 Static Testing & Verification  
-#### 6.2.1 Static Code Analysis  
-##### 6.2.1.1 Coding Standard & Code Conventions  
-##### 6.2.1.2 Code Quality & Code Security  
-#### 6.2.2 Reviews  
+En esta sección se presentan las pruebas unitarias realizadas sobre las entidades principales del sistema. El objetivo de estas pruebas es validar que cada componente individual funcione correctamente de manera aislada, asegurando que cumpla con los requisitos funcionales definidos en el proyecto y que no existan errores en la lógica interna.
 
-### 6.3 Validation Interviews  
-#### 6.3.1 Diseño de Entrevistas  
-#### 6.3.2 Registro de Entrevistas  
-#### 6.3.3 Evaluaciones según heurísticas  
+**Assignments:**
 
-### 6.4 Auditoría de Experiencias de Usuario  
-#### 6.4.1 Auditoría realizada  
-##### 6.4.1.1 Información del grupo auditado  
-##### 6.4.1.2 Cronograma de auditoría realizada  
-##### 6.4.1.3 Contenido de auditoría realizada  
-#### 6.4.2 Auditoría recibida  
-##### 6.4.2.1 Información del grupo auditor  
-##### 6.4.2.2 Cronograma de auditoría recibida  
-##### 6.4.2.3 Contenido de auditoría recibida  
-##### 6.4.2.4 Resumen de modificaciones para subsanar hallazgos  
+Clases probadas: Assignment, Submission 
+
+Objetivo: Validar el comportamiento de las tareas y las entregas, incluyendo creación, actualización, manejo de archivos y calificación de las entregas. 
+
+Pruebas realizadas:
+
+<img src="./assets/chapter-6/unit_test_1.png" alt="Core Entities Unit Tests" width="700"/>
+
+<img src="./assets/chapter-6/unit_test_2.png" alt="Core Entities Unit Tests" width="700"/>
+
+**Courses:**
+
+Clases probadas: Course 
+
+Objetivo: Validar la creación, actualización y gestión de los códigos de unión (join codes) de los cursos. 
+
+Pruebas realizadas:
+
+<img src="./assets/chapter-6/unit_test_3.png" alt="Core Entities Unit Tests" width="700"/>
+
+**IAM:**
+
+Clases probadas: User, Role, UpdateUserCommand 
+
+Objetivo: Validar la gestión de usuarios, la asignación de roles y la correcta validación de comandos de actualización. 
+
+Pruebas realizadas:
+
+<img src="./assets/chapter-6/unit_test_4.png" alt="Core Entities Unit Tests" width="700"/>
+
+<img src="./assets/chapter-6/unit_test_5.png" alt="Core Entities Unit Tests" width="700"/>
+
+<img src="./assets/chapter-6/unit_test_6.png" alt="Core Entities Unit Tests" width="700"/>
+
+
+#### 6.1.2 Core Integration Tests
+
+En esta sección se desarrollaron pruebas de integración con el objetivo de validar el correcto funcionamiento conjunto de los diferentes módulos que conforman el backend del sistema, así como la comunicación entre las capas que lo componen. Estas pruebas garantizan que los componentes puedan interactuar entre sí sin errores, manteniendo la consistencia de los datos y la integridad del flujo de información. 
+
+**Pruebas de integración interna (entre módulos del dominio):**
+
+Estas pruebas se realizaron para verificar la integración interna entre los módulos principales del backend, como IAM, Courses y Assignments. Se enfocaron en comprobar que las entidades, repositorios y relaciones funcionen de manera correcta cuando se combinan, garantizando la persistencia y consistencia de los datos en la base de datos.
+
+Escenarios probados: 
+
+- Creación de una asignación y una entrega: 
+ Se comprobó que al crear una tarea (Assignment) esta se guarda correctamente en la base de datos y que un estudiante puede enviar una entrega (Submission) asociada a ella. Además, se verificó que la relación entre ambas entidades se mantenga consistente. 
+
+- Creación y actualización de curso: 
+ Se validó que un curso pueda ser creado, actualizado con nuevos valores y que se le asigne correctamente un código de unión (CourseJoinCode). Con esto se confirma que las operaciones CRUD dentro del módulo de cursos funcionan de forma integral. 
+
+- Creación de usuario y asignación de roles: 
+ Se probó que el módulo de IAM permita registrar un usuario y asignarle un rol, asegurando la correcta persistencia de la relación entre las tablas users y roles. 
+
+- Asignación de usuario a curso: 
+ Se comprobó que un usuario pueda inscribirse en un curso y que dicha relación se almacene correctamente, demostrando la correcta integración entre los módulos de IAM y Courses. 
+
+Estas pruebas se desarrollaron en la clase DesignWebServicesBackendApplicationTests, donde se validó que cada módulo interactúe correctamente con los demás, asegurando la coherencia de las operaciones CRUD y la comunicación entre los distintos componentes del dominio.
+
+<img src="./assets/chapter-6/integration_test_1.png" alt="Core Integration Tests" width="700"/>
+
+**Pruebas de integración de controladores (Controllers Integration Tests)**
+
+Además de las pruebas internas, se implementaron pruebas de integración a nivel de controladores utilizando la herramienta MockMvc. Estas pruebas tienen como finalidad validar la comunicación entre la capa de presentación (endpoints REST) y la capa de negocio del sistema, simulando peticiones HTTP reales y comprobando las respuestas devueltas por la API. 
+
+Se evaluaron los controladores principales del backend: 
+
+- AuthenticationController: registro e inicio de sesión de usuarios mediante los flujos sign-up y sign-in. 
+
+- CoursesController: gestión de creación, actualización, eliminación y consulta de cursos. 
+
+- AssignmentsController: administración de tareas asociadas a cada curso. 
+
+- SubmissionsController: control de creación, calificación y visualización de entregas de estudiantes. 
+
+Estas pruebas aseguran que los endpoints del sistema respondan correctamente ante operaciones CRUD, validen la autenticación con JWT y mantengan la comunicación efectiva entre las capas del backend.
+
+**Authentication Controller Tests**
+
+<img src="./assets/chapter-6/integration_test_2.png" alt="Core Integration Tests" width="700"/>
+
+**Courses Controller Tests**
+
+<img src="./assets/chapter-6/integration_test_3.png" alt="Core Integration Tests" width="700"/>
+
+**Assignments Controller Tests**
+
+<img src="./assets/chapter-6/integration_test_4.png" alt="Core Integration Tests" width="700"/>
+
+**Submissions Controller Tests**
+
+<img src="./assets/chapter-6/integration_test_5.png" alt="Core Integration Tests" width="700"/>
+
+
+#### 6.1.3 Core Behavior-Driven Development
+
+En esta sección se aplicó la metodología Behavior-Driven Development (BDD) con el propósito de describir y validar el comportamiento del sistema desde la perspectiva del usuario. Para esto, se crearon archivos de características (.feature) haciendo uso de la sintaxis de Cucumber, donde se detallan distintos escenarios escritos en lenguaje natural siguiendo la estructura Given–When–Then.  
+
+Cada archivo .feature está relacionado con una historia de usuario del proyecto, representando acciones comunes dentro del sistema como la creación de grupos, el ingreso mediante código o la visualización de trabajos. De esta forma, se puede entender de manera clara cómo debería comportarse el sistema frente a las interacciones de los usuarios, lo que facilita tanto el desarrollo como las pruebas del software.
+
+<img src="./assets/chapter-6/bdd_1.png" alt="Core Behavior-Driven Development" width="300"/><br>
+
+<img src="./assets/chapter-6/bdd_2.png" alt="Core Behavior-Driven Development" width="500"/><br>
+
+<img src="./assets/chapter-6/bdd_3.png" alt="Core Behavior-Driven Development" width="500"/><br>
+
+<img src="./assets/chapter-6/bdd_4.png" alt="Core Behavior-Driven Development" width="500"/><br>
+
+<img src="./assets/chapter-6/bdd_5.png" alt="Core Behavior-Driven Development" width="500"/><br>
+
+<img src="./assets/chapter-6/bdd_6.png" alt="Core Behavior-Driven Development" width="500"/><br>
+
+<img src="./assets/chapter-6/bdd_7.png" alt="Core Behavior-Driven Development" width="500"/><br>
+
+<img src="./assets/chapter-6/bdd_8.png" alt="Core Behavior-Driven Development" width="500"/><br>
+
+<img src="./assets/chapter-6/bdd_9.png" alt="Core Behavior-Driven Development" width="500"/><br>
+
+
+#### 6.1.4 Core System Tests
+
+En esta etapa se realizaron las pruebas de sistema, las cuales tienen como objetivo validar el funcionamiento general de la aplicación una vez integrados todos sus módulos. A diferencia de las pruebas unitarias o integrales, estas se enfocan en comprobar el comportamiento del sistema completo desde la experiencia del usuario, tanto en el entorno web como móvil. 
+
+Para ello, se emplearon herramientas como Selenium, que permitieron automatizar la navegación por la aplicación web y verificar que los flujos principales (inicio de sesión, creación de grupos, visualización de tareas, entre otros) funcionen correctamente y sin errores. Estas pruebas también evaluaron la correcta comunicación con las APIs del backend, asegurando que las peticiones y respuestas del servidor se procesen de manera adecuada. 
+
+| US001 | Ingreso a grupos | Como estudiante, quiero ser capaz de unirme a los grupos formados por mis profesores con facilidad, para poder acceder a las actividades y materiales del curso. |
+|-------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_1.png" alt="Core System Tests" width="300"/><br>
+
+
+| US002 | Creación de grupos | Como profesor, quiero ser capaz de crear grupos para mis cursos en la plataforma, para organizar a mis estudiantes y gestionar mejor las clases. |
+|-------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_2.png" alt="Core System Tests" width="300"/><br>
+
+
+| US003 | Invitación a grupos | Como profesor, quiero invitar a mis alumnos a los grupos creados por mí, para facilitar su incorporación a los cursos y mantener el control de los miembros. |
+|-------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_3.png" alt="Core System Tests" width="300"/><br>
+
+
+| US005 | Creación de trabajos con fechas límite | Como profesor, quiero crear trabajos dentro de cada curso con sus respectivas fechas de entrega, para organizar las actividades académicas y dar claridad a mis estudiantes. |
+|-------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_4.png" alt="Core System Tests" width="300"/><br>
+
+
+| US007 | Visualización de trabajos y fechas | Como estudiante, quiero visualizar en un dashboard todos mis trabajos y fechas de entrega, para organizar mis actividades y priorizar las más urgentes. |
+|-------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_5.png" alt="Core System Tests" width="300"/><br>
+
+
+| US008 | Visualización de dashboard de progreso académico | Como estudiante, quiero visualizar un dashboard con mis calificaciones y progreso en tiempo real, para saber si estoy avanzando de manera adecuada en mis cursos. |
+|-------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_6.png" alt="Core System Tests" width="300"/><br>
+
+
+| US015 | Acceso a todas las entregas de un trabajo | Como profesor, quiero acceder en una sola vista a todas las entregas de un trabajo, para agilizar la revisión y calificación. |
+|-------|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_7.png" alt="Core System Tests" width="300"/><br>
+
+
+| US020 | Estados de entrega | Como estudiante, quiero ver el estado de cada entrega (pendiente, entregado, en revisión, calificado), para conocer en qué punto del proceso está mi trabajo. |
+|-------|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_8.png" alt="Core System Tests" width="300"/><br>
 
 
 ## Capítulo VII: DevOps Practices  
