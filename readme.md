@@ -101,6 +101,54 @@
       <td>Real Calderón Sebastián Omar,<br>Alejo Cárdenas José Antonio,<br>Luquillas Asto Omar y<br>Olivera Barzola Eric Marlon</td>
       <td>Revisión completa hasta el capítulo 5, corrección ortográfica y coherencia global del reporte.</td>
     </tr>
+    <tr>
+      <td>1.1</td>
+      <td>20/09/2025</td>
+      <td>Real Calderón Sebastián Omar,<br>Alejo Cárdenas José Antonio,<br>Luquillas Asto Omar y<br>Olivera Barzola Eric Marlon</td>
+      <td>Correcciones hasta el capítulo 5 según la retroalimentación.</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>01/10/2025</td>
+      <td>Luquillas Asto Omar y<br>Alejo Cárdenas José Antonio</td>
+      <td>Desarrollo de los items: 6.1.1. Core Entities Unit Tests. 6.1.2. Core Integration Tests. 6.1.3. Core Behavior-Driven Development</td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td>02/10/2025</td>
+      <td>Luquillas Asto Omar y<br>Alejo Cárdenas José Antonio</td>
+      <td>Desarrollo de los items: 6.1.4. Core System Tests.</td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>03/10/2025</td>
+      <td>Real Calderón Sebastián Omar y<br>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los items: 7.1. Continuous Integration 7.1.1. Tools and Practices. 7.1.2. Build & Test Suite Pipeline Components.</td>
+    </tr>
+    <tr>
+      <td>1.5</td>
+      <td>04/10/2025</td>
+      <td>Real Calderón Sebastián Omar y<br>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los items: 7.2. Continuous Delivery 7.2.1. Tools and Practices. 7.2.2. Stages Deployment Pipeline Components.</td>
+    </tr>
+    <tr>
+      <td>1.6</td>
+      <td>05/10/2025</td>
+      <td>Real Calderón Sebastián Omar y<br>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los items: 7.3. Continuous deployment 7.3.1. Tools and Practices. 7.3.2. Production Deployment Pipeline Components.</td>
+    </tr>
+    <tr>
+      <td>1.7</td>
+      <td>06/10/2025</td>
+      <td>Real Calderón Sebastián Omar,<br>Alejo Cárdenas José Antonio,<br>Luquillas Asto Omar y<br>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo del avance de Conclusiones, Bibliografía y Anexos.</td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>07/10/2025</td>
+      <td>Real Calderón Sebastián Omar,<br>Alejo Cárdenas José Antonio,<br>Luquillas Asto Omar y<br>Olivera Barzola Eric Marlon</td>
+      <td>Revisión completa hasta el capítulo 7, corrección ortográfica y coherencia global del reporte.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -119,6 +167,23 @@ Entrega TB1 (18/09/2025):
 <img src="./assets/miscellaneous/report_insights3_tb1.png" alt="Insights Report Collaboration Insights TB1" />
 
 Para esta primera entrega se desarollaron los capítulos del 1 al 5 y el sprint 1, en imagenes adjuntadas se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
+
+Distribución de commits:
+
+- Alejo Cárdenas, José Antonio: 7 commits
+- Luquillas Asto, Omar: 28 commits
+- Real Calderón, Sebastián Omar: 3 commits
+- Olivera Barzola, Eric Marlon: 7 commits
+
+Entrega TP (07/10/2025):
+
+<img src="./assets/miscellaneous/report_insights1_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+<img src="./assets/miscellaneous/report_insights2_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+<img src="./assets/miscellaneous/report_insights3_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+Para esta segunda entrega se desarrollaron los capítulos 6 y 7, en imagenes adjuntadas se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
 
 Distribución de commits:
 
@@ -320,10 +385,59 @@ Distribución de commits:
 
 # Student Outcome  
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-|----------------------|---------------------|--------------|
-| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** | **Alejo Cardenas, Jose Antonio**<br>TB1: Alejo Cárdenas Jose Antonio – TB1: Desarrollé mi comunicación oral al presentar los Lean UX Problem Statements, Assumptions y el análisis competitivo de los principales actores del mercado, explicando con claridad las estrategias frente a competidores. También participé en la definición de User Stories y en la exposición de la gestión de la configuración del software, donde aseguré que tanto el equipo técnico como no técnico comprendieran los procesos<br><br>**Real Calderon, Sebastian Omar**<br>TB1: Contribuí en la elaboración del Startup Profile y en la redacción técnica de los entregables de Needfinding, estructurando user personas, empathy maps y escenarios con un lenguaje claro y coherente. También desarrollé la arquitectura de la información y el diseño de software orientado a objetos, incluyendo diagramas de clases y el diseño de base de datos, y el front<br>**Luquillas Asto, Omar**<br>TB1: Me encargué de elaborar el Solution Profile, desarrollando antecedentes, problemática y el Lean UX Canvas, explicando de manera clara los supuestos y las hipótesis del proyecto. También expuse la definición del To-Be Scenario Mapping, el Product Backlog y el Impact Mapping, conectando cada necesidad detectada con funcionalidades específicas También me enfoqué en la implementación del backend<br><br>**Olivera Barzola, Eric Marlon**<br>TB1: Desarrollé entregables relacionados con el diseño de interfaces, creando Style Guidelines y propuestas visuales para la Landing Page, las aplicaciones móviles y web, garantizando accesibilidad e inclusión. También participé en la documentación de la implementación, presentando evidencias de la landing<br><br> |El equipo demostró responsabilidad ética y profesional en cada etapa del proyecto al considerar las necesidades reales de los usuarios (estudiantes y profesores), garantizando la transparencia en la recopilación de información mediante entrevistas y priorizando siempre soluciones que aporten valor académico. Asimismo, se mantuvo un compromiso con las buenas prácticas de ingeniería de software|
-| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | **Alejo Cardenas, Jose Antonio**<br>TB1: Desarrollé mi comunicación escrita al redactar el análisis de competidores, el Product Backlog y la documentación del Software Configuration Management, asegurando claridad y adaptación a distintas audiencias.<br>TB2: BBB…<br>**Real Calderon, Sebastian Omar**<br>TB1: Contribuí en la redacción del Startup Profile, los entregables de Needfinding y el diseño orientado a objetos, cuidando que los textos fueran claros y comprensibles para técnicos y no técnicos<br>**Luquillas Asto, Omar**<br>TB1: Redacté el Solution Profile, el To-Be Scenario Mapping y el Impact Mapping, presentando la información con precisión y lenguaje accesible para distintos públicos del proyecto.<br><br>**Olivera Barzola, Eric Marlon**<br>TB1:Elaboré Style Guidelines, documentación de interfaces y evidencias de implementación, manteniendo una comunicación escrita clara, inclusiva y adecuada para diferentes tipos de lectores.<br><br> |A lo largo del desarrollo del proyecto, el equipo fortaleció su capacidad de comunicación escrita, elaborando documentos técnicos y no técnicos que fueron claros, estructurados y adaptados a diferentes audiencias.|
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</strong></td>
+      <td>
+        <strong>Alejo Cárdenas, José Antonio</strong><br>
+        <strong>TB1:</strong><br> Desarrollé mi comunicación oral al presentar los Lean UX Problem Statements, Assumptions y el análisis competitivo de los principales actores del mercado, explicando con claridad las estrategias frente a competidores. También participé en la definición de User Stories y en la exposición de la gestión de la configuración del software, donde aseguré que tanto el equipo técnico como no técnico comprendieran los procesos.<br><br>
+        <strong>TP:</strong><br> Me enfoqué en aplicar técnicas de Behavior-Driven Development para definir escenarios y criterios de aceptación claros, asegurando que el equipo comprendiera las expectativas del proyecto y manteniendo un enfoque ético en la priorización de funcionalidades. También realicé pruebas de sistema integrales para validar la operación completa del software, documentando los resultados y reportando incidencias de forma profesional y responsable.<br><br>
+        <strong>Real Calderon, Sebastian Omar</strong><br>
+        <strong>TB1:</strong><br> Contribuí en la elaboración del Startup Profile y en la redacción técnica de los entregables de Needfinding, estructurando user personas, empathy maps y escenarios con un lenguaje claro y coherente. También desarrollé la arquitectura de la información y el diseño de software orientado a objetos, incluyendo diagramas de clases y el diseño de base de datos, y el front.<br><br>
+        <strong>TP:</strong><br> Me encargué del despliegue continuo en producción, implementando mecanismos para minimizar riesgos y asegurar la transparencia y trazabilidad en cada entrega, contribuyendo así a la responsabilidad ética y profesional en el manejo del software.<br><br>
+        <strong>Luquillas Asto, Omar</strong><br>
+        <strong>TB1:</strong><br> Me encargué de elaborar el Solution Profile, desarrollando antecedentes, problemática y el Lean UX Canvas, explicando de manera clara los supuestos y las hipótesis del proyecto. También expuse la definición del To-Be Scenario Mapping, el Product Backlog y el Impact Mapping, conectando cada necesidad detectada con funcionalidades específicas. También me enfoqué en la implementación del backend.<br><br>
+        <strong>TP:</strong><br> Me encargué de desarrollar las pruebas unitarias para las entidades centrales del sistema, asegurándome de que cada componente se comportara correctamente y cumpliendo buenas prácticas de ingeniería de software. Además, implementé pruebas de integración para validar la interacción entre los distintos módulos, documentando los resultados y evidencias de manera clara para garantizar transparencia y trazabilidad en todo el proceso.<br><br>
+        <strong>Olivera Barzola, Eric Marlon</strong><br>
+        <strong>TB1:</strong><br> Desarrollé entregables relacionados con el diseño de interfaces, creando Style Guidelines y propuestas visuales para la Landing Page, las aplicaciones móviles y web, garantizando accesibilidad e inclusión. También participé en la documentación de la implementación, presentando evidencias de la landing.<br><br>
+        <strong>TP:</strong><br> Mi participación se centró en implementar las prácticas de integración continua, asegurando que todos los cambios en el código se verificaran automáticamente y promoviendo la calidad y responsabilidad técnica del equipo. Asimismo, colaboré en la configuración del pipeline de entrega continua, garantizando que las versiones del software se desplegaran de manera segura y controlada, cumpliendo con los estándares éticos y profesionales del proyecto.
+      </td>
+      <td>
+        <strong>TB1:</strong><br> El equipo demostró responsabilidad ética y profesional en cada etapa del proyecto al considerar las necesidades reales de los usuarios (estudiantes y profesores), garantizando la transparencia en la recopilación de información mediante entrevistas y priorizando siempre soluciones que aporten valor académico. Asimismo, se mantuvo un compromiso con las buenas prácticas de ingeniería de software.<br><br>
+        <strong>TP:</strong><br> El equipo mantuvo un enfoque ético y profesional durante todo el desarrollo del TP, implementando pruebas, pipelines y procesos de integración y despliegue de manera transparente y documentada, priorizando siempre la calidad del software y la seguridad del usuario final.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</strong></td>
+      <td>
+        <strong>Alejo Cárdenas, José Antonio</strong><br>
+        <strong>TB1:</strong><br> Desarrollé mi comunicación escrita al redactar el análisis de competidores, el Product Backlog y la documentación del Software Configuration Management, asegurando claridad y adaptación a distintas audiencias.<br><br>
+        <strong>TP:</strong><br> Consideré cómo los escenarios definidos a través de BDD afectan la usabilidad, satisfacción del usuario y adopción del software, promoviendo decisiones informadas y responsables. De igual manera, reflexioné sobre cómo los resultados de las pruebas de sistema impactan la fiabilidad del software y su aplicación en contextos reales, priorizando siempre la eficiencia y la calidad del proyecto.<br><br>
+        <strong>Real Calderón, Sebastián Omar</strong><br>
+        <strong>TB1:</strong><br> Contribuí en la redacción del Startup Profile, los entregables de Needfinding y el diseño orientado a objetos, cuidando que los textos fueran claros y comprensibles para técnicos y no técnicos.<br><br>
+        <strong>TP:</strong><br> Durante el despliegue continuo, reflexioné sobre la importancia de minimizar riesgos y errores en producción, considerando los impactos económicos y sociales en los usuarios finales y en la organización, y asegurando que cada decisión técnica tuviera consecuencias responsables y previsibles.<br><br>
+        <strong>Luquillas Asto, Omar</strong><br>
+        <strong>TB1:</strong><br> Redacté el Solution Profile, el To-Be Scenario Mapping y el Impact Mapping, presentando la información con precisión y lenguaje accesible para distintos públicos del proyecto.<br><br>
+        <strong>TP:</strong><br> Evalué cómo las pruebas unitarias contribuían a la eficiencia del software y a la reducción de errores que podrían afectar la productividad y los recursos del proyecto. También analicé el impacto de la integración correcta de módulos sobre la sostenibilidad del software y la experiencia de los usuarios finales, asegurando decisiones responsables en cada etapa.<br><br>
+        <strong>Olivera Barzola, Eric Marlon</strong><br>
+        <strong>TB1:</strong><br> Elaboré Style Guidelines, documentación de interfaces y evidencias de implementación, manteniendo una comunicación escrita clara, inclusiva y adecuada para diferentes tipos de lectores.<br><br>
+        <strong>TP:</strong><br> Analicé el impacto económico y social de la integración continua, ya que permite reducir los tiempos de desarrollo y facilita la colaboración global del equipo. Además, evalué cómo la entrega continua optimiza los recursos del proyecto y contribuye a un desarrollo más sostenible y confiable, considerando siempre los efectos a nivel técnico y social.
+      </td>
+      <td>
+        <strong>TB1:</strong><br> A lo largo del desarrollo del proyecto, el equipo fortaleció su capacidad de comunicación escrita, elaborando documentos técnicos y no técnicos que fueron claros, estructurados y adaptados a diferentes audiencias.<br><br>
+        <strong>TP:</strong><br> El equipo demostró capacidad de emitir juicios informados, considerando el impacto técnico, económico, social y ambiental de las soluciones implementadas, asegurando que las decisiones de ingeniería favorecieran la eficiencia, sostenibilidad y experiencia del usuario.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 # Part I: As-Is Software Project  
@@ -1182,83 +1296,400 @@ El To-Be Scenario Mapping de profesores de instituto plantea un futuro en el que
 
 Epicas:
 
-| Epic ID | Título                                                    | Descripción |
-|---------|------------------------------------------------------------|-------------|
-| EP-001  | Gestión de Grupos                                          | Esta épica se enfoca en ofrecer a profesores y estudiantes una forma sencilla y estructurada de crear y administrar grupos académicos. El docente tiene la capacidad de formar equipos, asignar integrantes y mantener un control organizado sobre su composición. Los estudiantes, por su parte, cuentan con un espacio definido para integrarse a sus grupos de trabajo, lo que fomenta la colaboración y la coordinación en sus actividades académicas. |
-| EP-002  | Gestión de trabajos y entregas                             | Esta épica se enfoca en las funcionalidades orientadas a la creación de trabajos académicos para cada grupo, y el recibimiento de entregas, así como la calificación de estas. Por parte de los estudiantes, estos deben poder visualizar sus trabajos pendientes tanto en el menú de un grupo específico como en un menú especializado general que les muestre sus fechas de entrega más cercanas. Por el lado de los profesores, estos deben poder crear trabajos con fechas límite, administrar su visualización y acceder a las entregas de sus alumnos, así como calificarlas y dejar mensajes de retroalimentación. |
-| EP-003  | Seguimiento de progreso y retroalimentación automatizada   | Esta épica se centra en ofrecer funcionalidades que permitan a estudiantes y profesores acceder a datos en tiempo real sobre el rendimiento académico. Los estudiantes podrán visualizar sus calificaciones, avances y métricas comparativas mediante dashboards gráficos, lo que les permitirá identificar fortalezas, debilidades y áreas de mejora. Además, contarán con retroalimentación automatizada e instantánea, generada a partir de sus entregas y participación, para orientar su aprendizaje de manera continua. Por el lado de los profesores, estos podrán monitorear tanto las métricas individuales de cada estudiante como el desempeño general del grupo, identificando patrones y detectando a tiempo las dificultades más comunes. |
-| EP-004  | Comunicación, interacción y recursos educativos dinámicos  | Esta épica se orienta al intercambio de información y la creación de espacios de interacción dentro de la plataforma. Los profesores podrán publicar anuncios dirigidos a todo el grupo, en los cuales los alumnos podrán dejar comentarios, consultas o dudas que serán respondidas en el mismo hilo. Tanto docentes como estudiantes recibirán notificaciones automáticas que les mantendrán al tanto de las respuestas e interacciones. Asimismo, los alumnos tendrán la posibilidad de enviarse mensajes privados para coordinar actividades académicas de manera ágil. Como valor agregado, la épica incorpora la posibilidad de compartir recursos educativos interactivos tales como videos cortos, imágenes y materiales en tiempo real, lo que no solo mejora la comunicación, sino que también hace más atractivo y participativo el proceso de aprendizaje. |
-| EP-005  | Diseño de la landing page                                  | Como equipo de desarrollo, queremos diseñar y construir una landing page atractiva, informativa y fácil de navegar, que comunique claramente el valor de la plataforma tanto para motociclistas como para mecánicos, con el objetivo de captar nuevos usuarios, generar confianza y facilitar el registro en el sistema. |
-| EP-006  | Infraestructura técnica, escalabilidad y calidad del sistema | Esta épica se enfoca en las tareas técnicas necesarias para asegurar el correcto funcionamiento de la plataforma desde el punto de vista tecnológico. Incluye configuraciones de backend, frontend, infraestructura y pruebas automatizadas, que no son visibles directamente para el usuario final pero que resultan fundamentales para garantizar seguridad, rendimiento, estabilidad, escalabilidad y mantenibilidad en el tiempo. |
+<table>
+  <thead>
+    <tr>
+      <th>Epic ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EP-001</td>
+      <td>Autenticación de usuarios</td>
+      <td>Esta épica se centra en garantizar que los estudiantes y profesores puedan acceder de manera segura y confiable a la plataforma. Incluye funcionalidades de inicio de sesión y registro de nuevos usuarios. La autenticación asegura que solo los usuarios autorizados puedan interactuar con los distintos módulos del sistema, protegiendo la información personal y académica. Además, permite la gestión de sesiones activas, control de permisos según el rol del usuario y registro de intentos de acceso, contribuyendo a la seguridad, trazabilidad y control dentro de la plataforma educativa.</td>
+    </tr>
+    <tr>
+      <td>EP-002</td>
+      <td>Gestión de Grupos</td>
+      <td>Esta épica se enfoca en ofrecer a profesores y estudiantes una forma sencilla y estructurada de crear y administrar grupos académicos. El docente tiene la capacidad de formar equipos, asignar integrantes y mantener un control organizado sobre su composición. Los estudiantes, por su parte, cuentan con un espacio definido para integrarse a sus grupos de trabajo, lo que fomenta la colaboración y la coordinación en sus actividades académicas.</td>
+    </tr>
+    <tr>
+      <td>EP-003</td>
+      <td>Gestión de trabajos y entregas</td>
+      <td>Esta épica se enfoca en las funcionalidades orientadas a la creación de trabajos académicos para cada grupo, y el recibimiento de entregas, así como la calificación de estas. Por parte de los estudiantes, estos deben poder visualizar sus trabajos pendientes tanto en el menú de un grupo específico como en un menú especializado general que les muestre sus fechas de entrega más cercanas. Por el lado de los profesores, estos deben poder crear trabajos con fechas límite, administrar su visualización y acceder a las entregas de sus alumnos, así como calificarlas y dejar mensajes de retroalimentación.</td>
+    </tr>
+    <tr>
+      <td>EP-004</td>
+      <td>Seguimiento de progreso y retroalimentación automatizada</td>
+      <td>Esta épica se centra en ofrecer funcionalidades que permitan a estudiantes y profesores acceder a datos en tiempo real sobre el rendimiento académico. Los estudiantes podrán visualizar sus calificaciones, avances y métricas comparativas mediante paneles de control gráficos, lo que les permitirá identificar fortalezas, debilidades y áreas de mejora. Además, contarán con retroalimentación automatizada e instantánea, generada a partir de sus entregas y participación, para orientar su aprendizaje de manera continua. Por el lado de los profesores, estos podrán monitorear tanto las métricas individuales de cada estudiante como el desempeño general del grupo, identificando patrones y detectando a tiempo las dificultades más comunes.</td>
+    </tr>
+    <tr>
+      <td>EP-005</td>
+      <td>Comunicación, interacción y recursos educativos dinámicos entre usuarios</td>
+      <td>Esta épica se orienta al intercambio de información y la creación de espacios de interacción dentro de la plataforma. Como valor agregado, la épica incorpora la posibilidad de compartir recursos educativos interactivos tales como videos cortos, imágenes y materiales en tiempo real, lo que no solo mejora la comunicación, sino que también hace más atractivo y participativo el proceso de aprendizaje.</td>
+    </tr>
+    <tr>
+      <td>EP-006</td>
+      <td>Diseño de la landing page</td>
+      <td>Como equipo de desarrollo, queremos diseñar y construir una landing page atractiva, informativa y fácil de navegar, que comunique claramente el valor de la plataforma tanto para estudiantes como para profesores, con el objetivo de captar nuevos usuarios, generar confianza y facilitar el registro en el sistema.</td>
+    </tr>
+    <tr>
+      <td>EP-007</td>
+      <td>Infraestructura técnica, escalabilidad y calidad del sistema</td>
+      <td>Esta épica se enfoca en las tareas técnicas necesarias para asegurar el correcto funcionamiento de la plataforma desde el punto de vista tecnológico. Incluye configuraciones de backend, frontend, infraestructura y pruebas automatizadas, que no son visibles directamente para el usuario final pero que resultan fundamentales para garantizar seguridad, rendimiento, estabilidad, escalabilidad y mantenibilidad en el tiempo.</td>
+    </tr>
+  </tbody>
+</table>
 
 User Stories:
 
-| User Story ID | Título                                              | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|---------------|------------------------------------------------------|-------------|--------------------------|---------------------------|
-| US-001        | Ingreso a grupos                                     | Como estudiante, quiero ser capaz de unirme a los grupos formados por mis profesores con facilidad. | **Escenario 1:** Dado un estudiante con un código válido, cuando lo ingresa y selecciona "Unirse al grupo", entonces el sistema valida, confirma y lo añade al grupo. <br><br> **Escenario 2:** Dado un estudiante con una notificación de invitación, cuando la acepta, entonces el sistema lo añade al grupo y actualiza la lista de miembros. | EP-001 |
-| US-002        | Creación de grupos                                   | Como profesor, quiero ser capaz de crear grupos para mis cursos en la plataforma. | **Escenario 1:** Dado un profesor autenticado, cuando selecciona "Crear Nuevo Grupo" y llena el formulario, entonces el sistema crea el grupo. <br><br> **Escenario 2:** Dado un profesor creando un grupo con nombre duplicado, cuando intenta guardar, entonces el sistema muestra error "Nombre de grupo ya existente". | EP-001 |
-| US-003        | Invitación a grupos                                  | Como profesor, quiero ser capaz de invitar a mis alumnos a los grupos creados por mí. | **Escenario 1:** Dado un código válido, cuando un estudiante lo ingresa, entonces se añade al grupo y se notifica al profesor. <br><br> **Escenario 2:** Dado un profesor que envía invitaciones por ID/correo, entonces los estudiantes reciben notificaciones con enlace directo. <br><br> **Escenario 3:** Dado un estudiante con invitación, cuando la acepta, entonces el sistema lo añade al grupo y notifica al profesor. | EP-001 |
-| US-004        | Eliminación de alumnos                               | Como profesor, quiero ser capaz de eliminar integrantes del grupo para mantener el orden. | **Escenario 1:** Dado un profesor en la gestión de integrantes, cuando elimina un estudiante, entonces el sistema lo remueve y notifica. <br><br> **Escenario 2:** Dado un intento de eliminar un estudiante inexistente, cuando confirma, entonces el sistema muestra error "El estudiante no pertenece al grupo". | EP-001 |
-| US-005        | Creación de trabajos con fechas límite               | Como profesor, quiero crear trabajos con fechas de entrega claras. | **Escenario 1:** Dado un profesor en un curso, cuando crea un trabajo con título, descripción y fecha futura, entonces el sistema lo guarda y notifica a estudiantes. <br><br> **Escenario 2:** Dado un profesor que ingresa una fecha anterior, entonces el sistema muestra error "La fecha de entrega debe ser futura". | EP-002 |
-| US-006        | Recepción de entregas (múltiples oportunidades)      | Como estudiante, quiero poder enviar y reenviar mis entregas antes del plazo. | **Escenario 1:** Dado un estudiante dentro del plazo, cuando sube un archivo, entonces el sistema registra la entrega y notifica. <br><br> **Escenario 2:** Dado un estudiante con entrega previa, cuando reemplaza el archivo, entonces el sistema guarda la nueva versión y mantiene historial. <br><br> **Escenario 3:** Dado un estudiante fuera de plazo, cuando intenta enviar, entonces el sistema rechaza y muestra "Plazo de entrega vencido". | EP-002 |
-| US-007        | Visualización de trabajos y fechas                   | Como estudiante, quiero ver todos mis trabajos y fechas de entrega. | **Escenario 1:** Dado un estudiante en un curso, cuando abre "Trabajos", entonces ve la lista con estado, fechas y progreso. <br><br> **Escenario 2:** Dado un estudiante en su dashboard, cuando abre "Próximas entregas", entonces ve una lista consolidada ordenada por urgencia. <br><br> **Escenario 3:** Dado un trabajo con menos de 24h, cuando el estudiante lo ve, entonces se resalta en rojo y se ofrece acceso directo. | EP-002 |
-| US-008        | Visualización de dashboard de progreso académico     | Como estudiante, quiero ver un dashboard con calificaciones y progreso en tiempo real. | **Escenario 1:** Dado un estudiante, cuando accede a "Mi Progreso", entonces ve gráficos de calificaciones, promedios y proyección final. <br><br> **Escenario 2:** Dado un profesor que publica notas, cuando el estudiante recarga, entonces el sistema actualiza métricas y notifica cambios. <br><br> **Escenario 3:** Dado un estudiante con bajo rendimiento, entonces el sistema destaca esas materias con indicadores de color. | EP-003 |
-| US-009        | Comparación del rendimiento con el promedio del grupo | Como estudiante, quiero comparar mi rendimiento con el promedio de mis compañeros. | **Escenario 1:** Dado un estudiante, cuando selecciona "Comparar con grupo", entonces ve un gráfico de barras con diferencias porcentuales. <br><br> **Escenario 2:** Dado un estudiante, cuando selecciona "Evolución Temporal", entonces ve una gráfica de líneas con su progreso vs promedio grupal. | EP-003 |
-| US-010        | Visualización de métricas globales de desempeño del grupo | Como profesor, quiero acceder a métricas globales para evaluar el desempeño del grupo. | **Escenario 1:** Dado un profesor en gestión de grupo, cuando abre "Métricas Globales", entonces ve promedio, desviación, entregas a tiempo y tasas de aprobación. <br><br> **Escenario 2:** Dado un profesor que selecciona un período, entonces ve gráficas de progreso colectivo: distribución de notas, tendencia temporal y heatmap de entregas. | EP-003 |
-| US-011        | Alertas sobre estudiantes con bajo rendimiento | Como profesor, quiero recibir alertas sobre estudiantes con bajo rendimiento, para poder intervenir de manera temprana. | **Escenario 1:** Dado un estudiante con notas <60% en 3 evaluaciones seguidas, cuando el sistema procesa resultados, entonces el profesor recibe notificación con detalles y sugerencias. <br><br> **Escenario 2:** Dado un estudiante que no entrega 2 tareas consecutivas, cuando el sistema analiza historial, entonces genera alerta automática con opción de contactar al estudiante. | EP-003 |
-| US-012        | Recordatorios y notificaciones de entregas | Como estudiante, quiero recibir notificaciones y recordatorios de próximas entregas para no olvidar subir mis trabajos. | **Escenario 1:** Dado un trabajo con fecha límite, cuando faltan 48 y 12 horas, entonces el sistema envía notificaciones con enlace directo. <br><br> **Escenario 2:** Dado un estudiante que entrega un trabajo, cuando el sistema verifica el archivo, entonces confirma con comprobante, correo y estado "Entregado". | EP-004 |
-| US-013        | Reentrega controlada                      | Como estudiante, quiero poder reentregar una tarea dentro de un plazo definido para mejorar mi nota. | **Escenario 1:** Dado un trabajo con reentregas permitidas, cuando el estudiante sube una nueva versión en plazo, entonces se reemplaza el archivo y se guarda historial. <br><br> **Escenario 2:** Dado un estudiante intentando reentregar fuera de plazo, cuando sube archivo, entonces el sistema bloquea y muestra "Plazo de reentrega vencido". | EP-002 |
-| US-014        | Historial de calificaciones               | Como estudiante, quiero consultar el historial de calificaciones de mis entregas para ver mi evolución. | **Escenario 1:** Dado un estudiante, cuando accede a "Historial de Calificaciones", entonces ve una tabla con todas sus notas por curso, fecha, tipo de trabajo y ponderación. <br><br> **Escenario 2:** Dado un estudiante, cuando filtra por curso, entonces el sistema muestra una gráfica de evolución con promedios y tendencia. | EP-002 |
-| US-015        | Acceso a todas las entregas de un trabajo | Como profesor, quiero acceder a todas las entregas en una sola vista para agilizar la revisión. | **Escenario 1:** Dado un profesor en "Entregas", cuando abre un trabajo, entonces ve lista completa de estudiantes con estado, archivos y tiempos. <br><br> **Escenario 2:** Dado un profesor, cuando aplica filtros (pendientes, calificados, etc.), entonces la vista se actualiza dinámicamente. | EP-002 |
-| US-016        | Publicación de anuncios con comentarios   | Como profesor, quiero publicar anuncios en el curso y permitir comentarios de estudiantes. | **Escenario 1:** Dado un profesor, cuando crea un anuncio, entonces se publica en el feed, se marca prioritario y se notifica a estudiantes. <br><br> **Escenario 2:** Dado un anuncio con comentarios habilitados, cuando un estudiante comenta, entonces el sistema lo muestra con autor, foto y tiempo. <br><br> **Escenario 3:** Dado un anuncio reciente, cuando el profesor lo edita o cierra comentarios, entonces el sistema marca "Editado" y desactiva comentarios nuevos. | EP-004 |
-| US-017        | Mensajería privada entre miembros         | Como estudiante, quiero enviar mensajes privados a compañeros y profesores para coordinar actividades. | **Escenario 1:** Dado un estudiante en "Miembros del Curso", cuando envía mensaje privado, entonces se crea un hilo y confirma envío. <br><br> **Escenario 2:** Dado un hilo existente, cuando el destinatario lee mensajes, entonces cambia estado a "leído" y notifica al remitente. <br><br> **Escenario 3:** Dado un estudiante que intenta escribir a alguien fuera de sus cursos, cuando envía, entonces el sistema bloquea y muestra error. | EP-004 |
-| US-018        | Compartir recursos educativos             | Como profesor, quiero subir materiales de apoyo para que los estudiantes los consulten. | **Escenario 1:** Dado un profesor, cuando sube recurso con metadatos, entonces se guarda y publica con permisos de acceso. <br><br> **Escenario 2:** Dado un recurso publicado, cuando un estudiante lo descarga/visualiza, entonces se permite y se registra acceso. <br><br> **Escenario 3:** Dado un recurso actualizado, cuando el profesor sube nueva versión, entonces se conserva historial y se notifica. | EP-004 |
-| US-019        | Extensión de plazo de entrega             | Como profesor, quiero extender la fecha límite de un trabajo en casos especiales. | **Escenario 1:** Dado un trabajo con fecha, cuando el profesor modifica y guarda nueva fecha, entonces el sistema actualiza registros, confirma y guarda historial. <br><br> **Escenario 2:** Dado un trabajo con fecha extendida, cuando se confirma, entonces el sistema notifica automáticamente a los estudiantes. | EP-002 |
-| US-020        | Estados de entrega                        | Como estudiante, quiero ver el estado de mis entregas para saber en qué punto están. | **Escenario 1:** Dado un estudiante en "Mis Entregas", cuando abre un trabajo, entonces ve estado con iconos/colores y fecha de actualización. <br><br> **Escenario 2:** Dado un profesor calificando, cuando actualiza estado, entonces el cambio se refleja en el estudiante. <br><br> **Escenario 3:** Dado un cambio de estado, cuando ocurre, entonces el sistema notifica al estudiante. | EP-002 |
-| US-021        | Redirección al aplicativo web                        | Como usuario, quiero que exista un botón en la landing page que me redirija al dashboard del aplicativo web del sistema, para acceder a este sin tener que buscar otro enlace. | **Escenario 1:** Dado un usuario en la landing page de la startup, cuando hace clic en el botón "Acceder al Dashboard" ubicado en el header de la página, entonces el sistema redirige automáticamente a la URL del aplicativo web, abriendo la página de Inicio de Sesión. <br><br> **Escenario 2:** Dado un usuario que ya ha iniciado sesión previamente en el aplicativo web, cuando accede a la landing page y hace clic en el botón "Dashboard", entonces el sistema verifica las credenciales almacenadas y redirige directamente al dashboard principal sin requerir un nuevo inicio de sesión. | EP-005 |
-| US-022        | Sección de Video About the Team                      | Como usuario, quiero encontrar en la landing page una sección con un video sobre el equipo detrás de la startup, para conocer quiénes son, su experiencia y la visión que impulsa el producto. | **Escenario 1:** Dado que un usuario se encuentra en la landing page, cuando se desplaza hasta la sección "Video About the Team", entonces el sistema muestra un reproductor de video central con un título inspirador y una breve descripción del propósito del equipo. <br><br> **Escenario 2:** Dado que un usuario quiere conocer más sobre las personas detrás del producto, cuando hace clic en el video para reproducirlo, entonces el sistema muestra el contenido en alta calidad con controles de reproducción y, al finalizar, ofrece la opción de ver perfiles breves de los integrantes o enlaces a redes profesionales. | EP-005 |
-| US-023        | Visualización de Misión y Visión                     | Como usuario, quiero ver una sección en la landing page con la Misión y Visión de la startup para conocer más a detalle los objetivos del proyecto. | **Escenario 1:** Dado un usuario en la landing page de la startup, cuando hace clic en la sección "Nuestra Propuesta" en el menú principal, entonces el sistema muestra la Misión y Visión de la empresa en un diseño claro y conciso. <br><br> **Escenario 2:** Dado un visitante interesado en los valores de la startup, cuando se desplaza hasta el pie de página de la landing page, entonces el sistema presenta un resumen de la Misión y Visión junto con los principios fundamentales de la empresa. | EP-005 |
-| US-024        | Testimonios de usuarios previos                      | Como usuario interesado en el producto, quiero ver testimonios reales de clientes en la landing page, para poder confiar en la efectividad de la solución antes de probar el sistema. | **Escenario 1:** Dado un usuario en la landing page, cuando se desplaza hasta la sección "Experiencias de Usuarios", entonces el sistema muestra al menos tres testimonios verificados con foto, nombre, ubicación y calificación por estrellas. <br><br> **Escenario 2:** Dado un usuario interesado en conocer opiniones específicas, cuando hace clic en el botón "Ver más testimonios", entonces el sistema redirige a una página dedicada con filtros por tipo de motocicleta, tiempo de uso del sistema y tipo de servicio evaluado. | EP-005 |
-| US-025        | Sección de Video About the Product                   | Como usuario, quiero encontrar en la landing page una sección con un video explicativo del producto, para entender de manera rápida y visual cómo funciona y qué beneficios me ofrece. | **Escenario 1:** Dado un usuario en la landing page, cuando se desplaza hasta la sección "Video About the Product", entonces el sistema muestra un video central en un reproductor embebido, acompañado de un título atractivo y una breve descripción introductoria. <br><br> **Escenario 2:** Dado un usuario interesado en más detalles, cuando hace clic en el video para reproducirlo, entonces el sistema muestra el contenido en alta calidad con controles de reproducción y la opción de ver testimonios o casos de uso relacionados al final del video. | EP-005 |
-| TS-001        | Configuración de autenticación y autorización con JWT | Como desarrollador, quiero implementar un sistema de autenticación y autorización basado en JSON Web Tokens (JWT) en el backend, para asegurar que solo los usuarios autorizados puedan acceder a los endpoints protegidos de la aplicación. | **Escenario 1:** Dado que un usuario intenta acceder a un endpoint protegido sin un token válido, cuando realiza la petición, entonces el sistema devuelve un error 401 Unauthorized. <br><br> **Escenario 2:** Dado que un usuario inicia sesión correctamente y obtiene un token JWT válido, cuando utiliza ese token en el encabezado de autorización para acceder a un endpoint protegido, entonces el sistema permite el acceso y devuelve la respuesta correspondiente. | EP-006 |
-| TS-002        | Configuración de validación de datos en backend       | Como desarrollador, quiero implementar validaciones con Spring Boot Validation en los endpoints, para asegurar que los datos ingresados por los usuarios cumplan con los formatos y restricciones necesarias. | **Escenario 1:** Dado que un usuario envía un formulario con un campo obligatorio vacío, cuando la petición llega al backend, entonces el sistema devuelve un error 400 Bad Request con un mensaje indicando que el campo es obligatorio. <br><br> **Escenario 2:** Dado que un usuario envía un email con un formato incorrecto en el registro, cuando el backend procesa la solicitud, entonces el sistema rechaza el request y devuelve un mensaje indicando que el formato del correo no es válido. | EP-006 |
-| TS-003        | Documentación de la API con Swagger                  | Como desarrollador, quiero integrar Swagger/OpenAPI en el backend con Spring Boot, para que los endpoints estén documentados automáticamente y puedan ser probados fácilmente desde una interfaz gráfica. | **Escenario 1:** Dado que un desarrollador accede a la URL /swagger-ui.html, cuando la interfaz de Swagger se carga, entonces el sistema muestra la documentación de todos los endpoints disponibles en el backend. <br><br> **Escenario 2:** Dado que un desarrollador necesita probar un endpoint de la API, cuando utiliza el botón "Try it out" en Swagger UI, entonces el sistema ejecuta la petición y muestra la respuesta en pantalla. | EP-006 |
-| TS-004        | Configuración de CORS en backend                     | Como desarrollador, quiero configurar las políticas de CORS en Spring Boot, para permitir que el frontend (Angular) y el backend (Spring) se comuniquen correctamente en entornos de desarrollo y producción. | **Escenario 1:** Dado que el frontend en Angular se encuentra en un dominio distinto al backend, cuando realiza una petición al servidor, entonces el sistema permite la comunicación siempre que el origen esté autorizado en la configuración de CORS. <br><br> **Escenario 2:** Dado que una aplicación no autorizada intenta consumir un endpoint del backend, cuando realiza la petición desde un dominio no permitido, entonces el sistema bloquea la solicitud y devuelve un error CORS policy: No 'Access-Control-Allow-Origin' header. | EP-006 |
+<table>
+  <thead>
+    <tr>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US-001</td>
+      <td>Registro de usuario</td>
+      <td>Como nuevo usuario, quiero registrarme en la plataforma proporcionando mis datos personales y académicos, para crear una cuenta que me permita acceder al sistema.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un usuario que desea registrarse, cuando completa el formulario de registro con correo, nombre, apellido, contraseña y rol (estudiante o profesor) y selecciona "Registrarse", entonces el sistema valida la información, crea la cuenta y envía un correo de confirmación.<br><br>
+        <strong>Escenario 2:</strong> Dado un usuario que intenta registrarse con un correo ya existente, cuando selecciona "Registrarse", entonces el sistema muestra un mensaje de error "El correo ya está registrado" y solicita ingresar uno diferente.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>US-002</td>
+      <td>Inicio de sesión (Autenticación)</td>
+      <td>Como usuario registrado (estudiante o profesor), quiero iniciar sesión en la plataforma, para acceder a mis cursos, grupos y trabajos asignados de manera segura.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un usuario registrado en la plataforma, cuando ingresa su correo electrónico y contraseña correctos y selecciona "Iniciar sesión", entonces el sistema valida sus credenciales, inicia sesión y lo redirige a su panel de control visual correspondiente.<br><br>
+        <strong>Escenario 2:</strong> Dado un usuario que ingresa credenciales incorrectas, cuando selecciona "Iniciar sesión", entonces el sistema muestra un mensaje de error "Correo o contraseña incorrectos" y no permite el acceso al panel de control visual.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>US-003</td>
+      <td>Ingreso a cursos</td>
+      <td>Como estudiante, quiero ser capaz de unirme a los cursos formados por mis profesores con facilidad.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un estudiante en el menú de inicio de la plataforma con un código de grupo válido proporcionado por su profesor, cuando ingresa el código en el campo designado y selecciona la opción "Unirse al curso", entonces el sistema valida el código, muestra un mensaje de confirmación exitosa y añade automáticamente al estudiante al grupo correspondiente.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-004</td>
+      <td>Creación de cursos</td>
+      <td>Como profesor, quiero ser capaz de crear cursos en la plataforma.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor autenticado en la plataforma educativa, cuando selecciona la opción "Crear Nuevo Curso" desde el menú principal, entonces el sistema despliega un formulario con campos para nombre del curso, descripción, etc. Permitiendo la creación del curso tras completar los datos obligatorios.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor en el proceso de creación de un nuevo curso, cuando ingresa un nombre idéntico al de un curso preexistente bajo su misma cuenta e intenta guardar, entonces el sistema detecta la duplicación, muestra un mensaje de error "Nombre de curso ya existente" y sugiere modificar el nombre o recuperar el grupo existente.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-005</td>
+      <td>Invitación a cursos</td>
+      <td>Como profesor, quiero ser capaz de invitar a mis alumnos a los cursos creados por mí.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un curso creado por un profesor con un código de invitación generado, cuando un estudiante ingresa correctamente el código en la plataforma, entonces el sistema añade al estudiante al curso, registra la acción y envía una notificación automática al profesor confirmando la incorporación del nuevo miembro.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-006</td>
+      <td>Ver lista de alumnos de un curso</td>
+      <td>Como profesor, quiero ver la lista de alumnos de un curso, para gestionar la composición del grupo.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la página de gestión de un curso, cuando selecciona la opción "Lista de Estudiantes", entonces el sistema muestra una tabla con todos los alumnos inscritos, incluyendo nombre, correo y fecha de ingreso.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor viendo la lista de estudiantes, cuando utiliza la barra de búsqueda, entonces el sistema filtra dinámicamente la lista mostrando solo los estudiantes que coinciden con el término buscado.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-007</td>
+      <td>Eliminar alumnos de un curso</td>
+      <td>Como profesor, quiero eliminar alumnos de un curso, para mantener actualizada la lista de participantes.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la lista de estudiantes de un curso, cuando selecciona la opción "Eliminar" junto a un estudiante y confirma la acción, entonces el sistema remueve al estudiante del curso y actualiza la lista.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor intentando eliminar un estudiante que ya no existe en el curso, cuando confirma la acción, entonces el sistema muestra un mensaje de error indicando que el estudiante no pertenece al curso.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-008</td>
+      <td>Visualizar todos los cursos</td>
+      <td>Como profesor, quiero ver todos mis cursos en una lista organizada, para poder gestionar y acceder fácilmente a cada uno de ellos.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor que ha iniciado sesión en la plataforma, cuando accede a la sección "Mis Cursos", entonces el sistema muestra una lista de todos los cursos que imparte, con información básica como nombre del curso, código y número de estudiantes.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor en la lista de cursos, cuando hace clic en un curso específico, entonces el sistema redirige a la página de detalles de ese curso donde puede ver y gestionar todas las actividades.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-009</td>
+      <td>Múltiples entregas por assignment</td>
+      <td>Como estudiante, quiero poder realizar múltiples entregas para un mismo trabajo académico, para presentar diferentes versiones o correcciones dentro del plazo establecido.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un estudiante en la página de un assignment dentro del plazo de entrega, cuando selecciona "Agregar entrega", adjunta un archivo y confirma el envío, entonces el sistema registra la entrega con marca de tiempo y la agrega a la lista de entregas del assignment.<br><br>
+        <strong>Escenario 2:</strong> Dado un estudiante que ya ha realizado al menos una entrega previa, cuando agrega una nueva entrega dentro del plazo, entonces el sistema mantiene todas las entregas anteriores en el historial y registra la nueva entrega con su propia marca de tiempo.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-010</td>
+      <td>Visualización de assignments del curso</td>
+      <td>Como estudiante, quiero visualizar todos los assignments de un curso con sus fechas de entrega, para organizar mis actividades académicas.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un estudiante en la página de un curso, cuando navega a la sección "Assignments", entonces el sistema muestra una lista de todos los assignments con sus fechas límite y estados.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-011</td>
+      <td>Descargar archivos de assignment</td>
+      <td>Como estudiante, quiero poder descargar los archivos de un assignment, para acceder a los materiales y recursos proporcionados por el profesor.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un estudiante en la página de un assignment, cuando selecciona la opción para descargar un archivo adjunto, entonces el sistema inicia la descarga del archivo en el dispositivo del estudiante.<br><br>
+        <strong>Escenario 2:</strong> Dado un estudiante intentando descargar un archivo de assignment, cuando el archivo está disponible y el estudiante tiene permisos de acceso, entonces el sistema permite la descarga completa del archivo con su nombre original.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-012</td>
+      <td>Ver submissions de un assignment</td>
+      <td>Como profesor, quiero ver todas las entregas de un assignment, para revisar y calificar el trabajo de los estudiantes.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la página de un assignment, cuando selecciona "Ver Entregas", entonces el sistema muestra una lista de todos los estudiantes con sus submissions y estados.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-013</td>
+      <td>Ver detalles de curso con assignments</td>
+      <td>Como profesor, quiero ver los detalles completos de un curso incluyendo todos los assignments, para tener una visión general de las actividades programadas y su estado.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la lista de cursos, cuando selecciona un curso específico, entonces el sistema muestra la página de detalles del curso con una sección que incluye todos los assignments creados, mostrando título, fecha límite y estado de cada uno.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-014</td>
+      <td>Agregar nueva assignment</td>
+      <td>Como profesor, quiero agregar una nueva assignment, para asignar trabajos a los estudiantes.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la página de un curso, cuando hace clic en "Agregar Assignment", completa el formulario con título, descripción y fecha límite, y confirma la creación, entonces el sistema guarda la assignment y la muestra en la lista de trabajos del curso.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor creando una assignment, cuando deja campos obligatorios vacíos, entonces el sistema muestra mensajes de error indicando los campos requeridos.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-015</td>
+      <td>Subir cualquier tipo de archivo al assignment</td>
+      <td>Como profesor, quiero subir cualquier tipo de archivo al assignment, para proporcionar materiales de apoyo a los estudiantes.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la página de edición de una assignment, cuando selecciona "Subir archivo", elige un archivo de cualquier tipo y confirma la acción, entonces el sistema guarda el archivo y lo asocia a la assignment.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor subiendo un archivo, cuando el archivo excede el tamaño máximo permitido, entonces el sistema muestra un mensaje de error y no permite la subida.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-016</td>
+      <td>Ver detalles del submission</td>
+      <td>Como profesor, quiero ver los detalles del submission, para revisar las entregas de los estudiantes.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la lista de submissions de una assignment, cuando hace clic en un submission específico, entonces el sistema muestra todos los detalles incluyendo archivos entregados, fecha de entrega e información del estudiante.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor viendo los detalles de un submission, cuando selecciona "Descargar archivos", entonces el sistema descarga todos los archivos asociados al submission.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-017</td>
+      <td>Calificar un submission</td>
+      <td>Como profesor, quiero calificar un submission, para evaluar el trabajo de los estudiantes.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en los detalles de un submission, cuando ingresa una calificación y comentarios en el formulario de calificación y guarda los cambios, entonces el sistema actualiza la calificación y notifica al estudiante.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor calificando un submission, cuando intenta ingresar una calificación fuera del rango permitido, entonces el sistema muestra un mensaje de error y no permite guardar.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-018</td>
+      <td>Ver detalles del submission</td>
+      <td>Como estudiante, quiero ver los detalles del submission, para conocer el estado de mis entregas.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un estudiante en la lista de sus submissions, cuando hace clic en un submission específico, entonces el sistema muestra los detalles incluyendo archivos entregados, fecha, estado y calificación si está disponible.<br><br>
+        <strong>Escenario 2:</strong> Dado un estudiante viendo los detalles de su submission, cuando el profesor ha agregado comentarios de retroalimentación, entonces el sistema muestra claramente los comentarios junto a la calificación.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-019</td>
+      <td>Subir todo tipo de archivos para el submission</td>
+      <td>Como estudiante, quiero subir todo tipo de archivos para el submission, para completar mis asignaciones.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un estudiante en la página de entrega de una assignment, cuando selecciona "Subir archivos", elige uno o múltiples archivos de cualquier tipo y confirma la entrega, entonces el sistema procesa los archivos y registra el submission.<br><br>
+        <strong>Escenario 2:</strong> Dado un estudiante subiendo archivos para un submission, cuando intenta subir un tipo de archivo no permitido, entonces el sistema muestra un mensaje indicando los formatos aceptados.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-020</td>
+      <td>Ver estadísticas generales del curso</td>
+      <td>Como profesor, quiero ver las estadísticas generales de un curso, para tener una visión rápida del desempeño y participación del grupo.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la página de un curso, cuando selecciona "Estadísticas Generales", entonces el sistema muestra un resumen con: total de assignments creados, total de submissions recibidos, assignments calificados y promedio general del curso.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor viendo las estadísticas generales, cuando hay nuevos datos disponibles, entonces el sistema actualiza automáticamente las métricas en tiempo real.
+      </td>
+      <td>EP-004</td>
+    </tr>
+    <tr>
+      <td>US-021</td>
+      <td>Ver distribución de calificaciones del curso</td>
+      <td>Como profesor, quiero ver gráficas de distribución de calificaciones del curso, para analizar el rendimiento del grupo y identificar patrones de desempeño.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la sección de estadísticas del curso, cuando selecciona "Distribución de Calificaciones", entonces el sistema muestra gráficas con la distribución de notas en rangos (17-20, 14-16, 0-13) y la cantidad de submissions por assignment.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor analizando la distribución de calificaciones, cuando selecciona un assignment específico, entonces el sistema muestra la distribución de notas solo para ese assignment.
+      </td>
+      <td>EP-004</td>
+    </tr>
+    <tr>
+      <td>US-022</td>
+      <td>Redirección al aplicativo web</td>
+      <td>Como usuario, quiero que exista un botón en la landing page que me redirija al panel de control visual del aplicativo web del sistema, para acceder a este sin tener que buscar otro enlace.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un usuario en la landing page de la empresa emergente, cuando hace clic en el botón "Acceder al panel de control visual" ubicado en la cabecera de la página, entonces el sistema redirige automáticamente a la URL del aplicativo web, abriendo la página de Inicio de Sesión.<br><br>
+        <strong>Escenario 2:</strong> Dado un usuario que ya ha iniciado sesión previamente en el aplicativo web, cuando accede a la landing page y hace clic en el botón "Dashboard", entonces el sistema verifica las credenciales almacenadas y redirige directamente al panel de control visual principal sin requerir un nuevo inicio de sesión.
+      </td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td>US-023</td>
+      <td>Sección de Video About the Team</td>
+      <td>Como usuario, quiero encontrar en la landing page una sección con un video sobre el equipo detrás del startup, para conocer quiénes son, su experiencia y la visión que impulsa el producto.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que un usuario se encuentra en la landing page, cuando se desplaza hasta la sección "Video About the Team", entonces el sistema muestra un reproductor de video central con un título inspirador (ej. "Conoce al equipo que hace esto posible") y una breve descripción del propósito del equipo.<br><br>
+        <strong>Escenario 2:</strong> Dado que un usuario quiere conocer más sobre las personas detrás del producto, cuando hace clic en el video para reproducirlo, entonces el sistema muestra el contenido en alta calidad, con controles de reproducción (pausa, subtítulos, pantalla completa) y, al finalizar, ofrece la opción de ver perfiles breves de los integrantes o enlaces a redes profesionales (ej. LinkedIn).
+      </td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td>US-024</td>
+      <td>Visualización de Misión y Visión del startup</td>
+      <td>Como usuario, quiero ver una sección en la landing page con la Misión y Visión del startup para conocer más a detalle los objetivos del proyecto.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un usuario en la landing page del startup, cuando hace clic en la sección "Nuestra Propuesta" en el menú principal, entonces el sistema muestra la Misión y Visión de la empresa en un diseño claro y conciso, con iconos representativos y texto destacado que comunica el propósito y los objetivos a largo plazo.<br><br>
+        <strong>Escenario 2:</strong> Dado un visitante interesado en los valores del startup, cuando se desplaza hasta el pie de página de la landing page, entonces el sistema presenta un resumen de la Misión y Visión junto con los principios fundamentales de la empresa, permitiendo al usuario comprender la esencia del proyecto de forma rápida.
+      </td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td>US-025</td>
+      <td>Testimonios de usuarios previos</td>
+      <td>Como usuario interesado en el producto, quiero ver testimonios reales de clientes en la landing page, para poder confiar en la efectividad de la solución antes de probar el sistema.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un usuario en la landing page, cuando se desplaza hasta la sección "Experiencias de Usuarios", entonces el sistema muestra al menos tres testimonios verificados con foto, nombre, ubicación y calificación por estrellas, junto con una descripción breve de su experiencia usando el sistema.<br><br>
+        <strong>Escenario 2:</strong> Dado un usuario interesado en conocer opiniones específicas, cuando hace clic en el botón "Ver más testimonios" en la sección designada, entonces el sistema redirige a una página dedicada con filtros por tipo de motocicleta, tiempo de uso del sistema y tipo de servicio evaluado.
+      </td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td>US-026</td>
+      <td>Sección de Video About the Product</td>
+      <td>Como usuario, quiero encontrar en la landing page una sección con un video explicativo del producto, para entender de manera rápida y visual cómo funciona y qué beneficios me ofrece.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un usuario en la landing page, cuando se desplaza hasta la sección "Video About the Product", entonces el sistema muestra un video central en un reproductor embebido, acompañado de un título atractivo y una breve descripción introductoria.<br><br>
+        <strong>Escenario 2:</strong> Dado un usuario interesado en más detalles, cuando hace clic en el video para reproducirlo, entonces el sistema muestra el contenido en alta calidad, con controles de reproducción (pausa, subtítulos, pantalla completa) y la opción de ver testimonios o casos de uso relacionados al final del video.
+      </td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td>TS-001</td>
+      <td>Configuración de autenticación y autorización con JWT para proteger los endpoints del sistema</td>
+      <td>Como desarrollador, quiero implementar un sistema de autenticación y autorización basado en JSON Web Tokens (JWT) en el backend, para asegurar que solo los usuarios autorizados puedan acceder a los endpoints protegidos de la aplicación.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que un usuario intenta acceder a un endpoint protegido sin un token válido, cuando realiza la petición, entonces el sistema devuelve un error 401 Unauthorized.<br><br>
+        <strong>Escenario 2:</strong> Dado que un usuario inicia sesión correctamente y obtiene un token JWT válido, cuando utiliza ese token en el encabezado de autorización para acceder a un endpoint protegido, entonces el sistema permite el acceso y devuelve la respuesta correspondiente.
+      </td>
+      <td>EP-007</td>
+    </tr>
+    <tr>
+      <td>TS-002</td>
+      <td>Configuración de validación de datos en backend</td>
+      <td>Como desarrollador, quiero implementar validaciones con Spring Boot Validation en los endpoints, para asegurar que los datos ingresados por los usuarios cumplan con los formatos y restricciones necesarias (ej. emails válidos, campos obligatorios, longitudes mínimas).</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que un usuario envía un formulario con un campo obligatorio vacío, cuando la petición llega al backend, entonces el sistema devuelve un error con un mensaje indicando que el campo es obligatorio.<br><br>
+        <strong>Escenario 2:</strong> Dado que un usuario envía un email con un formato incorrecto en el registro, cuando el backend procesa la solicitud, entonces el sistema rechaza la solicitud y devuelve un mensaje indicando que el formato del correo no es válido.
+      </td>
+      <td>EP-007</td>
+    </tr>
+    <tr>
+      <td>TS-003</td>
+      <td>Documentación de la API con Swagger</td>
+      <td>Como desarrollador, quiero integrar Swagger/OpenAPI en el backend con Spring Boot, para que los endpoints estén documentados automáticamente y puedan ser probados fácilmente desde una interfaz gráfica.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que un desarrollador accede a la URL /swagger-ui.html, cuando la interfaz de Swagger se carga, entonces el sistema muestra la documentación de todos los endpoints disponibles en el backend.<br><br>
+        <strong>Escenario 2:</strong> Dado que un desarrollador necesita probar un endpoint de la API, cuando utiliza el botón "Try it out" en Swagger UI, entonces el sistema ejecuta la petición y muestra la respuesta en pantalla.
+      </td>
+      <td>EP-007</td>
+    </tr>
+    <tr>
+      <td>TS-004</td>
+      <td>Configuración de CORS en backend</td>
+      <td>Como desarrollador, quiero configurar las políticas de CORS en Spring Boot, para permitir que el frontend (Angular) y el backend (Spring) se comuniquen correctamente en entornos de desarrollo y producción.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que el frontend en Angular se encuentra en un dominio distinto al backend, cuando realiza una petición al servidor, entonces el sistema permite la comunicación siempre que el origen esté autorizado en la configuración de CORS.<br><br>
+        <strong>Escenario 2:</strong> Dado que una aplicación no autorizada intenta consumir un endpoint del backend, cuando realiza la petición desde un dominio no permitido, entonces el sistema bloquea la solicitud y devuelve un error CORS policy: No 'Access-Control-Allow-Origin' header.
+      </td>
+      <td>EP-007</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### 3.3 Product Backlog
 
 | Orden | Código US | Título                                               | Story Points |
-|-------|-----------|-------------------------------------------------------|--------------|
-| 1     | US-002    | Creación de grupos                                    | 5            |
-| 2     | US-001    | Ingreso a grupos                                      | 5            |
-| 3     | US-003    | Invitación a grupos                                   | 5            |
-| 4     | US-005    | Creación de trabajos con fechas límite                | 5            |
-| 5     | US-006    | Recepción de entregas (múltiples oportunidades)       | 8            |
-| 6     | US-007    | Visualización de trabajos y fechas                    | 5            |
-| 7     | US-015    | Acceso a todas las entregas de un trabajo             | 5            |
-| 8     | US-004    | Eliminación de alumnos                                | 3            |
-| 9     | TS-001    | Configuración de autenticación y autorización con JWT | 8            |
-| 10    | TS-002    | Configuración de validación de datos en backend       | 5            |
-| 11    | TS-003    | Configuración de CORS en backend                      | 3            |
-| 12    | TS-004    | Documentación de la API con Swagger                   | 3            |
-| 13    | US-020    | Estados de entrega                                    | 5            |
-| 14    | US-013    | Reentrega controlada                                  | 5            |
-| 15    | US-014    | Historial de calificaciones                           | 5            |
-| 16    | US-019    | Extensión de plazo de entrega                         | 3            |
-| 17    | US-008    | Visualización de dashboard de progreso académico      | 5            |
-| 18    | US-009    | Comparación del rendimiento con el promedio del grupo | 5            |
-| 19    | US-010    | Visualización de métricas globales de desempeño       | 8            |
-| 20    | US-011    | Alertas sobre estudiantes con bajo rendimiento        | 5            |
-| 21    | US-012    | Recordatorios y notificaciones de entregas            | 5            |
-| 22    | US-016    | Publicación de anuncios con comentarios               | 5            |
-| 23    | US-018    | Compartir recursos educativos                         | 8            |
-| 24    | US-017    | Mensajería privada entre miembros                     | 8            |
-| 25    | US-021    | Redirección al aplicativo web                         | 1            |
-| 26    | US-023    | Visualización de Misión y Visión de la startup        | 2            |
-| 27    | US-025    | Sección de Video About the Product                    | 2            |
-| 28    | US-022    | Sección de Video About the Team                       | 2            |
-| 29    | US-024    | Testimonios de usuarios previos                       | 3            |
+|-------|-----------|------------------------------------------------------|--------------|
+| 1     | US-001    | Registro de usuario                                  | 5            |
+| 2     | US-002    | Inicio de sesión (Authentication)                    | 3            |
+| 3     | TS-001    | Configuración de autenticación y autorización con JWT| 8            |
+| 4     | TS-002    | Configuración de validación de datos en backend      | 5            |
+| 5     | TS-003    | Configuración de CORS en backend                     | 3            |
+| 6     | TS-004    | Documentación de la API con Swagger                  | 3            |
+| 7     | US-004    | Creación de cursos                                   | 5            |
+| 8     | US-003    | Ingreso a cursos                                     | 5            |
+| 9     | US-005    | Invitación a cursos                                  | 5            |
+| 10    | US-008    | Visualizar todos los cursos                          | 3            |
+| 11    | US-013    | Ver detalles de curso con assignments                | 5            |
+| 12    | US-006    | Ver lista de alumnos de un curso                     | 3            |
+| 13    | US-007    | Eliminar alumnos de un curso                         | 3            |
+| 14    | US-014    | Agregar nueva assignment                             | 5            |
+| 15    | US-015    | Subir cualquier tipo de archivo al assignment        | 5            |
+| 16    | US-028    | Eliminar archivos del assignment                     | 3            |
+| 17    | US-010    | Visualización de assignments del curso               | 3            |
+| 18    | US-011    | Descargar archivos de assignment                     | 3            |
+| 19    | US-009    | Múltiples entregas por assignment                    | 5            |
+| 20    | US-019    | Subir todo tipo de archivos para el submission       | 8            |
+| 21    | US-012    | Ver submissions de un assignment                     | 5            |
+| 22    | US-016    | Ver detalles del submission (Profesor)               | 5            |
+| 23    | US-017    | Calificar un submission                              | 5            |
+| 24    | US-018    | Ver detalles del submission (Estudiante)             | 3            |
+| 25    | US-020    | Ver estadísticas generales del curso                 | 8            |
+| 26    | US-021    | Ver distribución de calificaciones del curso         | 8            |
+| 27    | US-022    | Redirección al aplicativo web                        | 1            |
+| 28    | US-024    | Visualización de Misión y Visión del startup         | 2            |
+| 29    | US-026    | Sección de Video About the Product                   | 2            |
+| 30    | US-023    | Sección de Video About the Team                      | 2            |
+| 31    | US-025    | Testimonios de usuarios previos                      | 3            |
 
 
 ### 3.4 Impact Mapping  
@@ -3092,53 +3523,439 @@ Distribución de commits:
 ## Capítulo VI: Product Verification & Validation  
 
 ### 6.1 Testing Suites & Validation  
-#### 6.1.1 Core Entities Unit Tests  
-#### 6.1.2 Core Integration Tests  
-#### 6.1.3 Core Behavior-Driven Development  
-#### 6.1.4 Core System Tests  
+#### 6.1.1 Core Entities Unit Tests
 
-### 6.2 Static Testing & Verification  
-#### 6.2.1 Static Code Analysis  
-##### 6.2.1.1 Coding Standard & Code Conventions  
-##### 6.2.1.2 Code Quality & Code Security  
-#### 6.2.2 Reviews  
+En esta sección se presentan las pruebas unitarias realizadas sobre las entidades principales del sistema. El objetivo de estas pruebas es validar que cada componente individual funcione correctamente de manera aislada, asegurando que cumpla con los requisitos funcionales definidos en el proyecto y que no existan errores en la lógica interna.
 
-### 6.3 Validation Interviews  
-#### 6.3.1 Diseño de Entrevistas  
-#### 6.3.2 Registro de Entrevistas  
-#### 6.3.3 Evaluaciones según heurísticas  
+**Assignments:**
 
-### 6.4 Auditoría de Experiencias de Usuario  
-#### 6.4.1 Auditoría realizada  
-##### 6.4.1.1 Información del grupo auditado  
-##### 6.4.1.2 Cronograma de auditoría realizada  
-##### 6.4.1.3 Contenido de auditoría realizada  
-#### 6.4.2 Auditoría recibida  
-##### 6.4.2.1 Información del grupo auditor  
-##### 6.4.2.2 Cronograma de auditoría recibida  
-##### 6.4.2.3 Contenido de auditoría recibida  
-##### 6.4.2.4 Resumen de modificaciones para subsanar hallazgos  
+Clases probadas: Assignment, Submission 
+
+Objetivo: Validar el comportamiento de las tareas y las entregas, incluyendo creación, actualización, manejo de archivos y calificación de las entregas. 
+
+Pruebas realizadas:
+
+<img src="./assets/chapter-6/unit_test_1.png" alt="Core Entities Unit Tests" width="700"/>
+
+<img src="./assets/chapter-6/unit_test_2.png" alt="Core Entities Unit Tests" width="700"/>
+
+**Courses:**
+
+Clases probadas: Course 
+
+Objetivo: Validar la creación, actualización y gestión de los códigos de unión (join codes) de los cursos. 
+
+Pruebas realizadas:
+
+<img src="./assets/chapter-6/unit_test_3.png" alt="Core Entities Unit Tests" width="700"/>
+
+**IAM:**
+
+Clases probadas: User, Role, UpdateUserCommand 
+
+Objetivo: Validar la gestión de usuarios, la asignación de roles y la correcta validación de comandos de actualización. 
+
+Pruebas realizadas:
+
+<img src="./assets/chapter-6/unit_test_4.png" alt="Core Entities Unit Tests" width="700"/>
+
+<img src="./assets/chapter-6/unit_test_5.png" alt="Core Entities Unit Tests" width="700"/>
+
+<img src="./assets/chapter-6/unit_test_6.png" alt="Core Entities Unit Tests" width="700"/>
+
+
+#### 6.1.2 Core Integration Tests
+
+En esta sección se desarrollaron pruebas de integración con el objetivo de validar el correcto funcionamiento conjunto de los diferentes módulos que conforman el backend del sistema, así como la comunicación entre las capas que lo componen. Estas pruebas garantizan que los componentes puedan interactuar entre sí sin errores, manteniendo la consistencia de los datos y la integridad del flujo de información. 
+
+**Pruebas de integración interna (entre módulos del dominio):**
+
+Estas pruebas se realizaron para verificar la integración interna entre los módulos principales del backend, como IAM, Courses y Assignments. Se enfocaron en comprobar que las entidades, repositorios y relaciones funcionen de manera correcta cuando se combinan, garantizando la persistencia y consistencia de los datos en la base de datos.
+
+Escenarios probados: 
+
+- Creación de una asignación y una entrega: 
+ Se comprobó que al crear una tarea (Assignment) esta se guarda correctamente en la base de datos y que un estudiante puede enviar una entrega (Submission) asociada a ella. Además, se verificó que la relación entre ambas entidades se mantenga consistente. 
+
+- Creación y actualización de curso: 
+ Se validó que un curso pueda ser creado, actualizado con nuevos valores y que se le asigne correctamente un código de unión (CourseJoinCode). Con esto se confirma que las operaciones CRUD dentro del módulo de cursos funcionan de forma integral. 
+
+- Creación de usuario y asignación de roles: 
+ Se probó que el módulo de IAM permita registrar un usuario y asignarle un rol, asegurando la correcta persistencia de la relación entre las tablas users y roles. 
+
+- Asignación de usuario a curso: 
+ Se comprobó que un usuario pueda inscribirse en un curso y que dicha relación se almacene correctamente, demostrando la correcta integración entre los módulos de IAM y Courses. 
+
+Estas pruebas se desarrollaron en la clase DesignWebServicesBackendApplicationTests, donde se validó que cada módulo interactúe correctamente con los demás, asegurando la coherencia de las operaciones CRUD y la comunicación entre los distintos componentes del dominio.
+
+<img src="./assets/chapter-6/integration_test_1.png" alt="Core Integration Tests" width="700"/>
+
+**Pruebas de integración de controladores (Controllers Integration Tests)**
+
+Además de las pruebas internas, se implementaron pruebas de integración a nivel de controladores utilizando la herramienta MockMvc. Estas pruebas tienen como finalidad validar la comunicación entre la capa de presentación (endpoints REST) y la capa de negocio del sistema, simulando peticiones HTTP reales y comprobando las respuestas devueltas por la API. 
+
+Se evaluaron los controladores principales del backend: 
+
+- AuthenticationController: registro e inicio de sesión de usuarios mediante los flujos sign-up y sign-in. 
+
+- CoursesController: gestión de creación, actualización, eliminación y consulta de cursos. 
+
+- AssignmentsController: administración de tareas asociadas a cada curso. 
+
+- SubmissionsController: control de creación, calificación y visualización de entregas de estudiantes. 
+
+Estas pruebas aseguran que los endpoints del sistema respondan correctamente ante operaciones CRUD, validen la autenticación con JWT y mantengan la comunicación efectiva entre las capas del backend.
+
+**Authentication Controller Tests**
+
+<img src="./assets/chapter-6/integration_test_2.png" alt="Core Integration Tests" width="700"/>
+
+**Courses Controller Tests**
+
+<img src="./assets/chapter-6/integration_test_3.png" alt="Core Integration Tests" width="700"/>
+
+**Assignments Controller Tests**
+
+<img src="./assets/chapter-6/integration_test_4.png" alt="Core Integration Tests" width="700"/>
+
+**Submissions Controller Tests**
+
+<img src="./assets/chapter-6/integration_test_5.png" alt="Core Integration Tests" width="700"/>
+
+
+#### 6.1.3 Core Behavior-Driven Development
+
+En esta sección se aplicó la metodología Behavior-Driven Development (BDD) con el propósito de describir y validar el comportamiento del sistema desde la perspectiva del usuario. Para esto, se crearon archivos de características (.feature) haciendo uso de la sintaxis de Cucumber, donde se detallan distintos escenarios escritos en lenguaje natural siguiendo la estructura Given–When–Then.  
+
+Cada archivo .feature está relacionado con una historia de usuario del proyecto, representando acciones comunes dentro del sistema como la creación de grupos, el ingreso mediante código o la visualización de trabajos. De esta forma, se puede entender de manera clara cómo debería comportarse el sistema frente a las interacciones de los usuarios, lo que facilita tanto el desarrollo como las pruebas del software.
+
+<img src="./assets/chapter-6/bdd_1.png" alt="Core Behavior-Driven Development" width="300"/><br>
+
+<img src="./assets/chapter-6/bdd_2.png" alt="Core Behavior-Driven Development" width="500"/><br>
+
+<img src="./assets/chapter-6/bdd_3.png" alt="Core Behavior-Driven Development" width="500"/><br>
+
+<img src="./assets/chapter-6/bdd_4.png" alt="Core Behavior-Driven Development" width="500"/><br>
+
+<img src="./assets/chapter-6/bdd_5.png" alt="Core Behavior-Driven Development" width="500"/><br>
+
+<img src="./assets/chapter-6/bdd_6.png" alt="Core Behavior-Driven Development" width="500"/><br>
+
+<img src="./assets/chapter-6/bdd_7.png" alt="Core Behavior-Driven Development" width="500"/><br>
+
+<img src="./assets/chapter-6/bdd_8.png" alt="Core Behavior-Driven Development" width="500"/><br>
+
+<img src="./assets/chapter-6/bdd_9.png" alt="Core Behavior-Driven Development" width="500"/><br>
+
+
+#### 6.1.4 Core System Tests
+
+En esta etapa se realizaron las pruebas de sistema, las cuales tienen como objetivo validar el funcionamiento general de la aplicación una vez integrados todos sus módulos. A diferencia de las pruebas unitarias o integrales, estas se enfocan en comprobar el comportamiento del sistema completo desde la experiencia del usuario, tanto en el entorno web como móvil. 
+
+Para ello, se emplearon herramientas como Selenium, que permitieron automatizar la navegación por la aplicación web y verificar que los flujos principales (inicio de sesión, creación de grupos, visualización de tareas, entre otros) funcionen correctamente y sin errores. Estas pruebas también evaluaron la correcta comunicación con las APIs del backend, asegurando que las peticiones y respuestas del servidor se procesen de manera adecuada. 
+
+| US001 | Ingreso a grupos | Como estudiante, quiero ser capaz de unirme a los grupos formados por mis profesores con facilidad, para poder acceder a las actividades y materiales del curso. |
+|-------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_1.png" alt="Core System Tests" width="300"/><br>
+
+
+| US002 | Creación de grupos | Como profesor, quiero ser capaz de crear grupos para mis cursos en la plataforma, para organizar a mis estudiantes y gestionar mejor las clases. |
+|-------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_2.png" alt="Core System Tests" width="300"/><br>
+
+
+| US003 | Invitación a grupos | Como profesor, quiero invitar a mis alumnos a los grupos creados por mí, para facilitar su incorporación a los cursos y mantener el control de los miembros. |
+|-------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_3.png" alt="Core System Tests" width="300"/><br>
+
+
+| US005 | Creación de trabajos con fechas límite | Como profesor, quiero crear trabajos dentro de cada curso con sus respectivas fechas de entrega, para organizar las actividades académicas y dar claridad a mis estudiantes. |
+|-------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_4.png" alt="Core System Tests" width="300"/><br>
+
+
+| US007 | Visualización de trabajos y fechas | Como estudiante, quiero visualizar en un dashboard todos mis trabajos y fechas de entrega, para organizar mis actividades y priorizar las más urgentes. |
+|-------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_5.png" alt="Core System Tests" width="300"/><br>
+
+
+| US008 | Visualización de dashboard de progreso académico | Como estudiante, quiero visualizar un dashboard con mis calificaciones y progreso en tiempo real, para saber si estoy avanzando de manera adecuada en mis cursos. |
+|-------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_6.png" alt="Core System Tests" width="300"/><br>
+
+
+| US015 | Acceso a todas las entregas de un trabajo | Como profesor, quiero acceder en una sola vista a todas las entregas de un trabajo, para agilizar la revisión y calificación. |
+|-------|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_7.png" alt="Core System Tests" width="300"/><br>
+
+
+| US020 | Estados de entrega | Como estudiante, quiero ver el estado de cada entrega (pendiente, entregado, en revisión, calificado), para conocer en qué punto del proceso está mi trabajo. |
+|-------|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<br><img src="./assets/chapter-6/system_test_8.png" alt="Core System Tests" width="300"/><br>
 
 
 ## Capítulo VII: DevOps Practices  
 
 ### 7.1 Continuous Integration  
-#### 7.1.1 Tools and Practices  
-#### 7.1.2 Build & Test Suite Pipeline Components  
+#### 7.1.1 Tools and Practices
+
+La práctica de Integración Continua (CI) fue implementada para asegurar que el desarrollo del proyecto mantenga una línea de calidad constante y que cada actualización del código se integre sin afectar la estabilidad del sistema. Esta metodología permitió detectar errores con rapidez, mejorar la trazabilidad del progreso y optimizar el flujo de trabajo colaborativo del equipo. 
+
+Durante el proceso, se empleó JUnit para validar las funciones del backend mediante pruebas unitarias, comprobando que cada módulo lógico cumpliera correctamente su propósito antes de su integración. De forma complementaria, se aplicó Selenium para automatizar pruebas de interfaz en el entorno web, garantizando que las interacciones del usuario, los botones, formularios y flujos de navegación funcionaran de forma estable en distintas versiones del sistema. 
+
+<table>
+  <thead>
+    <tr>
+      <th>Herramienta</th>
+      <th>Metodología</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+      <th>Propósito</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>JUnit</td>
+      <td>TDD</td>
+      <td>Framework de pruebas unitarias</td>
+      <td>Herramienta de código abierto utilizada para realizar pruebas automatizadas en Java. Permite verificar que cada unidad de código (método o clase) funcione correctamente antes de su integración.</td>
+      <td>Garantizar la calidad y fiabilidad del backend mediante pruebas unitarias automatizadas.</td>
+    </tr>
+    <tr>
+      <td>Mockito</td>
+      <td>TDD</td>
+      <td>Framework de pruebas de integración y simulación (mocking)</td>
+      <td>Biblioteca de Java que permite crear objetos simulados (mocks) para probar interacciones entre componentes sin necesidad de depender de implementaciones reales. Facilita el aislamiento de las pruebas unitarias.</td>
+      <td>Validar la interacción entre clases y componentes del backend, asegurando que los módulos funcionen correctamente incluso cuando dependen de servicios externos o no implementados.</td>
+    </tr>
+    <tr>
+      <td>Cucumber</td>
+      <td>BDD</td>
+      <td>Framework de pruebas de comportamiento</td>
+      <td>Herramienta que permite escribir pruebas automatizadas en lenguaje natural (Gherkin), facilitando la colaboración entre desarrolladores, testers y stakeholders no técnicos.</td>
+      <td>Alinear las pruebas con los requisitos del negocio y validar que el sistema cumpla el comportamiento esperado desde la perspectiva del usuario.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 7.1.2 Build & Test Suite Pipeline Components
+
+<img src="./assets/chapter-6/unit_test_1.png" alt="Core Entities Unit Tests" width="700"/><br>
+
+<img src="./assets/chapter-6/unit_test_2.png" alt="Core Entities Unit Tests" width="700"/><br>
+
+<img src="./assets/chapter-6/bdd_1.png" alt="Core Behavior-Driven Development" width="300"/><br>
+
+<img src="./assets/chapter-6/bdd_2.png" alt="Core Behavior-Driven Development" width="500"/><br>
 
 ### 7.2 Continuous Delivery  
-#### 7.2.1 Tools and Practices  
+#### 7.2.1 Tools and Practices
+
+En el proceso de Continuous Delivery implementado para LearnHive, se aplicaron diversas herramientas y prácticas que permitieron mantener la estabilidad del producto, automatizar tareas críticas y asegurar la coherencia entre los entornos de desarrollo, pruebas y producción. 
+
+**Tools** 
+
+**GitHub Actions:**
+
+ Se utilizó para automatizar los flujos de integración y entrega continua (CI/CD). Cada vez que se realiza un push o pull request, la herramienta ejecuta pruebas automáticas, analiza el estado del código y despliega los cambios en entornos controlados. Esto garantiza que las actualizaciones del sistema sean seguras y no interrumpan el funcionamiento general de la plataforma. 
+
+**Docker:**
+
+ Fue fundamental para contenerizar tanto el frontend como el backend, asegurando que todos los miembros del equipo trabajen con entornos idénticos. Permitiendo desplegar la aplicación en servidores de prueba o producción con total consistencia. 
+
+**Trello:**
+
+ Se utilizó como herramienta de gestión visual para el flujo de aprobaciones dentro del proceso de entrega. Una vez que una versión superaba las pruebas automatizadas, esta debía pasar por una revisión manual del equipo técnico y del líder de proyecto antes de ser aprobada para su despliegue en el entorno de producción. 
+
+**Postman:**
+ Apoyó en la verificación del correcto funcionamiento de los endpoints del backend. Durante las fases de entrega, permitió validar que las respuestas de la API coincidieran con las especificaciones del sistema y que las integraciones con el frontend se mantuvieran estables. 
+
+**Selenium:**
+
+ Se empleó para realizar pruebas automáticas de interfaz de usuario (UI), simulando interacciones reales de los usuarios con la aplicación. Gracias a Selenium, fue posible detectar errores visuales, fallos de navegación y comportamientos inesperados antes del despliegue final. 
+
+**Lighthouse:**
+
+ Fue usada para evaluar el rendimiento, accesibilidad y buenas prácticas del frontend en la web. Sus reportes ayudaron a optimizar la velocidad de carga, la experiencia del usuario y la eficiencia del código, garantizando que la aplicación cumpla con los estándares de calidad web antes de su lanzamiento en producción.  
+
+**Practices**
+
+**Feature Branching y Merge Requests:**
+ Cada nueva funcionalidad de LearnHive se desarrolla en ramas independientes para mantener la estabilidad del entorno principal. Una vez completado el desarrollo y superadas las pruebas automatizadas, se realiza un merge request hacia la rama estable. Esta práctica permite aislar cambios, facilitar revisiones de código y asegurar que solo las funcionalidades validadas lleguen a las versiones de prueba o producción. 
+
+**Pipeline de Validación en Staging:**
+ Antes de cualquier despliegue final, el código se valida en un entorno de staging que replica las condiciones de producción. Allí se ejecutan pruebas integradas con datos simulados de cursos, usuarios y métricas académicas, garantizando que las nuevas versiones no afecten la experiencia de los docentes ni de los estudiantes. Este paso también permite recibir retroalimentación temprana del equipo de QA o del Product Owner. 
+
+**Despliegue Controlado:**
+ En lugar de desplegar automáticamente, LearnHive utiliza un modelo de entrega semiautomática. El pipeline prepara la aplicación, genera los contenedores y ejecuta las verificaciones finales, pero el despliegue solo se completa tras la aprobación de un responsable técnico. Esto aporta control y reduce el riesgo de errores en entornos educativos con usuarios activos. 
+
+**Aprobación Manual:**
+ Cada versión candidata pasa por una revisión final donde se evalúan los resultados de pruebas funcionales, rendimiento y accesibilidad. Solo después de la aprobación manual del líder técnico o gerente de producto, se autoriza el despliegue a producción. Esta práctica ayuda a mantener la calidad del servicio y evitar interrupciones para los usuarios. 
+
+**Rollback Planificado:**
+ En caso de fallas detectadas después del despliegue, se cuenta con un plan de rollback manual y documentado. Este proceso permite revertir rápidamente la aplicación a una versión estable anterior, garantizando la continuidad operativa del sistema y la integridad de los datos de los institutos asociados. 
+
 #### 7.2.2 Stages Deployment Pipeline Components  
 
-### 7.3 Continuous Deployment  
+**Integración Continua (CI):**
+ Cada vez que un desarrollador realiza un commit o merge en una rama activa del repositorio de LearnHive, el pipeline de Integración Continua ejecuta pruebas unitarias y de integración. Estas validaciones aseguran que el código sea estable, que no se rompan dependencias y que la aplicación se mantenga en un estado desplegable. Además, se verifican estándares de calidad y formato de código mediante linters y revisiones automáticas. 
+
+**Validación en Staging:** 
+ Antes del despliegue final, la aplicación se ejecuta en un entorno de staging que replica las condiciones de producción. Aquí se realizan pruebas funcionales, de carga y seguridad, usando datos de ejemplo representativos del ecosistema académico (cursos, docentes y alumnos). Este paso permite identificar posibles problemas de rendimiento o compatibilidad antes de afectar a los usuarios reales. 
+
+**Despliegue Supervisado:**
+ El pipeline prepara automáticamente la versión lista para producción (build, contenedor Docker y configuración del entorno), pero el paso final del despliegue requiere aprobación manual. Este mecanismo garantiza que las nuevas versiones pasen por una última revisión técnica, reduciendo el riesgo de fallos en horas críticas de uso institucional. 
+
+**Monitoreo y Retroalimentación:**
+ Tras el despliegue en staging o producción, se activan herramientas de monitoreo (por ejemplo, Lighthouse y logs de servidor) que permiten observar métricas de rendimiento, tiempos de respuesta y errores en tiempo real. La información recolectada ayuda al equipo a evaluar la estabilidad de la versión y tomar decisiones informadas sobre su lanzamiento completo o la necesidad de ajustes. 
+
+**Aprobación del Despliegue:**
+ El pipeline queda en modo de espera (pending state) hasta que un responsable técnico o el líder de proyecto apruebe el paso final a producción. Esta aprobación se basa en la revisión de los reportes de pruebas, auditorías de seguridad y desempeño. Solo tras esta validación, la nueva versión de LearnHive se libera oficialmente para todos los institutos afiliados. 
+
+**Rollback Controlado:**
+ En caso de detectar errores críticos o degradación de servicio tras el despliegue, se cuenta con un procedimiento de rollback rápido y documentado. Este proceso revierte la aplicación a la última versión estable, asegurando la continuidad del servicio y minimizando el impacto en los usuarios. 
+
+### 7.3 Continuous Deployment 
+
+En esta sección se describen las principales herramientas y prácticas utilizadas para garantizar un proceso de integración y despliegue continuo eficiente, seguro y automatizado dentro del ecosistema de LearnHive. 
+
 #### 7.3.1 Tools and Practices  
+
+**Tools**
+
+<table>
+  <thead>
+    <tr>
+      <th>Categoría</th>
+      <th>Herramienta</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Automatización del pipeline</td>
+      <td>GitHub Actions</td>
+      <td>Permite automatizar el flujo de integración, pruebas y despliegue continuo. Cada vez que se realiza un push o merge a la rama principal, se ejecuta el pipeline completo.</td>
+    </tr>
+    <tr>
+      <td>Contenerización</td>
+      <td>Docker</td>
+      <td>Empaqueta el backend en una imagen que incluye todas sus dependencias, garantizando que funcione de la misma manera en cualquier entorno.</td>
+    </tr>
+    <tr>
+      <td>Hosting Backend y Base de Datos</td>
+      <td>Render</td>
+      <td>Plataforma en la nube que permite desplegar servicios de backend (Spring Boot) y bases de datos PostgreSQL. Automatiza el redeploy cuando se detectan cambios en el repositorio.</td>
+    </tr>
+    <tr>
+      <td>Hosting Frontend</td>
+      <td>Vercel</td>
+      <td>Permite desplegar automáticamente aplicaciones frontend (como Angular o React) vinculadas directamente al repositorio de GitHub.</td>
+    </tr>
+    <tr>
+      <td>Monitoreo y Validación Post-Despliegue</td>
+      <td>Lighthouse</td>
+      <td>Evalúa el rendimiento, accesibilidad y cumplimiento de buenas prácticas del frontend desplegado en producción.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Practices**
+
+- **Feature Branching:**
+ Los desarrolladores trabajan en ramas independientes para nuevas funcionalidades o correcciones. Una vez finalizadas y verificadas, las ramas se integran en la rama develop, que gestiona los despliegues a staging o producción. Esta práctica mantiene un flujo de trabajo limpio y controlado. 
+
+- **Despliegue completamente automatizado:** 
+Una vez que el código es validado por las pruebas unitarias y de integración, GitHub Actions ejecuta automáticamente el pipeline de despliegue hacia Render (backend y base de datos) y Vercel (frontend). 
+
+- **Commit-based Deployment (Despliegue basado en commits):**
+ Cada commit en la rama develop activa automáticamente el pipeline de CI/CD configurado en GitHub Actions. Este proceso ejecuta las pruebas, valida la calidad del código y realiza el despliegue automático del frontend y backend en los entornos correspondientes. 
+
+- **Rollback Automático:**
+ El pipeline incluye un sistema de rollback configurado en caso de fallos en producción. Si se detectan errores críticos tras un despliegue, se restaura la versión estable anterior de manera automática, enviando notificaciones al equipo técnico para revisión. 
+
+- **Monitoreo y Auditoría Continua:**
+ Tras cada despliegue, se ejecutan análisis automáticos de rendimiento mediante Lighthouse y verificación de logs del servidor. Estas prácticas permiten detectar anomalías tempranas, mejorar la estabilidad y mantener la calidad del servicio en tiempo real. 
+
 #### 7.3.2 Production Deployment Pipeline Components  
 
-### 7.4 Continuous Monitoring  
-#### 7.4.1 Tools and Practices  
-#### 7.4.2 Monitoring Pipeline Components  
-#### 7.4.3 Alerting Pipeline Components  
-#### 7.4.4 Notification Pipeline Components  
+En esta sección se describen los principales componentes del pipeline de despliegue a producción implementado para LearnHive, los cuales garantizan una entrega continua, segura y estable del producto digital. El objetivo es mantener coherencia entre los entornos de desarrollo, staging y producción, automatizando los procesos críticos y reduciendo riesgos operativos. 
+
+**Componentes del Pipeline del Backend (Render para Spring Boot):**
+
+Integración continua: Al hacer un commit en la rama develop, Render toma el código actualizado del backend (Spring Boot), lo construye utilizando Maven. 
+
+Construcción de la imagen Docker: Render construye una imagen Docker del backend, asegurando que todas las dependencias están incluidas. 
+
+Despliegue: Render implementa la nueva versión del backend en el servidor de producción. 
+
+Monitoreo y alerta: Después del despliegue, Render monitorea la aplicación y envía alertas si algo falla o si hay problemas de rendimiento. 
+
+**Componentes del Pipeline del Frontend (Vercel o Firebase para Angular)**
+
+**Compilación del frontend:**
+ Cada vez que se detecta un nuevo commit en la rama principal, el pipeline inicia el proceso de compilación de la aplicación Angular en modo producción. 
+
+**Pruebas automatizadas:**
+ Se ejecutan pruebas end-to-end con Selenium, garantizando que la interfaz funcione correctamente y que las rutas de usuario no se vean afectadas por cambios recientes. 
+
+**Despliegue automático en hosting (Firebase):**
+ Si todas las pruebas son exitosas, la nueva versión del frontend se despliega automáticamente en Firebase Hosting para asegurar tiempos de carga óptimos en Lima Metropolitana. 
+
+**Invalidación de caché y actualización continua:**
+ El pipeline gestiona automáticamente la invalidación de caché para asegurar que todos los usuarios accedan siempre a la versión más reciente del sistema LearnHive, sin requerir recargas manuales. 
+
+ El pipeline de Continuous Deployment se compone de las siguientes etapas automatizadas: 
+
+<table>
+  <thead>
+    <tr>
+      <th>Etapa</th>
+      <th>Descripción</th>
+      <th>Herramientas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Build & Test</td>
+      <td>El pipeline de GitHub Actions compila el código fuente y ejecuta pruebas unitarias e integradas para validar la estabilidad del sistema.</td>
+      <td>GitHub Actions, JUnit</td>
+    </tr>
+    <tr>
+      <td>Contenerización del Backend</td>
+      <td>El backend se empaqueta en una imagen Docker lista para ejecutarse en cualquier entorno, garantizando consistencia y portabilidad.</td>
+      <td>Docker</td>
+    </tr>
+    <tr>
+      <td>Deploy Automático del Backend y Base de Datos</td>
+      <td>Render recibe la nueva imagen del backend y actualiza automáticamente la aplicación junto con su conexión a la base de datos PostgreSQL.</td>
+      <td>Render</td>
+    </tr>
+    <tr>
+      <td>Deploy Automático del Frontend</td>
+      <td>Vercel detecta cambios en el repositorio y publica automáticamente la nueva versión del frontend, asegurando una entrega continua y rápida.</td>
+      <td>Vercel</td>
+    </tr>
+    <tr>
+      <td>Validación Post-Despliegue</td>
+      <td>Se ejecutan pruebas automáticas para verificar el rendimiento, accesibilidad y comportamiento del sistema en el entorno de producción.</td>
+      <td>Lighthouse</td>
+    </tr>
+    <tr>
+      <td>Monitoreo y Rollback Automático</td>
+      <td>Render y GitHub Actions monitorean el estado del servicio y, en caso de fallos, permiten revertir el despliegue a una versión estable anterior.</td>
+      <td>Render, GitHub Actions</td>
+    </tr>
+  </tbody>
+</table>
 
 
 # Part III: Experiment-Driven Lifecycle  
@@ -3189,16 +4006,22 @@ Distribución de commits:
 
 # Conclusiones  
 ## Conclusiones y recomendaciones 
-El desarrollo del proyecto logró la definición inicial con User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y As-is Scenario Mapping, hasta la especificación de requisitos con To-Be Scenario Mapping, User Stories, Product Backlog e Impact Mapping por lo que el proyecto permitió cubrir de manera integral la investigación, definición de requisitos, diseño y prototipado de las soluciones digitales, asegurando coherencia entre la experiencia del usuario y la arquitectura técnica. Se logró evidenciar un trabajo colaborativo y organizado que facilitó avanzar desde la ideación hasta la implementación inicial del producto, desarrollando tanto el frontend como el backend de forma funcional y alineada con los objetivos planteados.
 
-**Punto de mejora**
+TB1: 
 
-Es necesario mejorar el uso del tiempo en las etapas de diseño y validación. También es profundizar en pruebas de usabilidad para garantizar una mejor experiencia del usuario
-Incrementar la documentación técnica en la arquitectura de componentes para facilitar futuras ampliaciones.
-Optimizar la gestión de los Sprint Backlogs para priorizar mejor las tareas críticas
+El desarrollo del proyecto logró la definición inicial con User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y As-is Scenario Mapping, hasta la especificación de requisitos con To-Be Scenario Mapping, User Stories, Product Backlog e Impact Mapping por lo que el proyecto permitió cubrir de manera integral la investigación, definición de requisitos, diseño y prototipado de las soluciones digitales, asegurando coherencia entre la experiencia del usuario y la arquitectura técnica. Se logró evidenciar un trabajo colaborativo y organizado que facilitó avanzar desde la ideación hasta la implementación inicial del producto, desarrollando tanto el frontend como el backend de forma funcional y alineada con los objetivos planteados. 
 
-## Video App Validation
-## Video About-the-Team
+ 
+
+TP: 
+
+Durante el desarrollo del proyecto se incorporaron prácticas orientadas a la verificación, validación y aseguramiento de la calidad del producto, aplicando diferentes tipos de pruebas como unitarias, de integración, de comportamiento y de sistema. Esto permitió comprobar que cada componente funcionara correctamente tanto de forma individual como en conjunto, garantizando la estabilidad y coherencia del sistema. Asimismo, la adopción de metodologías DevOps contribuyó a mejorar la eficiencia del proceso de desarrollo mediante la automatización de tareas, la integración continua y la entrega constante de versiones, lo que facilitó el trabajo colaborativo y redujo los errores en las etapas de despliegue. En conjunto, estas prácticas reforzaron la calidad del software y demostraron la importancia de mantener un enfoque técnico disciplinado y bien estructurado a lo largo de todo el ciclo de desarrollo. 
+
+**Puntos de mejoras**
+
+- Es necesario mejorar el uso del tiempo en las etapas de diseño y validación. También es profundizar en pruebas de usabilidad para garantizar una mejor experiencia del usuario Incrementar la documentación técnica en la arquitectura de componentes para facilitar futuras ampliaciones. Optimizar la gestión de los Sprint Backlogs para priorizar mejor las tareas críticas. 
+
+- Fortalecer la automatización y monitoreo del entorno de desarrollo y producción, implementando herramientas que permitan detectar errores en tiempo real y medir el rendimiento del sistema. Esto ayudaría a optimizar la estabilidad del producto, reducir tiempos de respuesta ante incidencias y mantener una mayor continuidad operativa durante futuras actualizaciones.
 
 
 # Bibliografía  
@@ -3354,3 +4177,7 @@ Links:
 [Repositorio del Backend](https://github.com/APX-03-Experimentos/Backend-Web-Services)
 
 [Repositorio del Fronted](https://github.com/APX-03-Experimentos/Frontend-Web-Applications)
+
+Video:
+
+[About the Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/EatCmU9KviNPj0JlGXsLnBkBCz_wkenwhK9ttOvAP56Dfw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZIWNtu)
