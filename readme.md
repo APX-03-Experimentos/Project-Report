@@ -3133,7 +3133,65 @@ Pruebas realizadas:
 <img src="./assets/chapter-6/unit_test_6.png" alt="Core Entities Unit Tests" width="700"/>
 
 
-#### 6.1.2 Core Integration Tests  
+#### 6.1.2 Core Integration Tests
+
+En esta sección se desarrollaron pruebas de integración con el objetivo de validar el correcto funcionamiento conjunto de los diferentes módulos que conforman el backend del sistema, así como la comunicación entre las capas que lo componen. Estas pruebas garantizan que los componentes puedan interactuar entre sí sin errores, manteniendo la consistencia de los datos y la integridad del flujo de información. 
+
+**Pruebas de integración interna (entre módulos del dominio):**
+
+Estas pruebas se realizaron para verificar la integración interna entre los módulos principales del backend, como IAM, Courses y Assignments. Se enfocaron en comprobar que las entidades, repositorios y relaciones funcionen de manera correcta cuando se combinan, garantizando la persistencia y consistencia de los datos en la base de datos. 
+
+Escenarios probados: 
+
+- Creación de una asignación y una entrega: 
+ Se comprobó que al crear una tarea (Assignment) esta se guarda correctamente en la base de datos y que un estudiante puede enviar una entrega (Submission) asociada a ella. Además, se verificó que la relación entre ambas entidades se mantenga consistente. 
+
+- Creación y actualización de curso: 
+ Se validó que un curso pueda ser creado, actualizado con nuevos valores y que se le asigne correctamente un código de unión (CourseJoinCode). Con esto se confirma que las operaciones CRUD dentro del módulo de cursos funcionan de forma integral. 
+
+- Creación de usuario y asignación de roles: 
+ Se probó que el módulo de IAM permita registrar un usuario y asignarle un rol, asegurando la correcta persistencia de la relación entre las tablas users y roles. 
+
+- Asignación de usuario a curso: 
+ Se comprobó que un usuario pueda inscribirse en un curso y que dicha relación se almacene correctamente, demostrando la correcta integración entre los módulos de IAM y Courses. 
+
+Estas pruebas se desarrollaron en la clase DesignWebServicesBackendApplicationTests, donde se validó que cada módulo interactúe correctamente con los demás, asegurando la coherencia de las operaciones CRUD y la comunicación entre los distintos componentes del dominio.
+
+<img src="./assets/chapter-6/integration_test_1.png" alt="Core Entities Unit Tests" width="700"/>
+
+**Pruebas de integración de controladores (Controllers Integration Tests)**
+
+Además de las pruebas internas, se implementaron pruebas de integración a nivel de controladores utilizando la herramienta MockMvc. Estas pruebas tienen como finalidad validar la comunicación entre la capa de presentación (endpoints REST) y la capa de negocio del sistema, simulando peticiones HTTP reales y comprobando las respuestas devueltas por la API. 
+
+Se evaluaron los controladores principales del backend: 
+
+- AuthenticationController: registro e inicio de sesión de usuarios mediante los flujos sign-up y sign-in. 
+
+- CoursesController: gestión de creación, actualización, eliminación y consulta de cursos. 
+
+- AssignmentsController: administración de tareas asociadas a cada curso. 
+
+- SubmissionsController: control de creación, calificación y visualización de entregas de estudiantes. 
+
+Estas pruebas aseguran que los endpoints del sistema respondan correctamente ante operaciones CRUD, validen la autenticación con JWT y mantengan la comunicación efectiva entre las capas del backend.
+
+**Authentication Controller Tests**
+
+<img src="./assets/chapter-6/integration_test_2.png" alt="Core Entities Unit Tests" width="700"/>
+
+**Courses Controller Tests**
+
+<img src="./assets/chapter-6/integration_test_3.png" alt="Core Entities Unit Tests" width="700"/>
+
+**Assignments Controller Tests**
+
+<img src="./assets/chapter-6/integration_test_4.png" alt="Core Entities Unit Tests" width="700"/>
+
+**Submissions Controller Tests**
+
+<img src="./assets/chapter-6/integration_test_5.png" alt="Core Entities Unit Tests" width="700"/>
+
+
 #### 6.1.3 Core Behavior-Driven Development  
 #### 6.1.4 Core System Tests
 
