@@ -3771,16 +3771,22 @@ Para ello, se emplearon herramientas como Selenium, que permitieron automatizar 
 
 # Conclusiones  
 ## Conclusiones y recomendaciones 
-El desarrollo del proyecto logró la definición inicial con User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y As-is Scenario Mapping, hasta la especificación de requisitos con To-Be Scenario Mapping, User Stories, Product Backlog e Impact Mapping por lo que el proyecto permitió cubrir de manera integral la investigación, definición de requisitos, diseño y prototipado de las soluciones digitales, asegurando coherencia entre la experiencia del usuario y la arquitectura técnica. Se logró evidenciar un trabajo colaborativo y organizado que facilitó avanzar desde la ideación hasta la implementación inicial del producto, desarrollando tanto el frontend como el backend de forma funcional y alineada con los objetivos planteados.
 
-**Punto de mejora**
+TB1: 
 
-Es necesario mejorar el uso del tiempo en las etapas de diseño y validación. También es profundizar en pruebas de usabilidad para garantizar una mejor experiencia del usuario
-Incrementar la documentación técnica en la arquitectura de componentes para facilitar futuras ampliaciones.
-Optimizar la gestión de los Sprint Backlogs para priorizar mejor las tareas críticas
+El desarrollo del proyecto logró la definición inicial con User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y As-is Scenario Mapping, hasta la especificación de requisitos con To-Be Scenario Mapping, User Stories, Product Backlog e Impact Mapping por lo que el proyecto permitió cubrir de manera integral la investigación, definición de requisitos, diseño y prototipado de las soluciones digitales, asegurando coherencia entre la experiencia del usuario y la arquitectura técnica. Se logró evidenciar un trabajo colaborativo y organizado que facilitó avanzar desde la ideación hasta la implementación inicial del producto, desarrollando tanto el frontend como el backend de forma funcional y alineada con los objetivos planteados. 
 
-## Video App Validation
-## Video About-the-Team
+ 
+
+TP: 
+
+Durante el desarrollo del proyecto se incorporaron prácticas orientadas a la verificación, validación y aseguramiento de la calidad del producto, aplicando diferentes tipos de pruebas como unitarias, de integración, de comportamiento y de sistema. Esto permitió comprobar que cada componente funcionara correctamente tanto de forma individual como en conjunto, garantizando la estabilidad y coherencia del sistema. Asimismo, la adopción de metodologías DevOps contribuyó a mejorar la eficiencia del proceso de desarrollo mediante la automatización de tareas, la integración continua y la entrega constante de versiones, lo que facilitó el trabajo colaborativo y redujo los errores en las etapas de despliegue. En conjunto, estas prácticas reforzaron la calidad del software y demostraron la importancia de mantener un enfoque técnico disciplinado y bien estructurado a lo largo de todo el ciclo de desarrollo. 
+
+**Puntos de mejoras**
+
+- Es necesario mejorar el uso del tiempo en las etapas de diseño y validación. También es profundizar en pruebas de usabilidad para garantizar una mejor experiencia del usuario Incrementar la documentación técnica en la arquitectura de componentes para facilitar futuras ampliaciones. Optimizar la gestión de los Sprint Backlogs para priorizar mejor las tareas críticas. 
+
+- Fortalecer la automatización y monitoreo del entorno de desarrollo y producción, implementando herramientas que permitan detectar errores en tiempo real y medir el rendimiento del sistema. Esto ayudaría a optimizar la estabilidad del producto, reducir tiempos de respuesta ante incidencias y mantener una mayor continuidad operativa durante futuras actualizaciones.
 
 
 # Bibliografía  
