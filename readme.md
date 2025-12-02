@@ -278,9 +278,9 @@ Para esta segunda entrega se desarrollaron los capítulos 6 y 7, en imagenes adj
 Distribución de commits:
 
 - Alejo Cárdenas, José Antonio: 7 commits
-- Luquillas Asto, Omar: 28 commits
-- Real Calderón, Sebastián Omar: 3 commits
-- Olivera Barzola, Eric Marlon: 7 commits
+- Luquillas Asto, Omar: 48 commits
+- Real Calderón, Sebastián Omar: 4 commits
+- Olivera Barzola, Eric Marlon: 9 commits
 
 Entrega TB2 (13/11/2025):
 
@@ -1439,83 +1439,400 @@ El To-Be Scenario Mapping de profesores de instituto plantea un futuro en el que
 
 Epicas:
 
-| Epic ID | Título                                                    | Descripción |
-|---------|------------------------------------------------------------|-------------|
-| EP-001  | Gestión de Grupos                                          | Esta épica se enfoca en ofrecer a profesores y estudiantes una forma sencilla y estructurada de crear y administrar grupos académicos. El docente tiene la capacidad de formar equipos, asignar integrantes y mantener un control organizado sobre su composición. Los estudiantes, por su parte, cuentan con un espacio definido para integrarse a sus grupos de trabajo, lo que fomenta la colaboración y la coordinación en sus actividades académicas. |
-| EP-002  | Gestión de trabajos y entregas                             | Esta épica se enfoca en las funcionalidades orientadas a la creación de trabajos académicos para cada grupo, y el recibimiento de entregas, así como la calificación de estas. Por parte de los estudiantes, estos deben poder visualizar sus trabajos pendientes tanto en el menú de un grupo específico como en un menú especializado general que les muestre sus fechas de entrega más cercanas. Por el lado de los profesores, estos deben poder crear trabajos con fechas límite, administrar su visualización y acceder a las entregas de sus alumnos, así como calificarlas y dejar mensajes de retroalimentación. |
-| EP-003  | Seguimiento de progreso y retroalimentación automatizada   | Esta épica se centra en ofrecer funcionalidades que permitan a estudiantes y profesores acceder a datos en tiempo real sobre el rendimiento académico. Los estudiantes podrán visualizar sus calificaciones, avances y métricas comparativas mediante dashboards gráficos, lo que les permitirá identificar fortalezas, debilidades y áreas de mejora. Además, contarán con retroalimentación automatizada e instantánea, generada a partir de sus entregas y participación, para orientar su aprendizaje de manera continua. Por el lado de los profesores, estos podrán monitorear tanto las métricas individuales de cada estudiante como el desempeño general del grupo, identificando patrones y detectando a tiempo las dificultades más comunes. |
-| EP-004  | Comunicación, interacción y recursos educativos dinámicos  | Esta épica se orienta al intercambio de información y la creación de espacios de interacción dentro de la plataforma. Los profesores podrán publicar anuncios dirigidos a todo el grupo, en los cuales los alumnos podrán dejar comentarios, consultas o dudas que serán respondidas en el mismo hilo. Tanto docentes como estudiantes recibirán notificaciones automáticas que les mantendrán al tanto de las respuestas e interacciones. Asimismo, los alumnos tendrán la posibilidad de enviarse mensajes privados para coordinar actividades académicas de manera ágil. Como valor agregado, la épica incorpora la posibilidad de compartir recursos educativos interactivos tales como videos cortos, imágenes y materiales en tiempo real, lo que no solo mejora la comunicación, sino que también hace más atractivo y participativo el proceso de aprendizaje. |
-| EP-005  | Diseño de la landing page                                  | Como equipo de desarrollo, queremos diseñar y construir una landing page atractiva, informativa y fácil de navegar, que comunique claramente el valor de la plataforma tanto para motociclistas como para mecánicos, con el objetivo de captar nuevos usuarios, generar confianza y facilitar el registro en el sistema. |
-| EP-006  | Infraestructura técnica, escalabilidad y calidad del sistema | Esta épica se enfoca en las tareas técnicas necesarias para asegurar el correcto funcionamiento de la plataforma desde el punto de vista tecnológico. Incluye configuraciones de backend, frontend, infraestructura y pruebas automatizadas, que no son visibles directamente para el usuario final pero que resultan fundamentales para garantizar seguridad, rendimiento, estabilidad, escalabilidad y mantenibilidad en el tiempo. |
+<table>
+  <thead>
+    <tr>
+      <th>Epic ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EP-001</td>
+      <td>Autenticación de usuarios</td>
+      <td>Esta épica se centra en garantizar que los estudiantes y profesores puedan acceder de manera segura y confiable a la plataforma. Incluye funcionalidades de inicio de sesión y registro de nuevos usuarios. La autenticación asegura que solo los usuarios autorizados puedan interactuar con los distintos módulos del sistema, protegiendo la información personal y académica. Además, permite la gestión de sesiones activas, control de permisos según el rol del usuario y registro de intentos de acceso, contribuyendo a la seguridad, trazabilidad y control dentro de la plataforma educativa.</td>
+    </tr>
+    <tr>
+      <td>EP-002</td>
+      <td>Gestión de Grupos</td>
+      <td>Esta épica se enfoca en ofrecer a profesores y estudiantes una forma sencilla y estructurada de crear y administrar grupos académicos. El docente tiene la capacidad de formar equipos, asignar integrantes y mantener un control organizado sobre su composición. Los estudiantes, por su parte, cuentan con un espacio definido para integrarse a sus grupos de trabajo, lo que fomenta la colaboración y la coordinación en sus actividades académicas.</td>
+    </tr>
+    <tr>
+      <td>EP-003</td>
+      <td>Gestión de trabajos y entregas</td>
+      <td>Esta épica se enfoca en las funcionalidades orientadas a la creación de trabajos académicos para cada grupo, y el recibimiento de entregas, así como la calificación de estas. Por parte de los estudiantes, estos deben poder visualizar sus trabajos pendientes tanto en el menú de un grupo específico como en un menú especializado general que les muestre sus fechas de entrega más cercanas. Por el lado de los profesores, estos deben poder crear trabajos con fechas límite, administrar su visualización y acceder a las entregas de sus alumnos, así como calificarlas y dejar mensajes de retroalimentación.</td>
+    </tr>
+    <tr>
+      <td>EP-004</td>
+      <td>Seguimiento de progreso y retroalimentación automatizada</td>
+      <td>Esta épica se centra en ofrecer funcionalidades que permitan a estudiantes y profesores acceder a datos en tiempo real sobre el rendimiento académico. Los estudiantes podrán visualizar sus calificaciones, avances y métricas comparativas mediante paneles de control gráficos, lo que les permitirá identificar fortalezas, debilidades y áreas de mejora. Además, contarán con retroalimentación automatizada e instantánea, generada a partir de sus entregas y participación, para orientar su aprendizaje de manera continua. Por el lado de los profesores, estos podrán monitorear tanto las métricas individuales de cada estudiante como el desempeño general del grupo, identificando patrones y detectando a tiempo las dificultades más comunes.</td>
+    </tr>
+    <tr>
+      <td>EP-005</td>
+      <td>Comunicación, interacción y recursos educativos dinámicos entre usuarios</td>
+      <td>Esta épica se orienta al intercambio de información y la creación de espacios de interacción dentro de la plataforma. Como valor agregado, la épica incorpora la posibilidad de compartir recursos educativos interactivos tales como videos cortos, imágenes y materiales en tiempo real, lo que no solo mejora la comunicación, sino que también hace más atractivo y participativo el proceso de aprendizaje.</td>
+    </tr>
+    <tr>
+      <td>EP-006</td>
+      <td>Diseño de la landing page</td>
+      <td>Como equipo de desarrollo, queremos diseñar y construir una landing page atractiva, informativa y fácil de navegar, que comunique claramente el valor de la plataforma tanto para estudiantes como para profesores, con el objetivo de captar nuevos usuarios, generar confianza y facilitar el registro en el sistema.</td>
+    </tr>
+    <tr>
+      <td>EP-007</td>
+      <td>Infraestructura técnica, escalabilidad y calidad del sistema</td>
+      <td>Esta épica se enfoca en las tareas técnicas necesarias para asegurar el correcto funcionamiento de la plataforma desde el punto de vista tecnológico. Incluye configuraciones de backend, frontend, infraestructura y pruebas automatizadas, que no son visibles directamente para el usuario final pero que resultan fundamentales para garantizar seguridad, rendimiento, estabilidad, escalabilidad y mantenibilidad en el tiempo.</td>
+    </tr>
+  </tbody>
+</table>
 
 User Stories:
 
-| User Story ID | Título                                              | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|---------------|------------------------------------------------------|-------------|--------------------------|---------------------------|
-| US-001        | Ingreso a grupos                                     | Como estudiante, quiero ser capaz de unirme a los grupos formados por mis profesores con facilidad. | **Escenario 1:** Dado un estudiante con un código válido, cuando lo ingresa y selecciona "Unirse al grupo", entonces el sistema valida, confirma y lo añade al grupo. <br><br> **Escenario 2:** Dado un estudiante con una notificación de invitación, cuando la acepta, entonces el sistema lo añade al grupo y actualiza la lista de miembros. | EP-001 |
-| US-002        | Creación de grupos                                   | Como profesor, quiero ser capaz de crear grupos para mis cursos en la plataforma. | **Escenario 1:** Dado un profesor autenticado, cuando selecciona "Crear Nuevo Grupo" y llena el formulario, entonces el sistema crea el grupo. <br><br> **Escenario 2:** Dado un profesor creando un grupo con nombre duplicado, cuando intenta guardar, entonces el sistema muestra error "Nombre de grupo ya existente". | EP-001 |
-| US-003        | Invitación a grupos                                  | Como profesor, quiero ser capaz de invitar a mis alumnos a los grupos creados por mí. | **Escenario 1:** Dado un código válido, cuando un estudiante lo ingresa, entonces se añade al grupo y se notifica al profesor. <br><br> **Escenario 2:** Dado un profesor que envía invitaciones por ID/correo, entonces los estudiantes reciben notificaciones con enlace directo. <br><br> **Escenario 3:** Dado un estudiante con invitación, cuando la acepta, entonces el sistema lo añade al grupo y notifica al profesor. | EP-001 |
-| US-004        | Eliminación de alumnos                               | Como profesor, quiero ser capaz de eliminar integrantes del grupo para mantener el orden. | **Escenario 1:** Dado un profesor en la gestión de integrantes, cuando elimina un estudiante, entonces el sistema lo remueve y notifica. <br><br> **Escenario 2:** Dado un intento de eliminar un estudiante inexistente, cuando confirma, entonces el sistema muestra error "El estudiante no pertenece al grupo". | EP-001 |
-| US-005        | Creación de trabajos con fechas límite               | Como profesor, quiero crear trabajos con fechas de entrega claras. | **Escenario 1:** Dado un profesor en un curso, cuando crea un trabajo con título, descripción y fecha futura, entonces el sistema lo guarda y notifica a estudiantes. <br><br> **Escenario 2:** Dado un profesor que ingresa una fecha anterior, entonces el sistema muestra error "La fecha de entrega debe ser futura". | EP-002 |
-| US-006        | Recepción de entregas (múltiples oportunidades)      | Como estudiante, quiero poder enviar y reenviar mis entregas antes del plazo. | **Escenario 1:** Dado un estudiante dentro del plazo, cuando sube un archivo, entonces el sistema registra la entrega y notifica. <br><br> **Escenario 2:** Dado un estudiante con entrega previa, cuando reemplaza el archivo, entonces el sistema guarda la nueva versión y mantiene historial. <br><br> **Escenario 3:** Dado un estudiante fuera de plazo, cuando intenta enviar, entonces el sistema rechaza y muestra "Plazo de entrega vencido". | EP-002 |
-| US-007        | Visualización de trabajos y fechas                   | Como estudiante, quiero ver todos mis trabajos y fechas de entrega. | **Escenario 1:** Dado un estudiante en un curso, cuando abre "Trabajos", entonces ve la lista con estado, fechas y progreso. <br><br> **Escenario 2:** Dado un estudiante en su dashboard, cuando abre "Próximas entregas", entonces ve una lista consolidada ordenada por urgencia. <br><br> **Escenario 3:** Dado un trabajo con menos de 24h, cuando el estudiante lo ve, entonces se resalta en rojo y se ofrece acceso directo. | EP-002 |
-| US-008        | Visualización de dashboard de progreso académico     | Como estudiante, quiero ver un dashboard con calificaciones y progreso en tiempo real. | **Escenario 1:** Dado un estudiante, cuando accede a "Mi Progreso", entonces ve gráficos de calificaciones, promedios y proyección final. <br><br> **Escenario 2:** Dado un profesor que publica notas, cuando el estudiante recarga, entonces el sistema actualiza métricas y notifica cambios. <br><br> **Escenario 3:** Dado un estudiante con bajo rendimiento, entonces el sistema destaca esas materias con indicadores de color. | EP-003 |
-| US-009        | Comparación del rendimiento con el promedio del grupo | Como estudiante, quiero comparar mi rendimiento con el promedio de mis compañeros. | **Escenario 1:** Dado un estudiante, cuando selecciona "Comparar con grupo", entonces ve un gráfico de barras con diferencias porcentuales. <br><br> **Escenario 2:** Dado un estudiante, cuando selecciona "Evolución Temporal", entonces ve una gráfica de líneas con su progreso vs promedio grupal. | EP-003 |
-| US-010        | Visualización de métricas globales de desempeño del grupo | Como profesor, quiero acceder a métricas globales para evaluar el desempeño del grupo. | **Escenario 1:** Dado un profesor en gestión de grupo, cuando abre "Métricas Globales", entonces ve promedio, desviación, entregas a tiempo y tasas de aprobación. <br><br> **Escenario 2:** Dado un profesor que selecciona un período, entonces ve gráficas de progreso colectivo: distribución de notas, tendencia temporal y heatmap de entregas. | EP-003 |
-| US-011        | Alertas sobre estudiantes con bajo rendimiento | Como profesor, quiero recibir alertas sobre estudiantes con bajo rendimiento, para poder intervenir de manera temprana. | **Escenario 1:** Dado un estudiante con notas <60% en 3 evaluaciones seguidas, cuando el sistema procesa resultados, entonces el profesor recibe notificación con detalles y sugerencias. <br><br> **Escenario 2:** Dado un estudiante que no entrega 2 tareas consecutivas, cuando el sistema analiza historial, entonces genera alerta automática con opción de contactar al estudiante. | EP-003 |
-| US-012        | Recordatorios y notificaciones de entregas | Como estudiante, quiero recibir notificaciones y recordatorios de próximas entregas para no olvidar subir mis trabajos. | **Escenario 1:** Dado un trabajo con fecha límite, cuando faltan 48 y 12 horas, entonces el sistema envía notificaciones con enlace directo. <br><br> **Escenario 2:** Dado un estudiante que entrega un trabajo, cuando el sistema verifica el archivo, entonces confirma con comprobante, correo y estado "Entregado". | EP-004 |
-| US-013        | Reentrega controlada                      | Como estudiante, quiero poder reentregar una tarea dentro de un plazo definido para mejorar mi nota. | **Escenario 1:** Dado un trabajo con reentregas permitidas, cuando el estudiante sube una nueva versión en plazo, entonces se reemplaza el archivo y se guarda historial. <br><br> **Escenario 2:** Dado un estudiante intentando reentregar fuera de plazo, cuando sube archivo, entonces el sistema bloquea y muestra "Plazo de reentrega vencido". | EP-002 |
-| US-014        | Historial de calificaciones               | Como estudiante, quiero consultar el historial de calificaciones de mis entregas para ver mi evolución. | **Escenario 1:** Dado un estudiante, cuando accede a "Historial de Calificaciones", entonces ve una tabla con todas sus notas por curso, fecha, tipo de trabajo y ponderación. <br><br> **Escenario 2:** Dado un estudiante, cuando filtra por curso, entonces el sistema muestra una gráfica de evolución con promedios y tendencia. | EP-002 |
-| US-015        | Acceso a todas las entregas de un trabajo | Como profesor, quiero acceder a todas las entregas en una sola vista para agilizar la revisión. | **Escenario 1:** Dado un profesor en "Entregas", cuando abre un trabajo, entonces ve lista completa de estudiantes con estado, archivos y tiempos. <br><br> **Escenario 2:** Dado un profesor, cuando aplica filtros (pendientes, calificados, etc.), entonces la vista se actualiza dinámicamente. | EP-002 |
-| US-016        | Publicación de anuncios con comentarios   | Como profesor, quiero publicar anuncios en el curso y permitir comentarios de estudiantes. | **Escenario 1:** Dado un profesor, cuando crea un anuncio, entonces se publica en el feed, se marca prioritario y se notifica a estudiantes. <br><br> **Escenario 2:** Dado un anuncio con comentarios habilitados, cuando un estudiante comenta, entonces el sistema lo muestra con autor, foto y tiempo. <br><br> **Escenario 3:** Dado un anuncio reciente, cuando el profesor lo edita o cierra comentarios, entonces el sistema marca "Editado" y desactiva comentarios nuevos. | EP-004 |
-| US-017        | Mensajería privada entre miembros         | Como estudiante, quiero enviar mensajes privados a compañeros y profesores para coordinar actividades. | **Escenario 1:** Dado un estudiante en "Miembros del Curso", cuando envía mensaje privado, entonces se crea un hilo y confirma envío. <br><br> **Escenario 2:** Dado un hilo existente, cuando el destinatario lee mensajes, entonces cambia estado a "leído" y notifica al remitente. <br><br> **Escenario 3:** Dado un estudiante que intenta escribir a alguien fuera de sus cursos, cuando envía, entonces el sistema bloquea y muestra error. | EP-004 |
-| US-018        | Compartir recursos educativos             | Como profesor, quiero subir materiales de apoyo para que los estudiantes los consulten. | **Escenario 1:** Dado un profesor, cuando sube recurso con metadatos, entonces se guarda y publica con permisos de acceso. <br><br> **Escenario 2:** Dado un recurso publicado, cuando un estudiante lo descarga/visualiza, entonces se permite y se registra acceso. <br><br> **Escenario 3:** Dado un recurso actualizado, cuando el profesor sube nueva versión, entonces se conserva historial y se notifica. | EP-004 |
-| US-019        | Extensión de plazo de entrega             | Como profesor, quiero extender la fecha límite de un trabajo en casos especiales. | **Escenario 1:** Dado un trabajo con fecha, cuando el profesor modifica y guarda nueva fecha, entonces el sistema actualiza registros, confirma y guarda historial. <br><br> **Escenario 2:** Dado un trabajo con fecha extendida, cuando se confirma, entonces el sistema notifica automáticamente a los estudiantes. | EP-002 |
-| US-020        | Estados de entrega                        | Como estudiante, quiero ver el estado de mis entregas para saber en qué punto están. | **Escenario 1:** Dado un estudiante en "Mis Entregas", cuando abre un trabajo, entonces ve estado con iconos/colores y fecha de actualización. <br><br> **Escenario 2:** Dado un profesor calificando, cuando actualiza estado, entonces el cambio se refleja en el estudiante. <br><br> **Escenario 3:** Dado un cambio de estado, cuando ocurre, entonces el sistema notifica al estudiante. | EP-002 |
-| US-021        | Redirección al aplicativo web                        | Como usuario, quiero que exista un botón en la landing page que me redirija al dashboard del aplicativo web del sistema, para acceder a este sin tener que buscar otro enlace. | **Escenario 1:** Dado un usuario en la landing page de la startup, cuando hace clic en el botón "Acceder al Dashboard" ubicado en el header de la página, entonces el sistema redirige automáticamente a la URL del aplicativo web, abriendo la página de Inicio de Sesión. <br><br> **Escenario 2:** Dado un usuario que ya ha iniciado sesión previamente en el aplicativo web, cuando accede a la landing page y hace clic en el botón "Dashboard", entonces el sistema verifica las credenciales almacenadas y redirige directamente al dashboard principal sin requerir un nuevo inicio de sesión. | EP-005 |
-| US-022        | Sección de Video About the Team                      | Como usuario, quiero encontrar en la landing page una sección con un video sobre el equipo detrás de la startup, para conocer quiénes son, su experiencia y la visión que impulsa el producto. | **Escenario 1:** Dado que un usuario se encuentra en la landing page, cuando se desplaza hasta la sección "Video About the Team", entonces el sistema muestra un reproductor de video central con un título inspirador y una breve descripción del propósito del equipo. <br><br> **Escenario 2:** Dado que un usuario quiere conocer más sobre las personas detrás del producto, cuando hace clic en el video para reproducirlo, entonces el sistema muestra el contenido en alta calidad con controles de reproducción y, al finalizar, ofrece la opción de ver perfiles breves de los integrantes o enlaces a redes profesionales. | EP-005 |
-| US-023        | Visualización de Misión y Visión                     | Como usuario, quiero ver una sección en la landing page con la Misión y Visión de la startup para conocer más a detalle los objetivos del proyecto. | **Escenario 1:** Dado un usuario en la landing page de la startup, cuando hace clic en la sección "Nuestra Propuesta" en el menú principal, entonces el sistema muestra la Misión y Visión de la empresa en un diseño claro y conciso. <br><br> **Escenario 2:** Dado un visitante interesado en los valores de la startup, cuando se desplaza hasta el pie de página de la landing page, entonces el sistema presenta un resumen de la Misión y Visión junto con los principios fundamentales de la empresa. | EP-005 |
-| US-024        | Testimonios de usuarios previos                      | Como usuario interesado en el producto, quiero ver testimonios reales de clientes en la landing page, para poder confiar en la efectividad de la solución antes de probar el sistema. | **Escenario 1:** Dado un usuario en la landing page, cuando se desplaza hasta la sección "Experiencias de Usuarios", entonces el sistema muestra al menos tres testimonios verificados con foto, nombre, ubicación y calificación por estrellas. <br><br> **Escenario 2:** Dado un usuario interesado en conocer opiniones específicas, cuando hace clic en el botón "Ver más testimonios", entonces el sistema redirige a una página dedicada con filtros por tipo de motocicleta, tiempo de uso del sistema y tipo de servicio evaluado. | EP-005 |
-| US-025        | Sección de Video About the Product                   | Como usuario, quiero encontrar en la landing page una sección con un video explicativo del producto, para entender de manera rápida y visual cómo funciona y qué beneficios me ofrece. | **Escenario 1:** Dado un usuario en la landing page, cuando se desplaza hasta la sección "Video About the Product", entonces el sistema muestra un video central en un reproductor embebido, acompañado de un título atractivo y una breve descripción introductoria. <br><br> **Escenario 2:** Dado un usuario interesado en más detalles, cuando hace clic en el video para reproducirlo, entonces el sistema muestra el contenido en alta calidad con controles de reproducción y la opción de ver testimonios o casos de uso relacionados al final del video. | EP-005 |
-| TS-001        | Configuración de autenticación y autorización con JWT | Como desarrollador, quiero implementar un sistema de autenticación y autorización basado en JSON Web Tokens (JWT) en el backend, para asegurar que solo los usuarios autorizados puedan acceder a los endpoints protegidos de la aplicación. | **Escenario 1:** Dado que un usuario intenta acceder a un endpoint protegido sin un token válido, cuando realiza la petición, entonces el sistema devuelve un error 401 Unauthorized. <br><br> **Escenario 2:** Dado que un usuario inicia sesión correctamente y obtiene un token JWT válido, cuando utiliza ese token en el encabezado de autorización para acceder a un endpoint protegido, entonces el sistema permite el acceso y devuelve la respuesta correspondiente. | EP-006 |
-| TS-002        | Configuración de validación de datos en backend       | Como desarrollador, quiero implementar validaciones con Spring Boot Validation en los endpoints, para asegurar que los datos ingresados por los usuarios cumplan con los formatos y restricciones necesarias. | **Escenario 1:** Dado que un usuario envía un formulario con un campo obligatorio vacío, cuando la petición llega al backend, entonces el sistema devuelve un error 400 Bad Request con un mensaje indicando que el campo es obligatorio. <br><br> **Escenario 2:** Dado que un usuario envía un email con un formato incorrecto en el registro, cuando el backend procesa la solicitud, entonces el sistema rechaza el request y devuelve un mensaje indicando que el formato del correo no es válido. | EP-006 |
-| TS-003        | Documentación de la API con Swagger                  | Como desarrollador, quiero integrar Swagger/OpenAPI en el backend con Spring Boot, para que los endpoints estén documentados automáticamente y puedan ser probados fácilmente desde una interfaz gráfica. | **Escenario 1:** Dado que un desarrollador accede a la URL /swagger-ui.html, cuando la interfaz de Swagger se carga, entonces el sistema muestra la documentación de todos los endpoints disponibles en el backend. <br><br> **Escenario 2:** Dado que un desarrollador necesita probar un endpoint de la API, cuando utiliza el botón "Try it out" en Swagger UI, entonces el sistema ejecuta la petición y muestra la respuesta en pantalla. | EP-006 |
-| TS-004        | Configuración de CORS en backend                     | Como desarrollador, quiero configurar las políticas de CORS en Spring Boot, para permitir que el frontend (Angular) y el backend (Spring) se comuniquen correctamente en entornos de desarrollo y producción. | **Escenario 1:** Dado que el frontend en Angular se encuentra en un dominio distinto al backend, cuando realiza una petición al servidor, entonces el sistema permite la comunicación siempre que el origen esté autorizado en la configuración de CORS. <br><br> **Escenario 2:** Dado que una aplicación no autorizada intenta consumir un endpoint del backend, cuando realiza la petición desde un dominio no permitido, entonces el sistema bloquea la solicitud y devuelve un error CORS policy: No 'Access-Control-Allow-Origin' header. | EP-006 |
+<table>
+  <thead>
+    <tr>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US-001</td>
+      <td>Registro de usuario</td>
+      <td>Como nuevo usuario, quiero registrarme en la plataforma proporcionando mis datos personales y académicos, para crear una cuenta que me permita acceder al sistema.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un usuario que desea registrarse, cuando completa el formulario de registro con correo, nombre, apellido, contraseña y rol (estudiante o profesor) y selecciona "Registrarse", entonces el sistema valida la información, crea la cuenta y envía un correo de confirmación.<br><br>
+        <strong>Escenario 2:</strong> Dado un usuario que intenta registrarse con un correo ya existente, cuando selecciona "Registrarse", entonces el sistema muestra un mensaje de error "El correo ya está registrado" y solicita ingresar uno diferente.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>US-002</td>
+      <td>Inicio de sesión (Autenticación)</td>
+      <td>Como usuario registrado (estudiante o profesor), quiero iniciar sesión en la plataforma, para acceder a mis cursos, grupos y trabajos asignados de manera segura.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un usuario registrado en la plataforma, cuando ingresa su correo electrónico y contraseña correctos y selecciona "Iniciar sesión", entonces el sistema valida sus credenciales, inicia sesión y lo redirige a su panel de control visual correspondiente.<br><br>
+        <strong>Escenario 2:</strong> Dado un usuario que ingresa credenciales incorrectas, cuando selecciona "Iniciar sesión", entonces el sistema muestra un mensaje de error "Correo o contraseña incorrectos" y no permite el acceso al panel de control visual.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>US-003</td>
+      <td>Ingreso a cursos</td>
+      <td>Como estudiante, quiero ser capaz de unirme a los cursos formados por mis profesores con facilidad.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un estudiante en el menú de inicio de la plataforma con un código de grupo válido proporcionado por su profesor, cuando ingresa el código en el campo designado y selecciona la opción "Unirse al curso", entonces el sistema valida el código, muestra un mensaje de confirmación exitosa y añade automáticamente al estudiante al grupo correspondiente.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-004</td>
+      <td>Creación de cursos</td>
+      <td>Como profesor, quiero ser capaz de crear cursos en la plataforma.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor autenticado en la plataforma educativa, cuando selecciona la opción "Crear Nuevo Curso" desde el menú principal, entonces el sistema despliega un formulario con campos para nombre del curso, descripción, etc. Permitiendo la creación del curso tras completar los datos obligatorios.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor en el proceso de creación de un nuevo curso, cuando ingresa un nombre idéntico al de un curso preexistente bajo su misma cuenta e intenta guardar, entonces el sistema detecta la duplicación, muestra un mensaje de error "Nombre de curso ya existente" y sugiere modificar el nombre o recuperar el grupo existente.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-005</td>
+      <td>Invitación a cursos</td>
+      <td>Como profesor, quiero ser capaz de invitar a mis alumnos a los cursos creados por mí.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un curso creado por un profesor con un código de invitación generado, cuando un estudiante ingresa correctamente el código en la plataforma, entonces el sistema añade al estudiante al curso, registra la acción y envía una notificación automática al profesor confirmando la incorporación del nuevo miembro.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-006</td>
+      <td>Ver lista de alumnos de un curso</td>
+      <td>Como profesor, quiero ver la lista de alumnos de un curso, para gestionar la composición del grupo.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la página de gestión de un curso, cuando selecciona la opción "Lista de Estudiantes", entonces el sistema muestra una tabla con todos los alumnos inscritos, incluyendo nombre, correo y fecha de ingreso.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor viendo la lista de estudiantes, cuando utiliza la barra de búsqueda, entonces el sistema filtra dinámicamente la lista mostrando solo los estudiantes que coinciden con el término buscado.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-007</td>
+      <td>Eliminar alumnos de un curso</td>
+      <td>Como profesor, quiero eliminar alumnos de un curso, para mantener actualizada la lista de participantes.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la lista de estudiantes de un curso, cuando selecciona la opción "Eliminar" junto a un estudiante y confirma la acción, entonces el sistema remueve al estudiante del curso y actualiza la lista.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor intentando eliminar un estudiante que ya no existe en el curso, cuando confirma la acción, entonces el sistema muestra un mensaje de error indicando que el estudiante no pertenece al curso.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-008</td>
+      <td>Visualizar todos los cursos</td>
+      <td>Como profesor, quiero ver todos mis cursos en una lista organizada, para poder gestionar y acceder fácilmente a cada uno de ellos.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor que ha iniciado sesión en la plataforma, cuando accede a la sección "Mis Cursos", entonces el sistema muestra una lista de todos los cursos que imparte, con información básica como nombre del curso, código y número de estudiantes.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor en la lista de cursos, cuando hace clic en un curso específico, entonces el sistema redirige a la página de detalles de ese curso donde puede ver y gestionar todas las actividades.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-009</td>
+      <td>Múltiples entregas por assignment</td>
+      <td>Como estudiante, quiero poder realizar múltiples entregas para un mismo trabajo académico, para presentar diferentes versiones o correcciones dentro del plazo establecido.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un estudiante en la página de un assignment dentro del plazo de entrega, cuando selecciona "Agregar entrega", adjunta un archivo y confirma el envío, entonces el sistema registra la entrega con marca de tiempo y la agrega a la lista de entregas del assignment.<br><br>
+        <strong>Escenario 2:</strong> Dado un estudiante que ya ha realizado al menos una entrega previa, cuando agrega una nueva entrega dentro del plazo, entonces el sistema mantiene todas las entregas anteriores en el historial y registra la nueva entrega con su propia marca de tiempo.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-010</td>
+      <td>Visualización de assignments del curso</td>
+      <td>Como estudiante, quiero visualizar todos los assignments de un curso con sus fechas de entrega, para organizar mis actividades académicas.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un estudiante en la página de un curso, cuando navega a la sección "Assignments", entonces el sistema muestra una lista de todos los assignments con sus fechas límite y estados.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-011</td>
+      <td>Descargar archivos de assignment</td>
+      <td>Como estudiante, quiero poder descargar los archivos de un assignment, para acceder a los materiales y recursos proporcionados por el profesor.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un estudiante en la página de un assignment, cuando selecciona la opción para descargar un archivo adjunto, entonces el sistema inicia la descarga del archivo en el dispositivo del estudiante.<br><br>
+        <strong>Escenario 2:</strong> Dado un estudiante intentando descargar un archivo de assignment, cuando el archivo está disponible y el estudiante tiene permisos de acceso, entonces el sistema permite la descarga completa del archivo con su nombre original.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-012</td>
+      <td>Ver submissions de un assignment</td>
+      <td>Como profesor, quiero ver todas las entregas de un assignment, para revisar y calificar el trabajo de los estudiantes.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la página de un assignment, cuando selecciona "Ver Entregas", entonces el sistema muestra una lista de todos los estudiantes con sus submissions y estados.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-013</td>
+      <td>Ver detalles de curso con assignments</td>
+      <td>Como profesor, quiero ver los detalles completos de un curso incluyendo todos los assignments, para tener una visión general de las actividades programadas y su estado.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la lista de cursos, cuando selecciona un curso específico, entonces el sistema muestra la página de detalles del curso con una sección que incluye todos los assignments creados, mostrando título, fecha límite y estado de cada uno.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-014</td>
+      <td>Agregar nueva assignment</td>
+      <td>Como profesor, quiero agregar una nueva assignment, para asignar trabajos a los estudiantes.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la página de un curso, cuando hace clic en "Agregar Assignment", completa el formulario con título, descripción y fecha límite, y confirma la creación, entonces el sistema guarda la assignment y la muestra en la lista de trabajos del curso.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor creando una assignment, cuando deja campos obligatorios vacíos, entonces el sistema muestra mensajes de error indicando los campos requeridos.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-015</td>
+      <td>Subir cualquier tipo de archivo al assignment</td>
+      <td>Como profesor, quiero subir cualquier tipo de archivo al assignment, para proporcionar materiales de apoyo a los estudiantes.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la página de edición de una assignment, cuando selecciona "Subir archivo", elige un archivo de cualquier tipo y confirma la acción, entonces el sistema guarda el archivo y lo asocia a la assignment.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor subiendo un archivo, cuando el archivo excede el tamaño máximo permitido, entonces el sistema muestra un mensaje de error y no permite la subida.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-016</td>
+      <td>Ver detalles del submission</td>
+      <td>Como profesor, quiero ver los detalles del submission, para revisar las entregas de los estudiantes.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la lista de submissions de una assignment, cuando hace clic en un submission específico, entonces el sistema muestra todos los detalles incluyendo archivos entregados, fecha de entrega e información del estudiante.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor viendo los detalles de un submission, cuando selecciona "Descargar archivos", entonces el sistema descarga todos los archivos asociados al submission.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-017</td>
+      <td>Calificar un submission</td>
+      <td>Como profesor, quiero calificar un submission, para evaluar el trabajo de los estudiantes.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en los detalles de un submission, cuando ingresa una calificación y comentarios en el formulario de calificación y guarda los cambios, entonces el sistema actualiza la calificación y notifica al estudiante.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor calificando un submission, cuando intenta ingresar una calificación fuera del rango permitido, entonces el sistema muestra un mensaje de error y no permite guardar.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-018</td>
+      <td>Ver detalles del submission</td>
+      <td>Como estudiante, quiero ver los detalles del submission, para conocer el estado de mis entregas.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un estudiante en la lista de sus submissions, cuando hace clic en un submission específico, entonces el sistema muestra los detalles incluyendo archivos entregados, fecha, estado y calificación si está disponible.<br><br>
+        <strong>Escenario 2:</strong> Dado un estudiante viendo los detalles de su submission, cuando el profesor ha agregado comentarios de retroalimentación, entonces el sistema muestra claramente los comentarios junto a la calificación.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-019</td>
+      <td>Subir todo tipo de archivos para el submission</td>
+      <td>Como estudiante, quiero subir todo tipo de archivos para el submission, para completar mis asignaciones.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un estudiante en la página de entrega de una assignment, cuando selecciona "Subir archivos", elige uno o múltiples archivos de cualquier tipo y confirma la entrega, entonces el sistema procesa los archivos y registra el submission.<br><br>
+        <strong>Escenario 2:</strong> Dado un estudiante subiendo archivos para un submission, cuando intenta subir un tipo de archivo no permitido, entonces el sistema muestra un mensaje indicando los formatos aceptados.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-020</td>
+      <td>Ver estadísticas generales del curso</td>
+      <td>Como profesor, quiero ver las estadísticas generales de un curso, para tener una visión rápida del desempeño y participación del grupo.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la página de un curso, cuando selecciona "Estadísticas Generales", entonces el sistema muestra un resumen con: total de assignments creados, total de submissions recibidos, assignments calificados y promedio general del curso.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor viendo las estadísticas generales, cuando hay nuevos datos disponibles, entonces el sistema actualiza automáticamente las métricas en tiempo real.
+      </td>
+      <td>EP-004</td>
+    </tr>
+    <tr>
+      <td>US-021</td>
+      <td>Ver distribución de calificaciones del curso</td>
+      <td>Como profesor, quiero ver gráficas de distribución de calificaciones del curso, para analizar el rendimiento del grupo y identificar patrones de desempeño.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un profesor en la sección de estadísticas del curso, cuando selecciona "Distribución de Calificaciones", entonces el sistema muestra gráficas con la distribución de notas en rangos (17-20, 14-16, 0-13) y la cantidad de submissions por assignment.<br><br>
+        <strong>Escenario 2:</strong> Dado un profesor analizando la distribución de calificaciones, cuando selecciona un assignment específico, entonces el sistema muestra la distribución de notas solo para ese assignment.
+      </td>
+      <td>EP-004</td>
+    </tr>
+    <tr>
+      <td>US-022</td>
+      <td>Redirección al aplicativo web</td>
+      <td>Como usuario, quiero que exista un botón en la landing page que me redirija al panel de control visual del aplicativo web del sistema, para acceder a este sin tener que buscar otro enlace.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un usuario en la landing page de la empresa emergente, cuando hace clic en el botón "Acceder al panel de control visual" ubicado en la cabecera de la página, entonces el sistema redirige automáticamente a la URL del aplicativo web, abriendo la página de Inicio de Sesión.<br><br>
+        <strong>Escenario 2:</strong> Dado un usuario que ya ha iniciado sesión previamente en el aplicativo web, cuando accede a la landing page y hace clic en el botón "Dashboard", entonces el sistema verifica las credenciales almacenadas y redirige directamente al panel de control visual principal sin requerir un nuevo inicio de sesión.
+      </td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td>US-023</td>
+      <td>Sección de Video About the Team</td>
+      <td>Como usuario, quiero encontrar en la landing page una sección con un video sobre el equipo detrás del startup, para conocer quiénes son, su experiencia y la visión que impulsa el producto.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que un usuario se encuentra en la landing page, cuando se desplaza hasta la sección "Video About the Team", entonces el sistema muestra un reproductor de video central con un título inspirador (ej. "Conoce al equipo que hace esto posible") y una breve descripción del propósito del equipo.<br><br>
+        <strong>Escenario 2:</strong> Dado que un usuario quiere conocer más sobre las personas detrás del producto, cuando hace clic en el video para reproducirlo, entonces el sistema muestra el contenido en alta calidad, con controles de reproducción (pausa, subtítulos, pantalla completa) y, al finalizar, ofrece la opción de ver perfiles breves de los integrantes o enlaces a redes profesionales (ej. LinkedIn).
+      </td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td>US-024</td>
+      <td>Visualización de Misión y Visión del startup</td>
+      <td>Como usuario, quiero ver una sección en la landing page con la Misión y Visión del startup para conocer más a detalle los objetivos del proyecto.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un usuario en la landing page del startup, cuando hace clic en la sección "Nuestra Propuesta" en el menú principal, entonces el sistema muestra la Misión y Visión de la empresa en un diseño claro y conciso, con iconos representativos y texto destacado que comunica el propósito y los objetivos a largo plazo.<br><br>
+        <strong>Escenario 2:</strong> Dado un visitante interesado en los valores del startup, cuando se desplaza hasta el pie de página de la landing page, entonces el sistema presenta un resumen de la Misión y Visión junto con los principios fundamentales de la empresa, permitiendo al usuario comprender la esencia del proyecto de forma rápida.
+      </td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td>US-025</td>
+      <td>Testimonios de usuarios previos</td>
+      <td>Como usuario interesado en el producto, quiero ver testimonios reales de clientes en la landing page, para poder confiar en la efectividad de la solución antes de probar el sistema.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un usuario en la landing page, cuando se desplaza hasta la sección "Experiencias de Usuarios", entonces el sistema muestra al menos tres testimonios verificados con foto, nombre, ubicación y calificación por estrellas, junto con una descripción breve de su experiencia usando el sistema.<br><br>
+        <strong>Escenario 2:</strong> Dado un usuario interesado en conocer opiniones específicas, cuando hace clic en el botón "Ver más testimonios" en la sección designada, entonces el sistema redirige a una página dedicada con filtros por tipo de motocicleta, tiempo de uso del sistema y tipo de servicio evaluado.
+      </td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td>US-026</td>
+      <td>Sección de Video About the Product</td>
+      <td>Como usuario, quiero encontrar en la landing page una sección con un video explicativo del producto, para entender de manera rápida y visual cómo funciona y qué beneficios me ofrece.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un usuario en la landing page, cuando se desplaza hasta la sección "Video About the Product", entonces el sistema muestra un video central en un reproductor embebido, acompañado de un título atractivo y una breve descripción introductoria.<br><br>
+        <strong>Escenario 2:</strong> Dado un usuario interesado en más detalles, cuando hace clic en el video para reproducirlo, entonces el sistema muestra el contenido en alta calidad, con controles de reproducción (pausa, subtítulos, pantalla completa) y la opción de ver testimonios o casos de uso relacionados al final del video.
+      </td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td>TS-001</td>
+      <td>Configuración de autenticación y autorización con JWT para proteger los endpoints del sistema</td>
+      <td>Como desarrollador, quiero implementar un sistema de autenticación y autorización basado en JSON Web Tokens (JWT) en el backend, para asegurar que solo los usuarios autorizados puedan acceder a los endpoints protegidos de la aplicación.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que un usuario intenta acceder a un endpoint protegido sin un token válido, cuando realiza la petición, entonces el sistema devuelve un error 401 Unauthorized.<br><br>
+        <strong>Escenario 2:</strong> Dado que un usuario inicia sesión correctamente y obtiene un token JWT válido, cuando utiliza ese token en el encabezado de autorización para acceder a un endpoint protegido, entonces el sistema permite el acceso y devuelve la respuesta correspondiente.
+      </td>
+      <td>EP-007</td>
+    </tr>
+    <tr>
+      <td>TS-002</td>
+      <td>Configuración de validación de datos en backend</td>
+      <td>Como desarrollador, quiero implementar validaciones con Spring Boot Validation en los endpoints, para asegurar que los datos ingresados por los usuarios cumplan con los formatos y restricciones necesarias (ej. emails válidos, campos obligatorios, longitudes mínimas).</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que un usuario envía un formulario con un campo obligatorio vacío, cuando la petición llega al backend, entonces el sistema devuelve un error con un mensaje indicando que el campo es obligatorio.<br><br>
+        <strong>Escenario 2:</strong> Dado que un usuario envía un email con un formato incorrecto en el registro, cuando el backend procesa la solicitud, entonces el sistema rechaza la solicitud y devuelve un mensaje indicando que el formato del correo no es válido.
+      </td>
+      <td>EP-007</td>
+    </tr>
+    <tr>
+      <td>TS-003</td>
+      <td>Documentación de la API con Swagger</td>
+      <td>Como desarrollador, quiero integrar Swagger/OpenAPI en el backend con Spring Boot, para que los endpoints estén documentados automáticamente y puedan ser probados fácilmente desde una interfaz gráfica.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que un desarrollador accede a la URL /swagger-ui.html, cuando la interfaz de Swagger se carga, entonces el sistema muestra la documentación de todos los endpoints disponibles en el backend.<br><br>
+        <strong>Escenario 2:</strong> Dado que un desarrollador necesita probar un endpoint de la API, cuando utiliza el botón "Try it out" en Swagger UI, entonces el sistema ejecuta la petición y muestra la respuesta en pantalla.
+      </td>
+      <td>EP-007</td>
+    </tr>
+    <tr>
+      <td>TS-004</td>
+      <td>Configuración de CORS en backend</td>
+      <td>Como desarrollador, quiero configurar las políticas de CORS en Spring Boot, para permitir que el frontend (Angular) y el backend (Spring) se comuniquen correctamente en entornos de desarrollo y producción.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que el frontend en Angular se encuentra en un dominio distinto al backend, cuando realiza una petición al servidor, entonces el sistema permite la comunicación siempre que el origen esté autorizado en la configuración de CORS.<br><br>
+        <strong>Escenario 2:</strong> Dado que una aplicación no autorizada intenta consumir un endpoint del backend, cuando realiza la petición desde un dominio no permitido, entonces el sistema bloquea la solicitud y devuelve un error CORS policy: No 'Access-Control-Allow-Origin' header.
+      </td>
+      <td>EP-007</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### 3.3 Product Backlog
 
 | Orden | Código US | Título                                               | Story Points |
-|-------|-----------|-------------------------------------------------------|--------------|
-| 1     | US-002    | Creación de grupos                                    | 5            |
-| 2     | US-001    | Ingreso a grupos                                      | 5            |
-| 3     | US-003    | Invitación a grupos                                   | 5            |
-| 4     | US-005    | Creación de trabajos con fechas límite                | 5            |
-| 5     | US-006    | Recepción de entregas (múltiples oportunidades)       | 8            |
-| 6     | US-007    | Visualización de trabajos y fechas                    | 5            |
-| 7     | US-015    | Acceso a todas las entregas de un trabajo             | 5            |
-| 8     | US-004    | Eliminación de alumnos                                | 3            |
-| 9     | TS-001    | Configuración de autenticación y autorización con JWT | 8            |
-| 10    | TS-002    | Configuración de validación de datos en backend       | 5            |
-| 11    | TS-003    | Configuración de CORS en backend                      | 3            |
-| 12    | TS-004    | Documentación de la API con Swagger                   | 3            |
-| 13    | US-020    | Estados de entrega                                    | 5            |
-| 14    | US-013    | Reentrega controlada                                  | 5            |
-| 15    | US-014    | Historial de calificaciones                           | 5            |
-| 16    | US-019    | Extensión de plazo de entrega                         | 3            |
-| 17    | US-008    | Visualización de dashboard de progreso académico      | 5            |
-| 18    | US-009    | Comparación del rendimiento con el promedio del grupo | 5            |
-| 19    | US-010    | Visualización de métricas globales de desempeño       | 8            |
-| 20    | US-011    | Alertas sobre estudiantes con bajo rendimiento        | 5            |
-| 21    | US-012    | Recordatorios y notificaciones de entregas            | 5            |
-| 22    | US-016    | Publicación de anuncios con comentarios               | 5            |
-| 23    | US-018    | Compartir recursos educativos                         | 8            |
-| 24    | US-017    | Mensajería privada entre miembros                     | 8            |
-| 25    | US-021    | Redirección al aplicativo web                         | 1            |
-| 26    | US-023    | Visualización de Misión y Visión de la startup        | 2            |
-| 27    | US-025    | Sección de Video About the Product                    | 2            |
-| 28    | US-022    | Sección de Video About the Team                       | 2            |
-| 29    | US-024    | Testimonios de usuarios previos                       | 3            |
+|-------|-----------|------------------------------------------------------|--------------|
+| 1     | US-001    | Registro de usuario                                  | 5            |
+| 2     | US-002    | Inicio de sesión (Authentication)                    | 3            |
+| 3     | TS-001    | Configuración de autenticación y autorización con JWT| 8            |
+| 4     | TS-002    | Configuración de validación de datos en backend      | 5            |
+| 5     | TS-003    | Configuración de CORS en backend                     | 3            |
+| 6     | TS-004    | Documentación de la API con Swagger                  | 3            |
+| 7     | US-004    | Creación de cursos                                   | 5            |
+| 8     | US-003    | Ingreso a cursos                                     | 5            |
+| 9     | US-005    | Invitación a cursos                                  | 5            |
+| 10    | US-008    | Visualizar todos los cursos                          | 3            |
+| 11    | US-013    | Ver detalles de curso con assignments                | 5            |
+| 12    | US-006    | Ver lista de alumnos de un curso                     | 3            |
+| 13    | US-007    | Eliminar alumnos de un curso                         | 3            |
+| 14    | US-014    | Agregar nueva assignment                             | 5            |
+| 15    | US-015    | Subir cualquier tipo de archivo al assignment        | 5            |
+| 16    | US-028    | Eliminar archivos del assignment                     | 3            |
+| 17    | US-010    | Visualización de assignments del curso               | 3            |
+| 18    | US-011    | Descargar archivos de assignment                     | 3            |
+| 19    | US-009    | Múltiples entregas por assignment                    | 5            |
+| 20    | US-019    | Subir todo tipo de archivos para el submission       | 8            |
+| 21    | US-012    | Ver submissions de un assignment                     | 5            |
+| 22    | US-016    | Ver detalles del submission (Profesor)               | 5            |
+| 23    | US-017    | Calificar un submission                              | 5            |
+| 24    | US-018    | Ver detalles del submission (Estudiante)             | 3            |
+| 25    | US-020    | Ver estadísticas generales del curso                 | 8            |
+| 26    | US-021    | Ver distribución de calificaciones del curso         | 8            |
+| 27    | US-022    | Redirección al aplicativo web                        | 1            |
+| 28    | US-024    | Visualización de Misión y Visión del startup         | 2            |
+| 29    | US-026    | Sección de Video About the Product                   | 2            |
+| 30    | US-023    | Sección de Video About the Team                      | 2            |
+| 31    | US-025    | Testimonios de usuarios previos                      | 3            |
 
 
 ### 3.4 Impact Mapping  
@@ -3478,103 +3795,1639 @@ Cada archivo .feature está relacionado con una historia de usuario del proyecto
 
 En esta etapa se realizaron las pruebas de sistema, las cuales tienen como objetivo validar el funcionamiento general de la aplicación una vez integrados todos sus módulos. A diferencia de las pruebas unitarias o integrales, estas se enfocan en comprobar el comportamiento del sistema completo desde la experiencia del usuario, tanto en el entorno web como móvil. 
 
-Para ello, se emplearon herramientas como Selenium, que permitieron automatizar la navegación por la aplicación web y verificar que los flujos principales (inicio de sesión, creación de grupos, visualización de tareas, entre otros) funcionen correctamente y sin errores. Estas pruebas también evaluaron la correcta comunicación con las APIs del backend, asegurando que las peticiones y respuestas del servidor se procesen de manera adecuada. 
+<img src="./assets/chapter-6/system_test_1.png" alt="Core System Tests" width="500"/><br>
 
-| US001 | Ingreso a grupos | Como estudiante, quiero ser capaz de unirme a los grupos formados por mis profesores con facilidad, para poder acceder a las actividades y materiales del curso. |
-|-------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-
-<br><img src="./assets/chapter-6/system_test_1.png" alt="Core System Tests" width="300"/><br>
-
-
-| US002 | Creación de grupos | Como profesor, quiero ser capaz de crear grupos para mis cursos en la plataforma, para organizar a mis estudiantes y gestionar mejor las clases. |
-|-------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-
-<br><img src="./assets/chapter-6/system_test_2.png" alt="Core System Tests" width="300"/><br>
-
-
-| US003 | Invitación a grupos | Como profesor, quiero invitar a mis alumnos a los grupos creados por mí, para facilitar su incorporación a los cursos y mantener el control de los miembros. |
-|-------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-
-<br><img src="./assets/chapter-6/system_test_3.png" alt="Core System Tests" width="300"/><br>
-
-
-| US005 | Creación de trabajos con fechas límite | Como profesor, quiero crear trabajos dentro de cada curso con sus respectivas fechas de entrega, para organizar las actividades académicas y dar claridad a mis estudiantes. |
-|-------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-<br><img src="./assets/chapter-6/system_test_4.png" alt="Core System Tests" width="300"/><br>
-
-
-| US007 | Visualización de trabajos y fechas | Como estudiante, quiero visualizar en un dashboard todos mis trabajos y fechas de entrega, para organizar mis actividades y priorizar las más urgentes. |
-|-------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-<br><img src="./assets/chapter-6/system_test_5.png" alt="Core System Tests" width="300"/><br>
-
-
-| US008 | Visualización de dashboard de progreso académico | Como estudiante, quiero visualizar un dashboard con mis calificaciones y progreso en tiempo real, para saber si estoy avanzando de manera adecuada en mis cursos. |
-|-------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-<br><img src="./assets/chapter-6/system_test_6.png" alt="Core System Tests" width="300"/><br>
-
-
-| US015 | Acceso a todas las entregas de un trabajo | Como profesor, quiero acceder en una sola vista a todas las entregas de un trabajo, para agilizar la revisión y calificación. |
-|-------|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-
-<br><img src="./assets/chapter-6/system_test_7.png" alt="Core System Tests" width="300"/><br>
-
-
-| US020 | Estados de entrega | Como estudiante, quiero ver el estado de cada entrega (pendiente, entregado, en revisión, calificado), para conocer en qué punto del proceso está mi trabajo. |
-|-------|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-<br><img src="./assets/chapter-6/system_test_8.png" alt="Core System Tests" width="300"/><br>
+<img src="./assets/chapter-6/system_test_2.png" alt="Core System Tests" width="500"/><br>
 
 
 ## Capítulo VII: DevOps Practices  
 
 ### 7.1 Continuous Integration  
-#### 7.1.1 Tools and Practices  
-#### 7.1.2 Build & Test Suite Pipeline Components  
+#### 7.1.1 Tools and Practices
+
+La práctica de Integración Continua (CI) fue implementada para asegurar que el desarrollo del proyecto mantenga una línea de calidad constante y que cada actualización del código se integre sin afectar la estabilidad del sistema. Esta metodología permitió detectar errores con rapidez, mejorar la trazabilidad del progreso y optimizar el flujo de trabajo colaborativo del equipo. 
+
+Durante el proceso, se empleó JUnit para validar las funciones del backend mediante pruebas unitarias, comprobando que cada módulo lógico cumpliera correctamente su propósito antes de su integración. De forma complementaria, se aplicó Selenium para automatizar pruebas de interfaz en el entorno web, garantizando que las interacciones del usuario, los botones, formularios y flujos de navegación funcionaran de forma estable en distintas versiones del sistema. 
+
+<table>
+  <thead>
+    <tr>
+      <th>Herramienta</th>
+      <th>Metodología</th>
+      <th>Tipo</th>
+      <th>Descripción</th>
+      <th>Propósito</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>JUnit</td>
+      <td>TDD</td>
+      <td>Framework de pruebas unitarias</td>
+      <td>Herramienta de código abierto utilizada para realizar pruebas automatizadas en Java. Permite verificar que cada unidad de código (método o clase) funcione correctamente antes de su integración.</td>
+      <td>Garantizar la calidad y fiabilidad del backend mediante pruebas unitarias automatizadas.</td>
+    </tr>
+    <tr>
+      <td>Mockito</td>
+      <td>TDD</td>
+      <td>Framework de pruebas de integración y simulación (mocking)</td>
+      <td>Biblioteca de Java que permite crear objetos simulados (mocks) para probar interacciones entre componentes sin necesidad de depender de implementaciones reales. Facilita el aislamiento de las pruebas unitarias.</td>
+      <td>Validar la interacción entre clases y componentes del backend, asegurando que los módulos funcionen correctamente incluso cuando dependen de servicios externos o no implementados.</td>
+    </tr>
+    <tr>
+      <td>Cucumber</td>
+      <td>BDD</td>
+      <td>Framework de pruebas de comportamiento</td>
+      <td>Herramienta que permite escribir pruebas automatizadas en lenguaje natural (Gherkin), facilitando la colaboración entre desarrolladores, testers y stakeholders no técnicos.</td>
+      <td>Alinear las pruebas con los requisitos del negocio y validar que el sistema cumpla el comportamiento esperado desde la perspectiva del usuario.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 7.1.2 Build & Test Suite Pipeline Components
+
+<img src="./assets/chapter-6/unit_test_1.png" alt="Core Entities Unit Tests" width="700"/><br>
+
+<img src="./assets/chapter-6/unit_test_2.png" alt="Core Entities Unit Tests" width="700"/><br>
+
+<img src="./assets/chapter-6/bdd_1.png" alt="Core Behavior-Driven Development" width="300"/><br>
+
+<img src="./assets/chapter-6/bdd_2.png" alt="Core Behavior-Driven Development" width="500"/><br>
 
 ### 7.2 Continuous Delivery  
-#### 7.2.1 Tools and Practices  
+#### 7.2.1 Tools and Practices
+
+En el proceso de Continuous Delivery implementado para LearnHive, se aplicaron diversas herramientas y prácticas que permitieron mantener la estabilidad del producto, automatizar tareas críticas y asegurar la coherencia entre los entornos de desarrollo, pruebas y producción. 
+
+**Tools** 
+
+**GitHub Actions:**
+
+ Se utilizó para automatizar los flujos de integración y entrega continua (CI/CD). Cada vez que se realiza un push o pull request, la herramienta ejecuta pruebas automáticas, analiza el estado del código y despliega los cambios en entornos controlados. Esto garantiza que las actualizaciones del sistema sean seguras y no interrumpan el funcionamiento general de la plataforma. 
+
+**Docker:**
+
+ Fue fundamental para contenerizar tanto el frontend como el backend, asegurando que todos los miembros del equipo trabajen con entornos idénticos. Permitiendo desplegar la aplicación en servidores de prueba o producción con total consistencia. 
+
+**Trello:**
+
+ Se utilizó como herramienta de gestión visual para el flujo de aprobaciones dentro del proceso de entrega. Una vez que una versión superaba las pruebas automatizadas, esta debía pasar por una revisión manual del equipo técnico y del líder de proyecto antes de ser aprobada para su despliegue en el entorno de producción. 
+
+**Postman:**
+ Apoyó en la verificación del correcto funcionamiento de los endpoints del backend. Durante las fases de entrega, permitió validar que las respuestas de la API coincidieran con las especificaciones del sistema y que las integraciones con el frontend se mantuvieran estables. 
+
+**Selenium:**
+
+ Se empleó para realizar pruebas automáticas de interfaz de usuario (UI), simulando interacciones reales de los usuarios con la aplicación. Gracias a Selenium, fue posible detectar errores visuales, fallos de navegación y comportamientos inesperados antes del despliegue final. 
+
+**Lighthouse:**
+
+ Fue usada para evaluar el rendimiento, accesibilidad y buenas prácticas del frontend en la web. Sus reportes ayudaron a optimizar la velocidad de carga, la experiencia del usuario y la eficiencia del código, garantizando que la aplicación cumpla con los estándares de calidad web antes de su lanzamiento en producción.  
+
+**Practices**
+
+**Feature Branching y Merge Requests:**
+ Cada nueva funcionalidad de LearnHive se desarrolla en ramas independientes para mantener la estabilidad del entorno principal. Una vez completado el desarrollo y superadas las pruebas automatizadas, se realiza un merge request hacia la rama estable. Esta práctica permite aislar cambios, facilitar revisiones de código y asegurar que solo las funcionalidades validadas lleguen a las versiones de prueba o producción. 
+
+**Pipeline de Validación en Staging:**
+ Antes de cualquier despliegue final, el código se valida en un entorno de staging que replica las condiciones de producción. Allí se ejecutan pruebas integradas con datos simulados de cursos, usuarios y métricas académicas, garantizando que las nuevas versiones no afecten la experiencia de los docentes ni de los estudiantes. Este paso también permite recibir retroalimentación temprana del equipo de QA o del Product Owner. 
+
+**Despliegue Controlado:**
+ En lugar de desplegar automáticamente, LearnHive utiliza un modelo de entrega semiautomática. El pipeline prepara la aplicación, genera los contenedores y ejecuta las verificaciones finales, pero el despliegue solo se completa tras la aprobación de un responsable técnico. Esto aporta control y reduce el riesgo de errores en entornos educativos con usuarios activos. 
+
+**Aprobación Manual:**
+ Cada versión candidata pasa por una revisión final donde se evalúan los resultados de pruebas funcionales, rendimiento y accesibilidad. Solo después de la aprobación manual del líder técnico o gerente de producto, se autoriza el despliegue a producción. Esta práctica ayuda a mantener la calidad del servicio y evitar interrupciones para los usuarios. 
+
+**Rollback Planificado:**
+ En caso de fallas detectadas después del despliegue, se cuenta con un plan de rollback manual y documentado. Este proceso permite revertir rápidamente la aplicación a una versión estable anterior, garantizando la continuidad operativa del sistema y la integridad de los datos de los institutos asociados. 
+
 #### 7.2.2 Stages Deployment Pipeline Components  
 
-### 7.3 Continuous Deployment  
+**Integración Continua (CI):**
+ Cada vez que un desarrollador realiza un commit o merge en una rama activa del repositorio de LearnHive, el pipeline de Integración Continua ejecuta pruebas unitarias y de integración. Estas validaciones aseguran que el código sea estable, que no se rompan dependencias y que la aplicación se mantenga en un estado desplegable. Además, se verifican estándares de calidad y formato de código mediante linters y revisiones automáticas. 
+
+**Validación en Staging:** 
+ Antes del despliegue final, la aplicación se ejecuta en un entorno de staging que replica las condiciones de producción. Aquí se realizan pruebas funcionales, de carga y seguridad, usando datos de ejemplo representativos del ecosistema académico (cursos, docentes y alumnos). Este paso permite identificar posibles problemas de rendimiento o compatibilidad antes de afectar a los usuarios reales. 
+
+**Despliegue Supervisado:**
+ El pipeline prepara automáticamente la versión lista para producción (build, contenedor Docker y configuración del entorno), pero el paso final del despliegue requiere aprobación manual. Este mecanismo garantiza que las nuevas versiones pasen por una última revisión técnica, reduciendo el riesgo de fallos en horas críticas de uso institucional. 
+
+**Monitoreo y Retroalimentación:**
+ Tras el despliegue en staging o producción, se activan herramientas de monitoreo (por ejemplo, Lighthouse y logs de servidor) que permiten observar métricas de rendimiento, tiempos de respuesta y errores en tiempo real. La información recolectada ayuda al equipo a evaluar la estabilidad de la versión y tomar decisiones informadas sobre su lanzamiento completo o la necesidad de ajustes. 
+
+**Aprobación del Despliegue:**
+ El pipeline queda en modo de espera (pending state) hasta que un responsable técnico o el líder de proyecto apruebe el paso final a producción. Esta aprobación se basa en la revisión de los reportes de pruebas, auditorías de seguridad y desempeño. Solo tras esta validación, la nueva versión de LearnHive se libera oficialmente para todos los institutos afiliados. 
+
+**Rollback Controlado:**
+ En caso de detectar errores críticos o degradación de servicio tras el despliegue, se cuenta con un procedimiento de rollback rápido y documentado. Este proceso revierte la aplicación a la última versión estable, asegurando la continuidad del servicio y minimizando el impacto en los usuarios. 
+
+### 7.3 Continuous Deployment 
+
+En esta sección se describen las principales herramientas y prácticas utilizadas para garantizar un proceso de integración y despliegue continuo eficiente, seguro y automatizado dentro del ecosistema de LearnHive. 
+
 #### 7.3.1 Tools and Practices  
+
+**Tools**
+
+<table>
+  <thead>
+    <tr>
+      <th>Categoría</th>
+      <th>Herramienta</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Automatización del pipeline</td>
+      <td>GitHub Actions</td>
+      <td>Permite automatizar el flujo de integración, pruebas y despliegue continuo. Cada vez que se realiza un push o merge a la rama principal, se ejecuta el pipeline completo.</td>
+    </tr>
+    <tr>
+      <td>Contenerización</td>
+      <td>Docker</td>
+      <td>Empaqueta el backend en una imagen que incluye todas sus dependencias, garantizando que funcione de la misma manera en cualquier entorno.</td>
+    </tr>
+    <tr>
+      <td>Hosting Backend y Base de Datos</td>
+      <td>Render</td>
+      <td>Plataforma en la nube que permite desplegar servicios de backend (Spring Boot) y bases de datos PostgreSQL. Automatiza el redeploy cuando se detectan cambios en el repositorio.</td>
+    </tr>
+    <tr>
+      <td>Hosting Frontend</td>
+      <td>Vercel</td>
+      <td>Permite desplegar automáticamente aplicaciones frontend (como Angular o React) vinculadas directamente al repositorio de GitHub.</td>
+    </tr>
+    <tr>
+      <td>Monitoreo y Validación Post-Despliegue</td>
+      <td>Lighthouse</td>
+      <td>Evalúa el rendimiento, accesibilidad y cumplimiento de buenas prácticas del frontend desplegado en producción.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Practices**
+
+- **Feature Branching:**
+ Los desarrolladores trabajan en ramas independientes para nuevas funcionalidades o correcciones. Una vez finalizadas y verificadas, las ramas se integran en la rama develop, que gestiona los despliegues a staging o producción. Esta práctica mantiene un flujo de trabajo limpio y controlado. 
+
+- **Despliegue completamente automatizado:** 
+Una vez que el código es validado por las pruebas unitarias y de integración, GitHub Actions ejecuta automáticamente el pipeline de despliegue hacia Render (backend y base de datos) y Vercel (frontend). 
+
+- **Commit-based Deployment (Despliegue basado en commits):**
+ Cada commit en la rama develop activa automáticamente el pipeline de CI/CD configurado en GitHub Actions. Este proceso ejecuta las pruebas, valida la calidad del código y realiza el despliegue automático del frontend y backend en los entornos correspondientes. 
+
+- **Rollback Automático:**
+ El pipeline incluye un sistema de rollback configurado en caso de fallos en producción. Si se detectan errores críticos tras un despliegue, se restaura la versión estable anterior de manera automática, enviando notificaciones al equipo técnico para revisión. 
+
+- **Monitoreo y Auditoría Continua:**
+ Tras cada despliegue, se ejecutan análisis automáticos de rendimiento mediante Lighthouse y verificación de logs del servidor. Estas prácticas permiten detectar anomalías tempranas, mejorar la estabilidad y mantener la calidad del servicio en tiempo real. 
+
 #### 7.3.2 Production Deployment Pipeline Components  
 
-### 7.4 Continuous Monitoring  
-#### 7.4.1 Tools and Practices  
-#### 7.4.2 Monitoring Pipeline Components  
-#### 7.4.3 Alerting Pipeline Components  
-#### 7.4.4 Notification Pipeline Components  
+En esta sección se describen los principales componentes del pipeline de despliegue a producción implementado para LearnHive, los cuales garantizan una entrega continua, segura y estable del producto digital. El objetivo es mantener coherencia entre los entornos de desarrollo, staging y producción, automatizando los procesos críticos y reduciendo riesgos operativos. 
+
+**Componentes del Pipeline del Backend (Render para Spring Boot):**
+
+Integración continua: Al hacer un commit en la rama develop, Render toma el código actualizado del backend (Spring Boot), lo construye utilizando Maven. 
+
+Construcción de la imagen Docker: Render construye una imagen Docker del backend, asegurando que todas las dependencias están incluidas. 
+
+Despliegue: Render implementa la nueva versión del backend en el servidor de producción. 
+
+Monitoreo y alerta: Después del despliegue, Render monitorea la aplicación y envía alertas si algo falla o si hay problemas de rendimiento. 
+
+**Componentes del Pipeline del Frontend (Vercel o Firebase para Angular)**
+
+**Compilación del frontend:**
+ Cada vez que se detecta un nuevo commit en la rama principal, el pipeline inicia el proceso de compilación de la aplicación Angular en modo producción. 
+
+**Pruebas automatizadas:**
+ Se ejecutan pruebas end-to-end con Selenium, garantizando que la interfaz funcione correctamente y que las rutas de usuario no se vean afectadas por cambios recientes. 
+
+**Despliegue automático en hosting (Firebase):**
+ Si todas las pruebas son exitosas, la nueva versión del frontend se despliega automáticamente en Firebase Hosting para asegurar tiempos de carga óptimos en Lima Metropolitana. 
+
+**Invalidación de caché y actualización continua:**
+ El pipeline gestiona automáticamente la invalidación de caché para asegurar que todos los usuarios accedan siempre a la versión más reciente del sistema LearnHive, sin requerir recargas manuales. 
+
+ El pipeline de Continuous Deployment se compone de las siguientes etapas automatizadas: 
+
+<table>
+  <thead>
+    <tr>
+      <th>Etapa</th>
+      <th>Descripción</th>
+      <th>Herramientas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Build & Test</td>
+      <td>El pipeline de GitHub Actions compila el código fuente y ejecuta pruebas unitarias e integradas para validar la estabilidad del sistema.</td>
+      <td>GitHub Actions, JUnit</td>
+    </tr>
+    <tr>
+      <td>Contenerización del Backend</td>
+      <td>El backend se empaqueta en una imagen Docker lista para ejecutarse en cualquier entorno, garantizando consistencia y portabilidad.</td>
+      <td>Docker</td>
+    </tr>
+    <tr>
+      <td>Deploy Automático del Backend y Base de Datos</td>
+      <td>Render recibe la nueva imagen del backend y actualiza automáticamente la aplicación junto con su conexión a la base de datos PostgreSQL.</td>
+      <td>Render</td>
+    </tr>
+    <tr>
+      <td>Deploy Automático del Frontend</td>
+      <td>Vercel detecta cambios en el repositorio y publica automáticamente la nueva versión del frontend, asegurando una entrega continua y rápida.</td>
+      <td>Vercel</td>
+    </tr>
+    <tr>
+      <td>Validación Post-Despliegue</td>
+      <td>Se ejecutan pruebas automáticas para verificar el rendimiento, accesibilidad y comportamiento del sistema en el entorno de producción.</td>
+      <td>Lighthouse</td>
+    </tr>
+    <tr>
+      <td>Monitoreo y Rollback Automático</td>
+      <td>Render y GitHub Actions monitorean el estado del servicio y, en caso de fallos, permiten revertir el despliegue a una versión estable anterior.</td>
+      <td>Render, GitHub Actions</td>
+    </tr>
+  </tbody>
+</table>
 
 
 # Part III: Experiment-Driven Lifecycle  
 
 ## Capítulo VIII: Experiment-Driven Development  
 
-### 8.1 Experiment Planning  
+### 8.1 Experiment Planning 
 #### 8.1.1 As-Is Summary  
-#### 8.1.2 Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims  
-#### 8.1.3 Experiment-Ready Questions  
+
+La investigación que se realizó mediante entrevistas a profesores y estudiantes de institutos tecnológicos nos permitió identificar el panorama actual respecto al uso de herramientas digitales en el proceso de enseñanza y aprendizaje. En general, se observa una dependencia alta de plataformas como Google Classroom, Excel, WhatsApp y Drive, las cuales son utilizadas para gestionar materiales, notas y comunicación.  
+
+Tanto los profesores como los estudiantes coinciden en que el seguimiento del desempeño académico es manual y poco automatizado, lo que dificulta tener una visión global del progreso tanto individual como grupal. Los profesores señalan la calificación manual de trabajos y exámenes como principal problema, así como la falta de información consolidada que les permita identificar patrones de desempeño en sus alumnos. Por su parte, los estudiantes expresan la necesidad de unificar entregas y disponer de gráficos de avance que les ayuden a visualizar su rendimiento durante el periodo académico. 
+
+En relación con el uso de las plataformas, los entrevistados valoran la rapidez y familiaridad de las herramientas actuales, pero resaltan la importancia de mantener procesos simples. Tanto profesores como alumnos muestran preferencia por sistemas de inicio de sesión mediante usuario y contraseña, en lugar de autenticaciones complejas o vinculadas a redes sociales. De igual manera, existe consenso en que el proceso de inicio de sesión debe ser uniforme para ambos perfiles (de profesor y estudiante), a fin de reducir la confusión y mejorar la accesibilidad. 
+
+Dentro del entorno de trabajo, los profesores suelen organizar sus cursos de forma manual, creando las clases desde cero y gestionando a los alumnos mediante listas. Este método les permite mantener control sobre la composición del grupo y eliminar o agregar estudiantes cuando es necesario. Para facilitar este proceso, los códigos de invitación se perciben como una forma práctica y comprensible de integrar a los alumnos, siempre que sean fáciles de compartir y de ingresar sin errores. 
+
+Asimismo, los profesores expresan la necesidad de contar con una vista unificada de todos sus cursos, donde puedan consultar rápidamente las entregas pendientes y el progreso general de cada grupo. Mencionan que suelen crear nuevas actividades semanalmente, revisar las entregas de manera secuencial y calificar manualmente cada submission, por lo que una interfaz clara y ordenada resulta esencial. Además, requieren poder subir diversos tipos de archivos como materiales de apoyo y revisar estadísticas consolidadas para monitorear el rendimiento del aula. 
+
+En el caso de los estudiantes, se identificó que organizan sus tareas principalmente por fecha límite, priorizando las entregas más próximas. Valoran especialmente la posibilidad de realizar múltiples entregas o versiones de una tarea antes de la calificación final, así como revisar el estado de sus entregas para confirmar si han sido recibidas o evaluadas. También utilizan con frecuencia funciones de descarga de archivos para conservar copias locales de materiales o retroalimentaciones. 
+
+Para ambos segmentos se evidencia una carencia de interfaces intuitivas y una curva de aprendizaje elevada en las plataformas actuales. Los usuarios valoran la inmediatez de herramientas como WhatsApp, pero reconocen su falta de estructura para fines académicos. De ahí que exista un consenso general sobre la conveniencia de un entorno digital unificado, que combine comunicación, evaluación, retroalimentación visual y gestión de actividades dentro de una misma experiencia coherente y sencilla. 
+
+En resumen, el estado actual refleja un ecosistema educativo fragmentado, sustentado en procesos manuales y herramientas aisladas que no satisfacen completamente las necesidades de eficiencia, organización y visualización de datos. Esta situación evidencia oportunidades claras de mejora en la automatización de tareas, la unificación de flujos de trabajo y la simplicidad de uso, alineadas con las preferencias observadas en los usuarios: procesos claros, uniformes, visuales y fáciles de dominar tanto para profesores como para estudiantes. 
+
+A partir del análisis realizado, se identificaron diversos aspectos que requieren atención y representan oportunidades directas de mejora para optimizar la experiencia de los usuarios dentro de la plataforma: 
+
+- Notificaciones: Incorporar un sistema que avise sobre nuevas tareas, nuevos archivos adjuntos a la tarea y tareas próximas a vencer, mejorando el seguimiento académico. 
+
+- Traducción (i18n): Implementar la opción de cambio de idioma entre inglés y español, favoreciendo la inclusión de usuarios de diferentes contextos educativos. 
+
+- Iconos claros: Rediseñar los iconos de la interfaz para hacerlos más comprensibles e intuitivos, aplicando principios de usabilidad y heurísticas de reconocimiento visual. 
+
+- Modo oscuro: Añadir un tema alternativo con fondo oscuro para mejorar la legibilidad y la comodidad visual en entornos de baja iluminación. 
+
+- Estadísticas visuales: Rediseñar el módulo de estadísticas para ofrecer gráficos más claros y fáciles de interpretar, permitiendo una comprensión rápida del rendimiento académico. 
+
+Estas mejoras responden directamente a las necesidades detectadas durante la investigación y representan oportunidades concretas para elevar la calidad de la experiencia del usuario en futuras iteraciones del sistema.
+
+#### 8.1.2 Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+Este componente documenta la "materia prima" inicial que sirve como fundamento para la experimentación. Consiste en capturar y organizar sistemáticamente todos los insumos crudos—desde creencias no validadas hasta oportunidades identificadas—antes de convertirlos en experimentos formales.
+
+- Assumptions Prioritarias:
+  - “Los estudiantes necesitan recibir notificaciones automáticas para recordar entregas próximas, nuevas tareas y materiales publicados” 
+
+  - “Los usuarios valoran la posibilidad de cambiar el idioma de la plataforma (i18n) para adaptarla a sus preferencias o contexto educativo” 
+
+  - “Iconos más claros y estandarizados mejoran la comprensión de la interfaz y reducen errores de navegación” 
+
+  - “La disponibilidad de un modo oscuro incrementa la comodidad visual y mejora la experiencia de uso en ambientes con poca luz” 
+
+  - “Los profesores comprenden mejor el rendimiento del aula cuando las estadísticas se presentan mediante gráficos más claros” 
+
+- Assumptions Identificadas:
+
+  - "Los usuarios prefieren registro simple con usuario/password sobre OAuth con redes sociales" 
+
+  - "El proceso de login debe ser el mismo para estudiantes y profesores" 
+
+  - "Los códigos de invitación son intuitivos para que los estudiantes los ingresen sin errores" 
+
+  - "Los profesores quieren crear cursos manualmente desde cero" 
+
+  - "Los códigos de invitación son fáciles de compartir entre profesores y estudiantes" 
+
+  - "Los profesores organizan cursos principalmente por lista y necesitan ver todos los estudiantes" 
+
+  - "Los profesores necesitan eliminar estudiantes de vez en cuando" 
+
+  - "Los profesores necesitan ver todos sus cursos en una vista unificada" 
+
+  - "Los estudiantes necesitan y utilizarán la función de múltiples entregas frecuentemente" 
+
+  - "Los estudiantes priorizan assignments por fecha límite al organizar su trabajo" 
+
+  - "La descarga de archivos es una función frecuentemente usada por los estudiantes" 
+
+  - "Los profesores revisan todas las entregas de un assignment de manera secuencial" 
+
+  - "Los profesores quieren una visión general rápida de todos los assignments del curso" 
+
+  - "Los profesores crean assignments con frecuencia semanal" 
+
+  - "Los profesores necesitan subir diversos tipos de archivos como materiales de apoyo" 
+
+  - "Los profesores revisan detalles completos de cada submission antes de calificar" 
+
+  - "Los profesores quieren calificar manualmente cada submission" 
+
+  - "Los estudiantes revisan el estado de sus submissions regularmente" 
+
+  - "Los estudiantes necesitan subir diversos formatos de archivo para sus entregas" 
+
+  - "Los profesores revisan estadísticas regularmente para monitorear el progreso" 
+
+  - "Los rangos de calificación (17-20, 14-16, etc.) son universales y comprensibles para todos los profesores" 
+
+  - "Los usuarios hacen clic en el botón de acceso desde la landing page sin dudar" 
+
+  - "Los videos del equipo aumentan la confianza en el producto" 
+
+  - "Los usuarios leen y valoran la misión y visión antes de registrarse" 
+
+  - "Los testimonios verificados generan credibilidad e influyen en la decisión de registro" 
+
+  - "Los videos explicativos del producto ayudan a los usuarios a entender su valor rápidamente" 
+
+  - "JWT proporciona seguridad suficiente para una plataforma educativa" 
+
+  - "La validación en backend es más confiable que la validación en frontend" 
+
+  - "Los desarrolladores usarán Swagger para testing y documentación" 
+
+  - "La configuración de CORS no será un problema mayor en producción" 
+
+- Knowledge Gaps:
+
+  - "No sabemos qué dispositivos usan principalmente los estudiantes"  
+
+  - "No conocemos el volumen típico de assignments por curso"  
+
+  - "Desconocemos los archivos profesores organizan en sus cursos actualmente" 
+
+  - "No sabemos si los usuarios prefieren app nativa vs web responsive" 
+
+  - "Desconocemos la tolerancia a tiempos de carga en móvil" 
+
+  - "No tenemos data sobre el tamaño promedio de archivos subidos" 
+
+  - "¿Cuál es la cantidad adecuada de alumnos en los cursos para que sean aceptables?" 
+
+  - "¿Cuál es el tiempo ideal para calificar un submission?" 
+
+  - "¿Cuál es el tiempo de vida de vencimiento de un submission?" 
+
+- Ideas:
+
+  - "Sistema de notificaciones push para fechas límite" 
+
+  - "Plantillas predefinidas para crear assignments" 
+
+  - "Modo offline para la app móvil" 
+
+  - "Integración con calendarios externos (Google Calendar)" 
+
+  - "Sistema de notificaciones por creacion de assignments y entrega de submissions" 
+
+  - "Dashboard personalizado por tipo de usuario" 
+
+  - "Búsqueda inteligente en lista de estudiantes" 
+
+  - "Vista previa de archivos sin descargar" 
+
+  - "Sistema de autenticación con redes sociales" 
+
+- Claims:
+
+- "Los estudiantes universitarios prefieren apps móviles sobre web" 
+
+- "Los profesores necesitan estadísticas en tiempo real" 
+
+- "La gestión visual de cursos es importante para profesores" 
+
+- "Los estudiantes se organizan por fechas de entrega" 
+
+- "La retroalimentación manual es valorada sobre la automática"  
+
+- "Los profesores quieren control total sobre la eliminación de estudiantes" 
+
+- "La gestión visual de cursos es importante para profesores" 
+
+- "Múltiples entregas por assignment es una necesidad crítica" 
+
+#### 8.1.3 Experiment-Ready Questions
+
+A continuación, se presentan las preguntas listas para experimento, derivadas del análisis previo del estado actual y del material bruto (assumptions, knowledge gaps, ideas y claims). Estas preguntas se dividen en dos categorías: 
+
+- Preguntas impulsadas por creencias (Belief-led): Buscan comprobar si una premisa que creemos sobre los usuarios, el sistema o el contexto es realmente cierta. 
+
+- Preguntas exploratorias: Buscan recolectar conocimiento nuevo en áreas donde aún no existen datos o certezas.
+
+**Preguntas Impulsadas por Creencias (Belief-led) Prioritarias:**
+
+**Pregunta 1:**
+
+“Los estudiantes necesitan recibir notificaciones automáticas para recordar entregas próximas, nuevas tareas y materiales publicados” 
+
+- WHO: Estudiantes unidos a cursos activos 
+
+- WHAT: Sistema de notificaciones académicas (recordatorios de entregas, avisos de nuevas tareas y archivos) 
+
+- WHERE: En la aplicación móvil y en la web, dentro del panel principal del estudiante 
+
+- WHEN: Durante el ciclo académico, especialmente antes de fechas límite o cuando el profesor publica nuevas actividades 
+
+- WHY: Validar si las notificaciones ayudan a los estudiantes a organizar mejor sus tiempos 
+
+- HOW: Comparar tasas de entrega puntual, frecuencia de acceso, número notificaciones leídas y no leídas 
+
+¿Las notificaciones automáticas mejoran el seguimiento académico por parte del estudiante? 
+
+**Pregunta 2:**
+
+“Los usuarios valoran la posibilidad de cambiar el idioma de la plataforma (i18n) para adaptarla a sus preferencias” 
+
+- WHO: Estudiantes y profesores con distintos niveles de dominio del español o inglés 
+
+- WHAT: Funcionalidad de cambio de idioma dentro del sistema 
+
+- WHERE: En la barra superior de navegación, mediante un botón para activar o desactivar el idioma 
+
+- WHEN: Durante el uso continuo de la plataforma, especialmente al personalizar la experiencia 
+
+- WHY: Determinar si el soporte multilingüe mejora la accesibilidad y reduce la fricción de uso 
+
+- HOW: Medir cuántos usuarios activan el cambio de idioma, y comparar su tiempo de aprendizaje o dificultades reportadas 
+
+¿La opción de cambiar el idioma desde la barra superior mejora la accesibilidad y la experiencia de uso para estudiantes y profesores? 
+
+**Pregunta 3:**
+
+“Iconos más claros e intuitivos ayudan a los usuarios a comprender mejor las funciones de la plataforma” 
+
+- WHO: Usuarios nuevos y recurrentes (profesores y estudiantes) 
+
+- WHAT: Conjunto de iconos utilizados en menús, acciones rápidas y módulos del sistema 
+
+- WHERE: Panel principal, módulo de tareas, cursos y barra de navegación 
+
+- WHEN: Durante la interacción diaria con la aplicación 
+
+- WHY: Verificar si iconos más comprensibles reducen la carga cognitiva y los errores de navegación 
+
+- HOW: Comparar errores de clic, tiempos de navegación y tasa de consultas de ayuda entre versiones de iconos 
+
+¿Iconos más claros y estandarizados reducen los errores de navegación y facilitan el uso general de la plataforma? 
+
+**Pregunta 4:**
+
+“La disponibilidad de un modo oscuro mejora la comodidad visual y reduce el cansancio durante su uso prolongado” 
+
+- WHO: Estudiantes y profesores que usan la plataforma en horarios nocturnos o ambientes con poca luz 
+
+- WHAT: Activación del modo oscuro en la web y la aplicación móvil 
+
+- WHERE: Configuración del usuario y apariencia general de la interfaz 
+
+- WHEN: Durante sesiones de estudio nocturnas o uso prolongado de la plataforma 
+
+- WHY: Determinar si el modo oscuro aumenta la comodidad visual y reduce abandono por fatiga ocular 
+
+- HOW: Medir tiempo promedio de uso continuo y satisfacción reportada entre modo claro y modo oscuro 
+
+¿El modo oscuro incrementa la comodidad visual y mejora la experiencia durante sesiones prolongadas dentro de la plataforma? 
+
+**Pregunta 5:**
+
+“Los profesores comprenden mejor el rendimiento del aula cuando las estadísticas se presentan mediante gráficos más claros” 
+
+- WHO: Profesores que consultan graficas de rendimiento académico 
+
+- WHAT: Versión mejorada de estadísticas con gráficos más claros y visuales 
+
+- WHERE: Panel de estadísticas del curso dentro del panel docente 
+
+- WHEN: Durante evaluaciones semanales, parciales o al preparar reportes académicos 
+
+- WHY: Validar si las mejoras en visualización permiten a los docentes interpretar el desempeño del grupo de manera más rápida y precisa 
+
+- HOW: Comparar tiempos de comprensión, frecuencia de uso y clics relevantes entre la versión antigua y la versión mejorada del módulo de estadísticas 
+
+¿La presentación de estadísticas mediante gráficos más claros y visuales facilita a los profesores la interpretación del rendimiento académico del curso? 
+
+**Preguntas Exploratorias**
+
+**Pregunta Exploratoria 1:**
+
+- WHO: Estudiantes activos de institutos tecnológicos. 
+
+- WHAT: Tipos de dispositivos utilizados (smartphone, laptop, tablet o PC de escritorio). 
+
+- WHERE: En los distintos contextos de uso: hogar, campus o espacios públicos. 
+
+- WHEN: Durante las sesiones académicas, horarios pico o entrega de tareas. 
+
+- WHY: Identificar los dispositivos predominantes para optimizar el diseño responsive y el rendimiento de la plataforma. 
+
+- HOW: Mediante análisis de user-agent del navegador, registros de sesión y encuestas breves a usuarios. 
+
+¿Qué tipo de dispositivos usan con mayor frecuencia los estudiantes para acceder al sistema? 
+
+**Pregunta Exploratoria 2:**
+
+- WHO: Profesores que gestionan cursos dentro de la plataforma. 
+
+- WHAT: Tiempo máximo considerado adecuado para calificar tareas o exámenes. 
+
+- WHERE: En el entorno de calificación del módulo docente. 
+
+- WHEN: Durante los periodos de evaluación o cierre de entregas. 
+
+- WHY: Conocer las expectativas temporales docentes para definir alertas, SLA o recordatorios automáticos de calificación. 
+
+- HOW: A través de encuestas, entrevistas y medición de tiempos reales en los registros de evaluación. 
+
+¿Cuál es el tiempo de calificación promedio que los docentes consideran aceptable? 
+
+**Pregunta Exploratoria 3:**
+
+- WHO: Estudiantes que realizan entregas de assignments. 
+
+- WHAT: Tipos de archivo (PDF, DOCX, ZIP, MP4, etc.) que presentan fallas durante la subida. 
+
+- WHERE: En el módulo de entregas del sistema. 
+
+- WHEN: Durante el proceso de carga o al intentar guardar una entrega. 
+
+- WHY: Identificar los formatos más problemáticos para mejorar la compatibilidad y mensajes de validación. 
+
+- HOW: Analizando los registros de error del backend y reportes automáticos de fallos por tipo MIME. 
+
+¿Qué formatos de archivo generan más errores al subirlos? 
+
+**Pregunta Exploratoria 4:**
+
+- WHO: Estudiantes y profesores usuarios activos del sistema. 
+
+- WHAT: Canal de comunicación más efectivo y preferido para recordatorios académicos. 
+
+- WHERE: En el contexto del módulo de notificaciones o calendario de tareas. 
+
+- WHEN: Durante la semana previa a una fecha límite o evento importante. 
+
+- WHY: Determinar qué canal genera mayor tasa de atención y respuesta para optimizar las estrategias de comunicación. 
+
+- HOW: Por medio de encuestas A/B y registro de interacción (apertura de correo, lectura de notificación push, clics en SMS). 
+
+¿Qué canal de notificación (push, correo, SMS) prefieren los usuarios para recordar fechas límite? 
+
+**Pregunta Exploratoria 5:**
+
+- WHO: Profesores con experiencia en la gestión de grupos académicos. 
+
+- WHAT: Número ideal de estudiantes por curso para mantener un control efectivo del aprendizaje y evaluación. 
+
+- WHERE: En el módulo de administración de cursos y calificaciones. 
+
+- WHEN: Durante los periodos de alta carga docente o evaluación masiva. 
+
+- WHY: Comprender el umbral óptimo de tamaño de grupo para mejorar el rendimiento del docente y la experiencia del estudiante. 
+
+- HOW: Mediante encuestas estructuradas y análisis de correlación entre cantidad de alumnos, tiempo de calificación y calidad del feedback. 
+
+¿Cuál es la cantidad de alumnos que un docente considera manejable por curso? 
+
 #### 8.1.4 Question Backlog  
+
+Una vez formuladas las preguntas listas para experimento, se procedió a priorizarlas según su nivel de impacto, riesgo, confianza e interés. Esta priorización permite identificar qué preguntas deben responderse primero, ya que su validación o falsificación influye directamente en las decisiones de diseño y desarrollo del sistema. 
+
+El siguiente backlog organiza las preguntas en orden descendente de prioridad, utilizando una escala del 1 al 5, donde 5 representa el valor más alto en cada criterio.
+
+<table>
+  <thead>
+    <tr>
+      <th>Pregunta</th>
+      <th>Confianza</th>
+      <th>Riesgo</th>
+      <th>Impacto</th>
+      <th>Interés</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>¿Las notificaciones automáticas mejoran el seguimiento académico por parte del estudiante?</td>
+      <td>5</td>
+      <td>5</td>
+      <td>5</td>
+      <td>5</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>¿La opción de cambiar el idioma desde la barra superior mejora la accesibilidad y la experiencia de uso para estudiantes y profesores?</td>
+      <td>5</td>
+      <td>4</td>
+      <td>5</td>
+      <td>5</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>¿Iconos más claros y estandarizados reducen los errores de navegación y facilitan el uso general de la plataforma?</td>
+      <td>5</td>
+      <td>4</td>
+      <td>5</td>
+      <td>5</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>¿El modo oscuro incrementa la comodidad visual y mejora la experiencia durante sesiones prolongadas dentro de la plataforma?</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+      <td>5</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>¿La presentación de estadísticas mediante gráficos más claros facilita a los profesores la interpretación del rendimiento académico del curso?</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+      <td>5</td>
+      <td>18</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 8.1.5 Experiment Cards  
+
+A partir de las preguntas prioritarias identificadas en el Question Backlog, se diseñaron las tarjetas de experimento. 
+
+Estas tarjetas sirven como artefactos centrales del proceso Experiment-Driven Development, permitiendo planificar la validación de las creencias del equipo a través de hipótesis concretas, métricas medibles y condiciones controladas. 
+
+Cada tarjeta presenta dos secciones: 
+
+- Lado Frontal: Define la pregunta, la razón del experimento, la hipótesis y la acción mínima útil para obtener evidencia (Simplest Useful Thing). 
+
+- Lado Posterior: Detalla cómo se medirá el resultado, bajo qué condiciones se ejecutará y qué escala de datos se requiere para obtener conclusiones significativas.
+
+**Experiment Cards Prioritarias:**
+
+**Experiment Card 1**
+
+Lado Frontal 
+
+- Question: ¿Las notificaciones automáticas mejoran el seguimiento académico por parte del estudiante? 
+
+- Why: Para validar si las notificaciones ayudan a los estudiantes a recordar tareas y nuevos archivos publicados en sus cursos. 
+
+- What: Activar notificaciones automáticas sobre tareas nuevas, nuevos materiales y tareas próximas a vencer. 
+
+- Hypothesis: Creemos que el seguimiento académico del alumno respecto a sus cursos mejorara en un 15% al estar actualizado de la nueva información disponible. 
+
+Lado Posterior 
+
+- Measures: Índice de Utilidad Percibida de las Notificaciones (Porcentaje de respuestas positivas en entrevista). 
+
+- Conditions: Entrevistas a un grupo de estudiantes que hayan usado la plataforma con notificaciones automáticas activadas. 
+
+- Scale: Mínimo 3 estudiantes entrevistados para obtener datos significativos. 
+
+**Experiment Card 2**
+
+Lado Frontal 
+
+- Question: ¿La opción de cambiar el idioma mejora la accesibilidad y la experiencia de uso para estudiantes y profesores? 
+
+- Why: Para determinar si el soporte multilingüe reduce confusión, mejora la comprensión y facilita la navegación de la plataforma. 
+
+- What: Habilitar el cambio de idioma desde la barra superior y monitorear su uso y su impacto en la interacción general. 
+
+- Hypothesis: Creemos que al menos el 40% de los usuarios utilizará la función y reportará menor dificultad de uso. 
+
+Lado Posterior 
+
+- Measures: Índice de Valoración de Accesibilidad por Idioma (Porcentaje de respuestas positivas en entrevista). 
+
+- Conditions: Entrevistas a estudiantes y profesores que hayan tenido acceso a la función de cambio de idioma. 
+
+- Scale: Mínimo 6 usuarios entrevistados (estudiantes y profesores). 
+
+**Experiment Card 3**
+
+Lado Frontal 
+
+- Question: ¿Iconos más claros y estandarizados reducen los errores de navegación y facilitan el uso general de la plataforma? 
+
+- Why: Para comprobar si una iconografía más clara reduce confusiones y ayuda a identificar acciones rápidamente. 
+
+- What: Evaluar errores o clics incorrectos en tareas guiadas usando la nueva iconografía. 
+
+- Hypothesis: Creemos que los iconos más intuitivos reducirán en al menos un 20% los errores de navegación durante tareas comunes. 
+
+Lado Posterior 
+
+- Measures: Índice de Claridad Percibida de la Iconografía (Porcentaje de respuestas positivas en entrevista). 
+
+- Conditions: Entrevistas a estudiantes y profesores después de realizar al menos 3 tareas comunes (subir archivo, ver tarea, navegar a un curso) usando la nueva interfaz. 
+
+- Scale: Mínimo 6 usuarios entrevistados. 
+
+**Experiment Card 4**
+
+Lado Frontal 
+
+- Question: ¿El modo oscuro incrementa la comodidad visual y mejora la experiencia durante sesiones prolongadas dentro de la plataforma? 
+
+- Why: Para evaluar si el modo oscuro reduce la fatiga visual y aumenta el tiempo de uso continuo, especialmente en ambientes de baja iluminación. 
+
+- What: Habilitar modo oscuro y registrar su uso y la percepción de comodidad durante sesiones largas. 
+
+- Hypothesis: Creemos que el tiempo de uso continuo aumentará al menos un 20% con el modo oscuro activado. 
+
+Lado Posterior 
+
+- Measures: Índice de Preferencia y Comodidad del Modo Oscuro (Porcentaje de respuestas positivas en entrevista). 
+
+- Conditions: Entrevistas a estudiantes y profesores que hayan usado el modo oscuro. 
+
+- Scale: Mínimo 6 usuarios entrevistados en estas condiciones. 
+
+**Experiment Card 5**
+
+Lado Frontal 
+
+- Question: ¿La presentación de estadísticas mediante gráficos más claros facilita a los profesores la interpretación del rendimiento académico del curso? 
+
+- Why: Para validar si mejorar la visualización de datos ayuda a los docentes a interpretar más rápido y con mayor precisión el rendimiento del aula. 
+
+- What: Mostrar gráficos más visuales y claros, y evaluar el tiempo y precisión con que los docentes interpretan la información. 
+
+- Hypothesis: Creemos que los docentes interpretarán los datos al menos un 25% más rápido con gráficos más claros. 
+
+Lado Posterior 
+
+- Measures: Índice de Utilidad Percibida de los Gráficos Mejorados (Porcentaje de respuestas positivas en entrevista). 
+
+- Conditions: Entrevistas a profesores después de que hayan usado los nuevos gráficos para revisar el rendimiento de al menos un curso. 
+
+- Scale: Mínimo 3 profesores entrevistados. 
 
 ### 8.2 Experiment Design  
 #### 8.2.1 Hypotheses  
-#### 8.2.2 Domain Business Metrics  
-#### 8.2.3 Measures  
-#### 8.2.4 Conditions  
+
+En esta sección se presentan las hipótesis de trabajo y sus correspondientes hipótesis nulas, derivadas de las preguntas impulsadas por creencias planteadas en las Experiment Cards. 
+
+Cada hipótesis se formula bajo los principios de la experimentación científica: debe ser falsificable, comprobable y medible. El propósito no es validar las hipótesis como “verdaderas”, sino ponerlas a prueba para determinar si la evidencia empírica respalda o refuta las creencias iniciales del equipo. 
+ 
+**Hipótesis Prioritarias:**
+
+**Hypothesis 1**
+
+- Question: ¿Las notificaciones automáticas mejoran el seguimiento académico por parte del estudiante? 
+
+- Belief: Los estudiantes dependen de recordatorios oportunos para organizar mejor sus tareas y evitar retrasos cuando manejan varios cursos simultáneamente. 
+
+- Hypothesis: Creemos que el seguimiento académico del alumno respecto a sus cursos mejorara en un 15% al estar actualizado de la nueva información disponible. 
+
+- Null Hypothesis: Las notificaciones automáticas no afectaran el seguimiento académico del alumno al actualizarlo con la nueva información.	 
+
+**Hypothesis 2**
+
+- Question: ¿La opción de cambiar el idioma mejora la accesibilidad y la experiencia de uso para estudiantes y profesores? 
+
+- Belief: El soporte multilingüe permite a usuarios con distinto dominio del español o inglés navegar con mayor claridad y menor fricción. 
+
+- Hypothesis: Creemos que al menos el 40% de los usuarios utilizará la función y reportará menor dificultad de uso. 
+
+- Null Hypothesis: La opción de cambiar el idioma no mejorará la accesibilidad ni reducirá la confusión. 
+
+**Hypothesis 3**
+
+- Question: ¿Iconos más claros y estandarizados reducen los errores de navegación y facilitan el uso general de la plataforma? 
+
+- Belief: Unos iconos más claros mejora la comprensión visual y reduce la carga cognitiva durante tareas comunes. 
+
+- Hypothesis: Creemos que los iconos más intuitivos reducirán en al menos un 20% los errores de navegación durante tareas comunes. 
+
+- Null Hypothesis: Los iconos más intuitivos no tendrán un impacto en la navegación durante tareas comunes. 
+
+**Hypothesis 4**
+
+- Question: ¿El modo oscuro incrementa la comodidad visual y mejora la experiencia durante sesiones prolongadas dentro de la plataforma? 
+
+- Belief: Los usuarios experimentan menos fatiga ocular en ambientes con poca luz cuando utilizan interfaces en modo oscuro. 
+
+- Hypothesis: Creemos que el tiempo de uso continuo aumentará al menos un 20% con el modo oscuro activado. 
+
+- Null Hypothesis: El modo oscuro no tendrá impacto en el tiempo de uso continuo. 
+
+**Hypothesis 5**
+
+- Question: ¿La presentación de estadísticas mediante gráficos más claros facilita a los profesores la interpretación del rendimiento académico del curso? 
+
+- Belief: Los docentes interpretan mejor los datos cuando se presentan mediante gráficos simplificados y visualmente claros. 
+
+- Hypothesis: Creemos que los docentes interpretarán los datos al menos un 25% más rápido con gráficos más claros. 
+
+- Null Hypothesis: Los gráficos claros no afectaran la interpretación del docente en el rendimiento académico del curso.
+
+#### 8.2.2 Domain Business Metrics
+
+Esta sección busca alinear la medición de los experimentos con los objetivos de negocio y de producto, asegurando que toda hipótesis se relacione directamente con métricas concretas, cuantificables y relevantes. 
+
+De esta manera se evita depender de vanity metrics (indicadores que parecen positivos, pero no generan valor real) y se garantiza que los resultados obtenidos sirvan para tomar decisiones fundamentadas. 
+
+Las métricas definidas se centran en tres dimensiones clave del sistema: eficiencia de uso, adopción de funcionalidades y experiencia de usuario.
+
+<table>
+  <thead>
+    <tr>
+      <th>Métrica</th>
+      <th>Descripción</th>
+      <th>Fórmula de cálculo</th>
+      <th>Técnica de recolección</th>
+      <th>Meta deseada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Índice de Utilidad Percibida de las Notificaciones</strong></td>
+      <td>Mide el grado en que los estudiantes perciben que las notificaciones automáticas son útiles para su organización y seguimiento académico.</td>
+      <td>(N° de respuestas positivas a las 3 preguntas / Total de respuestas posibles (3 x N° de entrevistados)) x 100</td>
+      <td><strong>Entrevista a estudiantes.</strong> Se hace un promedio del % de respuestas "Sí" o "Útil" a:<br>
+        1. (Notificaciones) "¿Qué tipo de notificación te resulta más útil para no olvidar tus tareas o entregas?" (Se considera positiva si menciona alertas automáticas).<br>
+        2. (Notificaciones) "Si el profesor publica una tarea o sube un nuevo archivo, ¿esperarías recibir una alerta de inmediato?" (Respuesta "Sí").<br>
+        3. (Centro de notificaciones) "¿Te parece valioso contar con un centro de notificaciones...?" (Respuesta "Sí" con justificación positiva).</td>
+      <td>≥ 75% de las respuestas son positivas en promedio.</td>
+    </tr>
+    <tr>
+      <td><strong>Índice de Valoración de Accesibilidad por Idioma</strong></td>
+      <td>Mide la percepción conjunta de estudiantes y profesores sobre la utilidad y corrección de la función de cambio de idioma para mejorar la accesibilidad.</td>
+      <td>(N° de respuestas positivas a las 2 preguntas / Total de respuestas posibles (2 x N° de entrevistados)) x 100</td>
+      <td><strong>Entrevista a estudiantes Y profesores.</strong> Promedio del % de respuestas "Importante" o "Sí" a:<br>
+        1. (Traducción-Estudiantes) "¿Qué tan importante es para ti que toda la plataforma esté traducida correctamente...?" (Se considera positiva puntuación alta 4-5 en escala de importancia).<br>
+        2. (Traducción-Profesores) "¿Le parece útil contar con un selector de idioma para navegar la plataforma?" (Respuesta "Sí").<br>
+        (Se pueden promediar ambos segmentos o mantenerlos separados. Para simplificar, se promedian).</td>
+      <td>≥ 60% de las respuestas son positivas en promedio.</td>
+    </tr>
+    <tr>
+      <td><strong>Índice de Claridad Percibida de la Iconografía</strong></td>
+      <td>Mide la percepción de los usuarios sobre si los iconos les ayudan a navegar más rápido y con menos errores.</td>
+      <td>(N° de respuestas positivas a las 2 preguntas / Total de respuestas posibles (2 x N° de entrevistados)) x 100</td>
+      <td><strong>Entrevista a estudiantes Y profesores.</strong> Promedio del % de respuestas "Sí" o "De Acuerdo" a:<br>
+        1. (Iconos-Estudiantes) "¿Los iconos te ayudan a encontrar lo que buscas más rápido dentro de la plataforma?" (Respuesta "Sí").<br>
+        2. (Iconos-Profesores) "¿Los iconos le ayudan a identificar rápidamente las secciones o acciones dentro de la plataforma?" (Respuesta "Sí").</td>
+      <td>≥ 70% de las respuestas son positivas en promedio.</td>
+    </tr>
+    <tr>
+      <td><strong>Índice de Preferencia y Comodidad del Modo Oscuro</strong></td>
+      <td>Mide la preferencia declarada y la utilidad percibida del modo oscuro para sesiones prolongadas o en condiciones específicas.</td>
+      <td>(N° de respuestas positivas a las 2 preguntas / Total de respuestas posibles (2 x N° de entrevistados)) x 100</td>
+      <td><strong>Entrevista a estudiantes Y profesores.</strong> Promedio del % de respuestas que indican preferencia y utilidad situacional:<br>
+        1. (Tema claro/oscuro - Ambos) "¿Tienes/Le tiene preferencia por modo claro u oscuro? ¿En qué situaciones te es más útil?" (Se considera positiva si menciona modo oscuro como preferido o útil en situaciones de poca luz/noche).<br>
+        2. (Tema claro/oscuro - Ambos) "¿Esperarías que el cambio de tema se aplique de inmediato sin recargar la página?" (Respuesta "Sí" refuerza la valoración de la función).</td>
+      <td>≥ 60% de las respuestas indican preferencia/utilidad del modo oscuro.</td>
+    </tr>
+    <tr>
+      <td><strong>Índice de Utilidad Percibida de los Gráficos Mejorados</strong></td>
+      <td>Mide la percepción de los profesores sobre la claridad y el valor de los gráficos para interpretar el rendimiento.</td>
+      <td>(N° de respuestas positivas a las 2 preguntas / Total de respuestas posibles (2 x N° de profesores entrevistados)) x 100</td>
+      <td><strong>Entrevista solo a profesores.</strong> Promedio del % de respuestas que indican preferencia por vista consolidada y claridad:<br>
+        1. (Estadísticas) "Cuando revisa estadísticas académicas, ¿prefiere ver todo en una sola vista o en secciones separadas?" (Se considera positiva la preferencia por "una sola vista", asociada a gráficos unificados y claros).<br>
+        2. (Estadísticas) "¿Qué métricas considera más valiosas para evaluar el progreso...?" (Se considera positiva si las métricas que menciona coinciden con las mostradas en los nuevos gráficos – validación de contenido relevante).</td>
+      <td>≥ 75% de las respuestas de profesores son positivas.</td>
+    </tr>
+  </tbody>
+</table>
+
+Estas métricas constituyen la base para evaluar el impacto de las hipótesis en el comportamiento real de los usuarios y permiten identificar de forma objetiva si las mejoras propuestas aportan valor al dominio educativo de la plataforma.
+
+#### 8.2.3 Measures
+
+Las medidas constituyen los indicadores seleccionados para recopilar la evidencia empírica que permita comprobar o rechazar las hipótesis planteadas. Cada medida está diseñada para ser representativa, calculable y proporcional, de modo que refleje el cambio esperado en la percepción y experiencia reportada por los usuarios. 
+
+Dado que la fase inicial de experimentación se centra en validar la utilidad percibida y la aceptación de nuevas funcionalidades, las medidas principales se basan en entrevistas semi-estructuradas con los segmentos objetivo (estudiantes y profesores). Este enfoque cualitativo permite capturar evidencia directa y contextual sobre la experiencia de uso, minimizando la infraestructura de telemetría en etapas tempranas. 
+
+A continuación, se presentan las medidas principales, directamente relacionadas con cada pregunta experimental.
+
+**Medidas Prioritarias:**
+
+**Question 1:**
+
+¿Las notificaciones automáticas mejoran el seguimiento académico por parte del estudiante? 
+
+- Measure: Índice de Utilidad Percibida de las Notificaciones. Porcentaje promedio de respuestas positivas en entrevistas sobre la utilidad de las alertas automáticas. 
+
+- Indicadores adicionales: Tipo específico de notificación considerada más útil por los estudiantes (recordatorio de vencimiento, nuevo material, etc.) y valoración del centro de notificaciones unificado. 
+
+- Objetivo: Determinar si los estudiantes perciben que las notificaciones automáticas son una herramienta valiosa para organizar sus tareas y mantenerse al día con sus cursos. 
+
+**Question 2:**
+
+¿La opción de cambiar el idioma mejora la accesibilidad y la experiencia de uso para estudiantes y profesores? 
+
+- Measure: Índice de Valoración de Accesibilidad por Idioma. Porcentaje promedio de respuestas positivas en entrevistas sobre la importancia de una traducción correcta y la utilidad del selector de idioma. 
+
+- Indicadores adicionales: Perfil de usuario que más valora la función (estudiante o profesor) y situaciones específicas donde se considera más necesaria. 
+
+- Objetivo: Evaluar si el soporte multilingüe es percibido como un facilitador que reduce la fricción y mejora la comprensión para usuarios con diferentes dominios lingüísticos. 
+
+**Question 3:**
+
+¿Iconos más claros y estandarizados reducen los errores de navegación y facilitan el uso general de la plataforma? 
+
+- Measure: Índice de Claridad Percibida de la Iconografía. Porcentaje promedio de respuestas positivas en entrevistas sobre si los iconos ayudan a encontrar funciones rápidamente y a identificar acciones. 
+
+- Indicadores adicionales: Identificación de iconos potencialmente confusos y sugerencias de mejora específicas de los usuarios. 
+
+- Objetivo: Comprobar si la nueva iconografía es percibida como más intuitiva y clara, lo que sugiere una reducción potencial en la carga cognitiva y los errores durante la navegación. 
+
+**Question 4:**
+
+¿El modo oscuro incrementa la comodidad visual y mejora la experiencia durante sesiones prolongadas dentro de la plataforma? 
+
+- Measure: Índice de Preferencia y Comodidad del Modo Oscuro. Porcentaje promedio de respuestas en entrevistas que indican una preferencia o utilidad situacional por el modo oscuro. 
+
+- Indicadores adicionales: Condiciones ambientales asociadas a su uso (noche, ambientes con poca luz) y expectativa sobre la inmediatez del cambio de tema. 
+
+- Objetivo: Evaluar si el modo oscuro es percibido como una característica cómoda y deseable para su uso en sesiones largas o condiciones específicas de iluminación. 
+
+**Question 5:**
+
+¿La presentación de estadísticas mediante gráficos más claros facilita a los profesores la interpretación del rendimiento académico del curso? 
+
+- Measure: Índice de Utilidad Percibida de los Gráficos Mejorados. Porcentaje promedio de respuestas positivas en entrevistas con profesores sobre la claridad de la vista unificada y la relevancia de las métricas mostradas. 
+
+- Indicadores adicionales: Preferencia por vista consolidada frente a vistas separadas y listado de métricas que los docentes consideran más valiosas. 
+
+- Objetivo: Determinar si los docentes perciben los nuevos gráficos como una herramienta más clara y útil para analizar el rendimiento académico de manera integral. 
+
+ 
+**Medidas Secundarias**
+
+Además de las medidas principales, se considerarán indicadores complementarios que proporcionen evidencia secundaria relevante: 
+
+- Tasa de aceptación a la entrevista: Porcentaje de usuarios contactados que acceden a participar. 
+
+- Para garantizar que sean eficientes y respetuosas con el tiempo del usuario. 
+
+- Para identificar hallazgos inesperados o pain points adicionales. 
+
+- Consistencia en las respuestas entre diferentes usuarios del mismo segmento, para validar la fiabilidad de los hallazgos. 
+
+- Escala muestral alcanzada: Verificación de que se alcanzó el número mínimo planificado de entrevistas por experimento (Scale), para asegurar la significancia de los datos. 
+
+Todas las medidas principales serán recolectadas de manera estructurada a través de guías de entrevista, garantizando la trazabilidad y consistencia de los datos cualitativos, los cuales serán cuantificados posteriormente según las fórmulas definidas. El equipo solo mantendrá activo el proceso de entrevistas durante el tiempo justo necesario para alcanzar la escala muestral definida, minimizando costos y la fatiga de los participantes. Una vez concluida la fase de entrevistas, la medición se dará por finalizada.
+
+#### 8.2.4 Conditions 
+
+Las condiciones experimentales definen los escenarios controlados bajo los cuales se recopilará la evidencia para evaluar las hipótesis. Para cada pregunta basada en creencias, se establecen dos estados: 
+
+- Condición Experimental: Los participantes utilizan la plataforma que incorpora todas las nuevas funcionalidades (notificaciones automáticas, cambio de idioma, iconografía mejorada, modo oscuro y gráficos claros). Tras un período de uso significativo, se les entrevista para recoger su percepción específica sobre cada feature. 
+
+- Condición de Control (Línea Base): Se realiza una entrevista previa (pre-test) a los mismos participantes (o a un grupo demográficamente equivalente) antes de que tengan acceso a cualquier funcionalidad nueva. Esta entrevista establece la percepción basal, los hábitos actuales y las expectativas, actuando como el punto de referencia para medir el cambio. 
+
+Estas condiciones permiten aislar las variables críticas de cada funcionalidad y asegurar que los resultados reflejen efectos reales y medibles.
+
+**Conditions Prioritarias:**
+
+**Question 1:**
+
+¿Las notificaciones automáticas mejoran el seguimiento académico por parte del estudiante? 
+
+- Condición Experimental: Entrevistar a estudiantes que hayan usado la plataforma con notificaciones automáticas activadas (como parte del conjunto completo de nuevas features) y que hayan recibido alertas sobre tareas y materiales nuevos. 
+
+- Condición de Control: Entrevistar a los mismos estudiantes (u otros equivalentes) antes de la implementación, consultando sobre sus métodos actuales de organización y seguimiento de tareas sin notificaciones automáticas. 
+
+**Question 2:**
+
+¿La opción de cambiar el idioma mejora la accesibilidad y la experiencia de uso para estudiantes y profesores? 
+
+- Condición Experimental: Entrevistar a estudiantes y profesores que hayan tenido acceso y oportunidad de usar la función de cambio de idioma en la barra superior durante su uso normal de la plataforma mejorada. 
+
+- Condición de Control: Entrevistar a los mismos usuarios antes de la implementación, indagando sobre dificultades de comprensión o deseos de personalización sin la opción multilingüe disponible. 
+
+**Question 3:**
+
+¿Iconos más claros y estandarizados reducen los errores de navegación y facilitan el uso general de la plataforma? 
+
+- Condición Experimental: Entrevistar a usuarios después de que hayan realizado al menos 3 tareas comunes (subir archivo, ver tarea, navegar a un curso) usando la nueva interfaz con iconografía mejorada. 
+
+- Condición de Control: Entrevistar a los mismos usuarios antes de la implementación, preguntando sobre confusiones o errores comunes al navegar la plataforma con la iconografía anterior. 
+
+**Question 4:**
+
+¿El modo oscuro incrementa la comodidad visual y mejora la experiencia durante sesiones prolongadas dentro de la plataforma? 
+
+- Condición Experimental: Entrevistar a estudiantes y profesores que hayan activado y usado el modo oscuro en la plataforma mejorada, especialmente en condiciones de baja luz o sesiones largas. 
+
+- Condición de Control: Entrevistar a los mismos usuarios antes de la implementación, consultando sobre sus hábitos de uso, fatiga visual y preferencias en diferentes condiciones de iluminación sin la opción de modo oscuro. 
+
+**Question 5:**
+
+¿La presentación de estadísticas mediante gráficos más claros facilita a los profesores la interpretación del rendimiento académico del curso? 
+
+- Condición Experimental: Entrevistar a profesores después de que hayan usado los nuevos gráficos para revisar el rendimiento de al menos un curso completo en la plataforma mejorada. 
+
+- Condición de Control: Entrevistar a los mismos profesores antes de la implementación, explorando sus métodos, tiempos y dificultades actuales para analizar los datos del curso con las herramientas de visualización anteriores. 
+
+
 #### 8.2.5 Scale Calculations and Decisions  
-#### 8.2.6 Methods Selection  
-#### 8.2.7 Data Analytics: Goals, KPIs and Metrics Selection  
+
+En LearnHive, este enfoque se aplica para evaluar el cumplimiento de las hipótesis relacionadas con la mejora del aprendizaje y la gestión académica. Cada hipótesis se vincula con métricas específicas que reflejan el uso, la participación y el rendimiento dentro de la plataforma. Se considera ideal cuando los indicadores alcanzan plenamente los objetivos, aceptable cuando se mantienen dentro de un rango intermedio y desfavorable si están por debajo del mínimo esperado. Un nivel excelente se alcanza cuando los resultados superan el valor ideal en un 25 % o más, evidenciando un impacto positivo notable. Este método permite validar decisiones de diseño y desarrollo basadas en datos reales del uso de LearnHive. 
+
+Scale Calculations Prioritarias:  
+
+<table>
+  <thead>
+    <tr>
+      <th>Scale Calculation</th>
+      <th>Decisión</th>
+      <th>Factor</th>
+      <th>Desfavorable</th>
+      <th>Aceptable</th>
+      <th>Ideal</th>
+      <th>Excelente</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Creemos que el seguimiento académico mejorará en un 15%. Sabremos que esto es cierto cuando el Índice de Utilidad Percibida de las Notificaciones (porcentaje de respuestas positivas de estudiantes) alcance o supere el umbral definido como meta.</strong></td>
+      <td>Implementar el sistema de notificaciones automáticas para todos los estudiantes, configurando los tipos de alertas (tarea nueva, material nuevo, vencimiento próximo).</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Creemos que al menos el 40% de los usuarios utilizará la función y reportará menor dificultad. Sabremos que esto es cierto cuando el Índice de Valoración de Accesibilidad por Idioma (porcentaje de respuestas positivas combinado de estudiantes y profesores) alcance o supere el umbral definido como meta.</strong></td>
+      <td>Implementar el selector de idioma en la barra superior de la plataforma, asegurando una traducción completa y de calidad para mejorar la accesibilidad.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Creemos que los iconos más intuitivos reducirán en al menos un 20% los errores. Sabremos que esto es cierto cuando el Índice de Claridad Percibida de la Iconografía (porcentaje de respuestas positivas de usuarios) alcance o supere el umbral definido como meta, indicando una percepción clara de mejora.</strong></td>
+      <td>Implementar un rediseño visual con iconos estandarizados y descriptivos que mejoren la orientación del usuario dentro de LearnHive.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Creemos que el tiempo de uso continuo aumentará al menos un 20%. Sabremos que esto es cierto cuando el Índice de Preferencia y Comodidad del Modo Oscuro (porcentaje de respuestas que indican preferencia o utilidad) alcance o supere el umbral definido como meta.</strong></td>
+      <td>Implementar un modo oscuro adaptable que permita al usuario personalizar la interfaz y reducir la fatiga visual durante el estudio o la enseñanza.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Creemos que los docentes interpretarán los datos al menos un 25% más rápido. Sabremos que esto es cierto cuando el Índice de Utilidad Percibida de los Gráficos Mejorados (porcentaje de respuestas positivas de profesores) alcance o supere el umbral definido como meta.</strong></td>
+      <td>Implementar mejoras de estadísticas visuales dentro del panel docente que permita identificar patrones de rendimiento y ofrecer seguimiento académico consolidado.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+#### 8.2.6 Methods Selection
+
+Esta sección describe cómo se lleva a cabo la investigación para cada una de las hipótesis planteadas. El principio rector es que el método seleccionado debe ser el Simplest Useful Thing (la cosa más simple y útil) capaz de generar la evidencia necesaria bajo las condiciones y la escala definidas, sin incurrir en complejidad innecesaria. 
+
+Para la fase inicial de validación de LearnHive, el objeto de investigación (la pregunta sobre la percepción de valor y usabilidad de nuevas funcionalidades) se aborda con un método de investigación cualitativa: entrevistas semi-estructuradas conducidas en un diseño de pre-test y post-test con un solo grupo. Este método es el más simple y útil porque: 
+
+1. Minimiza la infraestructura técnica: No requiere sistemas complejos de A/B testing, segmentación de usuarios en tiempo real o telemetría avanzada, los cuales son costosos de implementar en etapas tempranas. 
+
+2. Maximiza el insight contextual: Permite capturar no solo el "qué" (si les gusta), sino el "por qué" detrás de las percepciones de estudiantes y profesores, proporcionando razones profundas para iterar o validar. 
+
+3. Se adapta a la escala muestral pequeña: Es factible y ético reclutar y entrevistar a 3-6 usuarios por segmento, logrando saturación de información para temas de usabilidad y aceptación percibida. 
+
+4. Cumple con las condiciones definidas: Permite operacionalizar perfectamente las "Condiciones" (entrevista previa sin features y posterior con features) y recoger las "Medidas" (Índices de percepción) de manera directa.
+
+Aplicación del Método por Experimento: 
+
+- Experimento 1 a 5: El método es idéntico y aplicado de manera consolidada. No se ejecutan 5 experimentos separados. En su lugar, se ejecuta un único estudio de usuario donde: 
+
+  1. Pre-Test (Control): Se entrevista a los participantes (estudiantes y profesores), enfocándose en su experiencia sin la integracion de las 5 funcionalidades, utilizando las preguntas específicas definidas en las guías de entrevista. 
+
+  2. Post-Test (Experimental): Se vuelve a entrevistar a los mismos participantes, enfocándose en su experiencia con cada una de las 5 funcionalidades, utilizando las preguntas específicas definidas en las guías de entrevista. Los participantes utilizan la plataforma integrada con las 5 nuevas funcionalidades.
+
+Normas Esenciales y Consideraciones Éticas: 
+
+1. Unicidad de la Exposición: Un mismo usuario no será expuesto simultaneamente a dos o mas experimentos del mismo tema. Experimenta un único estado integral de la plataforma (con todas las mejoras), lo que elimina el riesgo de contaminación cruzada entre condiciones. 
+
+2. No Causar Daño (Principio de No Maleficencia): 
+
+  - Consentimiento Informado: Todos los participantes serán informados sobre el propósito de la investigación, el uso de los datos, su anonimato y su derecho a retirarse en cualquier momento sin consecuencia alguna. 
+
+  - Carga Minimizada: Las entrevistas serán breves (15-20 min), se programarán en horarios convenientes para los participantes y no interferirán con sus actividades académicas críticas. 
+
+3. Principio de Simplicidad: Al utilizar un solo método (entrevistas) aplicado de forma consolidada, se evita la complejidad de coordinar múltiples métodos simultáneos (ej: A/B tests, diarios de uso, eye-tracking), lo que se alinea con el principio del "Simplest Useful Thing" para esta fase de descubrimiento y validación inicial. 
+
+En conclusión, la selección del método de test de usabilidad comparativo de dos partes (SIN/CON) representa la opción más simple, ética y efectiva para obtener evidencia comparativa directa de la percepción del usuario, necesaria para validar o refutar las hipótesis de esta ronda de experimentación en LearnHive.
+
+Una vez validada la percepción positiva (si los Índices alcanzan nivel "Aceptable" o superior), se debe asegurar que la implementación técnica de las funcionalidades no degrade la experiencia en aspectos medibles de rendimiento, accesibilidad y consistencia visual. Para esto, se seleccionan métodos automatizados. 
+
+<table>
+  <thead>
+    <tr>
+      <th>Herramienta</th>
+      <th>Precio</th>
+      <th>Capacidad de Análisis</th>
+      <th>Sencillez</th>
+      <th>Ventajas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Lighthouse</strong></td>
+      <td>Gratuito, ejecutable en navegador o CI/CD</td>
+      <td>Auditoría de rendimiento, accesibilidad y buenas prácticas de UI.</td>
+      <td>Interfaz directa, integrada en Chrome.</td>
+      <td>Ideal para medir velocidad, accesibilidad y calidad de experiencia del panel principal.</td>
+    </tr>
+    <tr>
+      <td><strong>RedLine13</strong></td>
+      <td>Gratuito con limitaciones</td>
+      <td>Pruebas de carga y rendimiento bajo condiciones de concurrencia.</td>
+      <td>Interfaz técnica pero configurable.</td>
+      <td>Evalúa estabilidad del sistema con múltiples usuarios simultáneos.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 8.2.7 Data Analytics: Goals, KPIs and Metrics Selection 
+
+Se llevaron a cabo pruebas de rendimiento, accesibilidad y mejores prácticas con Lighthouse en nuestra aplicación LearnHive para evaluar su desempeño y optimizar la experiencia de usuario.
+
+<img src="./assets/chapter-8/data_analytics_1.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_2.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_3.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_4.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_5.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_6.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_7.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_8.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_9.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_10.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_11.png" alt="Data Analytics" width="500"/><br>
+
+
 #### 8.2.8 Web and Mobile Tracking Plan  
 
+Definiremos la estrategia para monitorear, analizar y optimizar el uso de la plataforma web y móvil, con el fin de mejorar la experiencia de los estudiantes y docentes. Este plan permite obtener el flujo de los usuarios, medir el rendimiento del sistema y evaluar la efectividad de las funcionalidades implementadas. 
+A través de un monitoreo estructurado y continuo, LearnHive busca que cada nueva funcionalidad como el panel docente, la gestión de tareas y el seguimiento académico cumpla con los objetivos del proyecto. 
+
+1. Definición de Objetivos y Recopilación de datos. 
+
+Objetivo Principal: 
+Optimizar la experiencia de aprendizaje y gestión académica mediante la medición de participación, retención y rendimiento de los usuarios en la plataforma. 
+
+Alineación con Objetivos de Negocio: 
+
+- Incrementar la interacción entre estudiantes y docentes. 
+
+- Mejorar el cumplimiento de tareas y evaluaciones. 
+
+- Reducir el tiempo invertido en organización y comunicación académica. 
+
+Consideración del Ciclo de Vida del Producto: 
+
+- Fase inicial: priorizar métricas de engagement. 
+
+- Fase intermedia: enfocarse en retención, recurrencia y eficiencia operativa. 
+
+Recopilación de Datos: 
+
+- Métricas de Uso: Número de tareas creadas, completadas y pendientes; frecuencia de uso por docente y alumno. 
+
+- Interacciones de Usuarios: Clics, tiempo promedio dentro de la aplicación. 
+
+- Feedback de Usuarios: Opiniones recogidas mediante encuestas integradas o formularios rápidos sobre facilidad de uso, claridad de diseño y utilidad. 
+
+- Análisis Comparativo: 
+Se compararán los datos obtenidos con las métricas previas a la implementación  para evaluar el impacto del nuevo sistema de gestión de tareas. 
+
+2. Mapeo del Journey del Usuario 
+
+Visualización de la Experiencia: 
+Se rastrea el recorrido de los usuarios dentro de la plataforma, desde el inicio de sesión hasta la entrega de tareas o revisión académica. 
+
+Eventos Clave: 
+
+- Inicio de sesión → Identifica usuarios activos diarios. 
+
+- Unión a un curso → Evalúa interés y navegación en la oferta educativa. 
+
+- Creación de tarea / entrega de tarea → Mide participación y cumplimiento. 
+
+- Revisión de estadísticas académicas → Indica uso del panel docente. 
+
+- Cierre de sesión → Define duración de la sesión promedio. 
+
+Propiedades del Usuario y del Evento: 
+
+- Rol del usuario (estudiante/docente). 
+
+- Tiempo en completar cada acción. 
+
+- Dispositivo y navegador utilizados. 
+
+- Fecha y frecuencia de interacción. 
+
+
+3. Selección de Herramientas de Implementación 
+
+- Redline y Lighthouse para gestión de etiquetas, rendimiento y accesibilidad. 
+
+4. Documentación del Plan de Tracking 
+
+- Monitoreo Continuo: LearnHive implementará un sistema de seguimiento activo que permitirá evaluar en tiempo real el desempeño del módulo, detectando oportunidades de mejora. 
+
+- Informes Analíticos: Se generarán reportes mensuales que consoliden métricas clave, como participación, entregas completadas y tiempos de respuesta. Estos informes servirán para ver tendencias de interacción, cuellos de botella y funcionalidades con mayor impacto. 
+
+- Optimización Iterativa: Con base en los resultados obtenidos y la retroalimentación directa de los usuarios, se priorizarán mejoras de diseño, usabilidad y rendimiento 
+
 ### 8.3 Experimentation  
-#### 8.3.1 To-Be User Stories  
-#### 8.3.2 To-Be Product Backlog  
+#### 8.3.1 To-Be User Stories
+
+<table>
+  <thead>
+    <tr>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>UA-01</td>
+      <td>Cambio de idioma</td>
+      <td>Como usuario de la aplicación, quiero poder cambiar el idioma de la aplicación para que se adapte a mis preferencias.</td>
+      <td><strong>Escenario 1:</strong><br>Dado un usuario se encuentra en la plataforma, Cuando elige un idioma en un botón de cambio de idioma, Entonces los textos de la aplicación deben cambiar para reflejar ese idioma.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que un usuario ha seleccionado previamente un idioma preferido, Cuando vuelve a iniciar sesión en la aplicación, Entonces la plataforma debe mostrarse automáticamente en el idioma guardado en su configuración.</td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>UA-02</td>
+      <td>Traducción completa de la interfaz</td>
+      <td>Como usuario, quiero que todos los textos visibles de la aplicación estén correctamente traducidos al idioma seleccionado, para tener una experiencia coherente sin elementos sin traducir.</td>
+      <td><strong>Escenario 1:</strong><br>Dado que un usuario cambia el idioma, Cuando navega por diferentes secciones, Entonces todos los textos, botones, menús y mensajes deben mostrarse en el idioma seleccionado.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que el equipo actualiza una sección con nuevos textos, Cuando el usuario cambia el idioma, Entonces los nuevos textos también deben mostrarse traducidos.</td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>UA-03</td>
+      <td>Íconos representativos en la interfaz</td>
+      <td>Como usuario, quiero que haya íconos visuales junto a los títulos y acciones más importantes, para identificar más fácilmente su propósito sin necesidad de leer demasiado texto.</td>
+      <td><strong>Escenario 1:</strong><br>Dado que el usuario navega por la plataforma, Cuando visualiza los títulos principales o acciones destacadas, Entonces debe ver íconos representativos junto a los textos.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que el usuario cambia de sección, Cuando navega a otras pantallas, Entonces el estilo y consistencia de los íconos se mantienen uniformes en toda la aplicación.</td>
+      <td>EP-009</td>
+    </tr>
+    <tr>
+      <td>UA-04</td>
+      <td>Reorganización de la página de estadísticas</td>
+      <td>Como usuario, quiero que la página de estadísticas esté mejor organizada y presente la información más clara, con un diseño más dinámico, para entender mis datos más fácilmente.</td>
+      <td><strong>Escenario 1:</strong><br>Dado que el usuario accede a la página de estadísticas, Cuando se cargan los datos, Entonces estos se muestran en secciones separadas con colores y organización visual mejorada.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que antes todas las estadísticas se mostraban juntas, Cuando el usuario ingresa ahora, Entonces solo se muestra una estadística a la vez, según la opción seleccionada en la barra de categorías.</td>
+      <td>EP-004</td>
+    </tr>
+    <tr>
+      <td>UA-05</td>
+      <td>Notificaciones de nuevas tareas</td>
+      <td>Como estudiante, quiero recibir notificaciones cuando el profesor publique un nuevo trabajo, para mantenerme informado sobre las actividades del curso.</td>
+      <td><strong>Escenario 1:</strong><br>Dado que el profesor crea una nueva tarea, Cuando el estudiante accede a la plataforma, Entonces se muestra una notificación que indique el nuevo trabajo.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que el estudiante revisa sus notificaciones, Cuando hace clic sobre una, Entonces es redirigido a la vista del trabajo correspondiente.</td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>UA-06</td>
+      <td>Notificaciones de archivo nuevo</td>
+      <td>Como estudiante, quiero recibir una notificación cuando el profesor suba nuevos archivos a la tarea, para poder guiarme y evitar una entrega mal realizada.</td>
+      <td><strong>Escenario 1:</strong><br>Dado que un profesor ha subido un nuevo archivo a una tarea existente en el sistema, cuando el archivo sea guardado exitosamente en la plataforma, entonces todos los estudiantes inscritos en esa tarea deben recibir una notificación en sus dispositivos.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que un estudiante recibe una notificación de que se subió un archivo, Cuando hace clic sobre la tarea, Entonces se le redirige directamente al archivo correspondiente.</td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>UA-07</td>
+      <td>Centro de notificaciones</td>
+      <td>Como usuario, quiero tener un centro de notificaciones accesible desde el encabezado, donde pueda revisar mis notificaciones recientes, para no perder información importante.</td>
+      <td><strong>Escenario 1:</strong><br>Dado que el usuario está en la aplicación, Cuando hace clic en el ícono de notificaciones, Entonces se despliega una lista con las notificaciones más recientes.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que el usuario visualiza sus notificaciones, Cuando marca una como leída, Entonces esta deja de aparecer como pendiente o resaltada.</td>
+      <td>EP-009</td>
+    </tr>
+    <tr>
+      <td>UA-08</td>
+      <td>Tema oscuro</td>
+      <td>Como usuario, quiero poder activar un modo oscuro para reducir el brillo de la pantalla y hacer la experiencia más cómoda visualmente.</td>
+      <td><strong>Escenario 1:</strong><br>Dado que el usuario se encuentra en la aplicación, Cuando activa el modo oscuro, Entonces los colores de la interfaz cambian a tonos oscuros.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que el usuario activó el modo oscuro, Cuando regresa más tarde, Entonces la aplicación recuerda su preferencia y mantiene el tema oscuro.</td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>UA-09</td>
+      <td>Cambio instantáneo entre tema claro y oscuro</td>
+      <td>Como usuario, quiero poder alternar entre el tema claro y oscuro sin necesidad de recargar la aplicación, para visualizar el cambio de inmediato.</td>
+      <td><strong>Escenario 1:</strong><br>Dado que el usuario está usando la aplicación, Cuando presiona el botón de cambio de tema, Entonces el tema cambia instantáneamente sin recargar la página.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que el usuario está en una sección específica (por ejemplo, estadísticas o grupo), Cuando cambia el tema, Entonces toda la interfaz de esa sección también se adapta al nuevo tema sin interrupciones.</td>
+      <td>EP-008</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 8.3.2 To-Be Product Backlog
+
+<table>
+  <thead>
+    <tr>
+      <th>Orden</th>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Story Points (1, 2, 3, 5, 8)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>UA-01</td>
+      <td>Cambio de idioma</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>UA-02</td>
+      <td>Traducción completa de la interfaz</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>UA-08</td>
+      <td>Activar tema oscuro</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>UA-09</td>
+      <td>Cambio instantáneo entre tema claro y oscuro</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>UA-03</td>
+      <td>Íconos representativos en la interfaz</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>UA-04</td>
+      <td>Reorganización de la página de estadísticas</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>UA-05</td>
+      <td>Notificaciones de nuevas tareas</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>UA-06</td>
+      <td>Notificaciones de archivo nuevo</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>UA-07</td>
+      <td>Centro de notificaciones</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 8.3.3 Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle  
-##### 8.3.3.1 To-Be Sprint Backlogs  
+##### 8.3.3.1 To-Be Sprint Backlogs
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">Sprint #</th>
+      <th colspan="7">Sprint 1</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">UA-01</td>
+      <td rowspan="2">Cambio de idioma</td>
+      <td>T01</td>
+      <td>Implementar selector de idioma</td>
+      <td>Crear un componente/botón que permita cambiar el idioma dinámicamente</td>
+      <td>5</td>
+      <td>Omar Luquillas Asto</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T02</td>
+      <td>Guardar idioma preferido</td>
+      <td>Implementar persistencia del idioma</td>
+      <td>4</td>
+      <td>José Antonio Alejo Cárdenas</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">UA-02</td>
+      <td rowspan="2">Traducción completa</td>
+      <td>T03</td>
+      <td>Implementar archivos de traducción</td>
+      <td>Crear archivos JSON con textos traducidos para toda la aplicación</td>
+      <td>6</td>
+      <td>Sebastián Omar Real Calderón</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T04</td>
+      <td>Integrar traducciones en componentes</td>
+      <td>Reemplazar textos y vincularlos al sistema de traducciones</td>
+      <td>6</td>
+      <td>Eric Marlon Olivera Barzola</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">UA-03</td>
+      <td rowspan="2">Íconos representativos</td>
+      <td>T05</td>
+      <td>Selección de iconografía</td>
+      <td>Definir e integrar una librería consistente de íconos para toda la interfaz</td>
+      <td>3</td>
+      <td>Omar Luquillas Asto</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T06</td>
+      <td>Inserción de íconos clave</td>
+      <td>Añadir íconos representativos en las vistas principales</td>
+      <td>4</td>
+      <td>José Antonio Alejo Cárdenas</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">UA-04</td>
+      <td rowspan="2">Reorganizar estadísticas</td>
+      <td>T07</td>
+      <td>Nuevo layout de estadísticas</td>
+      <td>Rediseñar la página con secciones separadas y mejor jerarquía visual</td>
+      <td>6</td>
+      <td>Sebastián Omar Real Calderón</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T08</td>
+      <td>Implementar barra de categorías</td>
+      <td>Crear barra que permita mostrar una estadística por categoría</td>
+      <td>5</td>
+      <td>José Antonio Alejo Cárdenas</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">UA-05</td>
+      <td rowspan="2">Notificación nuevas tareas</td>
+      <td>T09</td>
+      <td>Detectar nuevas tareas</td>
+      <td>Implementar lógica que detecte creación de nuevas tareas por profesor</td>
+      <td>5</td>
+      <td>Sebastián Omar Real Calderón</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T10</td>
+      <td>Mostrar notificación de nueva tarea</td>
+      <td>Crear UI para mostrar notificaciones de nuevas tareas</td>
+      <td>4</td>
+      <td>José Antonio Alejo Cárdenas</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">UA-06</td>
+      <td rowspan="2">Notificación archivo nuevo</td>
+      <td>T11</td>
+      <td>Notificar subida de archivo</td>
+      <td>Implementar trigger cuando se sube un nuevo archivo en una tarea</td>
+      <td>5</td>
+      <td>Sebastián Omar Real Calderón</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T12</td>
+      <td>Mostrar notificación de nuevo archivo</td>
+      <td>Crear UI para mostrar notificaciones de nuevos archivos</td>
+      <td>4</td>
+      <td>Eric Marlon Olivera Barzola</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">UA-07</td>
+      <td rowspan="2">Centro de notificaciones</td>
+      <td>T13</td>
+      <td>Crear panel de notificaciones</td>
+      <td>Implementar dropdown accesible desde el header con notificaciones recientes</td>
+      <td>6</td>
+      <td>Omar Luquillas Asto</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T14</td>
+      <td>Marcar como leída</td>
+      <td>Cambiar estado visual y persistencia al marcar una notificación como leída</td>
+      <td>5</td>
+      <td>José Antonio Alejo Cárdenas</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">UA-08</td>
+      <td rowspan="2">Activar modo oscuro</td>
+      <td>T15</td>
+      <td>Implementar estilos oscuros</td>
+      <td>Crear paleta de colores y estilos CSS para modo oscuro</td>
+      <td>5</td>
+      <td>Omar Luquillas Asto</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T16</td>
+      <td>Guardar preferencia</td>
+      <td>Guardar el modo oscuro como preferencia persistente del usuario</td>
+      <td>4</td>
+      <td>José Antonio Alejo Cárdenas</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">UA-09</td>
+      <td rowspan="2">Cambio instantáneo de tema</td>
+      <td>T17</td>
+      <td>Alternancia en tiempo real</td>
+      <td>Programar cambio de tema sin recargar la página</td>
+      <td>4</td>
+      <td>Sebastián Omar Real Calderón</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T18</td>
+      <td>Adaptar componentes</td>
+      <td>Asegurar que todas las secciones reaccionen instantáneamente al cambio</td>
+      <td>4</td>
+      <td>Eric Marlon Olivera Barzola</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
 ##### 8.3.3.2 Implemented To-Be Landing Page Evidence  
 ##### 8.3.3.3 Implemented To-Be Frontend-Web Application Evidence  
 ##### 8.3.3.4 Implemented To-Be Native-Mobile Application Evidence  
@@ -3582,6 +5435,97 @@ Para ello, se emplearon herramientas como Selenium, que permitieron automatizar 
 ##### 8.3.3.6 Team Collaboration Insights  
 #### 8.3.4 To-Be Validation Interviews  
 ##### 8.3.4.1 Diseño de Entrevistas  
+
+**Segmento Objetivo 1: Estudiantes de Institutos**
+
+Preguntas principales 
+
+1. Para empezar, ¿podrías contarme un poco sobre ti? (edad, carrera, distrito, ocupación). 
+
+2. ¿Cómo sueles organizar tus tareas y trabajos actualmente en la plataforma o fuera de ella? 
+
+3. ¿Qué aplicaciones o plataformas usas con más frecuencia para tus cursos? (WhatsApp, Meet, Aula Virtual, etc.) 
+
+4. ¿Qué característica te genera más confianza en una plataforma académica: facilidad de uso, notificaciones, orden, o personalización (tema oscuro/idioma)? 
+
+
+Preguntas complementarias: 
+
+Notificaciones: 
+
+1. ¿Notas fácilmente cuando tienes nuevas notificaciones dentro de una plataforma? 
+
+2. ¿Qué tipo de notificación te resulta más útil para no olvidar tus tareas o entregas? 
+
+3. Si el profesor publica una tarea o sube un nuevo archivo, ¿esperarías recibir una alerta de inmediato? 
+
+Centro de notificaciones: 
+
+4. ¿Te parece valioso contar con un centro de notificaciones donde puedas ver todo lo pendiente en un solo lugar? ¿Por qué? 
+
+Tema claro/oscuro: 
+
+5. ¿Tienes preferencia por modo claro u oscuro? ¿En qué situaciones te es más útil? 
+
+6. ¿Te gustaría que el cambio entre tema claro y oscuro sea instantáneo sin recargar la página? 
+
+Traducción: 
+
+7. ¿Qué tan importante es para ti que toda la plataforma esté traducida correctamente cuando eliges otro idioma? 
+
+8. ¿Crees que la opción de cambiar idioma puede ayudar a estudiantes que se sienten más cómodos usando otro idioma? 
+
+Iconos: 
+
+9. ¿Los iconos te ayudan a encontrar lo que buscas más rápido dentro de la plataforma? 
+
+10. ¿Reconoces fácilmente qué hace cada botón solo por su ícono? (por ejemplo, “+” para crear, “clip” para archivo) 
+
+
+**Segmento Objetivo 2: Profesores de Institutos**
+
+Preguntas principales: 
+
+1. Para comenzar, ¿podría contarme un poco sobre usted? (edad, distrito, ocupación). 
+
+2. ¿Qué herramientas usa actualmente para compartir materiales y organizar tareas para los estudiantes? 
+
+3. ¿Cómo revisa o monitoriza actualmente el desempeño de sus estudiantes? (hojas de cálculo, aula virtual, notas manuales, etc.) 
+
+4. ¿Qué funcionalidad le resulta más valiosa en una plataforma académica: orden, estadísticas, comunicación o personalización visual? 
+
+Preguntas complementarias 
+
+Notificaciones: 
+
+1. ¿Le parecen útiles las notificaciones que recibe dentro de la plataforma para saber cuándo sus estudiantes entregan o interactúan con tareas y materiales? 
+
+2. ¿Considera que las notificaciones deberían incluir más o menos información de la que normalmente tienen? 
+
+Estadísticas: 
+
+3. Cuando revisa estadísticas académicas, ¿prefiere ver todo en una sola vista o en secciones separadas? ¿Por qué? 
+
+4. ¿Qué métricas considera más valiosas para evaluar el progreso y desempeño de sus estudiantes? 
+
+Tema claro/oscuro: 
+
+5. ¿Le resulta útil poder alternar entre modo claro y oscuro dependiendo de las condiciones de trabajo? 
+
+6. ¿Esperaría que el cambio de tema se aplique de inmediato sin recargar la página? 
+
+Traducción: 
+
+7. ¿Le parece útil contar con un selector de idioma para navegar la plataforma? 
+
+8. ¿Qué tan importante es para usted que toda la interfaz se traduzca correctamente al cambiar de idioma? 
+
+Iconos: 
+
+9. ¿Los iconos le ayudan a identificar rápidamente las secciones o acciones dentro de la plataforma? 
+
+10. ¿Considera que símbolos como el “+”, el clip o el engranaje son suficientemente universales y fáciles de reconocer? 
+
 ##### 8.3.4.2 Registro de Entrevistas  
 
 ### 8.4 Experiment Aftermath & Analysis  
