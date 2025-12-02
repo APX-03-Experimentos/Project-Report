@@ -149,6 +149,96 @@
       <td>Real Calderón Sebastián Omar,<br>Alejo Cárdenas José Antonio,<br>Luquillas Asto Omar y<br>Olivera Barzola Eric Marlon</td>
       <td>Revisión completa hasta el capítulo 7, corrección ortográfica y coherencia global del reporte.</td>
     </tr>
+    <tr>
+      <td>2.1</td>
+      <td>06/11/2025</td>
+      <td>Luquillas Asto Omar</td>
+      <td>Desarrollo de los items: 6.2. Static testing & Verification, 6.2.1. Static Code Analysis, 6.2.1.1. Coding standard & Code conventions, 6.2.1.2. Code Quality & Code Security.</td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>06/11/2025</td>
+      <td>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los items: 6.2.2. Reviews, 6.3. Validation Interviews, 6.3.1. Diseño de Entrevistas, 6.3.2. Registro de Entrevistas, 6.3.3. Evaluaciones según heurísticas, 6.4. Auditoría de Experiencias de Usuario, 6.4.1. Auditoría realizada, 6.4.1.1. Información del grupo auditado, 6.4.1.2. Cronograma de auditoría realizada, 6.4.1.3. Contenido de auditoría realizada, 6.4.2. Auditoría recibida, 6.4.2.1. Información del grupo auditor, 6.4.2.2. Cronograma de auditoría recibida, 6.4.2.3. Contenido de auditoría recibida, 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.</td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td>07/11/2025</td>
+      <td>Alejo Cárdenas José Antonio</td>
+      <td>Desarrollo de los items: 7.4. Continuous Monitoring, 7.4.1. Tools and Practices, 7.4.2. Monitoring Pipeline Components, 7.4.3. Alerting Pipeline Components, 7.4.4. Notification Pipeline Components, 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims</td>
+    </tr>
+    <tr>
+      <td>2.4</td>
+      <td>07/11/2025</td>
+      <td>Real Calderón Sebastián Omar</td>
+      <td>Desarrollo de los items: 8.1. Experiment Planning, 8.1.1. As-Is Summary, 8.3. Experimentation, 8.3.1. To-Be User Stories, 8.3.2. To-Be Product Backlog.</td>
+    </tr>
+    <tr>
+      <td>2.5</td>
+      <td>08/11/2025</td>
+      <td>Luquillas Asto Omar</td>
+      <td>Desarrollo de los items: 8.1.3. Experiment-Ready Questions, 8.1.4. Question Backlog, 8.1.5. Experiment Cards, 8.2. Experiment Design, 8.2.1. Hypotheses, 8.2.2. Domain Business Metrics, 8.2.3. Measures, 8.2.4. Conditions.</td>
+    </tr>
+    <tr>
+      <td>2.6</td>
+      <td>09/11/2025</td>
+      <td>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los items: 8.2.5. Scale Calculations and Decisions, 8.2.6. Methods Selection, 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection, 8.2.8. Web and Mobile Tracking Plan.</td>
+    </tr>
+    <tr>
+      <td>2.7</td>
+      <td>10/11/2025</td>
+      <td>Luquillas Asto Omar</td>
+      <td>Desarrollo del avance de Conclusiones, Bibliografía y Anexos.</td>
+    </tr>
+    <tr>
+      <td>3.0</td>
+      <td>13/11/2025</td>
+      <td>Alejo Cárdenas José Antonio</td>
+      <td>Revisión completa hasta el capítulo 8, corrección ortográfica y coherencia global del reporte.</td>
+    </tr>
+    <tr>
+      <td>3.1</td>
+      <td>26/11/2025</td>
+      <td>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los items: 8.3.3.2. Implemented To-Be Landing Page Evidence, 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence, 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence, 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence, 8.3.3.6. Team Collaboration Insights</td>
+    </tr>
+    <tr>
+      <td>3.2</td>
+      <td>27/11/2025</td>
+      <td>Alejo Cárdenas José Antonio</td>
+      <td>Desarrollo de los items: 8.3.4.1. Diseño de Entrevistas, 8.3.4.2. Registro de Entrevistas</td>
+    </tr>
+    <tr>
+      <td>3.3</td>
+      <td>28/11/2025</td>
+      <td>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los items: 8.3.4.2. Registro de Entrevistas, 8.4.1. Analysis and Interpretation of Results, 8.4.2. Re-scored and Re-prioritized Question Backlog</td>
+    </tr>
+    <tr>
+      <td>3.4</td>
+      <td>29/11/2025</td>
+      <td>Luquillas Asto Omar</td>
+      <td>Desarrollo de los items: 8.3.3.1. To-Be Sprint Backlogs, 8.3.4.2. Registro de Entrevistas, 8.5.1. Shareback Session Artifacts: Learning Workflow</td>
+    </tr>
+    <tr>
+      <td>3.5</td>
+      <td>30/11/2025</td>
+      <td>Real Calderón Sebastián Omar</td>
+      <td>Desarrollo de los items: 8.3.4.2. Registro de Entrevistas, 8.6.1. About-the-Product Intro Video</td>
+    </tr>
+    <tr>
+      <td>3.6</td>
+      <td>01/12/2025</td>
+      <td>Luquillas Asto Omar</td>
+      <td>Desarrollo del avance de Conclusiones, Bibliografía y Anexos</td>
+    </tr>
+    <tr>
+      <td>4.0</td>
+      <td>02/12/2025</td>
+      <td>Alejo Cárdenas José Antonio</td>
+      <td>Revisión completa de todos los capítulos, corrección ortográfica y coherencia global del reporte</td>
+    </tr>
   </tbody>
 </table>
 
@@ -184,6 +274,40 @@ Entrega TP (07/10/2025):
 <img src="./assets/miscellaneous/report_insights3_tp.png" alt="Insights Report Collaboration Insights TP" />
 
 Para esta segunda entrega se desarrollaron los capítulos 6 y 7, en imagenes adjuntadas se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
+
+Distribución de commits:
+
+- Alejo Cárdenas, José Antonio: 7 commits
+- Luquillas Asto, Omar: 48 commits
+- Real Calderón, Sebastián Omar: 4 commits
+- Olivera Barzola, Eric Marlon: 9 commits
+
+Entrega TB2 (13/11/2025):
+
+<img src="./assets/miscellaneous/report_insights1_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+<img src="./assets/miscellaneous/report_insights2_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+<img src="./assets/miscellaneous/report_insights3_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+Para esta tercera entrega se desarrollaron los capítulos 7 y 8, en las imágenes adjuntadas se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
+
+Distribución de commits:
+
+- Alejo Cárdenas, José Antonio: 7 commits
+- Luquillas Asto, Omar: 28 commits
+- Real Calderón, Sebastián Omar: 3 commits
+- Olivera Barzola, Eric Marlon: 7 commits
+
+Entrega TF (02/12/2025):
+
+<img src="./assets/miscellaneous/report_insights1_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+<img src="./assets/miscellaneous/report_insights2_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+<img src="./assets/miscellaneous/report_insights3_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+Para esta tercera entrega se desarrollaron los capítulos 7 y 8, en las imágenes adjuntadas se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
 
 Distribución de commits:
 
@@ -383,7 +507,7 @@ Distribución de commits:
 
 - [Anexos](#anexos)  
 
-# Student Outcome  
+# Student Outcome
 
 <table>
   <thead>
@@ -400,19 +524,28 @@ Distribución de commits:
         <strong>Alejo Cárdenas, José Antonio</strong><br>
         <strong>TB1:</strong><br> Desarrollé mi comunicación oral al presentar los Lean UX Problem Statements, Assumptions y el análisis competitivo de los principales actores del mercado, explicando con claridad las estrategias frente a competidores. También participé en la definición de User Stories y en la exposición de la gestión de la configuración del software, donde aseguré que tanto el equipo técnico como no técnico comprendieran los procesos.<br><br>
         <strong>TP:</strong><br> Me enfoqué en aplicar técnicas de Behavior-Driven Development para definir escenarios y criterios de aceptación claros, asegurando que el equipo comprendiera las expectativas del proyecto y manteniendo un enfoque ético en la priorización de funcionalidades. También realicé pruebas de sistema integrales para validar la operación completa del software, documentando los resultados y reportando incidencias de forma profesional y responsable.<br><br>
-        <strong>Real Calderon, Sebastian Omar</strong><br>
+        <strong>TB2:</strong><br> Desarrollé la sección de Continuous Monitoring, investigando e implementando buenas prácticas para la observación continua de sistemas y el uso ético de herramientas de monitoreo. Aseguré que la recolección de métricas y alertas respetara la privacidad de los datos y se centrara en la mejora de la calidad del servicio, no en la supervisión de las personas. Este proceso fortaleció mi comprensión de la responsabilidad profesional al aplicar tecnología de seguimiento sin vulnerar la confianza del usuario.<br><br> <strong>TF:</strong><br> Asumí responsabilidad ética y profesional al desarrollar la sección de diseño y registro de entrevistas, asegurando que todos los participantes fueran informados sobre el propósito del estudio y que sus aportes se recopilaran de manera respetuosa y transparente. También realicé la revisión completa del documento hasta el capítulo 8, garantizando coherencia, precisión y lenguaje adecuado para audiencias técnicas y no técnicas, manteniendo siempre un compromiso con la calidad, la integridad académica y la responsabilidad profesional en la entrega final.<br><br>
+        <strong>Real Calderón, Sebastián Omar</strong><br>
         <strong>TB1:</strong><br> Contribuí en la elaboración del Startup Profile y en la redacción técnica de los entregables de Needfinding, estructurando user personas, empathy maps y escenarios con un lenguaje claro y coherente. También desarrollé la arquitectura de la información y el diseño de software orientado a objetos, incluyendo diagramas de clases y el diseño de base de datos, y el front.<br><br>
         <strong>TP:</strong><br> Me encargué del despliegue continuo en producción, implementando mecanismos para minimizar riesgos y asegurar la transparencia y trazabilidad en cada entrega, contribuyendo así a la responsabilidad ética y profesional en el manejo del software.<br><br>
+        <strong>TB2:</strong><br> Participé en la planificación experimental y en la elaboración del To-Be Product Backlog, manteniendo una conducta ética al definir prioridades que beneficiaran tanto a los usuarios como al cumplimiento de los objetivos del proyecto. Promoví la responsabilidad compartida dentro del equipo, asegurando que las decisiones técnicas se tomaran con base en evidencia y no solo en conveniencia. Esto fortaleció mi sentido profesional y mi compromiso con la calidad y la transparencia del desarrollo.<br><br>
+        <strong>TF:</strong><br> Participé en el desarrollo del video introductorio del producto, asegurándome de que su contenido fuera claro, veraz y fiel al funcionamiento real de la aplicación. Mantener la precisión técnica y comunicar de manera ética las capacidades del sistema fue clave durante su elaboración. Además, colaboré en el registro de entrevistas, aplicando buenas prácticas para garantizar que la información recogida fuera tratada con respeto y confidencialidad, fortaleciendo así mi responsabilidad profesional en la presentación de resultados.<br><br>
         <strong>Luquillas Asto, Omar</strong><br>
         <strong>TB1:</strong><br> Me encargué de elaborar el Solution Profile, desarrollando antecedentes, problemática y el Lean UX Canvas, explicando de manera clara los supuestos y las hipótesis del proyecto. También expuse la definición del To-Be Scenario Mapping, el Product Backlog y el Impact Mapping, conectando cada necesidad detectada con funcionalidades específicas. También me enfoqué en la implementación del backend.<br><br>
         <strong>TP:</strong><br> Me encargué de desarrollar las pruebas unitarias para las entidades centrales del sistema, asegurándome de que cada componente se comportara correctamente y cumpliendo buenas prácticas de ingeniería de software. Además, implementé pruebas de integración para validar la interacción entre los distintos módulos, documentando los resultados y evidencias de manera clara para garantizar transparencia y trazabilidad en todo el proceso.<br><br>
+        <strong>TB2:</strong><br> Elaboré los apartados de Static Testing & Verification y de Experiment Planning, donde apliqué principios éticos en la revisión del código y en la formulación de experimentos. Me aseguré de mantener estándares de calidad, seguridad y confidencialidad en la verificación estática, y de diseñar hipótesis y experimentos que respetaran la integridad de la información y las responsabilidades del equipo. Esta experiencia reforzó mi compromiso con la transparencia, la trazabilidad y la responsabilidad técnica en cada decisión de ingeniería.<br><br>
+        <strong>TF:</strong><br> Desarrollé el To-Be Sprint Backlog, el registro de entrevistas y los artefactos de aprendizaje continuo, aplicando responsabilidad profesional al documentar el trabajo del equipo de manera clara, precisa y verificable. También elaboré la sección de conclusiones, bibliografía y anexos, asegurando que todo el reporte cumpliera estándares éticos: integridad en las fuentes citadas, transparencia en las evidencias presentadas y rigurosidad en la redacción de los resultados finales del proyecto.<br><br>
         <strong>Olivera Barzola, Eric Marlon</strong><br>
         <strong>TB1:</strong><br> Desarrollé entregables relacionados con el diseño de interfaces, creando Style Guidelines y propuestas visuales para la Landing Page, las aplicaciones móviles y web, garantizando accesibilidad e inclusión. También participé en la documentación de la implementación, presentando evidencias de la landing.<br><br>
-        <strong>TP:</strong><br> Mi participación se centró en implementar las prácticas de integración continua, asegurando que todos los cambios en el código se verificaran automáticamente y promoviendo la calidad y responsabilidad técnica del equipo. Asimismo, colaboré en la configuración del pipeline de entrega continua, garantizando que las versiones del software se desplegaran de manera segura y controlada, cumpliendo con los estándares éticos y profesionales del proyecto.
+        <strong>TP:</strong><br> Mi participación se centró en implementar las prácticas de integración continua, asegurando que todos los cambios en el código se verificaran automáticamente y promoviendo la calidad y responsabilidad técnica del equipo. Asimismo, colaboré en la configuración del pipeline de entrega continua, garantizando que las versiones del software se desplegaran de manera segura y controlada, cumpliendo con los estándares éticos y profesionales del proyecto.<br><br>
+        <strong>TB2:</strong><br> Desarrollé los apartados relacionados con Validation Interviews y User Experience Audits, promoviendo la recolección ética de datos a través de entrevistas y auditorías realizadas con consentimiento y objetivos claros. Asimismo, documenté hallazgos y retroalimentaciones de manera respetuosa, priorizando el bienestar del usuario y la mejora continua del producto. Esta práctica me ayudó a consolidar una postura profesional basada en la ética, la empatía y la honestidad técnica.<br><br>
+        <strong>TF:</strong><br> Documenté y presenté evidencias de la implementación de la Landing Page, la aplicación web, la aplicación móvil y el backend, asegurando que cada uno de estos componentes fuera descrito con precisión y responsabilidad técnica. Además, aporté en la sección de Team Collaboration Insights, donde reflexioné sobre el trabajo ético del equipo y la importancia de la colaboración profesional. Mi contribución se centró en garantizar que las evidencias fueran auténticas, verificables y alineadas con los principios éticos del desarrollo de software.
       </td>
       <td>
         <strong>TB1:</strong><br> El equipo demostró responsabilidad ética y profesional en cada etapa del proyecto al considerar las necesidades reales de los usuarios (estudiantes y profesores), garantizando la transparencia en la recopilación de información mediante entrevistas y priorizando siempre soluciones que aporten valor académico. Asimismo, se mantuvo un compromiso con las buenas prácticas de ingeniería de software.<br><br>
-        <strong>TP:</strong><br> El equipo mantuvo un enfoque ético y profesional durante todo el desarrollo del TP, implementando pruebas, pipelines y procesos de integración y despliegue de manera transparente y documentada, priorizando siempre la calidad del software y la seguridad del usuario final.
+        <strong>TP:</strong><br> El equipo mantuvo un enfoque ético y profesional durante todo el desarrollo del TP, implementando pruebas, pipelines y procesos de integración y despliegue de manera transparente y documentada, priorizando siempre la calidad del software y la seguridad del usuario final.<br><br>
+        <strong>TB2:</strong><br> El equipo demostró responsabilidad ética y profesional al aplicar buenas prácticas en pruebas, auditorías y experimentación, priorizando la integridad de los datos, la seguridad del software y la transparencia de los resultados. Las decisiones se tomaron de forma colaborativa y con enfoque en la mejora continua, manteniendo siempre el respeto por el usuario y la calidad del producto.<br><br>
+        <strong>TF:</strong><br> El equipo demostró responsabilidad ética y profesional al documentar rigurosamente todas las evidencias de implementación y al recopilar información mediante entrevistas de manera respetuosa y transparente. Cada integrante mantuvo un compromiso con la veracidad de la información presentada, la inclusión de fuentes confiables, el respeto por los participantes y la calidad técnica del producto final. Este enfoque permitió entregar un reporte íntegro, coherente y alineado con los valores profesionales de la ingeniería de software.
       </td>
     </tr>
     <tr>
@@ -421,19 +554,29 @@ Distribución de commits:
         <strong>Alejo Cárdenas, José Antonio</strong><br>
         <strong>TB1:</strong><br> Desarrollé mi comunicación escrita al redactar el análisis de competidores, el Product Backlog y la documentación del Software Configuration Management, asegurando claridad y adaptación a distintas audiencias.<br><br>
         <strong>TP:</strong><br> Consideré cómo los escenarios definidos a través de BDD afectan la usabilidad, satisfacción del usuario y adopción del software, promoviendo decisiones informadas y responsables. De igual manera, reflexioné sobre cómo los resultados de las pruebas de sistema impactan la fiabilidad del software y su aplicación en contextos reales, priorizando siempre la eficiencia y la calidad del proyecto.<br><br>
+        <strong>TB2:</strong><br> Analicé las implicancias del monitoreo continuo sobre la eficiencia operativa y los costos del proyecto, considerando el impacto económico y social de las herramientas implementadas. Además, evalué cómo las prácticas de alerting y notification pipeline contribuyen a mantener la estabilidad del sistema y evitan interrupciones que podrían afectar a los usuarios finales. Esto me permitió comprender la importancia de emitir juicios técnicos informados y responsables dentro de un contexto globalizado.<br><br>
+        <strong>TF:</strong><br> Analicé cómo los hallazgos obtenidos de las entrevistas podían influir en la calidad y usabilidad del producto final, considerando el impacto social de las decisiones de diseño y priorización. Mi revisión completa del documento permitió asegurar que las decisiones técnicas y de presentación estuvieran justificadas y alineadas con la realidad de los usuarios, evaluando cómo estas podrían influir en su adopción, accesibilidad y utilidad en contextos académicos y tecnológicos.<br><br>
         <strong>Real Calderón, Sebastián Omar</strong><br>
         <strong>TB1:</strong><br> Contribuí en la redacción del Startup Profile, los entregables de Needfinding y el diseño orientado a objetos, cuidando que los textos fueran claros y comprensibles para técnicos y no técnicos.<br><br>
         <strong>TP:</strong><br> Durante el despliegue continuo, reflexioné sobre la importancia de minimizar riesgos y errores en producción, considerando los impactos económicos y sociales en los usuarios finales y en la organización, y asegurando que cada decisión técnica tuviera consecuencias responsables y previsibles.<br><br>
+        <strong>TB2:</strong><br> Al elaborar los apartados de Experimentation y To-Be Product Backlog, analicé cómo las mejoras propuestas podían repercutir en la escalabilidad y sostenibilidad del sistema. También valoré el impacto económico de priorizar ciertas funcionalidades y cómo estas decisiones afectan al ciclo de vida del producto. Esta experiencia me ayudó a fortalecer mi capacidad para emitir juicios técnicos informados, equilibrando los objetivos de negocio con las necesidades sociales y ambientales.<br><br>
+        <strong>TF:</strong><br> Durante el desarrollo del video introductorio del producto, evalué cómo comunicar adecuadamente las mejoras y funcionalidades para asegurar que el mensaje reflejara impacto real en los usuarios: facilidad de uso, eficiencia y accesibilidad. Asimismo, al participar en el registro de entrevistas, analicé las implicancias sociales del uso del sistema y cómo sus funcionalidades podían mejorar o dificultar la experiencia de estudiantes y profesores, reforzando mi capacidad de emitir juicios técnicos considerando el contexto social y educativo.<br><br>
         <strong>Luquillas Asto, Omar</strong><br>
         <strong>TB1:</strong><br> Redacté el Solution Profile, el To-Be Scenario Mapping y el Impact Mapping, presentando la información con precisión y lenguaje accesible para distintos públicos del proyecto.<br><br>
         <strong>TP:</strong><br> Evalué cómo las pruebas unitarias contribuían a la eficiencia del software y a la reducción de errores que podrían afectar la productividad y los recursos del proyecto. También analicé el impacto de la integración correcta de módulos sobre la sostenibilidad del software y la experiencia de los usuarios finales, asegurando decisiones responsables en cada etapa.<br><br>
+        <strong>TB2:</strong><br> Durante la elaboración del Experiment Planning y las Experiment Cards, reflexioné sobre cómo los experimentos propuestos podían generar beneficios tangibles en la optimización del producto, reduciendo costos y maximizando la satisfacción del usuario. Asimismo, analicé la relación entre la calidad del código, la seguridad del sistema y el impacto en la sostenibilidad del software, tomando decisiones informadas que equilibraran la innovación con la responsabilidad social y económica.<br><br>
+        <strong>TF:</strong><br> Evalué cómo la reorganización del backlog, los artefactos de aprendizaje y las conclusiones podían impactar en la evolución futura del producto, considerando aspectos de sostenibilidad, eficiencia operativa y aplicabilidad del sistema en escenarios reales. Al redactar las conclusiones, analicé el impacto del proyecto, conectando las decisiones técnicas con beneficios tangibles para estudiantes y docentes, lo que fortaleció mi capacidad para emitir juicios informados sostenidos en evidencia y análisis contextual.<br><br>
         <strong>Olivera Barzola, Eric Marlon</strong><br>
         <strong>TB1:</strong><br> Elaboré Style Guidelines, documentación de interfaces y evidencias de implementación, manteniendo una comunicación escrita clara, inclusiva y adecuada para diferentes tipos de lectores.<br><br>
-        <strong>TP:</strong><br> Analicé el impacto económico y social de la integración continua, ya que permite reducir los tiempos de desarrollo y facilita la colaboración global del equipo. Además, evalué cómo la entrega continua optimiza los recursos del proyecto y contribuye a un desarrollo más sostenible y confiable, considerando siempre los efectos a nivel técnico y social.
+        <strong>TP:</strong><br> Analicé el impacto económico y social de la integración continua, ya que permite reducir los tiempos de desarrollo y facilita la colaboración global del equipo. Además, evalué cómo la entrega continua optimiza los recursos del proyecto y contribuye a un desarrollo más sostenible y confiable, considerando siempre los efectos a nivel técnico y social.<br><br>
+        <strong>TB2:</strong><br> En el desarrollo de las secciones de Validation Interviews y Auditorías UX, consideré el valor social y comunicativo del proceso de retroalimentación, entendiendo que una buena experiencia de usuario no solo tiene un impacto técnico, sino también humano. Las decisiones se tomaron considerando la diversidad de perfiles de usuarios y su contexto, lo que permitió diseñar soluciones más inclusivas y con mayor alcance social.<br><br>
+        <strong>TF:</strong><br> Mi contribución en la documentación de las evidencias de implementación me permitió reflexionar sobre cómo cada componente del sistema impacta en la experiencia del usuario y en la eficiencia operativa del proyecto. Consideré aspectos sociales, como la accesibilidad visual y la facilidad de uso, así como factores económicos relacionados con la escalabilidad de las soluciones implementadas. Esto me permitió emitir juicios informados sobre la solidez y sostenibilidad del producto final.
       </td>
       <td>
         <strong>TB1:</strong><br> A lo largo del desarrollo del proyecto, el equipo fortaleció su capacidad de comunicación escrita, elaborando documentos técnicos y no técnicos que fueron claros, estructurados y adaptados a diferentes audiencias.<br><br>
-        <strong>TP:</strong><br> El equipo demostró capacidad de emitir juicios informados, considerando el impacto técnico, económico, social y ambiental de las soluciones implementadas, asegurando que las decisiones de ingeniería favorecieran la eficiencia, sostenibilidad y experiencia del usuario.
+        <strong>TP:</strong><br> El equipo demostró capacidad de emitir juicios informados, considerando el impacto técnico, económico, social y ambiental de las soluciones implementadas, asegurando que las decisiones de ingeniería favorecieran la eficiencia, sostenibilidad y experiencia del usuario.<br><br>
+        <strong>TB2:</strong><br> El equipo evidenció capacidad de análisis y juicio informado al considerar los impactos económicos, sociales y globales de las decisiones tomadas en esta etapa. Las prácticas de validación, experimentación y auditoría fueron desarrolladas con enfoque en la eficiencia, la accesibilidad y la sostenibilidad, reafirmando un compromiso con la ingeniería responsable y el desarrollo tecnológico consciente.<br><br>
+        <strong>TF:</strong><br> El equipo emitió juicios informados considerando el impacto global, económico y social de las decisiones tomadas. La evaluación de las entrevistas, las evidencias de implementación y las conclusiones permitió valorar cómo el sistema podría influir en los usuarios reales y en su contexto educativo. Cada módulo desarrollado fue analizado en términos de accesibilidad, eficiencia y sostenibilidad, demostrando que las decisiones de ingeniería se tomaron con responsabilidad, evidencia y visión integral del impacto del software.
       </td>
     </tr>
   </tbody>
@@ -3652,54 +3795,9 @@ Cada archivo .feature está relacionado con una historia de usuario del proyecto
 
 En esta etapa se realizaron las pruebas de sistema, las cuales tienen como objetivo validar el funcionamiento general de la aplicación una vez integrados todos sus módulos. A diferencia de las pruebas unitarias o integrales, estas se enfocan en comprobar el comportamiento del sistema completo desde la experiencia del usuario, tanto en el entorno web como móvil. 
 
-Para ello, se emplearon herramientas como Selenium, que permitieron automatizar la navegación por la aplicación web y verificar que los flujos principales (inicio de sesión, creación de grupos, visualización de tareas, entre otros) funcionen correctamente y sin errores. Estas pruebas también evaluaron la correcta comunicación con las APIs del backend, asegurando que las peticiones y respuestas del servidor se procesen de manera adecuada. 
+<img src="./assets/chapter-6/system_test_1.png" alt="Core System Tests" width="500"/><br>
 
-| US001 | Ingreso a grupos | Como estudiante, quiero ser capaz de unirme a los grupos formados por mis profesores con facilidad, para poder acceder a las actividades y materiales del curso. |
-|-------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-
-<br><img src="./assets/chapter-6/system_test_1.png" alt="Core System Tests" width="300"/><br>
-
-
-| US002 | Creación de grupos | Como profesor, quiero ser capaz de crear grupos para mis cursos en la plataforma, para organizar a mis estudiantes y gestionar mejor las clases. |
-|-------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-
-<br><img src="./assets/chapter-6/system_test_2.png" alt="Core System Tests" width="300"/><br>
-
-
-| US003 | Invitación a grupos | Como profesor, quiero invitar a mis alumnos a los grupos creados por mí, para facilitar su incorporación a los cursos y mantener el control de los miembros. |
-|-------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-
-<br><img src="./assets/chapter-6/system_test_3.png" alt="Core System Tests" width="300"/><br>
-
-
-| US005 | Creación de trabajos con fechas límite | Como profesor, quiero crear trabajos dentro de cada curso con sus respectivas fechas de entrega, para organizar las actividades académicas y dar claridad a mis estudiantes. |
-|-------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-<br><img src="./assets/chapter-6/system_test_4.png" alt="Core System Tests" width="300"/><br>
-
-
-| US007 | Visualización de trabajos y fechas | Como estudiante, quiero visualizar en un dashboard todos mis trabajos y fechas de entrega, para organizar mis actividades y priorizar las más urgentes. |
-|-------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-<br><img src="./assets/chapter-6/system_test_5.png" alt="Core System Tests" width="300"/><br>
-
-
-| US008 | Visualización de dashboard de progreso académico | Como estudiante, quiero visualizar un dashboard con mis calificaciones y progreso en tiempo real, para saber si estoy avanzando de manera adecuada en mis cursos. |
-|-------|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-<br><img src="./assets/chapter-6/system_test_6.png" alt="Core System Tests" width="300"/><br>
-
-
-| US015 | Acceso a todas las entregas de un trabajo | Como profesor, quiero acceder en una sola vista a todas las entregas de un trabajo, para agilizar la revisión y calificación. |
-|-------|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-
-<br><img src="./assets/chapter-6/system_test_7.png" alt="Core System Tests" width="300"/><br>
-
-
-| US020 | Estados de entrega | Como estudiante, quiero ver el estado de cada entrega (pendiente, entregado, en revisión, calificado), para conocer en qué punto del proceso está mi trabajo. |
-|-------|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-<br><img src="./assets/chapter-6/system_test_8.png" alt="Core System Tests" width="300"/><br>
+<img src="./assets/chapter-6/system_test_2.png" alt="Core System Tests" width="500"/><br>
 
 
 ## Capítulo VII: DevOps Practices  
@@ -3962,28 +4060,1374 @@ Monitoreo y alerta: Después del despliegue, Render monitorea la aplicación y e
 
 ## Capítulo VIII: Experiment-Driven Development  
 
-### 8.1 Experiment Planning  
+### 8.1 Experiment Planning 
 #### 8.1.1 As-Is Summary  
-#### 8.1.2 Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims  
-#### 8.1.3 Experiment-Ready Questions  
+
+La investigación que se realizó mediante entrevistas a profesores y estudiantes de institutos tecnológicos nos permitió identificar el panorama actual respecto al uso de herramientas digitales en el proceso de enseñanza y aprendizaje. En general, se observa una dependencia alta de plataformas como Google Classroom, Excel, WhatsApp y Drive, las cuales son utilizadas para gestionar materiales, notas y comunicación.  
+
+Tanto los profesores como los estudiantes coinciden en que el seguimiento del desempeño académico es manual y poco automatizado, lo que dificulta tener una visión global del progreso tanto individual como grupal. Los profesores señalan la calificación manual de trabajos y exámenes como principal problema, así como la falta de información consolidada que les permita identificar patrones de desempeño en sus alumnos. Por su parte, los estudiantes expresan la necesidad de unificar entregas y disponer de gráficos de avance que les ayuden a visualizar su rendimiento durante el periodo académico. 
+
+En relación con el uso de las plataformas, los entrevistados valoran la rapidez y familiaridad de las herramientas actuales, pero resaltan la importancia de mantener procesos simples. Tanto profesores como alumnos muestran preferencia por sistemas de inicio de sesión mediante usuario y contraseña, en lugar de autenticaciones complejas o vinculadas a redes sociales. De igual manera, existe consenso en que el proceso de inicio de sesión debe ser uniforme para ambos perfiles (de profesor y estudiante), a fin de reducir la confusión y mejorar la accesibilidad. 
+
+Dentro del entorno de trabajo, los profesores suelen organizar sus cursos de forma manual, creando las clases desde cero y gestionando a los alumnos mediante listas. Este método les permite mantener control sobre la composición del grupo y eliminar o agregar estudiantes cuando es necesario. Para facilitar este proceso, los códigos de invitación se perciben como una forma práctica y comprensible de integrar a los alumnos, siempre que sean fáciles de compartir y de ingresar sin errores. 
+
+Asimismo, los profesores expresan la necesidad de contar con una vista unificada de todos sus cursos, donde puedan consultar rápidamente las entregas pendientes y el progreso general de cada grupo. Mencionan que suelen crear nuevas actividades semanalmente, revisar las entregas de manera secuencial y calificar manualmente cada submission, por lo que una interfaz clara y ordenada resulta esencial. Además, requieren poder subir diversos tipos de archivos como materiales de apoyo y revisar estadísticas consolidadas para monitorear el rendimiento del aula. 
+
+En el caso de los estudiantes, se identificó que organizan sus tareas principalmente por fecha límite, priorizando las entregas más próximas. Valoran especialmente la posibilidad de realizar múltiples entregas o versiones de una tarea antes de la calificación final, así como revisar el estado de sus entregas para confirmar si han sido recibidas o evaluadas. También utilizan con frecuencia funciones de descarga de archivos para conservar copias locales de materiales o retroalimentaciones. 
+
+Para ambos segmentos se evidencia una carencia de interfaces intuitivas y una curva de aprendizaje elevada en las plataformas actuales. Los usuarios valoran la inmediatez de herramientas como WhatsApp, pero reconocen su falta de estructura para fines académicos. De ahí que exista un consenso general sobre la conveniencia de un entorno digital unificado, que combine comunicación, evaluación, retroalimentación visual y gestión de actividades dentro de una misma experiencia coherente y sencilla. 
+
+En resumen, el estado actual refleja un ecosistema educativo fragmentado, sustentado en procesos manuales y herramientas aisladas que no satisfacen completamente las necesidades de eficiencia, organización y visualización de datos. Esta situación evidencia oportunidades claras de mejora en la automatización de tareas, la unificación de flujos de trabajo y la simplicidad de uso, alineadas con las preferencias observadas en los usuarios: procesos claros, uniformes, visuales y fáciles de dominar tanto para profesores como para estudiantes. 
+
+A partir del análisis realizado, se identificaron diversos aspectos que requieren atención y representan oportunidades directas de mejora para optimizar la experiencia de los usuarios dentro de la plataforma: 
+
+- Notificaciones: Incorporar un sistema que avise sobre nuevas tareas, nuevos archivos adjuntos a la tarea y tareas próximas a vencer, mejorando el seguimiento académico. 
+
+- Traducción (i18n): Implementar la opción de cambio de idioma entre inglés y español, favoreciendo la inclusión de usuarios de diferentes contextos educativos. 
+
+- Iconos claros: Rediseñar los iconos de la interfaz para hacerlos más comprensibles e intuitivos, aplicando principios de usabilidad y heurísticas de reconocimiento visual. 
+
+- Modo oscuro: Añadir un tema alternativo con fondo oscuro para mejorar la legibilidad y la comodidad visual en entornos de baja iluminación. 
+
+- Estadísticas visuales: Rediseñar el módulo de estadísticas para ofrecer gráficos más claros y fáciles de interpretar, permitiendo una comprensión rápida del rendimiento académico. 
+
+Estas mejoras responden directamente a las necesidades detectadas durante la investigación y representan oportunidades concretas para elevar la calidad de la experiencia del usuario en futuras iteraciones del sistema.
+
+#### 8.1.2 Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+Este componente documenta la "materia prima" inicial que sirve como fundamento para la experimentación. Consiste en capturar y organizar sistemáticamente todos los insumos crudos—desde creencias no validadas hasta oportunidades identificadas—antes de convertirlos en experimentos formales.
+
+- Assumptions Prioritarias:
+  - “Los estudiantes necesitan recibir notificaciones automáticas para recordar entregas próximas, nuevas tareas y materiales publicados” 
+
+  - “Los usuarios valoran la posibilidad de cambiar el idioma de la plataforma (i18n) para adaptarla a sus preferencias o contexto educativo” 
+
+  - “Iconos más claros y estandarizados mejoran la comprensión de la interfaz y reducen errores de navegación” 
+
+  - “La disponibilidad de un modo oscuro incrementa la comodidad visual y mejora la experiencia de uso en ambientes con poca luz” 
+
+  - “Los profesores comprenden mejor el rendimiento del aula cuando las estadísticas se presentan mediante gráficos más claros” 
+
+- Assumptions Identificadas:
+
+  - "Los usuarios prefieren registro simple con usuario/password sobre OAuth con redes sociales" 
+
+  - "El proceso de login debe ser el mismo para estudiantes y profesores" 
+
+  - "Los códigos de invitación son intuitivos para que los estudiantes los ingresen sin errores" 
+
+  - "Los profesores quieren crear cursos manualmente desde cero" 
+
+  - "Los códigos de invitación son fáciles de compartir entre profesores y estudiantes" 
+
+  - "Los profesores organizan cursos principalmente por lista y necesitan ver todos los estudiantes" 
+
+  - "Los profesores necesitan eliminar estudiantes de vez en cuando" 
+
+  - "Los profesores necesitan ver todos sus cursos en una vista unificada" 
+
+  - "Los estudiantes necesitan y utilizarán la función de múltiples entregas frecuentemente" 
+
+  - "Los estudiantes priorizan assignments por fecha límite al organizar su trabajo" 
+
+  - "La descarga de archivos es una función frecuentemente usada por los estudiantes" 
+
+  - "Los profesores revisan todas las entregas de un assignment de manera secuencial" 
+
+  - "Los profesores quieren una visión general rápida de todos los assignments del curso" 
+
+  - "Los profesores crean assignments con frecuencia semanal" 
+
+  - "Los profesores necesitan subir diversos tipos de archivos como materiales de apoyo" 
+
+  - "Los profesores revisan detalles completos de cada submission antes de calificar" 
+
+  - "Los profesores quieren calificar manualmente cada submission" 
+
+  - "Los estudiantes revisan el estado de sus submissions regularmente" 
+
+  - "Los estudiantes necesitan subir diversos formatos de archivo para sus entregas" 
+
+  - "Los profesores revisan estadísticas regularmente para monitorear el progreso" 
+
+  - "Los rangos de calificación (17-20, 14-16, etc.) son universales y comprensibles para todos los profesores" 
+
+  - "Los usuarios hacen clic en el botón de acceso desde la landing page sin dudar" 
+
+  - "Los videos del equipo aumentan la confianza en el producto" 
+
+  - "Los usuarios leen y valoran la misión y visión antes de registrarse" 
+
+  - "Los testimonios verificados generan credibilidad e influyen en la decisión de registro" 
+
+  - "Los videos explicativos del producto ayudan a los usuarios a entender su valor rápidamente" 
+
+  - "JWT proporciona seguridad suficiente para una plataforma educativa" 
+
+  - "La validación en backend es más confiable que la validación en frontend" 
+
+  - "Los desarrolladores usarán Swagger para testing y documentación" 
+
+  - "La configuración de CORS no será un problema mayor en producción" 
+
+- Knowledge Gaps:
+
+  - "No sabemos qué dispositivos usan principalmente los estudiantes"  
+
+  - "No conocemos el volumen típico de assignments por curso"  
+
+  - "Desconocemos los archivos profesores organizan en sus cursos actualmente" 
+
+  - "No sabemos si los usuarios prefieren app nativa vs web responsive" 
+
+  - "Desconocemos la tolerancia a tiempos de carga en móvil" 
+
+  - "No tenemos data sobre el tamaño promedio de archivos subidos" 
+
+  - "¿Cuál es la cantidad adecuada de alumnos en los cursos para que sean aceptables?" 
+
+  - "¿Cuál es el tiempo ideal para calificar un submission?" 
+
+  - "¿Cuál es el tiempo de vida de vencimiento de un submission?" 
+
+- Ideas:
+
+  - "Sistema de notificaciones push para fechas límite" 
+
+  - "Plantillas predefinidas para crear assignments" 
+
+  - "Modo offline para la app móvil" 
+
+  - "Integración con calendarios externos (Google Calendar)" 
+
+  - "Sistema de notificaciones por creacion de assignments y entrega de submissions" 
+
+  - "Dashboard personalizado por tipo de usuario" 
+
+  - "Búsqueda inteligente en lista de estudiantes" 
+
+  - "Vista previa de archivos sin descargar" 
+
+  - "Sistema de autenticación con redes sociales" 
+
+- Claims:
+
+- "Los estudiantes universitarios prefieren apps móviles sobre web" 
+
+- "Los profesores necesitan estadísticas en tiempo real" 
+
+- "La gestión visual de cursos es importante para profesores" 
+
+- "Los estudiantes se organizan por fechas de entrega" 
+
+- "La retroalimentación manual es valorada sobre la automática"  
+
+- "Los profesores quieren control total sobre la eliminación de estudiantes" 
+
+- "La gestión visual de cursos es importante para profesores" 
+
+- "Múltiples entregas por assignment es una necesidad crítica" 
+
+#### 8.1.3 Experiment-Ready Questions
+
+A continuación, se presentan las preguntas listas para experimento, derivadas del análisis previo del estado actual y del material bruto (assumptions, knowledge gaps, ideas y claims). Estas preguntas se dividen en dos categorías: 
+
+- Preguntas impulsadas por creencias (Belief-led): Buscan comprobar si una premisa que creemos sobre los usuarios, el sistema o el contexto es realmente cierta. 
+
+- Preguntas exploratorias: Buscan recolectar conocimiento nuevo en áreas donde aún no existen datos o certezas.
+
+**Preguntas Impulsadas por Creencias (Belief-led) Prioritarias:**
+
+**Pregunta 1:**
+
+“Los estudiantes necesitan recibir notificaciones automáticas para recordar entregas próximas, nuevas tareas y materiales publicados” 
+
+- WHO: Estudiantes unidos a cursos activos 
+
+- WHAT: Sistema de notificaciones académicas (recordatorios de entregas, avisos de nuevas tareas y archivos) 
+
+- WHERE: En la aplicación móvil y en la web, dentro del panel principal del estudiante 
+
+- WHEN: Durante el ciclo académico, especialmente antes de fechas límite o cuando el profesor publica nuevas actividades 
+
+- WHY: Validar si las notificaciones ayudan a los estudiantes a organizar mejor sus tiempos 
+
+- HOW: Comparar tasas de entrega puntual, frecuencia de acceso, número notificaciones leídas y no leídas 
+
+¿Las notificaciones automáticas mejoran el seguimiento académico por parte del estudiante? 
+
+**Pregunta 2:**
+
+“Los usuarios valoran la posibilidad de cambiar el idioma de la plataforma (i18n) para adaptarla a sus preferencias” 
+
+- WHO: Estudiantes y profesores con distintos niveles de dominio del español o inglés 
+
+- WHAT: Funcionalidad de cambio de idioma dentro del sistema 
+
+- WHERE: En la barra superior de navegación, mediante un botón para activar o desactivar el idioma 
+
+- WHEN: Durante el uso continuo de la plataforma, especialmente al personalizar la experiencia 
+
+- WHY: Determinar si el soporte multilingüe mejora la accesibilidad y reduce la fricción de uso 
+
+- HOW: Medir cuántos usuarios activan el cambio de idioma, y comparar su tiempo de aprendizaje o dificultades reportadas 
+
+¿La opción de cambiar el idioma desde la barra superior mejora la accesibilidad y la experiencia de uso para estudiantes y profesores? 
+
+**Pregunta 3:**
+
+“Iconos más claros e intuitivos ayudan a los usuarios a comprender mejor las funciones de la plataforma” 
+
+- WHO: Usuarios nuevos y recurrentes (profesores y estudiantes) 
+
+- WHAT: Conjunto de iconos utilizados en menús, acciones rápidas y módulos del sistema 
+
+- WHERE: Panel principal, módulo de tareas, cursos y barra de navegación 
+
+- WHEN: Durante la interacción diaria con la aplicación 
+
+- WHY: Verificar si iconos más comprensibles reducen la carga cognitiva y los errores de navegación 
+
+- HOW: Comparar errores de clic, tiempos de navegación y tasa de consultas de ayuda entre versiones de iconos 
+
+¿Iconos más claros y estandarizados reducen los errores de navegación y facilitan el uso general de la plataforma? 
+
+**Pregunta 4:**
+
+“La disponibilidad de un modo oscuro mejora la comodidad visual y reduce el cansancio durante su uso prolongado” 
+
+- WHO: Estudiantes y profesores que usan la plataforma en horarios nocturnos o ambientes con poca luz 
+
+- WHAT: Activación del modo oscuro en la web y la aplicación móvil 
+
+- WHERE: Configuración del usuario y apariencia general de la interfaz 
+
+- WHEN: Durante sesiones de estudio nocturnas o uso prolongado de la plataforma 
+
+- WHY: Determinar si el modo oscuro aumenta la comodidad visual y reduce abandono por fatiga ocular 
+
+- HOW: Medir tiempo promedio de uso continuo y satisfacción reportada entre modo claro y modo oscuro 
+
+¿El modo oscuro incrementa la comodidad visual y mejora la experiencia durante sesiones prolongadas dentro de la plataforma? 
+
+**Pregunta 5:**
+
+“Los profesores comprenden mejor el rendimiento del aula cuando las estadísticas se presentan mediante gráficos más claros” 
+
+- WHO: Profesores que consultan graficas de rendimiento académico 
+
+- WHAT: Versión mejorada de estadísticas con gráficos más claros y visuales 
+
+- WHERE: Panel de estadísticas del curso dentro del panel docente 
+
+- WHEN: Durante evaluaciones semanales, parciales o al preparar reportes académicos 
+
+- WHY: Validar si las mejoras en visualización permiten a los docentes interpretar el desempeño del grupo de manera más rápida y precisa 
+
+- HOW: Comparar tiempos de comprensión, frecuencia de uso y clics relevantes entre la versión antigua y la versión mejorada del módulo de estadísticas 
+
+¿La presentación de estadísticas mediante gráficos más claros y visuales facilita a los profesores la interpretación del rendimiento académico del curso? 
+
+**Preguntas Exploratorias**
+
+**Pregunta Exploratoria 1:**
+
+- WHO: Estudiantes activos de institutos tecnológicos. 
+
+- WHAT: Tipos de dispositivos utilizados (smartphone, laptop, tablet o PC de escritorio). 
+
+- WHERE: En los distintos contextos de uso: hogar, campus o espacios públicos. 
+
+- WHEN: Durante las sesiones académicas, horarios pico o entrega de tareas. 
+
+- WHY: Identificar los dispositivos predominantes para optimizar el diseño responsive y el rendimiento de la plataforma. 
+
+- HOW: Mediante análisis de user-agent del navegador, registros de sesión y encuestas breves a usuarios. 
+
+¿Qué tipo de dispositivos usan con mayor frecuencia los estudiantes para acceder al sistema? 
+
+**Pregunta Exploratoria 2:**
+
+- WHO: Profesores que gestionan cursos dentro de la plataforma. 
+
+- WHAT: Tiempo máximo considerado adecuado para calificar tareas o exámenes. 
+
+- WHERE: En el entorno de calificación del módulo docente. 
+
+- WHEN: Durante los periodos de evaluación o cierre de entregas. 
+
+- WHY: Conocer las expectativas temporales docentes para definir alertas, SLA o recordatorios automáticos de calificación. 
+
+- HOW: A través de encuestas, entrevistas y medición de tiempos reales en los registros de evaluación. 
+
+¿Cuál es el tiempo de calificación promedio que los docentes consideran aceptable? 
+
+**Pregunta Exploratoria 3:**
+
+- WHO: Estudiantes que realizan entregas de assignments. 
+
+- WHAT: Tipos de archivo (PDF, DOCX, ZIP, MP4, etc.) que presentan fallas durante la subida. 
+
+- WHERE: En el módulo de entregas del sistema. 
+
+- WHEN: Durante el proceso de carga o al intentar guardar una entrega. 
+
+- WHY: Identificar los formatos más problemáticos para mejorar la compatibilidad y mensajes de validación. 
+
+- HOW: Analizando los registros de error del backend y reportes automáticos de fallos por tipo MIME. 
+
+¿Qué formatos de archivo generan más errores al subirlos? 
+
+**Pregunta Exploratoria 4:**
+
+- WHO: Estudiantes y profesores usuarios activos del sistema. 
+
+- WHAT: Canal de comunicación más efectivo y preferido para recordatorios académicos. 
+
+- WHERE: En el contexto del módulo de notificaciones o calendario de tareas. 
+
+- WHEN: Durante la semana previa a una fecha límite o evento importante. 
+
+- WHY: Determinar qué canal genera mayor tasa de atención y respuesta para optimizar las estrategias de comunicación. 
+
+- HOW: Por medio de encuestas A/B y registro de interacción (apertura de correo, lectura de notificación push, clics en SMS). 
+
+¿Qué canal de notificación (push, correo, SMS) prefieren los usuarios para recordar fechas límite? 
+
+**Pregunta Exploratoria 5:**
+
+- WHO: Profesores con experiencia en la gestión de grupos académicos. 
+
+- WHAT: Número ideal de estudiantes por curso para mantener un control efectivo del aprendizaje y evaluación. 
+
+- WHERE: En el módulo de administración de cursos y calificaciones. 
+
+- WHEN: Durante los periodos de alta carga docente o evaluación masiva. 
+
+- WHY: Comprender el umbral óptimo de tamaño de grupo para mejorar el rendimiento del docente y la experiencia del estudiante. 
+
+- HOW: Mediante encuestas estructuradas y análisis de correlación entre cantidad de alumnos, tiempo de calificación y calidad del feedback. 
+
+¿Cuál es la cantidad de alumnos que un docente considera manejable por curso? 
+
 #### 8.1.4 Question Backlog  
+
+Una vez formuladas las preguntas listas para experimento, se procedió a priorizarlas según su nivel de impacto, riesgo, confianza e interés. Esta priorización permite identificar qué preguntas deben responderse primero, ya que su validación o falsificación influye directamente en las decisiones de diseño y desarrollo del sistema. 
+
+El siguiente backlog organiza las preguntas en orden descendente de prioridad, utilizando una escala del 1 al 5, donde 5 representa el valor más alto en cada criterio.
+
+<table>
+  <thead>
+    <tr>
+      <th>Pregunta</th>
+      <th>Confianza</th>
+      <th>Riesgo</th>
+      <th>Impacto</th>
+      <th>Interés</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>¿Las notificaciones automáticas mejoran el seguimiento académico por parte del estudiante?</td>
+      <td>5</td>
+      <td>5</td>
+      <td>5</td>
+      <td>5</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>¿La opción de cambiar el idioma desde la barra superior mejora la accesibilidad y la experiencia de uso para estudiantes y profesores?</td>
+      <td>5</td>
+      <td>4</td>
+      <td>5</td>
+      <td>5</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>¿Iconos más claros y estandarizados reducen los errores de navegación y facilitan el uso general de la plataforma?</td>
+      <td>5</td>
+      <td>4</td>
+      <td>5</td>
+      <td>5</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>¿El modo oscuro incrementa la comodidad visual y mejora la experiencia durante sesiones prolongadas dentro de la plataforma?</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+      <td>5</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>¿La presentación de estadísticas mediante gráficos más claros facilita a los profesores la interpretación del rendimiento académico del curso?</td>
+      <td>4</td>
+      <td>4</td>
+      <td>5</td>
+      <td>5</td>
+      <td>18</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 8.1.5 Experiment Cards  
+
+A partir de las preguntas prioritarias identificadas en el Question Backlog, se diseñaron las tarjetas de experimento. 
+
+Estas tarjetas sirven como artefactos centrales del proceso Experiment-Driven Development, permitiendo planificar la validación de las creencias del equipo a través de hipótesis concretas, métricas medibles y condiciones controladas. 
+
+Cada tarjeta presenta dos secciones: 
+
+- Lado Frontal: Define la pregunta, la razón del experimento, la hipótesis y la acción mínima útil para obtener evidencia (Simplest Useful Thing). 
+
+- Lado Posterior: Detalla cómo se medirá el resultado, bajo qué condiciones se ejecutará y qué escala de datos se requiere para obtener conclusiones significativas.
+
+**Experiment Cards Prioritarias:**
+
+**Experiment Card 1**
+
+Lado Frontal 
+
+- Question: ¿Las notificaciones automáticas mejoran el seguimiento académico por parte del estudiante? 
+
+- Why: Para validar si las notificaciones ayudan a los estudiantes a recordar tareas y nuevos archivos publicados en sus cursos. 
+
+- What: Activar notificaciones automáticas sobre tareas nuevas, nuevos materiales y tareas próximas a vencer. 
+
+- Hypothesis: Creemos que el seguimiento académico del alumno respecto a sus cursos mejorara en un 15% al estar actualizado de la nueva información disponible. 
+
+Lado Posterior 
+
+- Measures: Índice de Utilidad Percibida de las Notificaciones (Porcentaje de respuestas positivas en entrevista). 
+
+- Conditions: Entrevistas a un grupo de estudiantes que hayan usado la plataforma con notificaciones automáticas activadas. 
+
+- Scale: Mínimo 3 estudiantes entrevistados para obtener datos significativos. 
+
+**Experiment Card 2**
+
+Lado Frontal 
+
+- Question: ¿La opción de cambiar el idioma mejora la accesibilidad y la experiencia de uso para estudiantes y profesores? 
+
+- Why: Para determinar si el soporte multilingüe reduce confusión, mejora la comprensión y facilita la navegación de la plataforma. 
+
+- What: Habilitar el cambio de idioma desde la barra superior y monitorear su uso y su impacto en la interacción general. 
+
+- Hypothesis: Creemos que al menos el 40% de los usuarios utilizará la función y reportará menor dificultad de uso. 
+
+Lado Posterior 
+
+- Measures: Índice de Valoración de Accesibilidad por Idioma (Porcentaje de respuestas positivas en entrevista). 
+
+- Conditions: Entrevistas a estudiantes y profesores que hayan tenido acceso a la función de cambio de idioma. 
+
+- Scale: Mínimo 6 usuarios entrevistados (estudiantes y profesores). 
+
+**Experiment Card 3**
+
+Lado Frontal 
+
+- Question: ¿Iconos más claros y estandarizados reducen los errores de navegación y facilitan el uso general de la plataforma? 
+
+- Why: Para comprobar si una iconografía más clara reduce confusiones y ayuda a identificar acciones rápidamente. 
+
+- What: Evaluar errores o clics incorrectos en tareas guiadas usando la nueva iconografía. 
+
+- Hypothesis: Creemos que los iconos más intuitivos reducirán en al menos un 20% los errores de navegación durante tareas comunes. 
+
+Lado Posterior 
+
+- Measures: Índice de Claridad Percibida de la Iconografía (Porcentaje de respuestas positivas en entrevista). 
+
+- Conditions: Entrevistas a estudiantes y profesores después de realizar al menos 3 tareas comunes (subir archivo, ver tarea, navegar a un curso) usando la nueva interfaz. 
+
+- Scale: Mínimo 6 usuarios entrevistados. 
+
+**Experiment Card 4**
+
+Lado Frontal 
+
+- Question: ¿El modo oscuro incrementa la comodidad visual y mejora la experiencia durante sesiones prolongadas dentro de la plataforma? 
+
+- Why: Para evaluar si el modo oscuro reduce la fatiga visual y aumenta el tiempo de uso continuo, especialmente en ambientes de baja iluminación. 
+
+- What: Habilitar modo oscuro y registrar su uso y la percepción de comodidad durante sesiones largas. 
+
+- Hypothesis: Creemos que el tiempo de uso continuo aumentará al menos un 20% con el modo oscuro activado. 
+
+Lado Posterior 
+
+- Measures: Índice de Preferencia y Comodidad del Modo Oscuro (Porcentaje de respuestas positivas en entrevista). 
+
+- Conditions: Entrevistas a estudiantes y profesores que hayan usado el modo oscuro. 
+
+- Scale: Mínimo 6 usuarios entrevistados en estas condiciones. 
+
+**Experiment Card 5**
+
+Lado Frontal 
+
+- Question: ¿La presentación de estadísticas mediante gráficos más claros facilita a los profesores la interpretación del rendimiento académico del curso? 
+
+- Why: Para validar si mejorar la visualización de datos ayuda a los docentes a interpretar más rápido y con mayor precisión el rendimiento del aula. 
+
+- What: Mostrar gráficos más visuales y claros, y evaluar el tiempo y precisión con que los docentes interpretan la información. 
+
+- Hypothesis: Creemos que los docentes interpretarán los datos al menos un 25% más rápido con gráficos más claros. 
+
+Lado Posterior 
+
+- Measures: Índice de Utilidad Percibida de los Gráficos Mejorados (Porcentaje de respuestas positivas en entrevista). 
+
+- Conditions: Entrevistas a profesores después de que hayan usado los nuevos gráficos para revisar el rendimiento de al menos un curso. 
+
+- Scale: Mínimo 3 profesores entrevistados. 
 
 ### 8.2 Experiment Design  
 #### 8.2.1 Hypotheses  
-#### 8.2.2 Domain Business Metrics  
-#### 8.2.3 Measures  
-#### 8.2.4 Conditions  
+
+En esta sección se presentan las hipótesis de trabajo y sus correspondientes hipótesis nulas, derivadas de las preguntas impulsadas por creencias planteadas en las Experiment Cards. 
+
+Cada hipótesis se formula bajo los principios de la experimentación científica: debe ser falsificable, comprobable y medible. El propósito no es validar las hipótesis como “verdaderas”, sino ponerlas a prueba para determinar si la evidencia empírica respalda o refuta las creencias iniciales del equipo. 
+ 
+**Hipótesis Prioritarias:**
+
+**Hypothesis 1**
+
+- Question: ¿Las notificaciones automáticas mejoran el seguimiento académico por parte del estudiante? 
+
+- Belief: Los estudiantes dependen de recordatorios oportunos para organizar mejor sus tareas y evitar retrasos cuando manejan varios cursos simultáneamente. 
+
+- Hypothesis: Creemos que el seguimiento académico del alumno respecto a sus cursos mejorara en un 15% al estar actualizado de la nueva información disponible. 
+
+- Null Hypothesis: Las notificaciones automáticas no afectaran el seguimiento académico del alumno al actualizarlo con la nueva información.	 
+
+**Hypothesis 2**
+
+- Question: ¿La opción de cambiar el idioma mejora la accesibilidad y la experiencia de uso para estudiantes y profesores? 
+
+- Belief: El soporte multilingüe permite a usuarios con distinto dominio del español o inglés navegar con mayor claridad y menor fricción. 
+
+- Hypothesis: Creemos que al menos el 40% de los usuarios utilizará la función y reportará menor dificultad de uso. 
+
+- Null Hypothesis: La opción de cambiar el idioma no mejorará la accesibilidad ni reducirá la confusión. 
+
+**Hypothesis 3**
+
+- Question: ¿Iconos más claros y estandarizados reducen los errores de navegación y facilitan el uso general de la plataforma? 
+
+- Belief: Unos iconos más claros mejora la comprensión visual y reduce la carga cognitiva durante tareas comunes. 
+
+- Hypothesis: Creemos que los iconos más intuitivos reducirán en al menos un 20% los errores de navegación durante tareas comunes. 
+
+- Null Hypothesis: Los iconos más intuitivos no tendrán un impacto en la navegación durante tareas comunes. 
+
+**Hypothesis 4**
+
+- Question: ¿El modo oscuro incrementa la comodidad visual y mejora la experiencia durante sesiones prolongadas dentro de la plataforma? 
+
+- Belief: Los usuarios experimentan menos fatiga ocular en ambientes con poca luz cuando utilizan interfaces en modo oscuro. 
+
+- Hypothesis: Creemos que el tiempo de uso continuo aumentará al menos un 20% con el modo oscuro activado. 
+
+- Null Hypothesis: El modo oscuro no tendrá impacto en el tiempo de uso continuo. 
+
+**Hypothesis 5**
+
+- Question: ¿La presentación de estadísticas mediante gráficos más claros facilita a los profesores la interpretación del rendimiento académico del curso? 
+
+- Belief: Los docentes interpretan mejor los datos cuando se presentan mediante gráficos simplificados y visualmente claros. 
+
+- Hypothesis: Creemos que los docentes interpretarán los datos al menos un 25% más rápido con gráficos más claros. 
+
+- Null Hypothesis: Los gráficos claros no afectaran la interpretación del docente en el rendimiento académico del curso.
+
+#### 8.2.2 Domain Business Metrics
+
+Esta sección busca alinear la medición de los experimentos con los objetivos de negocio y de producto, asegurando que toda hipótesis se relacione directamente con métricas concretas, cuantificables y relevantes. 
+
+De esta manera se evita depender de vanity metrics (indicadores que parecen positivos, pero no generan valor real) y se garantiza que los resultados obtenidos sirvan para tomar decisiones fundamentadas. 
+
+Las métricas definidas se centran en tres dimensiones clave del sistema: eficiencia de uso, adopción de funcionalidades y experiencia de usuario.
+
+<table>
+  <thead>
+    <tr>
+      <th>Métrica</th>
+      <th>Descripción</th>
+      <th>Fórmula de cálculo</th>
+      <th>Técnica de recolección</th>
+      <th>Meta deseada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Índice de Utilidad Percibida de las Notificaciones</strong></td>
+      <td>Mide el grado en que los estudiantes perciben que las notificaciones automáticas son útiles para su organización y seguimiento académico.</td>
+      <td>(N° de respuestas positivas a las 3 preguntas / Total de respuestas posibles (3 x N° de entrevistados)) x 100</td>
+      <td><strong>Entrevista a estudiantes.</strong> Se hace un promedio del % de respuestas "Sí" o "Útil" a:<br>
+        1. (Notificaciones) "¿Qué tipo de notificación te resulta más útil para no olvidar tus tareas o entregas?" (Se considera positiva si menciona alertas automáticas).<br>
+        2. (Notificaciones) "Si el profesor publica una tarea o sube un nuevo archivo, ¿esperarías recibir una alerta de inmediato?" (Respuesta "Sí").<br>
+        3. (Centro de notificaciones) "¿Te parece valioso contar con un centro de notificaciones...?" (Respuesta "Sí" con justificación positiva).</td>
+      <td>≥ 75% de las respuestas son positivas en promedio.</td>
+    </tr>
+    <tr>
+      <td><strong>Índice de Valoración de Accesibilidad por Idioma</strong></td>
+      <td>Mide la percepción conjunta de estudiantes y profesores sobre la utilidad y corrección de la función de cambio de idioma para mejorar la accesibilidad.</td>
+      <td>(N° de respuestas positivas a las 2 preguntas / Total de respuestas posibles (2 x N° de entrevistados)) x 100</td>
+      <td><strong>Entrevista a estudiantes Y profesores.</strong> Promedio del % de respuestas "Importante" o "Sí" a:<br>
+        1. (Traducción-Estudiantes) "¿Qué tan importante es para ti que toda la plataforma esté traducida correctamente...?" (Se considera positiva puntuación alta 4-5 en escala de importancia).<br>
+        2. (Traducción-Profesores) "¿Le parece útil contar con un selector de idioma para navegar la plataforma?" (Respuesta "Sí").<br>
+        (Se pueden promediar ambos segmentos o mantenerlos separados. Para simplificar, se promedian).</td>
+      <td>≥ 60% de las respuestas son positivas en promedio.</td>
+    </tr>
+    <tr>
+      <td><strong>Índice de Claridad Percibida de la Iconografía</strong></td>
+      <td>Mide la percepción de los usuarios sobre si los iconos les ayudan a navegar más rápido y con menos errores.</td>
+      <td>(N° de respuestas positivas a las 2 preguntas / Total de respuestas posibles (2 x N° de entrevistados)) x 100</td>
+      <td><strong>Entrevista a estudiantes Y profesores.</strong> Promedio del % de respuestas "Sí" o "De Acuerdo" a:<br>
+        1. (Iconos-Estudiantes) "¿Los iconos te ayudan a encontrar lo que buscas más rápido dentro de la plataforma?" (Respuesta "Sí").<br>
+        2. (Iconos-Profesores) "¿Los iconos le ayudan a identificar rápidamente las secciones o acciones dentro de la plataforma?" (Respuesta "Sí").</td>
+      <td>≥ 70% de las respuestas son positivas en promedio.</td>
+    </tr>
+    <tr>
+      <td><strong>Índice de Preferencia y Comodidad del Modo Oscuro</strong></td>
+      <td>Mide la preferencia declarada y la utilidad percibida del modo oscuro para sesiones prolongadas o en condiciones específicas.</td>
+      <td>(N° de respuestas positivas a las 2 preguntas / Total de respuestas posibles (2 x N° de entrevistados)) x 100</td>
+      <td><strong>Entrevista a estudiantes Y profesores.</strong> Promedio del % de respuestas que indican preferencia y utilidad situacional:<br>
+        1. (Tema claro/oscuro - Ambos) "¿Tienes/Le tiene preferencia por modo claro u oscuro? ¿En qué situaciones te es más útil?" (Se considera positiva si menciona modo oscuro como preferido o útil en situaciones de poca luz/noche).<br>
+        2. (Tema claro/oscuro - Ambos) "¿Esperarías que el cambio de tema se aplique de inmediato sin recargar la página?" (Respuesta "Sí" refuerza la valoración de la función).</td>
+      <td>≥ 60% de las respuestas indican preferencia/utilidad del modo oscuro.</td>
+    </tr>
+    <tr>
+      <td><strong>Índice de Utilidad Percibida de los Gráficos Mejorados</strong></td>
+      <td>Mide la percepción de los profesores sobre la claridad y el valor de los gráficos para interpretar el rendimiento.</td>
+      <td>(N° de respuestas positivas a las 2 preguntas / Total de respuestas posibles (2 x N° de profesores entrevistados)) x 100</td>
+      <td><strong>Entrevista solo a profesores.</strong> Promedio del % de respuestas que indican preferencia por vista consolidada y claridad:<br>
+        1. (Estadísticas) "Cuando revisa estadísticas académicas, ¿prefiere ver todo en una sola vista o en secciones separadas?" (Se considera positiva la preferencia por "una sola vista", asociada a gráficos unificados y claros).<br>
+        2. (Estadísticas) "¿Qué métricas considera más valiosas para evaluar el progreso...?" (Se considera positiva si las métricas que menciona coinciden con las mostradas en los nuevos gráficos – validación de contenido relevante).</td>
+      <td>≥ 75% de las respuestas de profesores son positivas.</td>
+    </tr>
+  </tbody>
+</table>
+
+Estas métricas constituyen la base para evaluar el impacto de las hipótesis en el comportamiento real de los usuarios y permiten identificar de forma objetiva si las mejoras propuestas aportan valor al dominio educativo de la plataforma.
+
+#### 8.2.3 Measures
+
+Las medidas constituyen los indicadores seleccionados para recopilar la evidencia empírica que permita comprobar o rechazar las hipótesis planteadas. Cada medida está diseñada para ser representativa, calculable y proporcional, de modo que refleje el cambio esperado en la percepción y experiencia reportada por los usuarios. 
+
+Dado que la fase inicial de experimentación se centra en validar la utilidad percibida y la aceptación de nuevas funcionalidades, las medidas principales se basan en entrevistas semi-estructuradas con los segmentos objetivo (estudiantes y profesores). Este enfoque cualitativo permite capturar evidencia directa y contextual sobre la experiencia de uso, minimizando la infraestructura de telemetría en etapas tempranas. 
+
+A continuación, se presentan las medidas principales, directamente relacionadas con cada pregunta experimental.
+
+**Medidas Prioritarias:**
+
+**Question 1:**
+
+¿Las notificaciones automáticas mejoran el seguimiento académico por parte del estudiante? 
+
+- Measure: Índice de Utilidad Percibida de las Notificaciones. Porcentaje promedio de respuestas positivas en entrevistas sobre la utilidad de las alertas automáticas. 
+
+- Indicadores adicionales: Tipo específico de notificación considerada más útil por los estudiantes (recordatorio de vencimiento, nuevo material, etc.) y valoración del centro de notificaciones unificado. 
+
+- Objetivo: Determinar si los estudiantes perciben que las notificaciones automáticas son una herramienta valiosa para organizar sus tareas y mantenerse al día con sus cursos. 
+
+**Question 2:**
+
+¿La opción de cambiar el idioma mejora la accesibilidad y la experiencia de uso para estudiantes y profesores? 
+
+- Measure: Índice de Valoración de Accesibilidad por Idioma. Porcentaje promedio de respuestas positivas en entrevistas sobre la importancia de una traducción correcta y la utilidad del selector de idioma. 
+
+- Indicadores adicionales: Perfil de usuario que más valora la función (estudiante o profesor) y situaciones específicas donde se considera más necesaria. 
+
+- Objetivo: Evaluar si el soporte multilingüe es percibido como un facilitador que reduce la fricción y mejora la comprensión para usuarios con diferentes dominios lingüísticos. 
+
+**Question 3:**
+
+¿Iconos más claros y estandarizados reducen los errores de navegación y facilitan el uso general de la plataforma? 
+
+- Measure: Índice de Claridad Percibida de la Iconografía. Porcentaje promedio de respuestas positivas en entrevistas sobre si los iconos ayudan a encontrar funciones rápidamente y a identificar acciones. 
+
+- Indicadores adicionales: Identificación de iconos potencialmente confusos y sugerencias de mejora específicas de los usuarios. 
+
+- Objetivo: Comprobar si la nueva iconografía es percibida como más intuitiva y clara, lo que sugiere una reducción potencial en la carga cognitiva y los errores durante la navegación. 
+
+**Question 4:**
+
+¿El modo oscuro incrementa la comodidad visual y mejora la experiencia durante sesiones prolongadas dentro de la plataforma? 
+
+- Measure: Índice de Preferencia y Comodidad del Modo Oscuro. Porcentaje promedio de respuestas en entrevistas que indican una preferencia o utilidad situacional por el modo oscuro. 
+
+- Indicadores adicionales: Condiciones ambientales asociadas a su uso (noche, ambientes con poca luz) y expectativa sobre la inmediatez del cambio de tema. 
+
+- Objetivo: Evaluar si el modo oscuro es percibido como una característica cómoda y deseable para su uso en sesiones largas o condiciones específicas de iluminación. 
+
+**Question 5:**
+
+¿La presentación de estadísticas mediante gráficos más claros facilita a los profesores la interpretación del rendimiento académico del curso? 
+
+- Measure: Índice de Utilidad Percibida de los Gráficos Mejorados. Porcentaje promedio de respuestas positivas en entrevistas con profesores sobre la claridad de la vista unificada y la relevancia de las métricas mostradas. 
+
+- Indicadores adicionales: Preferencia por vista consolidada frente a vistas separadas y listado de métricas que los docentes consideran más valiosas. 
+
+- Objetivo: Determinar si los docentes perciben los nuevos gráficos como una herramienta más clara y útil para analizar el rendimiento académico de manera integral. 
+
+ 
+**Medidas Secundarias**
+
+Además de las medidas principales, se considerarán indicadores complementarios que proporcionen evidencia secundaria relevante: 
+
+- Tasa de aceptación a la entrevista: Porcentaje de usuarios contactados que acceden a participar. 
+
+- Para garantizar que sean eficientes y respetuosas con el tiempo del usuario. 
+
+- Para identificar hallazgos inesperados o pain points adicionales. 
+
+- Consistencia en las respuestas entre diferentes usuarios del mismo segmento, para validar la fiabilidad de los hallazgos. 
+
+- Escala muestral alcanzada: Verificación de que se alcanzó el número mínimo planificado de entrevistas por experimento (Scale), para asegurar la significancia de los datos. 
+
+Todas las medidas principales serán recolectadas de manera estructurada a través de guías de entrevista, garantizando la trazabilidad y consistencia de los datos cualitativos, los cuales serán cuantificados posteriormente según las fórmulas definidas. El equipo solo mantendrá activo el proceso de entrevistas durante el tiempo justo necesario para alcanzar la escala muestral definida, minimizando costos y la fatiga de los participantes. Una vez concluida la fase de entrevistas, la medición se dará por finalizada.
+
+#### 8.2.4 Conditions 
+
+Las condiciones experimentales definen los escenarios controlados bajo los cuales se recopilará la evidencia para evaluar las hipótesis. Para cada pregunta basada en creencias, se establecen dos estados: 
+
+- Condición Experimental: Los participantes utilizan la plataforma que incorpora todas las nuevas funcionalidades (notificaciones automáticas, cambio de idioma, iconografía mejorada, modo oscuro y gráficos claros). Tras un período de uso significativo, se les entrevista para recoger su percepción específica sobre cada feature. 
+
+- Condición de Control (Línea Base): Se realiza una entrevista previa (pre-test) a los mismos participantes (o a un grupo demográficamente equivalente) antes de que tengan acceso a cualquier funcionalidad nueva. Esta entrevista establece la percepción basal, los hábitos actuales y las expectativas, actuando como el punto de referencia para medir el cambio. 
+
+Estas condiciones permiten aislar las variables críticas de cada funcionalidad y asegurar que los resultados reflejen efectos reales y medibles.
+
+**Conditions Prioritarias:**
+
+**Question 1:**
+
+¿Las notificaciones automáticas mejoran el seguimiento académico por parte del estudiante? 
+
+- Condición Experimental: Entrevistar a estudiantes que hayan usado la plataforma con notificaciones automáticas activadas (como parte del conjunto completo de nuevas features) y que hayan recibido alertas sobre tareas y materiales nuevos. 
+
+- Condición de Control: Entrevistar a los mismos estudiantes (u otros equivalentes) antes de la implementación, consultando sobre sus métodos actuales de organización y seguimiento de tareas sin notificaciones automáticas. 
+
+**Question 2:**
+
+¿La opción de cambiar el idioma mejora la accesibilidad y la experiencia de uso para estudiantes y profesores? 
+
+- Condición Experimental: Entrevistar a estudiantes y profesores que hayan tenido acceso y oportunidad de usar la función de cambio de idioma en la barra superior durante su uso normal de la plataforma mejorada. 
+
+- Condición de Control: Entrevistar a los mismos usuarios antes de la implementación, indagando sobre dificultades de comprensión o deseos de personalización sin la opción multilingüe disponible. 
+
+**Question 3:**
+
+¿Iconos más claros y estandarizados reducen los errores de navegación y facilitan el uso general de la plataforma? 
+
+- Condición Experimental: Entrevistar a usuarios después de que hayan realizado al menos 3 tareas comunes (subir archivo, ver tarea, navegar a un curso) usando la nueva interfaz con iconografía mejorada. 
+
+- Condición de Control: Entrevistar a los mismos usuarios antes de la implementación, preguntando sobre confusiones o errores comunes al navegar la plataforma con la iconografía anterior. 
+
+**Question 4:**
+
+¿El modo oscuro incrementa la comodidad visual y mejora la experiencia durante sesiones prolongadas dentro de la plataforma? 
+
+- Condición Experimental: Entrevistar a estudiantes y profesores que hayan activado y usado el modo oscuro en la plataforma mejorada, especialmente en condiciones de baja luz o sesiones largas. 
+
+- Condición de Control: Entrevistar a los mismos usuarios antes de la implementación, consultando sobre sus hábitos de uso, fatiga visual y preferencias en diferentes condiciones de iluminación sin la opción de modo oscuro. 
+
+**Question 5:**
+
+¿La presentación de estadísticas mediante gráficos más claros facilita a los profesores la interpretación del rendimiento académico del curso? 
+
+- Condición Experimental: Entrevistar a profesores después de que hayan usado los nuevos gráficos para revisar el rendimiento de al menos un curso completo en la plataforma mejorada. 
+
+- Condición de Control: Entrevistar a los mismos profesores antes de la implementación, explorando sus métodos, tiempos y dificultades actuales para analizar los datos del curso con las herramientas de visualización anteriores. 
+
+
 #### 8.2.5 Scale Calculations and Decisions  
-#### 8.2.6 Methods Selection  
-#### 8.2.7 Data Analytics: Goals, KPIs and Metrics Selection  
+
+En LearnHive, este enfoque se aplica para evaluar el cumplimiento de las hipótesis relacionadas con la mejora del aprendizaje y la gestión académica. Cada hipótesis se vincula con métricas específicas que reflejan el uso, la participación y el rendimiento dentro de la plataforma. Se considera ideal cuando los indicadores alcanzan plenamente los objetivos, aceptable cuando se mantienen dentro de un rango intermedio y desfavorable si están por debajo del mínimo esperado. Un nivel excelente se alcanza cuando los resultados superan el valor ideal en un 25 % o más, evidenciando un impacto positivo notable. Este método permite validar decisiones de diseño y desarrollo basadas en datos reales del uso de LearnHive. 
+
+Scale Calculations Prioritarias:  
+
+<table>
+  <thead>
+    <tr>
+      <th>Scale Calculation</th>
+      <th>Decisión</th>
+      <th>Factor</th>
+      <th>Desfavorable</th>
+      <th>Aceptable</th>
+      <th>Ideal</th>
+      <th>Excelente</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Creemos que el seguimiento académico mejorará en un 15%. Sabremos que esto es cierto cuando el Índice de Utilidad Percibida de las Notificaciones (porcentaje de respuestas positivas de estudiantes) alcance o supere el umbral definido como meta.</strong></td>
+      <td>Implementar el sistema de notificaciones automáticas para todos los estudiantes, configurando los tipos de alertas (tarea nueva, material nuevo, vencimiento próximo).</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Creemos que al menos el 40% de los usuarios utilizará la función y reportará menor dificultad. Sabremos que esto es cierto cuando el Índice de Valoración de Accesibilidad por Idioma (porcentaje de respuestas positivas combinado de estudiantes y profesores) alcance o supere el umbral definido como meta.</strong></td>
+      <td>Implementar el selector de idioma en la barra superior de la plataforma, asegurando una traducción completa y de calidad para mejorar la accesibilidad.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Creemos que los iconos más intuitivos reducirán en al menos un 20% los errores. Sabremos que esto es cierto cuando el Índice de Claridad Percibida de la Iconografía (porcentaje de respuestas positivas de usuarios) alcance o supere el umbral definido como meta, indicando una percepción clara de mejora.</strong></td>
+      <td>Implementar un rediseño visual con iconos estandarizados y descriptivos que mejoren la orientación del usuario dentro de LearnHive.</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Creemos que el tiempo de uso continuo aumentará al menos un 20%. Sabremos que esto es cierto cuando el Índice de Preferencia y Comodidad del Modo Oscuro (porcentaje de respuestas que indican preferencia o utilidad) alcance o supere el umbral definido como meta.</strong></td>
+      <td>Implementar un modo oscuro adaptable que permita al usuario personalizar la interfaz y reducir la fatiga visual durante el estudio o la enseñanza.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Creemos que los docentes interpretarán los datos al menos un 25% más rápido. Sabremos que esto es cierto cuando el Índice de Utilidad Percibida de los Gráficos Mejorados (porcentaje de respuestas positivas de profesores) alcance o supere el umbral definido como meta.</strong></td>
+      <td>Implementar mejoras de estadísticas visuales dentro del panel docente que permita identificar patrones de rendimiento y ofrecer seguimiento académico consolidado.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+#### 8.2.6 Methods Selection
+
+Esta sección describe cómo se lleva a cabo la investigación para cada una de las hipótesis planteadas. El principio rector es que el método seleccionado debe ser el Simplest Useful Thing (la cosa más simple y útil) capaz de generar la evidencia necesaria bajo las condiciones y la escala definidas, sin incurrir en complejidad innecesaria. 
+
+Para la fase inicial de validación de LearnHive, el objeto de investigación (la pregunta sobre la percepción de valor y usabilidad de nuevas funcionalidades) se aborda con un método de investigación cualitativa: entrevistas semi-estructuradas conducidas en un diseño de pre-test y post-test con un solo grupo. Este método es el más simple y útil porque: 
+
+1. Minimiza la infraestructura técnica: No requiere sistemas complejos de A/B testing, segmentación de usuarios en tiempo real o telemetría avanzada, los cuales son costosos de implementar en etapas tempranas. 
+
+2. Maximiza el insight contextual: Permite capturar no solo el "qué" (si les gusta), sino el "por qué" detrás de las percepciones de estudiantes y profesores, proporcionando razones profundas para iterar o validar. 
+
+3. Se adapta a la escala muestral pequeña: Es factible y ético reclutar y entrevistar a 3-6 usuarios por segmento, logrando saturación de información para temas de usabilidad y aceptación percibida. 
+
+4. Cumple con las condiciones definidas: Permite operacionalizar perfectamente las "Condiciones" (entrevista previa sin features y posterior con features) y recoger las "Medidas" (Índices de percepción) de manera directa.
+
+Aplicación del Método por Experimento: 
+
+- Experimento 1 a 5: El método es idéntico y aplicado de manera consolidada. No se ejecutan 5 experimentos separados. En su lugar, se ejecuta un único estudio de usuario donde: 
+
+  1. Pre-Test (Control): Se entrevista a los participantes (estudiantes y profesores), enfocándose en su experiencia sin la integracion de las 5 funcionalidades, utilizando las preguntas específicas definidas en las guías de entrevista. 
+
+  2. Post-Test (Experimental): Se vuelve a entrevistar a los mismos participantes, enfocándose en su experiencia con cada una de las 5 funcionalidades, utilizando las preguntas específicas definidas en las guías de entrevista. Los participantes utilizan la plataforma integrada con las 5 nuevas funcionalidades.
+
+Normas Esenciales y Consideraciones Éticas: 
+
+1. Unicidad de la Exposición: Un mismo usuario no será expuesto simultaneamente a dos o mas experimentos del mismo tema. Experimenta un único estado integral de la plataforma (con todas las mejoras), lo que elimina el riesgo de contaminación cruzada entre condiciones. 
+
+2. No Causar Daño (Principio de No Maleficencia): 
+
+  - Consentimiento Informado: Todos los participantes serán informados sobre el propósito de la investigación, el uso de los datos, su anonimato y su derecho a retirarse en cualquier momento sin consecuencia alguna. 
+
+  - Carga Minimizada: Las entrevistas serán breves (15-20 min), se programarán en horarios convenientes para los participantes y no interferirán con sus actividades académicas críticas. 
+
+3. Principio de Simplicidad: Al utilizar un solo método (entrevistas) aplicado de forma consolidada, se evita la complejidad de coordinar múltiples métodos simultáneos (ej: A/B tests, diarios de uso, eye-tracking), lo que se alinea con el principio del "Simplest Useful Thing" para esta fase de descubrimiento y validación inicial. 
+
+En conclusión, la selección del método de test de usabilidad comparativo de dos partes (SIN/CON) representa la opción más simple, ética y efectiva para obtener evidencia comparativa directa de la percepción del usuario, necesaria para validar o refutar las hipótesis de esta ronda de experimentación en LearnHive.
+
+Una vez validada la percepción positiva (si los Índices alcanzan nivel "Aceptable" o superior), se debe asegurar que la implementación técnica de las funcionalidades no degrade la experiencia en aspectos medibles de rendimiento, accesibilidad y consistencia visual. Para esto, se seleccionan métodos automatizados. 
+
+<table>
+  <thead>
+    <tr>
+      <th>Herramienta</th>
+      <th>Precio</th>
+      <th>Capacidad de Análisis</th>
+      <th>Sencillez</th>
+      <th>Ventajas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Lighthouse</strong></td>
+      <td>Gratuito, ejecutable en navegador o CI/CD</td>
+      <td>Auditoría de rendimiento, accesibilidad y buenas prácticas de UI.</td>
+      <td>Interfaz directa, integrada en Chrome.</td>
+      <td>Ideal para medir velocidad, accesibilidad y calidad de experiencia del panel principal.</td>
+    </tr>
+    <tr>
+      <td><strong>RedLine13</strong></td>
+      <td>Gratuito con limitaciones</td>
+      <td>Pruebas de carga y rendimiento bajo condiciones de concurrencia.</td>
+      <td>Interfaz técnica pero configurable.</td>
+      <td>Evalúa estabilidad del sistema con múltiples usuarios simultáneos.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 8.2.7 Data Analytics: Goals, KPIs and Metrics Selection 
+
+Se llevaron a cabo pruebas de rendimiento, accesibilidad y mejores prácticas con Lighthouse en nuestra aplicación LearnHive para evaluar su desempeño y optimizar la experiencia de usuario.
+
+<img src="./assets/chapter-8/data_analytics_1.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_2.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_3.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_4.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_5.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_6.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_7.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_8.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_9.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_10.png" alt="Data Analytics" width="500"/><br>
+
+<img src="./assets/chapter-8/data_analytics_11.png" alt="Data Analytics" width="500"/><br>
+
+
 #### 8.2.8 Web and Mobile Tracking Plan  
 
+Definiremos la estrategia para monitorear, analizar y optimizar el uso de la plataforma web y móvil, con el fin de mejorar la experiencia de los estudiantes y docentes. Este plan permite obtener el flujo de los usuarios, medir el rendimiento del sistema y evaluar la efectividad de las funcionalidades implementadas. 
+A través de un monitoreo estructurado y continuo, LearnHive busca que cada nueva funcionalidad como el panel docente, la gestión de tareas y el seguimiento académico cumpla con los objetivos del proyecto. 
+
+1. Definición de Objetivos y Recopilación de datos. 
+
+Objetivo Principal: 
+Optimizar la experiencia de aprendizaje y gestión académica mediante la medición de participación, retención y rendimiento de los usuarios en la plataforma. 
+
+Alineación con Objetivos de Negocio: 
+
+- Incrementar la interacción entre estudiantes y docentes. 
+
+- Mejorar el cumplimiento de tareas y evaluaciones. 
+
+- Reducir el tiempo invertido en organización y comunicación académica. 
+
+Consideración del Ciclo de Vida del Producto: 
+
+- Fase inicial: priorizar métricas de engagement. 
+
+- Fase intermedia: enfocarse en retención, recurrencia y eficiencia operativa. 
+
+Recopilación de Datos: 
+
+- Métricas de Uso: Número de tareas creadas, completadas y pendientes; frecuencia de uso por docente y alumno. 
+
+- Interacciones de Usuarios: Clics, tiempo promedio dentro de la aplicación. 
+
+- Feedback de Usuarios: Opiniones recogidas mediante encuestas integradas o formularios rápidos sobre facilidad de uso, claridad de diseño y utilidad. 
+
+- Análisis Comparativo: 
+Se compararán los datos obtenidos con las métricas previas a la implementación  para evaluar el impacto del nuevo sistema de gestión de tareas. 
+
+2. Mapeo del Journey del Usuario 
+
+Visualización de la Experiencia: 
+Se rastrea el recorrido de los usuarios dentro de la plataforma, desde el inicio de sesión hasta la entrega de tareas o revisión académica. 
+
+Eventos Clave: 
+
+- Inicio de sesión → Identifica usuarios activos diarios. 
+
+- Unión a un curso → Evalúa interés y navegación en la oferta educativa. 
+
+- Creación de tarea / entrega de tarea → Mide participación y cumplimiento. 
+
+- Revisión de estadísticas académicas → Indica uso del panel docente. 
+
+- Cierre de sesión → Define duración de la sesión promedio. 
+
+Propiedades del Usuario y del Evento: 
+
+- Rol del usuario (estudiante/docente). 
+
+- Tiempo en completar cada acción. 
+
+- Dispositivo y navegador utilizados. 
+
+- Fecha y frecuencia de interacción. 
+
+
+3. Selección de Herramientas de Implementación 
+
+- Redline y Lighthouse para gestión de etiquetas, rendimiento y accesibilidad. 
+
+4. Documentación del Plan de Tracking 
+
+- Monitoreo Continuo: LearnHive implementará un sistema de seguimiento activo que permitirá evaluar en tiempo real el desempeño del módulo, detectando oportunidades de mejora. 
+
+- Informes Analíticos: Se generarán reportes mensuales que consoliden métricas clave, como participación, entregas completadas y tiempos de respuesta. Estos informes servirán para ver tendencias de interacción, cuellos de botella y funcionalidades con mayor impacto. 
+
+- Optimización Iterativa: Con base en los resultados obtenidos y la retroalimentación directa de los usuarios, se priorizarán mejoras de diseño, usabilidad y rendimiento 
+
 ### 8.3 Experimentation  
-#### 8.3.1 To-Be User Stories  
-#### 8.3.2 To-Be Product Backlog  
+#### 8.3.1 To-Be User Stories
+
+<table>
+  <thead>
+    <tr>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>UA-01</td>
+      <td>Cambio de idioma</td>
+      <td>Como usuario de la aplicación, quiero poder cambiar el idioma de la aplicación para que se adapte a mis preferencias.</td>
+      <td><strong>Escenario 1:</strong><br>Dado un usuario se encuentra en la plataforma, Cuando elige un idioma en un botón de cambio de idioma, Entonces los textos de la aplicación deben cambiar para reflejar ese idioma.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que un usuario ha seleccionado previamente un idioma preferido, Cuando vuelve a iniciar sesión en la aplicación, Entonces la plataforma debe mostrarse automáticamente en el idioma guardado en su configuración.</td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>UA-02</td>
+      <td>Traducción completa de la interfaz</td>
+      <td>Como usuario, quiero que todos los textos visibles de la aplicación estén correctamente traducidos al idioma seleccionado, para tener una experiencia coherente sin elementos sin traducir.</td>
+      <td><strong>Escenario 1:</strong><br>Dado que un usuario cambia el idioma, Cuando navega por diferentes secciones, Entonces todos los textos, botones, menús y mensajes deben mostrarse en el idioma seleccionado.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que el equipo actualiza una sección con nuevos textos, Cuando el usuario cambia el idioma, Entonces los nuevos textos también deben mostrarse traducidos.</td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>UA-03</td>
+      <td>Íconos representativos en la interfaz</td>
+      <td>Como usuario, quiero que haya íconos visuales junto a los títulos y acciones más importantes, para identificar más fácilmente su propósito sin necesidad de leer demasiado texto.</td>
+      <td><strong>Escenario 1:</strong><br>Dado que el usuario navega por la plataforma, Cuando visualiza los títulos principales o acciones destacadas, Entonces debe ver íconos representativos junto a los textos.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que el usuario cambia de sección, Cuando navega a otras pantallas, Entonces el estilo y consistencia de los íconos se mantienen uniformes en toda la aplicación.</td>
+      <td>EP-009</td>
+    </tr>
+    <tr>
+      <td>UA-04</td>
+      <td>Reorganización de la página de estadísticas</td>
+      <td>Como usuario, quiero que la página de estadísticas esté mejor organizada y presente la información más clara, con un diseño más dinámico, para entender mis datos más fácilmente.</td>
+      <td><strong>Escenario 1:</strong><br>Dado que el usuario accede a la página de estadísticas, Cuando se cargan los datos, Entonces estos se muestran en secciones separadas con colores y organización visual mejorada.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que antes todas las estadísticas se mostraban juntas, Cuando el usuario ingresa ahora, Entonces solo se muestra una estadística a la vez, según la opción seleccionada en la barra de categorías.</td>
+      <td>EP-004</td>
+    </tr>
+    <tr>
+      <td>UA-05</td>
+      <td>Notificaciones de nuevas tareas</td>
+      <td>Como estudiante, quiero recibir notificaciones cuando el profesor publique un nuevo trabajo, para mantenerme informado sobre las actividades del curso.</td>
+      <td><strong>Escenario 1:</strong><br>Dado que el profesor crea una nueva tarea, Cuando el estudiante accede a la plataforma, Entonces se muestra una notificación que indique el nuevo trabajo.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que el estudiante revisa sus notificaciones, Cuando hace clic sobre una, Entonces es redirigido a la vista del trabajo correspondiente.</td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>UA-06</td>
+      <td>Notificaciones de archivo nuevo</td>
+      <td>Como estudiante, quiero recibir una notificación cuando el profesor suba nuevos archivos a la tarea, para poder guiarme y evitar una entrega mal realizada.</td>
+      <td><strong>Escenario 1:</strong><br>Dado que un profesor ha subido un nuevo archivo a una tarea existente en el sistema, cuando el archivo sea guardado exitosamente en la plataforma, entonces todos los estudiantes inscritos en esa tarea deben recibir una notificación en sus dispositivos.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que un estudiante recibe una notificación de que se subió un archivo, Cuando hace clic sobre la tarea, Entonces se le redirige directamente al archivo correspondiente.</td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>UA-07</td>
+      <td>Centro de notificaciones</td>
+      <td>Como usuario, quiero tener un centro de notificaciones accesible desde el encabezado, donde pueda revisar mis notificaciones recientes, para no perder información importante.</td>
+      <td><strong>Escenario 1:</strong><br>Dado que el usuario está en la aplicación, Cuando hace clic en el ícono de notificaciones, Entonces se despliega una lista con las notificaciones más recientes.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que el usuario visualiza sus notificaciones, Cuando marca una como leída, Entonces esta deja de aparecer como pendiente o resaltada.</td>
+      <td>EP-009</td>
+    </tr>
+    <tr>
+      <td>UA-08</td>
+      <td>Tema oscuro</td>
+      <td>Como usuario, quiero poder activar un modo oscuro para reducir el brillo de la pantalla y hacer la experiencia más cómoda visualmente.</td>
+      <td><strong>Escenario 1:</strong><br>Dado que el usuario se encuentra en la aplicación, Cuando activa el modo oscuro, Entonces los colores de la interfaz cambian a tonos oscuros.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que el usuario activó el modo oscuro, Cuando regresa más tarde, Entonces la aplicación recuerda su preferencia y mantiene el tema oscuro.</td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>UA-09</td>
+      <td>Cambio instantáneo entre tema claro y oscuro</td>
+      <td>Como usuario, quiero poder alternar entre el tema claro y oscuro sin necesidad de recargar la aplicación, para visualizar el cambio de inmediato.</td>
+      <td><strong>Escenario 1:</strong><br>Dado que el usuario está usando la aplicación, Cuando presiona el botón de cambio de tema, Entonces el tema cambia instantáneamente sin recargar la página.<br><br>
+      <strong>Escenario 2:</strong><br>Dado que el usuario está en una sección específica (por ejemplo, estadísticas o grupo), Cuando cambia el tema, Entonces toda la interfaz de esa sección también se adapta al nuevo tema sin interrupciones.</td>
+      <td>EP-008</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 8.3.2 To-Be Product Backlog
+
+<table>
+  <thead>
+    <tr>
+      <th>Orden</th>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Story Points (1, 2, 3, 5, 8)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>UA-01</td>
+      <td>Cambio de idioma</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>UA-02</td>
+      <td>Traducción completa de la interfaz</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>UA-08</td>
+      <td>Activar tema oscuro</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>UA-09</td>
+      <td>Cambio instantáneo entre tema claro y oscuro</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>UA-03</td>
+      <td>Íconos representativos en la interfaz</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>UA-04</td>
+      <td>Reorganización de la página de estadísticas</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>UA-05</td>
+      <td>Notificaciones de nuevas tareas</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>UA-06</td>
+      <td>Notificaciones de archivo nuevo</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>UA-07</td>
+      <td>Centro de notificaciones</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 8.3.3 Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle  
-##### 8.3.3.1 To-Be Sprint Backlogs  
+##### 8.3.3.1 To-Be Sprint Backlogs
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">Sprint #</th>
+      <th colspan="7">Sprint 1</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">UA-01</td>
+      <td rowspan="2">Cambio de idioma</td>
+      <td>T01</td>
+      <td>Implementar selector de idioma</td>
+      <td>Crear un componente/botón que permita cambiar el idioma dinámicamente</td>
+      <td>5</td>
+      <td>Omar Luquillas Asto</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T02</td>
+      <td>Guardar idioma preferido</td>
+      <td>Implementar persistencia del idioma</td>
+      <td>4</td>
+      <td>José Antonio Alejo Cárdenas</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">UA-02</td>
+      <td rowspan="2">Traducción completa</td>
+      <td>T03</td>
+      <td>Implementar archivos de traducción</td>
+      <td>Crear archivos JSON con textos traducidos para toda la aplicación</td>
+      <td>6</td>
+      <td>Sebastián Omar Real Calderón</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T04</td>
+      <td>Integrar traducciones en componentes</td>
+      <td>Reemplazar textos y vincularlos al sistema de traducciones</td>
+      <td>6</td>
+      <td>Eric Marlon Olivera Barzola</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">UA-03</td>
+      <td rowspan="2">Íconos representativos</td>
+      <td>T05</td>
+      <td>Selección de iconografía</td>
+      <td>Definir e integrar una librería consistente de íconos para toda la interfaz</td>
+      <td>3</td>
+      <td>Omar Luquillas Asto</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T06</td>
+      <td>Inserción de íconos clave</td>
+      <td>Añadir íconos representativos en las vistas principales</td>
+      <td>4</td>
+      <td>José Antonio Alejo Cárdenas</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">UA-04</td>
+      <td rowspan="2">Reorganizar estadísticas</td>
+      <td>T07</td>
+      <td>Nuevo layout de estadísticas</td>
+      <td>Rediseñar la página con secciones separadas y mejor jerarquía visual</td>
+      <td>6</td>
+      <td>Sebastián Omar Real Calderón</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T08</td>
+      <td>Implementar barra de categorías</td>
+      <td>Crear barra que permita mostrar una estadística por categoría</td>
+      <td>5</td>
+      <td>José Antonio Alejo Cárdenas</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">UA-05</td>
+      <td rowspan="2">Notificación nuevas tareas</td>
+      <td>T09</td>
+      <td>Detectar nuevas tareas</td>
+      <td>Implementar lógica que detecte creación de nuevas tareas por profesor</td>
+      <td>5</td>
+      <td>Sebastián Omar Real Calderón</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T10</td>
+      <td>Mostrar notificación de nueva tarea</td>
+      <td>Crear UI para mostrar notificaciones de nuevas tareas</td>
+      <td>4</td>
+      <td>José Antonio Alejo Cárdenas</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">UA-06</td>
+      <td rowspan="2">Notificación archivo nuevo</td>
+      <td>T11</td>
+      <td>Notificar subida de archivo</td>
+      <td>Implementar trigger cuando se sube un nuevo archivo en una tarea</td>
+      <td>5</td>
+      <td>Sebastián Omar Real Calderón</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T12</td>
+      <td>Mostrar notificación de nuevo archivo</td>
+      <td>Crear UI para mostrar notificaciones de nuevos archivos</td>
+      <td>4</td>
+      <td>Eric Marlon Olivera Barzola</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">UA-07</td>
+      <td rowspan="2">Centro de notificaciones</td>
+      <td>T13</td>
+      <td>Crear panel de notificaciones</td>
+      <td>Implementar dropdown accesible desde el header con notificaciones recientes</td>
+      <td>6</td>
+      <td>Omar Luquillas Asto</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T14</td>
+      <td>Marcar como leída</td>
+      <td>Cambiar estado visual y persistencia al marcar una notificación como leída</td>
+      <td>5</td>
+      <td>José Antonio Alejo Cárdenas</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">UA-08</td>
+      <td rowspan="2">Activar modo oscuro</td>
+      <td>T15</td>
+      <td>Implementar estilos oscuros</td>
+      <td>Crear paleta de colores y estilos CSS para modo oscuro</td>
+      <td>5</td>
+      <td>Omar Luquillas Asto</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T16</td>
+      <td>Guardar preferencia</td>
+      <td>Guardar el modo oscuro como preferencia persistente del usuario</td>
+      <td>4</td>
+      <td>José Antonio Alejo Cárdenas</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2">UA-09</td>
+      <td rowspan="2">Cambio instantáneo de tema</td>
+      <td>T17</td>
+      <td>Alternancia en tiempo real</td>
+      <td>Programar cambio de tema sin recargar la página</td>
+      <td>4</td>
+      <td>Sebastián Omar Real Calderón</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>T18</td>
+      <td>Adaptar componentes</td>
+      <td>Asegurar que todas las secciones reaccionen instantáneamente al cambio</td>
+      <td>4</td>
+      <td>Eric Marlon Olivera Barzola</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
 ##### 8.3.3.2 Implemented To-Be Landing Page Evidence  
 ##### 8.3.3.3 Implemented To-Be Frontend-Web Application Evidence  
 ##### 8.3.3.4 Implemented To-Be Native-Mobile Application Evidence  
@@ -3991,6 +5435,97 @@ Monitoreo y alerta: Después del despliegue, Render monitorea la aplicación y e
 ##### 8.3.3.6 Team Collaboration Insights  
 #### 8.3.4 To-Be Validation Interviews  
 ##### 8.3.4.1 Diseño de Entrevistas  
+
+**Segmento Objetivo 1: Estudiantes de Institutos**
+
+Preguntas principales 
+
+1. Para empezar, ¿podrías contarme un poco sobre ti? (edad, carrera, distrito, ocupación). 
+
+2. ¿Cómo sueles organizar tus tareas y trabajos actualmente en la plataforma o fuera de ella? 
+
+3. ¿Qué aplicaciones o plataformas usas con más frecuencia para tus cursos? (WhatsApp, Meet, Aula Virtual, etc.) 
+
+4. ¿Qué característica te genera más confianza en una plataforma académica: facilidad de uso, notificaciones, orden, o personalización (tema oscuro/idioma)? 
+
+
+Preguntas complementarias: 
+
+Notificaciones: 
+
+1. ¿Notas fácilmente cuando tienes nuevas notificaciones dentro de una plataforma? 
+
+2. ¿Qué tipo de notificación te resulta más útil para no olvidar tus tareas o entregas? 
+
+3. Si el profesor publica una tarea o sube un nuevo archivo, ¿esperarías recibir una alerta de inmediato? 
+
+Centro de notificaciones: 
+
+4. ¿Te parece valioso contar con un centro de notificaciones donde puedas ver todo lo pendiente en un solo lugar? ¿Por qué? 
+
+Tema claro/oscuro: 
+
+5. ¿Tienes preferencia por modo claro u oscuro? ¿En qué situaciones te es más útil? 
+
+6. ¿Te gustaría que el cambio entre tema claro y oscuro sea instantáneo sin recargar la página? 
+
+Traducción: 
+
+7. ¿Qué tan importante es para ti que toda la plataforma esté traducida correctamente cuando eliges otro idioma? 
+
+8. ¿Crees que la opción de cambiar idioma puede ayudar a estudiantes que se sienten más cómodos usando otro idioma? 
+
+Iconos: 
+
+9. ¿Los iconos te ayudan a encontrar lo que buscas más rápido dentro de la plataforma? 
+
+10. ¿Reconoces fácilmente qué hace cada botón solo por su ícono? (por ejemplo, “+” para crear, “clip” para archivo) 
+
+
+**Segmento Objetivo 2: Profesores de Institutos**
+
+Preguntas principales: 
+
+1. Para comenzar, ¿podría contarme un poco sobre usted? (edad, distrito, ocupación). 
+
+2. ¿Qué herramientas usa actualmente para compartir materiales y organizar tareas para los estudiantes? 
+
+3. ¿Cómo revisa o monitoriza actualmente el desempeño de sus estudiantes? (hojas de cálculo, aula virtual, notas manuales, etc.) 
+
+4. ¿Qué funcionalidad le resulta más valiosa en una plataforma académica: orden, estadísticas, comunicación o personalización visual? 
+
+Preguntas complementarias 
+
+Notificaciones: 
+
+1. ¿Le parecen útiles las notificaciones que recibe dentro de la plataforma para saber cuándo sus estudiantes entregan o interactúan con tareas y materiales? 
+
+2. ¿Considera que las notificaciones deberían incluir más o menos información de la que normalmente tienen? 
+
+Estadísticas: 
+
+3. Cuando revisa estadísticas académicas, ¿prefiere ver todo en una sola vista o en secciones separadas? ¿Por qué? 
+
+4. ¿Qué métricas considera más valiosas para evaluar el progreso y desempeño de sus estudiantes? 
+
+Tema claro/oscuro: 
+
+5. ¿Le resulta útil poder alternar entre modo claro y oscuro dependiendo de las condiciones de trabajo? 
+
+6. ¿Esperaría que el cambio de tema se aplique de inmediato sin recargar la página? 
+
+Traducción: 
+
+7. ¿Le parece útil contar con un selector de idioma para navegar la plataforma? 
+
+8. ¿Qué tan importante es para usted que toda la interfaz se traduzca correctamente al cambiar de idioma? 
+
+Iconos: 
+
+9. ¿Los iconos le ayudan a identificar rápidamente las secciones o acciones dentro de la plataforma? 
+
+10. ¿Considera que símbolos como el “+”, el clip o el engranaje son suficientemente universales y fáciles de reconocer? 
+
 ##### 8.3.4.2 Registro de Entrevistas  
 
 ### 8.4 Experiment Aftermath & Analysis  
@@ -4011,17 +5546,35 @@ TB1:
 
 El desarrollo del proyecto logró la definición inicial con User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y As-is Scenario Mapping, hasta la especificación de requisitos con To-Be Scenario Mapping, User Stories, Product Backlog e Impact Mapping por lo que el proyecto permitió cubrir de manera integral la investigación, definición de requisitos, diseño y prototipado de las soluciones digitales, asegurando coherencia entre la experiencia del usuario y la arquitectura técnica. Se logró evidenciar un trabajo colaborativo y organizado que facilitó avanzar desde la ideación hasta la implementación inicial del producto, desarrollando tanto el frontend como el backend de forma funcional y alineada con los objetivos planteados. 
 
- 
-
 TP: 
 
 Durante el desarrollo del proyecto se incorporaron prácticas orientadas a la verificación, validación y aseguramiento de la calidad del producto, aplicando diferentes tipos de pruebas como unitarias, de integración, de comportamiento y de sistema. Esto permitió comprobar que cada componente funcionara correctamente tanto de forma individual como en conjunto, garantizando la estabilidad y coherencia del sistema. Asimismo, la adopción de metodologías DevOps contribuyó a mejorar la eficiencia del proceso de desarrollo mediante la automatización de tareas, la integración continua y la entrega constante de versiones, lo que facilitó el trabajo colaborativo y redujo los errores en las etapas de despliegue. En conjunto, estas prácticas reforzaron la calidad del software y demostraron la importancia de mantener un enfoque técnico disciplinado y bien estructurado a lo largo de todo el ciclo de desarrollo. 
 
-**Puntos de mejoras**
+TB2: 
+
+Durante el desarrollo del segundo avance se profundizó en la verificación, validación y experimentación del producto mediante análisis estático de código, revisiones, auditorías de experiencia de usuario y entrevistas de validación. También se implementaron prácticas de monitoreo continuo y se desarrollaron las fases del proceso XDPD, incluyendo la formulación de hipótesis, métricas, condiciones y experimentos orientados a la toma de decisiones basada en evidencia. Estas actividades permitieron fortalecer la calidad del sistema, garantizar su correcta operación y sentar bases sólidas para la mejora continua del producto en futuras iteraciones. 
+
+Puntos de mejoras: 
 
 - Es necesario mejorar el uso del tiempo en las etapas de diseño y validación. También es profundizar en pruebas de usabilidad para garantizar una mejor experiencia del usuario Incrementar la documentación técnica en la arquitectura de componentes para facilitar futuras ampliaciones. Optimizar la gestión de los Sprint Backlogs para priorizar mejor las tareas críticas. 
 
-- Fortalecer la automatización y monitoreo del entorno de desarrollo y producción, implementando herramientas que permitan detectar errores en tiempo real y medir el rendimiento del sistema. Esto ayudaría a optimizar la estabilidad del producto, reducir tiempos de respuesta ante incidencias y mantener una mayor continuidad operativa durante futuras actualizaciones.
+- Fortalecer la automatización y monitoreo del entorno de desarrollo y producción, implementando herramientas que permitan detectar errores en tiempo real y medir el rendimiento del sistema. Esto ayudaría a optimizar la estabilidad del producto, reducir tiempos de respuesta ante incidencias y mantener una mayor continuidad operativa durante futuras actualizaciones. 
+
+- Se recomienda fortalecer la trazabilidad entre los hallazgos obtenidos en auditorías, entrevistas y experimentos, asegurando que cada insight se convierta en acciones concretas dentro del backlog. Esto ayudaría a priorizar las mejoras y a mantener un proceso de aprendizaje continuo en el proyecto. 
+
+ 
+
+TF: 
+
+Durante la etapa final del proyecto se validaron las hipótesis planteadas en el proceso XDPD mediante entrevistas dirigidas a estudiantes y profesores, aplicando los índices definidos para medir utilidad, accesibilidad, claridad visual y comprensión de la información académica. Los resultados obtenidos confirmaron que las mejoras implementadas como notificaciones automáticas, selector de idioma, iconografía más clara, modo oscuro y gráficos consolidados, fueron percibidas como valiosas y efectivas por la mayoría de los usuarios, cumpliendo o superando las metas establecidas en cada métrica. Esta validación permitió demostrar que las decisiones de diseño realmente impactaron de forma positiva la usabilidad y el seguimiento académico dentro de la plataforma, descartando cada una de las hipótesis nulas. En conjunto, el proceso evidenció que el producto evolucionó con base en evidencia real de los usuarios, fortaleciendo la experiencia general y asegurando que las mejoras propuestas respondan directamente a necesidades auténticas del entorno educativo. 
+
+## Video App Validation
+
+En este video se muestran las características añadidas y se explica el impacto que tuvieron según las hipótesis establecidas: 
+ 
+Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/IQADN7628KApR7zDnKP4btJ4Ac0y51dvpKPo7zZfLf8zSCM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1PIu5d](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/IQADN7628KApR7zDnKP4btJ4Ac0y51dvpKPo7zZfLf8zSCM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1PIu5d)
+
+## Video About-the-Team
 
 
 # Bibliografía  
