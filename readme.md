@@ -149,6 +149,96 @@
       <td>Real Calderón Sebastián Omar,<br>Alejo Cárdenas José Antonio,<br>Luquillas Asto Omar y<br>Olivera Barzola Eric Marlon</td>
       <td>Revisión completa hasta el capítulo 7, corrección ortográfica y coherencia global del reporte.</td>
     </tr>
+    <tr>
+      <td>2.1</td>
+      <td>06/11/2025</td>
+      <td>Luquillas Asto Omar</td>
+      <td>Desarrollo de los items: 6.2. Static testing & Verification, 6.2.1. Static Code Analysis, 6.2.1.1. Coding standard & Code conventions, 6.2.1.2. Code Quality & Code Security.</td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>06/11/2025</td>
+      <td>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los items: 6.2.2. Reviews, 6.3. Validation Interviews, 6.3.1. Diseño de Entrevistas, 6.3.2. Registro de Entrevistas, 6.3.3. Evaluaciones según heurísticas, 6.4. Auditoría de Experiencias de Usuario, 6.4.1. Auditoría realizada, 6.4.1.1. Información del grupo auditado, 6.4.1.2. Cronograma de auditoría realizada, 6.4.1.3. Contenido de auditoría realizada, 6.4.2. Auditoría recibida, 6.4.2.1. Información del grupo auditor, 6.4.2.2. Cronograma de auditoría recibida, 6.4.2.3. Contenido de auditoría recibida, 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.</td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td>07/11/2025</td>
+      <td>Alejo Cárdenas José Antonio</td>
+      <td>Desarrollo de los items: 7.4. Continuous Monitoring, 7.4.1. Tools and Practices, 7.4.2. Monitoring Pipeline Components, 7.4.3. Alerting Pipeline Components, 7.4.4. Notification Pipeline Components, 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims</td>
+    </tr>
+    <tr>
+      <td>2.4</td>
+      <td>07/11/2025</td>
+      <td>Real Calderón Sebastián Omar</td>
+      <td>Desarrollo de los items: 8.1. Experiment Planning, 8.1.1. As-Is Summary, 8.3. Experimentation, 8.3.1. To-Be User Stories, 8.3.2. To-Be Product Backlog.</td>
+    </tr>
+    <tr>
+      <td>2.5</td>
+      <td>08/11/2025</td>
+      <td>Luquillas Asto Omar</td>
+      <td>Desarrollo de los items: 8.1.3. Experiment-Ready Questions, 8.1.4. Question Backlog, 8.1.5. Experiment Cards, 8.2. Experiment Design, 8.2.1. Hypotheses, 8.2.2. Domain Business Metrics, 8.2.3. Measures, 8.2.4. Conditions.</td>
+    </tr>
+    <tr>
+      <td>2.6</td>
+      <td>09/11/2025</td>
+      <td>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los items: 8.2.5. Scale Calculations and Decisions, 8.2.6. Methods Selection, 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection, 8.2.8. Web and Mobile Tracking Plan.</td>
+    </tr>
+    <tr>
+      <td>2.7</td>
+      <td>10/11/2025</td>
+      <td>Luquillas Asto Omar</td>
+      <td>Desarrollo del avance de Conclusiones, Bibliografía y Anexos.</td>
+    </tr>
+    <tr>
+      <td>3.0</td>
+      <td>13/11/2025</td>
+      <td>Alejo Cárdenas José Antonio</td>
+      <td>Revisión completa hasta el capítulo 8, corrección ortográfica y coherencia global del reporte.</td>
+    </tr>
+    <tr>
+      <td>3.1</td>
+      <td>26/11/2025</td>
+      <td>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los items: 8.3.3.2. Implemented To-Be Landing Page Evidence, 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence, 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence, 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence, 8.3.3.6. Team Collaboration Insights</td>
+    </tr>
+    <tr>
+      <td>3.2</td>
+      <td>27/11/2025</td>
+      <td>Alejo Cárdenas José Antonio</td>
+      <td>Desarrollo de los items: 8.3.4.1. Diseño de Entrevistas, 8.3.4.2. Registro de Entrevistas</td>
+    </tr>
+    <tr>
+      <td>3.3</td>
+      <td>28/11/2025</td>
+      <td>Olivera Barzola Eric Marlon</td>
+      <td>Desarrollo de los items: 8.3.4.2. Registro de Entrevistas, 8.4.1. Analysis and Interpretation of Results, 8.4.2. Re-scored and Re-prioritized Question Backlog</td>
+    </tr>
+    <tr>
+      <td>3.4</td>
+      <td>29/11/2025</td>
+      <td>Luquillas Asto Omar</td>
+      <td>Desarrollo de los items: 8.3.3.1. To-Be Sprint Backlogs, 8.3.4.2. Registro de Entrevistas, 8.5.1. Shareback Session Artifacts: Learning Workflow</td>
+    </tr>
+    <tr>
+      <td>3.5</td>
+      <td>30/11/2025</td>
+      <td>Real Calderón Sebastián Omar</td>
+      <td>Desarrollo de los items: 8.3.4.2. Registro de Entrevistas, 8.6.1. About-the-Product Intro Video</td>
+    </tr>
+    <tr>
+      <td>3.6</td>
+      <td>01/12/2025</td>
+      <td>Luquillas Asto Omar</td>
+      <td>Desarrollo del avance de Conclusiones, Bibliografía y Anexos</td>
+    </tr>
+    <tr>
+      <td>4.0</td>
+      <td>02/12/2025</td>
+      <td>Alejo Cárdenas José Antonio</td>
+      <td>Revisión completa de todos los capítulos, corrección ortográfica y coherencia global del reporte</td>
+    </tr>
   </tbody>
 </table>
 
@@ -184,6 +274,40 @@ Entrega TP (07/10/2025):
 <img src="./assets/miscellaneous/report_insights3_tp.png" alt="Insights Report Collaboration Insights TP" />
 
 Para esta segunda entrega se desarrollaron los capítulos 6 y 7, en imagenes adjuntadas se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
+
+Distribución de commits:
+
+- Alejo Cárdenas, José Antonio: 7 commits
+- Luquillas Asto, Omar: 28 commits
+- Real Calderón, Sebastián Omar: 3 commits
+- Olivera Barzola, Eric Marlon: 7 commits
+
+Entrega TB2 (13/11/2025):
+
+<img src="./assets/miscellaneous/report_insights1_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+<img src="./assets/miscellaneous/report_insights2_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+<img src="./assets/miscellaneous/report_insights3_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+Para esta tercera entrega se desarrollaron los capítulos 7 y 8, en las imágenes adjuntadas se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
+
+Distribución de commits:
+
+- Alejo Cárdenas, José Antonio: 7 commits
+- Luquillas Asto, Omar: 28 commits
+- Real Calderón, Sebastián Omar: 3 commits
+- Olivera Barzola, Eric Marlon: 7 commits
+
+Entrega TF (02/12/2025):
+
+<img src="./assets/miscellaneous/report_insights1_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+<img src="./assets/miscellaneous/report_insights2_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+<img src="./assets/miscellaneous/report_insights3_tp.png" alt="Insights Report Collaboration Insights TP" />
+
+Para esta tercera entrega se desarrollaron los capítulos 7 y 8, en las imágenes adjuntadas se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
 
 Distribución de commits:
 
@@ -383,7 +507,7 @@ Distribución de commits:
 
 - [Anexos](#anexos)  
 
-# Student Outcome  
+# Student Outcome
 
 <table>
   <thead>
@@ -400,19 +524,28 @@ Distribución de commits:
         <strong>Alejo Cárdenas, José Antonio</strong><br>
         <strong>TB1:</strong><br> Desarrollé mi comunicación oral al presentar los Lean UX Problem Statements, Assumptions y el análisis competitivo de los principales actores del mercado, explicando con claridad las estrategias frente a competidores. También participé en la definición de User Stories y en la exposición de la gestión de la configuración del software, donde aseguré que tanto el equipo técnico como no técnico comprendieran los procesos.<br><br>
         <strong>TP:</strong><br> Me enfoqué en aplicar técnicas de Behavior-Driven Development para definir escenarios y criterios de aceptación claros, asegurando que el equipo comprendiera las expectativas del proyecto y manteniendo un enfoque ético en la priorización de funcionalidades. También realicé pruebas de sistema integrales para validar la operación completa del software, documentando los resultados y reportando incidencias de forma profesional y responsable.<br><br>
-        <strong>Real Calderon, Sebastian Omar</strong><br>
+        <strong>TB2:</strong><br> Desarrollé la sección de Continuous Monitoring, investigando e implementando buenas prácticas para la observación continua de sistemas y el uso ético de herramientas de monitoreo. Aseguré que la recolección de métricas y alertas respetara la privacidad de los datos y se centrara en la mejora de la calidad del servicio, no en la supervisión de las personas. Este proceso fortaleció mi comprensión de la responsabilidad profesional al aplicar tecnología de seguimiento sin vulnerar la confianza del usuario.<br><br> <strong>TF:</strong><br> Asumí responsabilidad ética y profesional al desarrollar la sección de diseño y registro de entrevistas, asegurando que todos los participantes fueran informados sobre el propósito del estudio y que sus aportes se recopilaran de manera respetuosa y transparente. También realicé la revisión completa del documento hasta el capítulo 8, garantizando coherencia, precisión y lenguaje adecuado para audiencias técnicas y no técnicas, manteniendo siempre un compromiso con la calidad, la integridad académica y la responsabilidad profesional en la entrega final.<br><br>
+        <strong>Real Calderón, Sebastián Omar</strong><br>
         <strong>TB1:</strong><br> Contribuí en la elaboración del Startup Profile y en la redacción técnica de los entregables de Needfinding, estructurando user personas, empathy maps y escenarios con un lenguaje claro y coherente. También desarrollé la arquitectura de la información y el diseño de software orientado a objetos, incluyendo diagramas de clases y el diseño de base de datos, y el front.<br><br>
         <strong>TP:</strong><br> Me encargué del despliegue continuo en producción, implementando mecanismos para minimizar riesgos y asegurar la transparencia y trazabilidad en cada entrega, contribuyendo así a la responsabilidad ética y profesional en el manejo del software.<br><br>
+        <strong>TB2:</strong><br> Participé en la planificación experimental y en la elaboración del To-Be Product Backlog, manteniendo una conducta ética al definir prioridades que beneficiaran tanto a los usuarios como al cumplimiento de los objetivos del proyecto. Promoví la responsabilidad compartida dentro del equipo, asegurando que las decisiones técnicas se tomaran con base en evidencia y no solo en conveniencia. Esto fortaleció mi sentido profesional y mi compromiso con la calidad y la transparencia del desarrollo.<br><br>
+        <strong>TF:</strong><br> Participé en el desarrollo del video introductorio del producto, asegurándome de que su contenido fuera claro, veraz y fiel al funcionamiento real de la aplicación. Mantener la precisión técnica y comunicar de manera ética las capacidades del sistema fue clave durante su elaboración. Además, colaboré en el registro de entrevistas, aplicando buenas prácticas para garantizar que la información recogida fuera tratada con respeto y confidencialidad, fortaleciendo así mi responsabilidad profesional en la presentación de resultados.<br><br>
         <strong>Luquillas Asto, Omar</strong><br>
         <strong>TB1:</strong><br> Me encargué de elaborar el Solution Profile, desarrollando antecedentes, problemática y el Lean UX Canvas, explicando de manera clara los supuestos y las hipótesis del proyecto. También expuse la definición del To-Be Scenario Mapping, el Product Backlog y el Impact Mapping, conectando cada necesidad detectada con funcionalidades específicas. También me enfoqué en la implementación del backend.<br><br>
         <strong>TP:</strong><br> Me encargué de desarrollar las pruebas unitarias para las entidades centrales del sistema, asegurándome de que cada componente se comportara correctamente y cumpliendo buenas prácticas de ingeniería de software. Además, implementé pruebas de integración para validar la interacción entre los distintos módulos, documentando los resultados y evidencias de manera clara para garantizar transparencia y trazabilidad en todo el proceso.<br><br>
+        <strong>TB2:</strong><br> Elaboré los apartados de Static Testing & Verification y de Experiment Planning, donde apliqué principios éticos en la revisión del código y en la formulación de experimentos. Me aseguré de mantener estándares de calidad, seguridad y confidencialidad en la verificación estática, y de diseñar hipótesis y experimentos que respetaran la integridad de la información y las responsabilidades del equipo. Esta experiencia reforzó mi compromiso con la transparencia, la trazabilidad y la responsabilidad técnica en cada decisión de ingeniería.<br><br>
+        <strong>TF:</strong><br> Desarrollé el To-Be Sprint Backlog, el registro de entrevistas y los artefactos de aprendizaje continuo, aplicando responsabilidad profesional al documentar el trabajo del equipo de manera clara, precisa y verificable. También elaboré la sección de conclusiones, bibliografía y anexos, asegurando que todo el reporte cumpliera estándares éticos: integridad en las fuentes citadas, transparencia en las evidencias presentadas y rigurosidad en la redacción de los resultados finales del proyecto.<br><br>
         <strong>Olivera Barzola, Eric Marlon</strong><br>
         <strong>TB1:</strong><br> Desarrollé entregables relacionados con el diseño de interfaces, creando Style Guidelines y propuestas visuales para la Landing Page, las aplicaciones móviles y web, garantizando accesibilidad e inclusión. También participé en la documentación de la implementación, presentando evidencias de la landing.<br><br>
-        <strong>TP:</strong><br> Mi participación se centró en implementar las prácticas de integración continua, asegurando que todos los cambios en el código se verificaran automáticamente y promoviendo la calidad y responsabilidad técnica del equipo. Asimismo, colaboré en la configuración del pipeline de entrega continua, garantizando que las versiones del software se desplegaran de manera segura y controlada, cumpliendo con los estándares éticos y profesionales del proyecto.
+        <strong>TP:</strong><br> Mi participación se centró en implementar las prácticas de integración continua, asegurando que todos los cambios en el código se verificaran automáticamente y promoviendo la calidad y responsabilidad técnica del equipo. Asimismo, colaboré en la configuración del pipeline de entrega continua, garantizando que las versiones del software se desplegaran de manera segura y controlada, cumpliendo con los estándares éticos y profesionales del proyecto.<br><br>
+        <strong>TB2:</strong><br> Desarrollé los apartados relacionados con Validation Interviews y User Experience Audits, promoviendo la recolección ética de datos a través de entrevistas y auditorías realizadas con consentimiento y objetivos claros. Asimismo, documenté hallazgos y retroalimentaciones de manera respetuosa, priorizando el bienestar del usuario y la mejora continua del producto. Esta práctica me ayudó a consolidar una postura profesional basada en la ética, la empatía y la honestidad técnica.<br><br>
+        <strong>TF:</strong><br> Documenté y presenté evidencias de la implementación de la Landing Page, la aplicación web, la aplicación móvil y el backend, asegurando que cada uno de estos componentes fuera descrito con precisión y responsabilidad técnica. Además, aporté en la sección de Team Collaboration Insights, donde reflexioné sobre el trabajo ético del equipo y la importancia de la colaboración profesional. Mi contribución se centró en garantizar que las evidencias fueran auténticas, verificables y alineadas con los principios éticos del desarrollo de software.
       </td>
       <td>
         <strong>TB1:</strong><br> El equipo demostró responsabilidad ética y profesional en cada etapa del proyecto al considerar las necesidades reales de los usuarios (estudiantes y profesores), garantizando la transparencia en la recopilación de información mediante entrevistas y priorizando siempre soluciones que aporten valor académico. Asimismo, se mantuvo un compromiso con las buenas prácticas de ingeniería de software.<br><br>
-        <strong>TP:</strong><br> El equipo mantuvo un enfoque ético y profesional durante todo el desarrollo del TP, implementando pruebas, pipelines y procesos de integración y despliegue de manera transparente y documentada, priorizando siempre la calidad del software y la seguridad del usuario final.
+        <strong>TP:</strong><br> El equipo mantuvo un enfoque ético y profesional durante todo el desarrollo del TP, implementando pruebas, pipelines y procesos de integración y despliegue de manera transparente y documentada, priorizando siempre la calidad del software y la seguridad del usuario final.<br><br>
+        <strong>TB2:</strong><br> El equipo demostró responsabilidad ética y profesional al aplicar buenas prácticas en pruebas, auditorías y experimentación, priorizando la integridad de los datos, la seguridad del software y la transparencia de los resultados. Las decisiones se tomaron de forma colaborativa y con enfoque en la mejora continua, manteniendo siempre el respeto por el usuario y la calidad del producto.<br><br>
+        <strong>TF:</strong><br> El equipo demostró responsabilidad ética y profesional al documentar rigurosamente todas las evidencias de implementación y al recopilar información mediante entrevistas de manera respetuosa y transparente. Cada integrante mantuvo un compromiso con la veracidad de la información presentada, la inclusión de fuentes confiables, el respeto por los participantes y la calidad técnica del producto final. Este enfoque permitió entregar un reporte íntegro, coherente y alineado con los valores profesionales de la ingeniería de software.
       </td>
     </tr>
     <tr>
@@ -421,19 +554,29 @@ Distribución de commits:
         <strong>Alejo Cárdenas, José Antonio</strong><br>
         <strong>TB1:</strong><br> Desarrollé mi comunicación escrita al redactar el análisis de competidores, el Product Backlog y la documentación del Software Configuration Management, asegurando claridad y adaptación a distintas audiencias.<br><br>
         <strong>TP:</strong><br> Consideré cómo los escenarios definidos a través de BDD afectan la usabilidad, satisfacción del usuario y adopción del software, promoviendo decisiones informadas y responsables. De igual manera, reflexioné sobre cómo los resultados de las pruebas de sistema impactan la fiabilidad del software y su aplicación en contextos reales, priorizando siempre la eficiencia y la calidad del proyecto.<br><br>
+        <strong>TB2:</strong><br> Analicé las implicancias del monitoreo continuo sobre la eficiencia operativa y los costos del proyecto, considerando el impacto económico y social de las herramientas implementadas. Además, evalué cómo las prácticas de alerting y notification pipeline contribuyen a mantener la estabilidad del sistema y evitan interrupciones que podrían afectar a los usuarios finales. Esto me permitió comprender la importancia de emitir juicios técnicos informados y responsables dentro de un contexto globalizado.<br><br>
+        <strong>TF:</strong><br> Analicé cómo los hallazgos obtenidos de las entrevistas podían influir en la calidad y usabilidad del producto final, considerando el impacto social de las decisiones de diseño y priorización. Mi revisión completa del documento permitió asegurar que las decisiones técnicas y de presentación estuvieran justificadas y alineadas con la realidad de los usuarios, evaluando cómo estas podrían influir en su adopción, accesibilidad y utilidad en contextos académicos y tecnológicos.<br><br>
         <strong>Real Calderón, Sebastián Omar</strong><br>
         <strong>TB1:</strong><br> Contribuí en la redacción del Startup Profile, los entregables de Needfinding y el diseño orientado a objetos, cuidando que los textos fueran claros y comprensibles para técnicos y no técnicos.<br><br>
         <strong>TP:</strong><br> Durante el despliegue continuo, reflexioné sobre la importancia de minimizar riesgos y errores en producción, considerando los impactos económicos y sociales en los usuarios finales y en la organización, y asegurando que cada decisión técnica tuviera consecuencias responsables y previsibles.<br><br>
+        <strong>TB2:</strong><br> Al elaborar los apartados de Experimentation y To-Be Product Backlog, analicé cómo las mejoras propuestas podían repercutir en la escalabilidad y sostenibilidad del sistema. También valoré el impacto económico de priorizar ciertas funcionalidades y cómo estas decisiones afectan al ciclo de vida del producto. Esta experiencia me ayudó a fortalecer mi capacidad para emitir juicios técnicos informados, equilibrando los objetivos de negocio con las necesidades sociales y ambientales.<br><br>
+        <strong>TF:</strong><br> Durante el desarrollo del video introductorio del producto, evalué cómo comunicar adecuadamente las mejoras y funcionalidades para asegurar que el mensaje reflejara impacto real en los usuarios: facilidad de uso, eficiencia y accesibilidad. Asimismo, al participar en el registro de entrevistas, analicé las implicancias sociales del uso del sistema y cómo sus funcionalidades podían mejorar o dificultar la experiencia de estudiantes y profesores, reforzando mi capacidad de emitir juicios técnicos considerando el contexto social y educativo.<br><br>
         <strong>Luquillas Asto, Omar</strong><br>
         <strong>TB1:</strong><br> Redacté el Solution Profile, el To-Be Scenario Mapping y el Impact Mapping, presentando la información con precisión y lenguaje accesible para distintos públicos del proyecto.<br><br>
         <strong>TP:</strong><br> Evalué cómo las pruebas unitarias contribuían a la eficiencia del software y a la reducción de errores que podrían afectar la productividad y los recursos del proyecto. También analicé el impacto de la integración correcta de módulos sobre la sostenibilidad del software y la experiencia de los usuarios finales, asegurando decisiones responsables en cada etapa.<br><br>
+        <strong>TB2:</strong><br> Durante la elaboración del Experiment Planning y las Experiment Cards, reflexioné sobre cómo los experimentos propuestos podían generar beneficios tangibles en la optimización del producto, reduciendo costos y maximizando la satisfacción del usuario. Asimismo, analicé la relación entre la calidad del código, la seguridad del sistema y el impacto en la sostenibilidad del software, tomando decisiones informadas que equilibraran la innovación con la responsabilidad social y económica.<br><br>
+        <strong>TF:</strong><br> Evalué cómo la reorganización del backlog, los artefactos de aprendizaje y las conclusiones podían impactar en la evolución futura del producto, considerando aspectos de sostenibilidad, eficiencia operativa y aplicabilidad del sistema en escenarios reales. Al redactar las conclusiones, analicé el impacto del proyecto, conectando las decisiones técnicas con beneficios tangibles para estudiantes y docentes, lo que fortaleció mi capacidad para emitir juicios informados sostenidos en evidencia y análisis contextual.<br><br>
         <strong>Olivera Barzola, Eric Marlon</strong><br>
         <strong>TB1:</strong><br> Elaboré Style Guidelines, documentación de interfaces y evidencias de implementación, manteniendo una comunicación escrita clara, inclusiva y adecuada para diferentes tipos de lectores.<br><br>
-        <strong>TP:</strong><br> Analicé el impacto económico y social de la integración continua, ya que permite reducir los tiempos de desarrollo y facilita la colaboración global del equipo. Además, evalué cómo la entrega continua optimiza los recursos del proyecto y contribuye a un desarrollo más sostenible y confiable, considerando siempre los efectos a nivel técnico y social.
+        <strong>TP:</strong><br> Analicé el impacto económico y social de la integración continua, ya que permite reducir los tiempos de desarrollo y facilita la colaboración global del equipo. Además, evalué cómo la entrega continua optimiza los recursos del proyecto y contribuye a un desarrollo más sostenible y confiable, considerando siempre los efectos a nivel técnico y social.<br><br>
+        <strong>TB2:</strong><br> En el desarrollo de las secciones de Validation Interviews y Auditorías UX, consideré el valor social y comunicativo del proceso de retroalimentación, entendiendo que una buena experiencia de usuario no solo tiene un impacto técnico, sino también humano. Las decisiones se tomaron considerando la diversidad de perfiles de usuarios y su contexto, lo que permitió diseñar soluciones más inclusivas y con mayor alcance social.<br><br>
+        <strong>TF:</strong><br> Mi contribución en la documentación de las evidencias de implementación me permitió reflexionar sobre cómo cada componente del sistema impacta en la experiencia del usuario y en la eficiencia operativa del proyecto. Consideré aspectos sociales, como la accesibilidad visual y la facilidad de uso, así como factores económicos relacionados con la escalabilidad de las soluciones implementadas. Esto me permitió emitir juicios informados sobre la solidez y sostenibilidad del producto final.
       </td>
       <td>
         <strong>TB1:</strong><br> A lo largo del desarrollo del proyecto, el equipo fortaleció su capacidad de comunicación escrita, elaborando documentos técnicos y no técnicos que fueron claros, estructurados y adaptados a diferentes audiencias.<br><br>
-        <strong>TP:</strong><br> El equipo demostró capacidad de emitir juicios informados, considerando el impacto técnico, económico, social y ambiental de las soluciones implementadas, asegurando que las decisiones de ingeniería favorecieran la eficiencia, sostenibilidad y experiencia del usuario.
+        <strong>TP:</strong><br> El equipo demostró capacidad de emitir juicios informados, considerando el impacto técnico, económico, social y ambiental de las soluciones implementadas, asegurando que las decisiones de ingeniería favorecieran la eficiencia, sostenibilidad y experiencia del usuario.<br><br>
+        <strong>TB2:</strong><br> El equipo evidenció capacidad de análisis y juicio informado al considerar los impactos económicos, sociales y globales de las decisiones tomadas en esta etapa. Las prácticas de validación, experimentación y auditoría fueron desarrolladas con enfoque en la eficiencia, la accesibilidad y la sostenibilidad, reafirmando un compromiso con la ingeniería responsable y el desarrollo tecnológico consciente.<br><br>
+        <strong>TF:</strong><br> El equipo emitió juicios informados considerando el impacto global, económico y social de las decisiones tomadas. La evaluación de las entrevistas, las evidencias de implementación y las conclusiones permitió valorar cómo el sistema podría influir en los usuarios reales y en su contexto educativo. Cada módulo desarrollado fue analizado en términos de accesibilidad, eficiencia y sostenibilidad, demostrando que las decisiones de ingeniería se tomaron con responsabilidad, evidencia y visión integral del impacto del software.
       </td>
     </tr>
   </tbody>
@@ -3454,15 +3597,39 @@ Para ello, se emplearon herramientas como Selenium, que permitieron automatizar 
 
 # Conclusiones  
 ## Conclusiones y recomendaciones 
-El desarrollo del proyecto logró la definición inicial con User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y As-is Scenario Mapping, hasta la especificación de requisitos con To-Be Scenario Mapping, User Stories, Product Backlog e Impact Mapping por lo que el proyecto permitió cubrir de manera integral la investigación, definición de requisitos, diseño y prototipado de las soluciones digitales, asegurando coherencia entre la experiencia del usuario y la arquitectura técnica. Se logró evidenciar un trabajo colaborativo y organizado que facilitó avanzar desde la ideación hasta la implementación inicial del producto, desarrollando tanto el frontend como el backend de forma funcional y alineada con los objetivos planteados.
 
-**Punto de mejora**
+TB1: 
 
-Es necesario mejorar el uso del tiempo en las etapas de diseño y validación. También es profundizar en pruebas de usabilidad para garantizar una mejor experiencia del usuario
-Incrementar la documentación técnica en la arquitectura de componentes para facilitar futuras ampliaciones.
-Optimizar la gestión de los Sprint Backlogs para priorizar mejor las tareas críticas
+El desarrollo del proyecto logró la definición inicial con User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y As-is Scenario Mapping, hasta la especificación de requisitos con To-Be Scenario Mapping, User Stories, Product Backlog e Impact Mapping por lo que el proyecto permitió cubrir de manera integral la investigación, definición de requisitos, diseño y prototipado de las soluciones digitales, asegurando coherencia entre la experiencia del usuario y la arquitectura técnica. Se logró evidenciar un trabajo colaborativo y organizado que facilitó avanzar desde la ideación hasta la implementación inicial del producto, desarrollando tanto el frontend como el backend de forma funcional y alineada con los objetivos planteados. 
+
+TP: 
+
+Durante el desarrollo del proyecto se incorporaron prácticas orientadas a la verificación, validación y aseguramiento de la calidad del producto, aplicando diferentes tipos de pruebas como unitarias, de integración, de comportamiento y de sistema. Esto permitió comprobar que cada componente funcionara correctamente tanto de forma individual como en conjunto, garantizando la estabilidad y coherencia del sistema. Asimismo, la adopción de metodologías DevOps contribuyó a mejorar la eficiencia del proceso de desarrollo mediante la automatización de tareas, la integración continua y la entrega constante de versiones, lo que facilitó el trabajo colaborativo y redujo los errores en las etapas de despliegue. En conjunto, estas prácticas reforzaron la calidad del software y demostraron la importancia de mantener un enfoque técnico disciplinado y bien estructurado a lo largo de todo el ciclo de desarrollo. 
+
+TB2: 
+
+Durante el desarrollo del segundo avance se profundizó en la verificación, validación y experimentación del producto mediante análisis estático de código, revisiones, auditorías de experiencia de usuario y entrevistas de validación. También se implementaron prácticas de monitoreo continuo y se desarrollaron las fases del proceso XDPD, incluyendo la formulación de hipótesis, métricas, condiciones y experimentos orientados a la toma de decisiones basada en evidencia. Estas actividades permitieron fortalecer la calidad del sistema, garantizar su correcta operación y sentar bases sólidas para la mejora continua del producto en futuras iteraciones. 
+
+Puntos de mejoras: 
+
+- Es necesario mejorar el uso del tiempo en las etapas de diseño y validación. También es profundizar en pruebas de usabilidad para garantizar una mejor experiencia del usuario Incrementar la documentación técnica en la arquitectura de componentes para facilitar futuras ampliaciones. Optimizar la gestión de los Sprint Backlogs para priorizar mejor las tareas críticas. 
+
+- Fortalecer la automatización y monitoreo del entorno de desarrollo y producción, implementando herramientas que permitan detectar errores en tiempo real y medir el rendimiento del sistema. Esto ayudaría a optimizar la estabilidad del producto, reducir tiempos de respuesta ante incidencias y mantener una mayor continuidad operativa durante futuras actualizaciones. 
+
+- Se recomienda fortalecer la trazabilidad entre los hallazgos obtenidos en auditorías, entrevistas y experimentos, asegurando que cada insight se convierta en acciones concretas dentro del backlog. Esto ayudaría a priorizar las mejoras y a mantener un proceso de aprendizaje continuo en el proyecto. 
+
+ 
+
+TF: 
+
+Durante la etapa final del proyecto se validaron las hipótesis planteadas en el proceso XDPD mediante entrevistas dirigidas a estudiantes y profesores, aplicando los índices definidos para medir utilidad, accesibilidad, claridad visual y comprensión de la información académica. Los resultados obtenidos confirmaron que las mejoras implementadas como notificaciones automáticas, selector de idioma, iconografía más clara, modo oscuro y gráficos consolidados, fueron percibidas como valiosas y efectivas por la mayoría de los usuarios, cumpliendo o superando las metas establecidas en cada métrica. Esta validación permitió demostrar que las decisiones de diseño realmente impactaron de forma positiva la usabilidad y el seguimiento académico dentro de la plataforma, descartando cada una de las hipótesis nulas. En conjunto, el proceso evidenció que el producto evolucionó con base en evidencia real de los usuarios, fortaleciendo la experiencia general y asegurando que las mejoras propuestas respondan directamente a necesidades auténticas del entorno educativo. 
 
 ## Video App Validation
+
+En este video se muestran las características añadidas y se explica el impacto que tuvieron según las hipótesis establecidas: 
+ 
+Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/IQADN7628KApR7zDnKP4btJ4Ac0y51dvpKPo7zZfLf8zSCM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1PIu5d](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122484_upc_edu_pe/IQADN7628KApR7zDnKP4btJ4Ac0y51dvpKPo7zZfLf8zSCM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1PIu5d)
+
 ## Video About-the-Team
 
 
